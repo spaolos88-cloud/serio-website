@@ -1,0 +1,31 @@
+﻿[
+    {
+        "url":  "",
+        "name":  "BNSC",
+        "id":  "bns-bnsc",
+        "original_price":  "",
+        "category":  "General",
+        "description":  "\"¥100,000 (1 unit, sold in December 1991)",
+        "sub_category":  "",
+        "brandId":  "bns",
+        "specifications":  "\"Method: 3-Way, 4-Speaker, Bass Reflex System, Tall Boy Type | Units, etc.: Low Band : 15 cm cone x2For Medium Range : 9 cm cone typeFor high-pass : 2.5 cm dome type | Frequency characteristic: 38 Hz to 22 kHz | Impedance: 4 � | Output sound pressure level: 88dB/W/m | Recommended amplifier output: 40W ~ 80W | Crossover frequency: 200 Hz, 3 kHz | External dimensions: Body : Width 226x Height 860x Depth 226 mmBase Part : Width 290x Depth 290 mm | Weight: 18kg | Sold Separately: Anti-Resonance Spike BSK-01 (¥12,000)\"",
+        "release_year":  "1991",
+        "verified":  true,
+        "image_url":  ""
+    },
+    {
+        "url":  "https://audio-database.com/BNS/speaker/sciii.html",
+        "name":  "BNSC",
+        "id":  "bns-bnsc",
+        "original_price":  "¥160000",
+        "category":  "SPEAKER",
+        "description":  "Soundcolumn SC series tall boy type speaker system.Two 15 cm cone type woofers are installed in the lower range.These two units are mounted above and below the center of the enclosure.It has a 9 cm cone mid-range in the middle range and a 2.5 cm dome tweeter in the high range.The tweeter unit is the same as the BNS professional speaker.The enclosure has a unique 3-chamber configuration that prevents Woofer back-pressure from affecting the midrange.The exterior is designed to cover 4 sides with seamless Saran.Silver cable (van den Hul CS12) is used for internal wiring.Anti-resonance spike was sold separately.",
+        "sub_category":  "",
+        "brandId":  "bns",
+        "specifications":  "\"Method: 3-Way, 4-Speaker, Bass Reflex System, Tall Boy Type | Units, etc.: Low Band : 15 cm cone x2For Medium Range : 9 cm cone typeFor high-pass : 2.5 cm dome type | Frequency characteristic: 30 Hz to 22 kHz | Impedance: 4 � | Output sound pressure level: 89dB/W/m | Recommended amplifier output: 50W ~ 150W | Crossover frequency: 200 Hz, 3 kHz | External dimensions: Body : Width 226x Height 1,140x Depth 226 mmBase Part : Width 290x Depth 290 mm | Weight: 21kg | Sold Separately: Anti-Resonance Spike BSK-01 (¥12,000)\"",
+        "release_year":  "1991",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/BNS/speaker/sciii.jpg"
+    }
+]
+

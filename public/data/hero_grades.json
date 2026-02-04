@@ -1,0 +1,39 @@
+[
+    {
+        "id": "diatone-ds-77ex",
+        "brand_id": "diatone",
+        "model_name": "DS-77EX",
+        "serio_taxonomy": {
+            "identity": "Audiophile Grade",
+            "identity_ceiling": "Class SP",
+            "absolute_score": 8.5,
+            "performance_class": "Class A+",
+            "legend_status": "Not Eligible",
+            "musicality_check": true,
+            "condition_ref": "Restored"
+        },
+        "tags": [
+            "Reference",
+            "Boronized Titanium"
+        ]
+    },
+    {
+        "id": "yamaha-ns-1000m",
+        "brand_id": "yamaha",
+        "model_name": "NS-1000M",
+        "serio_taxonomy": {
+            "identity": "Audiophile Grade",
+            "identity_ceiling": "Class Legend",
+            "absolute_score": 8.8,
+            "performance_class": "Class A+",
+            "legend_status": "Class S++ (Legend Heritage)",
+            "musicality_check": true,
+            "condition_ref": "Original"
+        },
+        "tags": [
+            "Studio Monitor",
+            "Beryllium",
+            "Legend Heritage"
+        ]
+    }
+]

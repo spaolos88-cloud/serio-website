@@ -1,0 +1,172 @@
+﻿[
+    {
+        "id":  "quad-esl-63",
+        "name":  "ESL-63",
+        "url":  "https://audio-database.com/QUAD/speaker/esl-63-e.html",
+        "sub_category":  "",
+        "sections":  {
+                         "specifications":  "Type: Condenser type, floor type | Nominal impedance: 8 | Playback frequency band: 35 Hz to 20 kHz(-6dB at 35 Hz, -6dB at 20 kHz) | Output sound pressure level: 86dB/W/m | Sensitivity: 1 ? bars/V/m (86dB/2.83 Vrms) | Max Input: Maximum continuous input voltage : 10 VrmsMaximum peak input during program to obtain distortionless output : 40 VMaximum allowable peak input : 55 V | Maximum power output: 2N/m2(2m on axis) | Directional property: 125Hz:5dB500Hz:6.4dB2kHz:7.2dB8kHz:10.6dB | Power input: 100 ~ 120 VAC / 200 ~ 240 V, 50Hz/60Hz | External dimensions: 660 mm wide x 925 mm high x 270 mm deep (including 150 mm base plate) | Weight: 18.7kg",
+                         "title":  "QUAD ESL-63",
+                         "overview":  "Released in 1981  430,000 (1 unit, around 1986)\n\nQUAD spent a quarter of a century to complete the speaker system.This speaker consists of two fixed electrodes and a diaphragm placed between them.When a high voltage is applied to the vibrating membrane to generate static electricity and an audio signal is sent to the fixed electrode, a Coulomb force acts between the vibrating membrane and the fixed electrode to move the vibrating membrane and produce sound.This method does not require any strength because the diaphragm moves uniformly over the entire surface. It can be set to a very light diaphragm and can be driven with very little energy. It also has advantages such as good impedance matching with air and no need for a cabinet.The ESL-63 has succeeded in generating all frequencies at one point based on this system.Since a general electrostatic speaker is plane driven and tends to be plane wave, the listening position was limited.To solve this problem, in the ESL-63, the fixed electrode is divided into seven concentric rings and a delay circuit is set for each of them. By generating a signal delay of approximately 24 ? sec per stage from the inner circumference to the outer circumference, for a total of approximately 168 ? sec, we have succeeded in generating a spherical wave from a flat vibrating membrane. By this, the sound source is located approximately 30 cm behind the vibrating membrane and can freely respond to changes in directivity caused by changes in frequency.In addition to using a new material, Melinex, the manufacturing error is limited to   1/2dB compared to the reference machine. In order to realize high sound quality, it adheres to the QUAD policy.It has two built-in protection circuits to deal with unexpected accidents.It is equipped with a limiter that limits the input voltage and a circuit that detects abnormal input signals or momentary short circuits and does not send them to speakers."
+                     },
+        "category":  "SPEAKER",
+        "brandId":  "quad",
+        "image_url":  "https://audio-database.com/esl-63.JPG",
+        "original_price":  "¥430000",
+        "release_year":  "1981",
+        "verified":  true
+    },
+    {
+        "id":  "quad-34",
+        "name":  "34",
+        "url":  "https://audio-database.com/QUAD/amp/34-e.html",
+        "sub_category":  "",
+        "sections":  {
+                         "specifications":  "Type: Control amplifier | Input Sensitivity / Maximum Input / Load Impedance(1kHz): Disc : 3mV/150mV/47k , 220 pf0.1mV/5mV/100 , 22 nfRadio : 100mV/5V/100k Aux : 500mV/25V/49k Tape play : 300mV/15V/57k | SN ratio (at A-correction input load): Disc : 75 dB (47k )68 dB (100 )Radio:88dBAux, Tape play : 87 dB | Output Level / Source Impedance: Tape recording : 100mV/2.2k Power Amplifier : 0.5V/830 | Distortion factor: 0.05% worst case for all inputs | Residual noise: -105dB (minimum A-curve volume) | Frequency characteristic: Other than disc : + / - 0.3 dBDisc : + / - 0.5 dB | Power input: 100 ~ 130 V, 200 ~ 250 V, 50 ~ 60 Hz | External dimensions: Width 342x Height 84x Depth 198 mm | Weight: 3.2kg | Sold Separately: MC module (3 types, 13,000 each)Refer to another page | Plate thickness: 10mm",
+                         "title":  "QUAD 34",
+                         "overview":  "* Released in November 1982  195,000 (around 1986)\n\nA control amplifier with the same basic configuration as 44 but with a different number of input terminals.Equipped with tilt control and base control, it can respond to changes in characteristics depending on the listening room and speakers.The tilt control adds gradual changes throughout the frequency band without changing the overall level.The base control consists of a LIFT position and a STEP position. The LIFT position is used to smoothly increase the low-frequency characteristics of small speakers, and the STEP position is used to cut howling when speakers are installed on walls or corners.The QUAD34 has phono inputs, tuner inputs, tape inputs, and auxiliary inputs.MM and MC can be used for phono input by changing modules.In addition, matching with the cartridge can be handled by replacing the module.There was a separately sold wood case named sleeve."
+                     },
+        "category":  "Amplifiers",
+        "brandId":  "quad",
+        "image_url":  "https://audio-database.com/34.JPG",
+        "original_price":  "¥195000",
+        "release_year":  "1982",
+        "verified":  true
+    },
+    {
+        "id":  "quad-44",
+        "name":  "44",
+        "url":  "https://audio-database.com/QUAD/amp/44-e.html",
+        "sub_category":  "",
+        "sections":  {
+                         "specifications":  "Type: Control amplifier | Input Sensitivity (1 kHz) / Maximum Input (1 kHz)/ Load impedance: Disc : 1mV/35mV/47k , 47k 180 pf3mV/100mV/47k , 47k 180 pf10mV/300mV/47k , 47k 180 pfRadio, Aux : 100mV/5V/1M 500mV/25V/500k Tape : 100mV/5V/39k 300mV/15V/121k 0 dbm (775 mv) / 40V/94k 3V/100V/85k 10V/100V/82k | SN ratio (at A-correction input load): Disc : 63 dB (at 1 mV input sensitivity)72 db (at 3 mv input sensitivity)82 db (at 10 mv input sensitivity)Radio:86dBAux:82dBTape:86dB | Output Level / Source Impedance: Tape recording : 3mV/32 or 33k 10mV/100 or 33k 100mV/1k or 33k 0 dBm (775 mv) / 1k or 33k Power Amplifier : 0.5V/1k 1.6V/3.2k 5V/75 | Distortion factor: 0.05% worst case for all inputs | Residual noise: -104dB (minimum A-curve volume) | Frequency characteristic: Other than Disc : 30 Hz to 20 kHz (+ 0, -1)Disc : 30 Hz to 20 kHz 0.5 dB | Crosstalk at 30 Hz to 10 kHz: Recording and playback : 70 dBChannel to channel : 50 dB | Channel balance: 0.5 dB (Volume Max) ~ 72 dB | Power input: 100 ~ 130 V, 200 ~ 250 V, 50 ~ 60 Hz | External dimensions: Width 342x Height 123x Depth 198 mm | Weight: 4kg | Sold Separately: MC module (3 types, 18,000 each)Refer to another page | Plate thickness: 10mm",
+                         "title":  "QUAD 44",
+                         "overview":  "Control amplifier with module configuration.All input / output terminals of QUAD44 are modularized and can be replaced as needed.Equipped with tilt control and base control, it can respond to changes in characteristics depending on the listening room and speakers.The tilt control adds gradual changes throughout the frequency band without changing the overall level.The base control consists of a LIFT position and a STEP position. The LIFT position is used to smoothly increase the low-frequency characteristics of small speakers, and the STEP position is used to cut howling when speakers are installed on walls or corners.Phono Input has 5 types of modules to support all MM/MC cartridges.In addition, matching with the cartridge is handled by replacing the module.There was a separately sold wood case named sleeve."
+                     },
+        "category":  "Amplifiers",
+        "brandId":  "quad",
+        "image_url":  "https://audio-database.com/44.JPG",
+        "original_price":  "¥210000",
+        "release_year":  "1986",
+        "verified":  true
+    },
+    {
+        "id":  "quad-specification",
+        "name":  "Specification",
+        "url":  "https://audio-database.com/QUAD/amp/303-e.html",
+        "sub_category":  "",
+        "sections":  {
+                         "specifications":  "Type: Stereo power amplifier | Effective power: 45W + 45W (8 ) | Total harmonic distortion factor (8 load, sine wave input): 0.03% or Less (at 100 Hz, 45W output)0.03% or less (at 1 kHz, 45W output)0.03% or less (at 10 kHz, 45W output) | Output internal impedance: 2000 ? F, 6 ? H in series with 0.3 | Frequency response (1 kHz standard, 8 load): 30 Hz to 35 kHz -1dB | Input sensitivity: 0.5 V (8 Load, 45W Output) | Input impedance: 22k / 60 pF | Maximum input limit: If the input signal is up to + 20 dB, it will be restored immediately. | Crosstalk (at 1k input load): 60 dB or More (30 Hz to 10 kHz) | Signal-to-noise ratio: -100dB (A correction)-95dB (uncorrected) | Pwer: 100 ~ 130 VAC / 200 ~ 250 V, 50Hz/60Hz | Power consumption: 40W ~ 200W (depending on input level) | External dimensions: Width 120x Height 159x Depth 324 mm | Weight: 8.2kg",
+                         "title":  "QUAD Specification",
+                         "overview":  "Stereo power amplifier.Symmetrical triple is used for the circuit, and the strain is reduced by the perfect temperature countermeasure.By using symmetrical triples, the output current can be controlled simply and effectively. Moreover, the voltage can also be controlled. Therefore, the output transistor is protected without a protective circuit that would adversely affect sound quality and increase the cost."
+                     },
+        "category":  "Amplifiers",
+        "brandId":  "quad",
+        "image_url":  "https://audio-database.com/303.JPG",
+        "original_price":  "¥110000",
+        "release_year":  "1986",
+        "verified":  true
+    },
+    {
+        "id":  "quad-405-2",
+        "name":  "405-2",
+        "url":  "https://audio-database.com/QUAD/amp/405-2-e.html",
+        "sub_category":  "",
+        "sections":  {
+                         "specifications":  "Type: Stereo power amplifier | Power and distortion factor(8 load, sine wave input): 0.01% or Less (at 100 Hz, 100W output)0.01% or Less (at 1 kHz, 100W Output)0.01% or Less (at 10 khz, 100W output) | Output internal impedance: 3.3 ? H in series with 0.03 | Offset voltage: 7 mv or less | Frequency Response (1 kHz Standard): Low frequency : -1dB at 20 HzHigh frequency : -0.1 dB at 20 Hz, -3dB at 50 kHz | Input sensitivity: 0.5 V (8 Load, 100W Output) | Input impedance: 20k / 220 pf | Slew rate: 0.1 V / ? s | Maximum input limit: If the input signal is up to + 20 dB, it will be restored immediately. | Crosstalk(at 1k input load): 80dB(100Hz)70dB(1kHz)60dB(10kHz) | Signal-to-noise ratio: -96dB (for A correction)-93dB (uncorrected) | Protection circuit: Electrically operated by current control circuit.The peak output current is limited to 8.5A, and the output short-circuit is limited to 3.1A.If both outputs are short-circuited simultaneously for an extended period of time, overheating may result and malfunction may result. | Pwer: 100 ~ 130 VAC / 200 ~ 250 V, 50Hz/60Hz | Power consumption: 30W ~ 350W (depending on input level) | External dimensions: Width 340.5x Height 115x Depth 195 mm | Weight: 9kg",
+                         "title":  "QUAD 405-2",
+                         "overview":  "Improved stereo power amplifier based on 405.The 405 / 2 is based on the 405 and has been improved to greatly increase the driving capability against load fluctuation.To solve the problems caused by the normal load line protection circuit, the QUAD has its own protection circuit, which smoothly reduces the abnormal current to within the safe operating range of the transistor and protects against short circuit. It is also integrated with the speaker protection circuit, which prevents the speaker from being destroyed by the trouble inside the amplifier.A current damping circuit developed by QUAD is adopted.This circuit consists of a single-output, small-power pure class A amplifier that amplifies voltage and supplies power for small signals, and a push-pull circuit with complete class B operation called a damper circuit. For small signals, current is supplied from the small-power pure class A amplifier to the load, and when the signal level increases, the damper circuit operates to supply a large current to the load.The low-power pure class A amplifier always detects and corrects errors between input and output signals and cancels all distortion at the output stage. In addition, it has low power loss, eliminates the need for idling adjustment, temperature compensation, and offset adjustment, and has excellent stability over time."
+                     },
+        "category":  "Amplifiers",
+        "brandId":  "quad",
+        "image_url":  "https://audio-database.com/405-2.JPG",
+        "original_price":  "¥198000",
+        "release_year":  "1986",
+        "verified":  true
+    },
+    {
+        "id":  "quad-fm4",
+        "name":  "FM4",
+        "url":  "https://audio-database.com/QUAD/tuner/fm4-e.html",
+        "sub_category":  "Tuner",
+        "sections":  {
+                         "specifications":  "Type: FM tuner | Receiving frequency: 76 Hz to 90 MHz | Sensitivity: Mono : 1 ? V/1.2 dBf at 30 dB2.7 ? V/10dBf at 50 dBStereo : 25 ? V/29dBf | Signal-to-noise ratio: mono:76dBstereo:70dB | Distortion factor: mono:0.05%stereo:0.1% | Selectivity: 53dB | Capture ratio: 1.5dB | IF interference ratio: 100dB | AM suppression ratio: 60dB | Image interference ratio: 80dB | Pilot tone suppression ratio: 60dB | Crosstalk: 40dB(1kHz) | Frequency characteristic: 20 Hz ~ 15 kHz + 0 dB -1dB | Output level: 100 mV (30% modulation) | Source impedance: 100 | Optimum load resistance: 20k or more | Antenna input: 75 unbalance | Power input: 100 ~ 125 VAC / 200 ~ 250 V, 50Hz/60Hz | External dimensions: Width 342x Height 84x Depth 198 mm | Weight: 3kg | Plate thickness: 10mm",
+                         "title":  "QUAD FM4",
+                         "overview":  "* Released in 1982  198,000 (around 1986)\n\nTuner for FM only.With QUAD\u0027s unique approach, it is designed to reproduce the input signal from the antenna with a rich musical quality without using techniques such as forcibly picking up weak radio waves.The front panel consists of an ON/OFF switch, tuning knob, push button for automatic / manual tuning, and graphic display.The graphic display shows the signal strength and tuning center as well as the frequency in digital form.The operating system utilizes the latest digital technology, and by adopting a microprocessor developed independently, it is possible to preset up to 7 stations.You can set a preset by first pressing the manual button to tune the desired station and then pressing the manual button and the button of the desired preset number simultaneously. The preset station is stored for approximately five years even after the AC power is turned off by the memory backup function.During manual tuning, AFC and muting are automatically disabled so that weak radio waves can be received.The best tuning point is when the two bar graph displays are at the same height.There was a wood case as an option sold separately."
+                     },
+        "category":  "Source",
+        "brandId":  "quad",
+        "image_url":  "https://audio-database.com/fm4.JPG",
+        "original_price":  "¥198000",
+        "release_year":  "1982",
+        "verified":  true
+    },
+    {
+        "id":  "quad-monoconvertor",
+        "name":  "MONOCONVERTOR",
+        "url":  "https://audio-database.com/QUAD/etc/monoconvertor-e.html",
+        "sub_category":  "",
+        "sections":  {
+                         "specifications":  "Type: Monaural converter | External dimensions: 80 mm wide x 40 mm high x 140 mm deep | Weight: 850g",
+                         "title":  "QUAD MONOCONVERTOR",
+                         "overview":  "Mono converter.It can be used as a 200W (8   load) monaural power amplifier by using it as QUAD stereo power amplifier 405-2."
+                     },
+        "category":  "ETC",
+        "brandId":  "quad",
+        "image_url":  "https://audio-database.com/monoconvertor.JPG",
+        "original_price":  "¥27500",
+        "release_year":  "1986",
+        "verified":  true
+    },
+    {
+        "id":  "quad-mcmodule",
+        "name":  "MCMODULE",
+        "url":  "https://audio-database.com/QUAD/etc/mcmodule-e.html",
+        "sub_category":  "",
+        "sections":  {
+                         "specifications":  "Type: MC Module | For 44: A Type | A Type(Around 1986): 0.2mV | B Type: 0.1mV | B Type(Around 1986): 0.1mV | C Type: 0.4mV | C Type(Around 1986): 0.4mV | D Type: 0.1mV | For 34: A Type",
+                         "title":  "QUAD MCMODULE",
+                         "overview":  "For 44 :   18,000 each (around 1986)For 34 :   13,000 each (around 1986)\n\nMC input module for 44 / 34 developed to support all MC cartridges.You can achieve the performance of each cartridge by changing the module according to the cartridge used or recommended.It seems that the characteristics, etc. were different depending on the manufacturing period."
+                     },
+        "category":  "ETC",
+        "brandId":  "quad",
+        "image_url":  "https://audio-database.com/module.JPG",
+        "original_price":  "¥18000",
+        "release_year":  "1986",
+        "verified":  true
+    },
+    {
+        "id":  "quad-stand",
+        "name":  "STAND",
+        "url":  "https://audio-database.com/QUAD/etc/stand-e.html",
+        "sub_category":  "",
+        "sections":  {
+                         "specifications":  "Type: Speaker stand | External dimensions: Width 538x Height 220x Depth 236 mm | Attachment: Retaining screw",
+                         "title":  "QUAD STAND",
+                         "overview":  "  55,000 (a set of two cars, around 1986)\n\nA dedicated stand for bringing the sound source of the ESL-63 close to the height of the ear at the listening position.The steel pipe has undergone baking coating.Comes with fixing screws."
+                     },
+        "category":  "ETC",
+        "brandId":  "quad",
+        "image_url":  "https://audio-database.com/speakerstand.JPG",
+        "original_price":  "¥55000",
+        "release_year":  "1986",
+        "verified":  true
+    },
+    {
+        "id":  "quad-sleave",
+        "name":  "SLEAVE.",
+        "url":  "https://audio-database.com/QUAD/etc/sleave.-e.html",
+        "sub_category":  "",
+        "sections":  {
+                         "specifications":  "Type: Sleeve | External dimensions: Width 342x Height 123x Depth 198 mm | Plate thickness: 10mm",
+                         "title":  "QUAD SLEAVE.",
+                         "overview":  "Common to 34 and FM4 :   19,500 (around 1986)44 exclusive :   21,000 (around 1986)\n\nWood case for QUAD products.Preamp 34 and FM tuner FM4 are common, and preamp 44 is dedicated to it."
+                     },
+        "category":  "ETC",
+        "brandId":  "quad",
+        "image_url":  "https://audio-database.com/sleave.JPG",
+        "original_price":  "¥19500",
+        "release_year":  "1986",
+        "verified":  true
+    }
+]

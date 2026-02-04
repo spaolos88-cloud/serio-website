@@ -1,0 +1,30 @@
+﻿[
+    {
+        "url":  "https://audio-database.com/THOMSON/model7-4100j.html",
+        "name":  "MODEL7-4100J",
+        "id":  "thomson-model7-4100j",
+        "original_price":  "¥25000",
+        "category":  "THOMSON",
+        "description":  "\"FM/AM radio developed as a replica (3/4 model) of GEJ100 which was born in 1932.Equipped with 12 cm dynamic speakers.With built-in tone and loudness controls, you can adjust the sound quality to your liking.Equipped with a light-up dial scale.\"",
+        "sub_category":  "",
+        "brandId":  "thomson",
+        "specifications":  "\"Type: FM/AM radio | Receiving frequency: AM : 530 to 1,605 kHzFM : 76-92 MHz | Antenna: AM : Ferrite AntennaFM : line-cord antenna | Spekers: 12 cm, 8 � | Maximum practical power: 750mW(EIAJ/AC) | Pwer: 100 VAC, 50Hz/60Hz | Power consumption: 4W | Maximum external dimensions: Width 296x Height 380x Depth 235 mm | Weight: 3.35kg\"",
+        "release_year":  "1988",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/THOMSON/model7-4100j.jpg"
+    },
+    {
+        "url":  "https://audio-database.com/THOMSON/model7-4135.html",
+        "name":  "MODEL7-4135",
+        "id":  "thomson-model7-4135",
+        "original_price":  "¥30000",
+        "category":  "THOMSON",
+        "description":  "\"This is a radio with a built-in cassette recorder that reproduces the Early American style.Built-in cassette recorder with automatic stop function and erroneous erasure prevention function.(Recordings are made only from radio.)The speakers are 12 cm dynamic speakers.Equipped with two step switching tone control and loudness control, the volume can be adjusted.AM and FM bands can be received.Equipped with a light-up dial scale.\"",
+        "sub_category":  "",
+        "brandId":  "thomson",
+        "specifications":  "\"Type: FM/AM radio | Receiving frequency: AM : 530 to 1,605 kHzFM : 76-92 MHz | Antenna: AM : Ferrite AntennaFM : line-cord antenna | Track system: 2-track mono | Tape: Normal tape | Uneven rotation: 0.35% | Frequency range: 100 Hz ~ 10 kHz (EIAJ, normal tape) | Spekers: 12 cm, 8 � | Maximum practical power: 750mW(EIAJ/AC) | Pwer: 100 VAC, 50Hz/60Hz | Power consumption: 7W | Maximum external dimensions: Width 335x Height 290x Depth 220 mm | Weight: Approx. 5 kg\"",
+        "release_year":  "1988",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/THOMSON/model7-4135.jpg"
+    }
+]

@@ -1,0 +1,44 @@
+﻿[
+    {
+        "url":  "",
+        "name":  "Ballad",
+        "id":  "ballad-ballad",
+        "original_price":  "",
+        "category":  "General",
+        "description":  "\"� 73,500 (tax included, 1 set of 2, sold on November 20, 2006)",
+        "sub_category":  "",
+        "brandId":  "ballad",
+        "specifications":  "\"Type: 1-Way, 1-Speaker, Basref System, Bookshelf Type | Units Used: For All Bands : 10 cm Cone Type (CF204-8A) | Frequency characteristic: 140 Hz to 14 kHz � 5 dB | Rated input: 10W(EIA)40W (peak) | Sensitivity: 95dB SPL(1m/1W) | Maximum power output: 111 dB SPL (peak) | Impedance: 8 � | Pointing angle: 80 � (4 kHz) | Wood: 12 mm Thick Yonematsu Plywood | Finish: Clear Wood Finish | External dimensions: Width 175x Height 250x Depth 210 mm | Weight: 2.5kg\"",
+        "release_year":  "2006",
+        "verified":  true,
+        "image_url":  ""
+    },
+    {
+        "url":  "",
+        "name":  "Ballad",
+        "id":  "ballad-ballad",
+        "original_price":  "",
+        "category":  "General",
+        "description":  "\"� 86,100 (tax included, 1 set of 2, sold in 2004)",
+        "sub_category":  "",
+        "brandId":  "ballad",
+        "specifications":  "\"Type: 1-Way, 1-Speaker, Basref System, Bookshelf Type | Units Used: For All Bands : 10 cm Cone Type (CF404-8A) | Frequency characteristic: 102 Hz to 14 kHz � 5 dB | Rated input: 32W(EIA)128W (peak) | Sensitivity: 94dB SPL(1m/1W) | Maximum power output: 115 dB SPL (peak) | Impedance: 8 � | Pointing angle: 160 � (2 kHz)90 � (4 kHz) | Wood: 12 mm Thick Yonematsu Plywood | Finish: Clear Wood FinishBlack dyed finish | External dimensions: Width 175x Height 250x Depth 210 mm | Weight: 2.6kg\"",
+        "release_year":  "2004",
+        "verified":  true,
+        "image_url":  ""
+    },
+    {
+        "url":  "",
+        "name":  "Ballad",
+        "id":  "ballad-ballad",
+        "original_price":  "",
+        "category":  "General",
+        "description":  "\"� 252,000 (tax included, 1 set of 2, sold on November 20, 2006)",
+        "sub_category":  "",
+        "brandId":  "ballad",
+        "specifications":  "\"Type: 2-Way, 1-Speaker, Bass Reflex System, Bookshelf Type | Units Used: For All Bands : 20 cm Coaxial Type (CD308-8A) | Frequency characteristic: 70 Hz to 20 kHz � 5 dB | Rated input: 16W(EIA)64W (peak) | Sensitivity: 97dB SPL(1m/1W) | Maximum power output: 115 dB SPL (peak) | Impedance: 8 � | Pointing angle: 80 � (4 kHz) | Wood: Finnish perch | Finish: Wood Oak Matte Finish | External dimensions: Width 288x Height 460x Depth 400 mm | Weight: 11kg\"",
+        "release_year":  "2006",
+        "verified":  true,
+        "image_url":  ""
+    }
+]

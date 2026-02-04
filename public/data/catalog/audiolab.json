@@ -1,0 +1,45 @@
+﻿[
+    {
+        "url":  "https://audio-database.com/AUDIOLAB/amp/8000a.html",
+        "name":  "8000A",
+        "id":  "audiolab-8000a",
+        "original_price":  "¥135000",
+        "category":  "Amplifiers",
+        "description":  "A pre-main amplifier with an orthodox straight line.Class A line amplifiers are used and separate power supply units for each L/R channel are incorporated.",
+        "sub_category":  "",
+        "brandId":  "audiolab",
+        "specifications":  "\"Type: Pre-main amplifier | Rated output: 75W + 75W (8 �) | Total harmonic distortion factor: Not more than 0.05% | Frequency characteristic: RIAA : 20 Hz to 20 kHz ¥0.5 dBLine : 20 Hz to 20 kHz ¥0.5 dB | Input Sensitivity / Impedance: Phono MM : 2.0mV/47k �Phono MC : 110 Ï‰ V/100 �Tuner : 100mV/20k �CD : 200mV/10k �Tape1, 2 : 100mV/20k �P. amp : 700mV/50k � | Recording Output / Impedance: Tape1, 2 : 100mV/1k � | Preamplifier output: 7.76Vrms/600 � | Headphone out: 330 � | Signal-to-noise ratio: Phono MM:76dBPhono MC:74dBLine:78dBPower amplifier : 90 dB | Tone control: Bass : ¥6 dB (20 Hz)Treble : ¥6 dB (20 kHz) | Protection circuit: Built-in electronic system | Pwer: 100 V, 50Hz/60Hz | Power consumption: Up to 250 VA | External dimensions: Width 445x Height 74x Depth 340 mm | Weight: 7kg\"",
+        "release_year":  "1987",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/AUDIOLAB/amp/8000a.jpg"
+    },
+    {
+        "url":  "https://audio-database.com/AUDIOLAB/amp/8000c.html",
+        "name":  "8000C",
+        "id":  "audiolab-8000c",
+        "original_price":  "¥150000",
+        "category":  "Amplifiers",
+        "description":  "Stereo control amplifier with straight line design.It is upgraded by using high-quality components.The line amplifier uses Class A to obtain a clearer stereo image.",
+        "sub_category":  "",
+        "brandId":  "audiolab",
+        "specifications":  "\"Type: Control amplifier | Maximum output voltage: 7.76Vrms/100 � | Total harmonic distortion factor: 0.01% or less | Frequency characteristic: RIAA : 20 Hz to 20 kHz ¥0.5 dBLine : 20 Hz to 20 kHz ¥0.5 dB | Input Sensitivity / Impedance: Phono MM : 2.0mV/47k �Phono MC : 110 Ï‰ V/100 �Tuner : 100mV/20k �CD : 200mV/10k �Tape1, 2 : 100mV/20k � | Recording Output / Impedance: Tape1, 2 : 100mV/1k � | Headphone out: 7.76V/100 � | Signal-to-noise ratio: Phono MM:79dBPhono MC:75dBLine:90dB | Tone control: Bass : ¥6 dB (20 Hz)Treble : ¥6 dB (20 kHz) | Protection circuit: Built-in electronic system | Pwer: 100 V, 50Hz/60Hz | Power consumption: 50 VA max. | External dimensions: Width 445x Height 74x Depth 335 mm | Weight: 6kg\"",
+        "release_year":  "1986",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/AUDIOLAB/amp/8000c.jpg"
+    },
+    {
+        "url":  "https://audio-database.com/AUDIOLAB/amp/8000p.html",
+        "name":  "8000P",
+        "id":  "audiolab-8000p",
+        "original_price":  "¥200000",
+        "category":  "Amplifiers",
+        "description":  "Stereo power amplifier with straight line design.Sound quality is improved by eliminating AF/RF intermodulation.Separate power supply unit for each L/R channel is adopted.",
+        "sub_category":  "",
+        "brandId":  "audiolab",
+        "specifications":  "\"Type: Stereo power amplifier | Rated output: 150W + 150W (8 �) | Total harmonic distortion factor: Not more than 0.05% | Frequency characteristic: 20 Hz to 20 kHz ¥0.3 dB | Signal-to-noise ratio: 90 dB or more | Input Sensitivity / Impedance: 1 V (Maximum Output) / 50k � | Gain: 29dB(1kHz) | Protection circuit: Built-in electronic system | Pwer: 100 V, 50Hz/60Hz | Power consumption: Up to 450 VA | External dimensions: Width 445x Height 74x Depth 330 mm | Weight: 9.0kg\"",
+        "release_year":  "1986",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/AUDIOLAB/amp/8000p.jpg"
+    }
+]
+

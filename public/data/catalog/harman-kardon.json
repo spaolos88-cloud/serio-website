@@ -1,0 +1,44 @@
+﻿[
+    {
+        "url":  "https://audio-database.com/HARMAN_KARDON/etc/ct-1-e.html",
+        "name":  "Harman",
+        "id":  "harman-kardon-harman",
+        "original_price":  "¥65000",
+        "category":  "ETC",
+        "description":  "\"A balanced input / output interface based on the sound quality concept of the Citation series.It converts the normal (unbalanced) output into a balanced output, solves the problem of sound quality degradation caused by ground grounding, and supports the balanced input normally installed in high-end equipment.Between normal input and normal output, the transformer performs as a matching transformer and eliminates unwanted noise that adversely affects sound quality.An absolute phase switch for changing the phase has also been made.The transformer uses a high-quality permalloy core and a five part balanced winding. In addition, it is double-shielded with a permalloy shield case to prevent induction from the outside. It is firmly fixed inside a large shield case with special filler.In addition, we have taken care of the terminals by using ??????\u0027s gold-plated canon type for the pin terminals and balance terminals, which are both gold-plated and Teflon insulated.\"",
+        "sub_category":  "",
+        "brandId":  "harman-kardon",
+        "specifications":  "\"Type: Super Balance Interface | Input: Unbalanced / High / Low | Input-output: Unbalanced / Balanced(Switching with both input and output switches) | Frequency characteristic: 10 Hz ~ 100 kHz + 0. 5-3 dB | Separation: 70 dB or More (10 kHz, 1k � termination) | External dimensions: Width 151x Height 88x Depth 226 mm | Weight: 2.3kg | Remarks: The Canon terminal is 1st ground, 2nd cold, and 3rd hot.\"",
+        "release_year":  "1988",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/HARMAN_KARDON/etc/ct-1.JPG"
+    },
+    {
+        "url":  "https://audio-database.com/HARMAN_KARDON/speaker/hk25-e.html",
+        "name":  "Harman",
+        "id":  "harman-kardon-harman",
+        "original_price":  "¥115000",
+        "category":  "SPEAKER",
+        "description":  "\"This speaker system improves the time it takes to reach the listener by improving the line arrangement of the speaker unit.In Reference I, the V-line arrangement is adopted for the unit layout. The woofer unit of the long travel voice coil is placed in the center, and the short travel voice coil is placed outside the center.As a result, the difference in time between the sound coming from each unit and reaching the listener\u0027s ear is minimized, and the phase characteristic is improved by shortening the time difference between units.The unit is a 4-speaker configuration with a 27.4 cm polypropylene cone woofer for the low range, a 13.7 cm polypropylene cone squaker for the middle range, and a double ribbon tweeter for the high range.The enclosure has a walnut oil finish.\"",
+        "sub_category":  "",
+        "brandId":  "harman-kardon",
+        "specifications":  "\"Method: 3-way, 4-speaker floor type | Units Used: For low band : 27.4 cm cone typeFor Medium Range : 13.7 cm Cone TypeFor High Pass : 2 ribbon types | Maximum allowable input: 100W | Impedance: 6 � | Output sound pressure level: 87dB/W/m | External dimensions: Width 335x Height 730x Depth 299 mm | Weight: 20.4kg\"",
+        "release_year":  "1980",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/HARMAN_KARDON/speaker/hk25.JPG"
+    },
+    {
+        "url":  "https://audio-database.com/HARMAN_KARDON/speaker/s100m-e.html",
+        "name":  "Harman",
+        "id":  "harman-kardon-harman",
+        "original_price":  "¥49500",
+        "category":  "SPEAKER",
+        "description":  "\"A speaker system with an ambience control mounted on the rear rotating baffle under the theme of sound field control suitable for the room.It is equipped with a 21.1 cm polypropylene cone type woofer in the low range and a 2.54 cm polypropylene dome type tweeter in the high range.A 6.5 cm cone type rear tweeter is mounted on the rear rotating baffle for ambience control. The angle of this unit can be controlled depending on whether it is placed vertically or horizontally.Internal faders allow you to adjust the energy levels of the front and rear speakers, allowing you to further control the ambience effect.The enclosure has a walnut wood-grain finish.\"",
+        "sub_category":  "",
+        "brandId":  "harman-kardon",
+        "specifications":  "Method: 2-way / 3-speaker / bookshelf type | Units Used: For low band : 21.1 cm cone typeFor high-pass : 2.54 cm dome typeFor the rear : 6.5 cm cone type | Maximum allowable input: 100W | Impedance: 6 � | Output sound pressure level: 87dB/W/m | External dimensions: Width 245x Height 436x Depth 230 mm | Weight: 8.45kg",
+        "release_year":  "1980",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/HARMAN_KARDON/speaker/s100m.JPG"
+    }
+]

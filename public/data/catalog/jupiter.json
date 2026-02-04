@@ -1,0 +1,87 @@
+﻿[
+    {
+        "url":  "https://audio-database.com/JUPITER/amp/cs-60.html",
+        "name":  "CS-60",
+        "id":  "jupiter-cs-60",
+        "original_price":  "¥41600",
+        "category":  "Amplifiers",
+        "description":  "\"Pre-main amplifier designed as the best model.The filaments of the first stage amplification vacuum tubes for records and tape heads are all DC ignited to prevent hum.A silicon diode is used for the power supply rectification circuit.It is equipped with MFB (motional feedback) circuit, and speaker system with MFB detection mechanism can be used.It is equipped with functions such as loudness control, tone control, rumble filter, scratch filter and tape monitor.Equipped with a balance meter that can check the left and right balance.Input terminals such as magnetic, crystal, and tape heads are mounted.\"",
+        "sub_category":  "",
+        "brandId":  "jupiter",
+        "specifications":  "\"Type: Pre-main amplifier | Maximum power output: 45W+45W | Distortionless output: 40W+40W | Input sensitivity: Phono MAG:2.5mVPhono Xtal:25mVTape head:1.5mVMic:5mVTuner, Aux : 50 mv | Frequency characteristic: 20 Hz to 70 kHz | Tone control: CR type, independent left and right channels | Loudness: 50Hz:+15dB10kHz:+5dB | Equalizer: Phono:RIAATape head:NARTB | Pwer: AC100V/117V/220V | Power consumption: 100VA | External dimensions: Width 465x Height 165x Depth 285 mm | Weight: 19kg\"",
+        "release_year":  "1960",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/JUPITER/amp/cs-60.jpg"
+    },
+    {
+        "url":  "https://audio-database.com/JUPITER/speaker/ykw.html",
+        "name":  "YKW",
+        "id":  "jupiter-ykw",
+        "original_price":  "¥10500",
+        "category":  "SPEAKER",
+        "description":  "Two way floor-type speaker system.It is equipped with a 20 cm cone woofer in the low range and a cone tweeter in the high range.The network section is equipped with an LC-type network.",
+        "sub_category":  "",
+        "brandId":  "jupiter",
+        "specifications":  "\"Type: 2-way, 2-speaker floor type | Units Used: For low band : 20 cm cone typeFor High Frequency : Cone Type | Frequency characteristic: 40 Hz to 16 kHz | Allowable input: 10W | Impedance: 8 � | Crossover frequency: 3kHz | External dimensions: Width 500x Height 810x Depth 350 mm\"",
+        "release_year":  "1960",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/JUPITER/speaker/ykw.jpg"
+    },
+    {
+        "url":  "https://audio-database.com/JUPITER/speaker/ykw-1.html",
+        "name":  "YKW-1",
+        "id":  "jupiter-ykw-1",
+        "original_price":  "¥12500",
+        "category":  "SPEAKER",
+        "description":  "A two way speaker system with a horn type tweeter.It is equipped with a 20 cm cone type woofer in the low range and a horn type tweeter in the high range.An LC network is used to separate high and low regions.",
+        "sub_category":  "",
+        "brandId":  "jupiter",
+        "specifications":  "\"Type: 2-way, 2-speaker floor type | Units Used: For low band : 20 cm cone typeFor High Frequency : Horn Type | Frequency characteristic: 40 Hz to 17 kHz | Allowable input: 10W | Impedance: 8 ¥, 16 � | Crossover frequency: 3kHz | External dimensions: Width 500x Height 810x Depth 350 mm\"",
+        "release_year":  "1960",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/JUPITER/speaker/ykw-1.jpg"
+    },
+    {
+        "url":  "https://audio-database.com/JUPITER/speaker/ykw-3.html",
+        "name":  "YKW-3",
+        "id":  "jupiter-ykw-3",
+        "original_price":  "¥24300",
+        "category":  "SPEAKER",
+        "description":  "\"A 3-way speaker system with improved directivity.Equipped with 2 20 cm cone type woofers in the low range and 2 12 cm cone type scoopers in the middle range.By expanding the installation angle of the woofer and squaker to 120 ¥, the directivity is improved.A horn type tweeter is installed in the high frequency range.\"",
+        "sub_category":  "",
+        "brandId":  "jupiter",
+        "specifications":  "\"Type: 3-way, 5-speaker floor type | Units Used: For low band : 20 cm cone x2For Medium Range : 12 cm Cone Type x2For High Frequency : Horn Type | Frequency characteristic: 40 Hz to 17 kHz | Allowable input: 30W | Impedance: 16 � | Crossover frequency: 1.5 kHz, 5 kHz | External dimensions: Width 600x Height 900x Depth 400 mm\"",
+        "release_year":  "1960",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/JUPITER/speaker/ykw-3.jpg"
+    },
+    {
+        "url":  "https://audio-database.com/JUPITER/speaker/ykw-4.html",
+        "name":  "YKW-4",
+        "id":  "jupiter-ykw-4",
+        "original_price":  "¥21600",
+        "category":  "SPEAKER",
+        "description":  "\"A three way speaker system designed for a typical room size.Two 25 cm cone woofers are installed in the low range, and two 12 cm cone stalkers are installed in the middle range.A horn type tweeter is installed in the high-frequency range.\"",
+        "sub_category":  "",
+        "brandId":  "jupiter",
+        "specifications":  "\"Type: 3-way, 4-speaker floor type | Units Used: For low band : 25 cm cone typeFor Medium Range : 12 cm cone typeFor High Frequency : Horn Type | Frequency characteristic: 35 Hz to 17 kHz | Allowable input: 20W | Impedance: 16 � | Crossover frequency: 1.5 kHz, 5 kHz | External dimensions: Width 500x Height 900x Depth 400 mm\"",
+        "release_year":  "1960",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/JUPITER/speaker/ykw-4.jpg"
+    },
+    {
+        "url":  "https://audio-database.com/JUPITER/speaker/ykw-22.html",
+        "name":  "YKW-22",
+        "id":  "jupiter-ykw-22",
+        "original_price":  "¥16500",
+        "category":  "SPEAKER",
+        "description":  "\"A 3-way speaker system equipped with a rotary variable directional function.It is equipped with a 20 cm cone woofer in the low range and a 12 cm cone scoker in the middle range.A horn type tweeter is installed in the high frequency range.This tweeter is mounted so that the directional characteristics can be freely changed, and the directional characteristics can be improved according to the installation situation.\"",
+        "sub_category":  "",
+        "brandId":  "jupiter",
+        "specifications":  "\"Type: 3-way, 3-speaker floor type | Units Used: For low band : 20 cm cone typeFor Medium Range : 12 cm cone typeFor High Frequency : Horn Type | Frequency characteristic: 40 Hz to 17 kHz | Allowable input: 15W | Impedance: 16 � | Crossover frequency: 1.5 kHz, 5 kHz | External dimensions: Width 500x Height 910x Depth 350 mm\"",
+        "release_year":  "1960",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/JUPITER/speaker/ykw-22.jpg"
+    }
+]
+

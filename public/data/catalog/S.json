@@ -1,0 +1,17 @@
+﻿{
+    "id":  "sansui-sp-10",
+    "name":  "SP-10",
+    "url":  "https://audio-database.com/SANSUI/speaker/sp-10-e.html",
+    "sub_category":  "",
+    "sections":  {
+                     "specifications":  "Method: 1-Way, 1-Speaker, Basref System, Bookshelf Type | Unit: For all bands : 16 cm cone type | Frequency characteristic: 50 Hz ~ 18 kHz (Listening Room)65 Hz ~ 18 kHz (Anechoic Room) | Max Input: 15W | Impedance: 8 | Output sound pressure level: 90dB/W (New JIS) | External dimensions: Width 231x Height 368x Depth 185 mm | Weight: 3.3kg",
+                     "title":  "SANSUI SP-10",
+                     "overview":  "Compact full-range speaker system.It is also designed for the rear of 4-channel stereo.The unit is equipped with a specially designed and developed 16 cm cone type full range speaker.We seek to improve the overall balance by reducing intermodulation distortion, which tends to be a problem.The enclosure adopts a bass reflex system using a pipe duct.The surface has a walnut open pore finish."
+                 },
+    "category":  "SPEAKER",
+    "brandId":  "sansui",
+    "image_url":  "https://audio-database.com/sp-10.JPG",
+    "original_price":  "¥6950",
+    "release_year":  "1970",
+    "verified":  true
+}

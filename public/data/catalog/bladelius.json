@@ -1,0 +1,73 @@
+﻿[
+    {
+        "url":  "https://audio-database.com/BLADELIUS/amp/s101.html",
+        "name":  "S101",
+        "id":  "bladelius-s101",
+        "original_price":  "",
+        "category":  "Amplifiers",
+        "description":  "\"Integrated amplifier with perfect balance design.The amplifier has a fully balanced configuration using four independent amplifier circuits, which eliminates the effect of transmission noise and enables stable namp operation and high power output.A 1,800 VA large-capacity toroidal power transformer is used for the power supply.We have also adopted power filter condensers for audio equipment.In addition to two XLR balanced inputs, the input / output terminals are equipped with Line 5 RCA unbalanced inputs, tape out, pre-out, etc.The processor loop also connects surround processors for your home theater.The display section is equipped with a dot matrix display.Solid aluminum is used for the front panel.Speaker terminal made by WBT is used.Wireless remote control is included.\"",
+        "sub_category":  "",
+        "brandId":  "bladelius",
+        "specifications":  "Type: Pre-main amplifier | Rated output: 150W + 150W (8 �) | Input terminal: XLR balance : 2 systems (hot #2 pin)RCA unbalance : 4 lines (Line1 to 4)One tape loop input (Tape) | Output terminal: Pre-out : 1 system (RCA)Tape out : 1 system (surround compatible) | Power consumption: 310W | External dimensions: Width 430x Height 125x Depth 435 mm (excluding protruding parts) | Weight: 21kg | Attachment: System remote control",
+        "release_year":  "",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/BLADELIUS/amp/s101.jpg"
+    },
+    {
+        "url":  "https://audio-database.com/BLADELIUS/amp/thormkii.html",
+        "name":  "THORMKII",
+        "id":  "bladelius-thormkii",
+        "original_price":  "¥590000",
+        "category":  "Amplifiers",
+        "description":  "\"Fully balanced integrated amplifier.The power amplifier circuit consists of a single-ended J-FET input stage and two parallel transistor output stages. High power is achieved by a simple bridge amplifier circuit and 16 high-power, ultra-fast output devices.In addition to the DC coupling design, the full balance across the entire signal path minimizes noise and distortion.It has a preamp output, so you can connect an external power amplifier and use the Thor mkII as a preamp.Input sensitivity can be adjusted for each input.This ensures that the output level remains constant even when the input is switched.Equipped with home theater input, multi-channel setting for home theater is possible with one button.The power supply section is equipped with a custom-designed 1,800 VA toroidal transformer and a high-capacity 80,000 Ï‰ F filter capacitor, enabling stable power supply to any load.The display section uses a dot matrix display with excellent visibility.System remote controller \"\"?????\"\" is included.\"",
+        "sub_category":  "",
+        "brandId":  "bladelius",
+        "specifications":  "Type: Pre-main amplifier | Rated output: 165W + 165W (8 �) | Distortion factor: Not more than 0.1% | Frequency characteristic: DC ~ 100 kHz ¥1 dB | Input terminal: XLR balance : 2 systemsRCA-single-end : Line 5 | Input impedance: 50k � | Maximum supply current: 100A | Power consumption: 340W | External dimensions: Width 430x Height 125x Depth 435 mm | Weight: 21kg | Attachment: System remote control",
+        "release_year":  "2006",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/BLADELIUS/amp/thormkii.jpg"
+    },
+    {
+        "url":  "",
+        "name":  "Bladelius",
+        "id":  "bladelius-bladelius",
+        "original_price":  "",
+        "category":  "General",
+        "description":  "\"5-channel specifications : ¥1,650,000 (released in 2005)2-channel specification : ¥1,200,000 (released in 2005)",
+        "sub_category":  "",
+        "brandId":  "bladelius",
+        "specifications":  "\"Type: Multi-Channel Power Amplifier / Stereo Power Amplifier | Rated output: 350W/ch (8 ¥, Distortion Factor 0.1% or Less)700W/ch (4 ¥, Distortion Factor 0.1% or Less) | Frequency band: DC ~ 100 kHz ¥1 dB | Input terminal: XLR balanceRCA imbalance* Switching type | Input impedance: 50k � | Output element: High-power MOS-FET | Power supply capacity: 8,000VA | Total power capacitor capacity: 80,000 Ï‰ F | External dimensions: Width 450x Height 215x Depth 538 mm | Weight: 33.5kg\"",
+        "release_year":  "2005",
+        "verified":  true,
+        "image_url":  ""
+    },
+    {
+        "url":  "https://audio-database.com/BLADELIUS/player/frejamkii.html",
+        "name":  "FREJAMKII",
+        "id":  "bladelius-frejamkii",
+        "original_price":  "¥550000",
+        "category":  "Source",
+        "description":  "\"SACD/DVD audio player specialized in pure audio while supporting various types of media.Freja markII specializes in pure audio playback by eliminating the video and multi-channel playback capabilities from the universal player.The twin-wave pickup enables playback of CD, SACD, CD-R, CD-RW, and DVD audio.By synchronizing the operation clocks of the transport section and digital filter with the clock of the D/A converter, jitter, which interferes with sound quality, is reduced to the limit.The sampling rate converter uses the Bar Brown SRC4192 for 192 kHz upsampling.The D/A converter uses two DSD1792 D/A converters made by Bar Brown for each left and right channel in a differential balance configuration, and the I/V converter uses a discrete circuit with an emphasis on sound quality.A large-capacity toroidal transformer is used for the power supply.Equipped with XLR balanced analog output.The Konek Tour uses the Swiss ?????? XLR connector.Equipped with unbalanced analog output of 2 high / low systems.The system remote controller ????? is included.\"",
+        "sub_category":  "Player",
+        "brandId":  "bladelius",
+        "specifications":  "\"Type: SACD/DVD Audio Player | Supported Disks: CD, SACD, CD-R, CD-RW, DVD Audio | Digital output: RCA coaxialTOS Optical | Analog output: XLR balance : 1 systemRCA unbalanced : 1 High / 1 Low | Distortion factor: 0.005%(1kHz) | Signal-to-noise ratio: 112dB | External dimensions: Width 430x Height 125x Depth 435 mm | Weight: 7kg | Attachment: System remote control\"",
+        "release_year":  "2006",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/BLADELIUS/player/frejamkii.jpg"
+    },
+    {
+        "url":  "",
+        "name":  "Bladelius",
+        "id":  "bladelius-bladelius",
+        "original_price":  "",
+        "category":  "General",
+        "description":  "\"Universal player with multi-channel preamp function.",
+        "sub_category":  "",
+        "brandId":  "bladelius",
+        "specifications":  "\"Type: Universal player | Supported Disks: CD, SACD, CD-R, CD-RW, MP3, DVD-A, DVD-V, DVD-R, DVD-RW | Digital input: XLR balance : 1 systemRCA coaxial : 1 systemTOS Optical : 1 system | Analog output: Front XLR balance terminal7.1 channel RCA jacks (front, center, rear, surround back, subwoofer) | Analog input: * OptionalBalanced : 1 systemUnbalanced : 1 system | Video Out: Color difference component : 1 systemS-Video : One lineComposite video output : 1 systemDVI digital video output (optional) | Total harmonic distortion factor + noise: 0.001% | Signal-to-noise ratio: 120dB | Channel separation: 117dB | External dimensions: Width 438x Height 128x Depth 460 mm | Weight: 14.5kg\"",
+        "release_year":  "",
+        "verified":  false,
+        "image_url":  ""
+    }
+]
+

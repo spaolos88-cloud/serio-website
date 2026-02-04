@@ -1,0 +1,30 @@
+﻿[
+    {
+        "url":  "https://audio-database.com/DRG/amp/ny1mkii.html",
+        "name":  "NY1MKII",
+        "id":  "drg-ny1mkii",
+        "original_price":  "",
+        "category":  "Amplifiers",
+        "description":  "A hybrid preamplifier combining the advantages of vacuum tubes and FETs.The front panel and knobs have a 24 carat gold coating.Each unit is hand-made.",
+        "sub_category":  "",
+        "brandId":  "drg",
+        "specifications":  "\"Type: Control amplifier | Input Sensitivity / Impedance: Phono : 2.8mV/47k �Line : 140mV/47k � | Gain (1 kHz): Phono:34dBLine:17.0dB | Overload level (1 kHz): Phono:800mVLine:4.5V | Signal-to-noise ratio: Phono:78dBLine:84dB | Output impedance: Phono : 200 �Line : 220 � | RIAA deviation: 20 Hz to 20 kHz � 0.25 dB | THD \u0026 IM distortion factor: Not more than 0.1% | Maximum output level: 30 Vrms or more | Rise time: 0.9 Ï‰ s | Slew rate: 25 V / Ï‰ s | Input terminal: Phono, CD, Tuner, Aux, Tape1/2 | Vacuum tube used: two ECC81/12AT7/12AZ7/CV455one ECC82/12AU7 | Power supply voltage: AC100V/120V/220V/240V, 50Hz/60Hz | External dimensions: Width 320x Height 90x Depth 270 mm | Weight: 6.5kg\"",
+        "release_year":  "1980",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/DRG/amp/ny1mkii.jpg"
+    },
+    {
+        "url":  "https://audio-database.com/DRG/amp/mpa3.html",
+        "name":  "MPA3",
+        "id":  "drg-mpa3",
+        "original_price":  "",
+        "category":  "Amplifiers",
+        "description":  "\"KT88 Push-pull monaural power amplifier.The circuit is KT88 UL connection configuration and dual fixed bias is adopted.The power supply unit is designed to withstand twice the supply of full power, ensuring high stability.It is hand-made.The chassis has a 24-carat gold coating.\"",
+        "sub_category":  "",
+        "brandId":  "drg",
+        "specifications":  "\"Type: Monaural power amplifier | Rated output: 80W or More | Input Sensitivity / Impedance: 1.0Vrms/470k � | Load impedance: 4 ~ 15 � | Small signal distortion: 0.05% | Signal-to-noise ratio: 90dB | Frequency characteristic: 10 Hz to 100 kHz -3dB | Vacuum tube used: one 6AN8Atwo KT-88 | Power supply voltage: AC100V/120V/220V/240V, 50Hz/60Hz | External dimensions: Width 420x Height 200x Depth 300 mm | Weight: 17kg\"",
+        "release_year":  "1980",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/DRG/amp/mpa3.jpg"
+    }
+]

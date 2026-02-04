@@ -1,0 +1,14 @@
+﻿{
+    "url":  "https://audio-database.com/AUDIOINTERFACE/etc/cst-80ii.html",
+    "name":  "Audio",
+    "id":  "audiointerface-audio",
+    "original_price":  "¥120000",
+    "category":  "ETC",
+    "description":  "\"A step-up transformer for MC cartridges developed as a system for improving (step-up) playback quality in a musical sense.There are two types of CST-80/II, high impedance type H and low impedance type L.The CST-80/II was designed in a comprehensive and balanced manner using the Audio Interface Company\u0027s unique know-how called Controlled Parameter Circuitry (CPC). The CST-80/II was designed by introducing a computer, analyzing data comprehensively, and combining data from a hearing test with human ears.The CST-80/II features a new dual-mono construction and a symmetric independent mono configuration for the left and right channels, greatly reducing crosstalk and other issues.The transformer is manufactured by Jensen in the United States. The transformer of each channel is shielded by two layers of Ï‰ metal material. This ensures isolation between the transformers and makes it less susceptible to external hum.The transformer core is made of high-quality core material specified by Audio Interface, and frequency characteristics are improved by precisely winding high-purity copper wire.The input / output terminals are plated with 24 gold.\"",
+    "sub_category":  "",
+    "brandId":  "audiointerface",
+    "specifications":  "Type: MC step-up transformer | Model Name: CST-80/II H | Input impedance: 40 � | Load impedance: 47k � | Gain: 20dB | Frequency characteristic: 20 Hz to 95 kHz -1dB | Phase shift: + 3 � / -10 � (20 Hz ~ 20 kHz) | External dimensions: 76 mm wide x 51 mm high x 129 mm deep | Weight: 0.91kg",
+    "release_year":  "1988",
+    "verified":  true,
+    "image_url":  "https://audio-database.com/AUDIOINTERFACE/etc/cst-80ii.jpg"
+}

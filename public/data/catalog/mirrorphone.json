@@ -1,0 +1,87 @@
+﻿[
+    {
+        "url":  "https://audio-database.com/MIRRORPHONE/unit/ma-23g.html",
+        "name":  "Mirror",
+        "id":  "mirrorphone-mirror",
+        "original_price":  "¥4500",
+        "category":  "UNIT",
+        "description":  "\"Double cone type 20 cm full range speaker unit.The low-frequency diaphragm uses a metal-clad diaphragm composed of aluminum light alloy foils and styrene foam. This diaphragm is ten times stronger and more efficient than paper cone.In addition, a light metal diaphragm is used for the high frequency range.The voice coil uses a 52 mm diameter size.The edge uses a half-round roll edge made of cloth treated with synthetic resin.Yoke cover is not provided in consideration of resonance and effect on the volume inside the enclosure.\"",
+        "sub_category":  "",
+        "brandId":  "mirrorphone",
+        "specifications":  "\"Type: 20 cm full-range speaker unit | Max Input: 20W | Frequency characteristic: 20 Hz to 16 kHz | Resonant frequency: 25Hz | Impedance: 8 ¥, 16 � | Total flux: 160,000maxwell | Magnetic flux density: 11,000gauss | External dimensions: Diameter 230x Depth 91 mm | Baffle hole: 210mm | Weight: 2.0kg\"",
+        "release_year":  "1960",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/MIRRORPHONE/unit/ma-23g.jpg"
+    },
+    {
+        "url":  "https://audio-database.com/MIRRORPHONE/unit/ml-25gp.html",
+        "name":  "Mirror",
+        "id":  "mirrorphone-mirror",
+        "original_price":  "¥6900",
+        "category":  "UNIT",
+        "description":  "A 25 cm cone type woofer unit that uses metal clad diaphragm.A metal-clad diaphragm is used as the diaphragm of the unit. This diaphragm is composed of aluminum light alloy foils and styrene foam bonded together. It is ten times stronger and more efficient than a paper cone.The edge uses a half-round roll edge made of cloth treated with synthetic resin.Aluminum die-cast is used for the frame.Yoke cover is not provided in consideration of resonance and effect on the volume inside the enclosure.",
+        "sub_category":  "",
+        "brandId":  "mirrorphone",
+        "specifications":  "\"Type: 25 cm Cone Woofer | Max Input: 25W | Frequency characteristic: 25 Hz to 2.5 kHz | Resonant frequency: 27Hz | Impedance: 8 ¥, 16 � | Total flux: 160,000maxwell | Magnetic flux density: 11,000gauss | External dimensions: Diameter 261x Depth 110 mm | Baffle hole: 225mm | Weight: 2.1kg\"",
+        "release_year":  "1960",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/MIRRORPHONE/unit/ml-25gp.jpg"
+    },
+    {
+        "url":  "https://audio-database.com/MIRRORPHONE/unit/ml-31up.html",
+        "name":  "Mirror",
+        "id":  "mirrorphone-mirror",
+        "original_price":  "¥12000",
+        "category":  "UNIT",
+        "description":  "A 30 cm cone type woofer unit that uses metal clad diaphragm.A metal-clad diaphragm is used as the diaphragm of the unit. This diaphragm is composed of aluminum light alloy foils and styrene foam bonded together. It is ten times stronger and more efficient than a paper cone.The edge uses a half-round roll edge made of cloth treated with synthetic resin.Aluminum die-cast is used for the frame.Yoke cover is not provided in consideration of resonance and effect on the volume inside the enclosure.",
+        "sub_category":  "",
+        "brandId":  "mirrorphone",
+        "specifications":  "\"Type: 30 cm Cone Woofer | Max Input: 30W | Frequency characteristic: 20 Hz to 2 kHz | Resonant frequency: 20Hz | Impedance: 8 ¥, 16 � | Total flux: 180,000maxwell | Magnetic flux density: 11,000gauss | External dimensions: Diameter 310x Depth 150 mm | Baffle hole: 280mm | Weight: 3.4kg\"",
+        "release_year":  "1960",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/MIRRORPHONE/unit/ml-31up.jpg"
+    },
+    {
+        "url":  "https://audio-database.com/MIRRORPHONE/unit/ml-38vp.html",
+        "name":  "Mirror",
+        "id":  "mirrorphone-mirror",
+        "original_price":  "¥25000",
+        "category":  "UNIT",
+        "description":  "38 cm cone type woofer unit developed for professional use.A metal-clad diaphragm is used as the diaphragm of the unit. This diaphragm is composed of aluminum light alloy foils and styrene foam bonded together. It is ten times stronger and more efficient than a paper cone.The edge uses a half-round roll edge made of cloth treated with synthetic resin.Aluminum die-cast is used for the frame.Yoke cover is not provided in consideration of resonance and effect on the volume inside the enclosure.",
+        "sub_category":  "",
+        "brandId":  "mirrorphone",
+        "specifications":  "\"Type: 38 cm Cone Woofer | Max Input: 35W | Frequency characteristic: 18 Hz to 1.5 kHz | Resonant frequency: 20Hz | Impedance: 8 ¥, 16 � | Total flux: 380,000maxwell | Magnetic flux density: 13,500gauss | External dimensions: Diameter 383x Depth 200 mm | Baffle hole: 330mm | Weight: 7.8kg\"",
+        "release_year":  "1960",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/MIRRORPHONE/unit/ml-38vp.jpg"
+    },
+    {
+        "url":  "https://audio-database.com/MIRRORPHONE/unit/mm-15e.html",
+        "name":  "Mirror",
+        "id":  "mirrorphone-mirror",
+        "original_price":  "¥2800",
+        "category":  "UNIT",
+        "description":  "A 15 cm cone type mid-range unit developed for mid-range use.A metal-clad diaphragm is used for the diaphragm. This diaphragm is composed of aluminum light alloy foils and styrene foam bonded together. It is ten times stronger and more efficient than paper cone.The edge uses a half-round roll edge made of cloth treated with synthetic resin.Yoke cover is not provided in consideration of resonance and effect on the volume inside the enclosure.",
+        "sub_category":  "",
+        "brandId":  "mirrorphone",
+        "specifications":  "\"Type: 15 cm Cone Mid Range | Max Input: 20W | Frequency characteristic: 500 Hz to 6 kHz | Impedance: 8 ¥, 16 � | Total flux: 80,000maxwell | Magnetic flux density: 12,000gauss | External dimensions: Diameter 145x depth 77 mm | Baffle hole: 120mm | Weight: 1.1kg\"",
+        "release_year":  "1960",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/MIRRORPHONE/unit/mm-15e.jpg"
+    },
+    {
+        "url":  "https://audio-database.com/MIRRORPHONE/unit/mh-15d.html",
+        "name":  "Mirror",
+        "id":  "mirrorphone-mirror",
+        "original_price":  "¥3900",
+        "category":  "UNIT",
+        "description":  "A 15 cm cone type tweeter that uses metal clad diaphragm.A metal-clad diaphragm is used as the diaphragm of the unit. This diaphragm is composed of aluminum light alloy foils and styrene foam bonded together. It is ten times stronger and more efficient than a paper cone.Voice coil of 52 mm diameter is adopted.",
+        "sub_category":  "",
+        "brandId":  "mirrorphone",
+        "specifications":  "\"Type: 15 cm cone type tweeter | Max Input: 20W | Frequency characteristic: 1 kHz to 20 kHz | Impedance: 8 ¥, 16 � | Total flux: 110,000maxwell | Magnetic flux density: 12,000gauss | External dimensions: Diameter 145x Depth 55 mm | Baffle hole: 115mm | Weight: 1.1kg\"",
+        "release_year":  "1960",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/MIRRORPHONE/unit/mh-15d.jpg"
+    }
+]
+

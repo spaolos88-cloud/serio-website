@@ -1,0 +1,459 @@
+﻿[
+    {
+        "id":  "goldmund-stellavox-pw1",
+        "name":  "PW1",
+        "url":  "https://audio-database.com/GOLDMUND-STELLAVOX/amp/pw1-e.html",
+        "sub_category":  "",
+        "sections":  {
+                         "specifications":  "Type: Monaural power amplifier | Input: Route 2XLR balance : 1 systemRCA unbalanced : 1 line | Effective power: 200W (2 ~ 8 ) | Maximum power output: 250W (3 ) | Frequency characteristic: 6 Hz to 1 MHz 1 dB3 Hz to 1 MHz 1 dB | Maximum Power Consumption: 350W | External dimensions: Width 150x Height 65x Depth 270 mm | Weight: 4.2kg",
+                         "title":  "GOLDMUND-STELLAVOX PW1",
+                         "overview":  "A monaural power amplifier released by ????????, a professional audio brand of Gold Mundo.Equipped with a JOB circuit, an amplification module unique to Gold Mundo, it realizes a power of 200W in spite of its small size.A 1-dB step 10-position input attenuator is available for balanced and unbalanced input.Aluminum heat sink is used for the front panel."
+                     },
+        "category":  "Amplifiers",
+        "brandId":  "goldmund-stellavox",
+        "image_url":  "https://audio-database.com/pw1.JPG",
+        "original_price":  "¥250000",
+        "release_year":  "2000",
+        "verified":  true
+    },
+    {
+        "id":  "goldmund-stellavox-st2-96-24",
+        "name":  "ST2-96-24",
+        "url":  "https://audio-database.com/GOLDMUND-STELLAVOX/etc/st2-96-24-e.html",
+        "sub_category":  "",
+        "sections":  {
+                         "specifications":  "Type: D/A converter | Converter section: Gold Mundo \"DA96\" * Details not disclosed | Digital input: Route 3S/PDIF (RCA75 ) : 2 systemsAES/EBU (XLR 110 ) : 1 system | Analog output: Route 2RCA unbalanced : 1 lineXLR balance : 1 system | Frequency band: 20 Hz to 20 kHz 0.1 dB | Maximum Power Consumption: 5W | External dimensions: Width 150x Height 54x Depth 240 mm | Weight: 1.5kg | Remarks: Upgrade from ST2 to 96kHz/24bit ( 70,000)",
+                         "title":  "GOLDMUND-STELLAVOX ST2-96-24",
+                         "overview":  "Based on the D/A converter ST2 released by ????????, a professional audio brand of Gold Mundo, the DA converter module DA converter module has been updated to the newly developed 96kHz/24bit compatible DA96.The DA96 is designed to minimize the emission of high-frequency noise, minimize the signal path and increase the circuit speed by modularizing the four sections of the DIR, digital filter, D/A and analog filter with a jittering absorption function.It was also possible to upgrade from the normal ST2 to 96kHz/24bit compatible version."
+                     },
+        "category":  "ETC",
+        "brandId":  "goldmund-stellavox",
+        "image_url":  "https://audio-database.com/st2-96-24.JPG",
+        "original_price":  "¥280000",
+        "release_year":  "2000",
+        "verified":  true
+    },
+    {
+        "id":  "gotounit-sg-38w",
+        "name":  "SG-38W",
+        "url":  "https://audio-database.com/GOTOUNIT/unit/sg-38w-e.html",
+        "sub_category":  "",
+        "sections":  {
+                         "specifications":  "Method: 38 cm cone woofer unit | Nominal size: 38cm | Playback frequency band: 30 Hz to 600 Hz | Lowest resonance frequency: 27Hz | Crossover frequency: Fo ~ 500 Hz | Output sound pressure level: 110dB | Music power: 35W | V. C. Impedance: 8 ~ 16 | Total flux: 1,500,000maxwell | Magnetic flux density: 13,500gauss | Maximum external dimensions: 435mm | Gross weight: 24kg",
+                         "title":  "GOTOUNIT SG-38W",
+                         "overview":  "38 cm diameter cone type woofer for professionals.Flat cone is used for the diaphragm, and the lightest cone material in this class is pressed and hardened with special penetrant material. In addition, aluminum is used for the voice coil, and the coil diameter is taken into consideration to prevent sound quality degradation at large amplitude. In addition, the coil width and edge damper are carefully calculated to prevent deviation from the magnetic field."
+                     },
+        "category":  "UNIT",
+        "brandId":  "gotounit",
+        "image_url":  "https://audio-database.com/sg-38w.JPG",
+        "original_price":  "¥160000",
+        "release_year":  "1979",
+        "verified":  true
+    },
+    {
+        "id":  "gotounit-sg-16tt",
+        "name":  "SG-16TT",
+        "url":  "https://audio-database.com/GOTOUNIT/unit/sg-16tt-e.html",
+        "sub_category":  "",
+        "sections":  {
+                         "specifications":  "Method: Horn type tweeter unit | Music power: 5W | Impedance: 8 ~ 16 | Sound pressure level: 114dB | Frequency characteristic: 4 kHz to 25 kHz | Total flux: 350,000maxwell | Magnetic flux density: 24,000gauss | Optimal crossover: 5 kHz or more | Gap form: Permendur | Horn: S-3000, Aluminum Round Rod Hollowed | Diaphragm: Titanium FRP Edge | External dimensions: Diameter 125x Depth 115 mm",
+                         "title":  "GOTOUNIT SG-16TT",
+                         "overview":  "  125,000 (1 unit, after February 1978)  135,000 (1 unit, after May 1979))\n\nHorn type super tweeter developed for 4-way super high frequency band.The horn section consists of a circular aluminum bar hollowed out into a hyperbolic curve and is integrated with the driver. This horn provides a complete horn load horn load on the diaphragm and evenly applies the air impedance to all frequencies.The diaphragm, equalizer diaphragm, equalizer and horn is different from that of the SG-17 series.Titanium dome diaphragm and Mylar (FRP) edge are adopted.The voice coil uses an edgewise wound voice coil made of aluminum ribbon wire.Permendur is used for the magnetic circuit."
+                     },
+        "category":  "UNIT",
+        "brandId":  "gotounit",
+        "image_url":  "https://audio-database.com/sg-16tt.JPG",
+        "original_price":  "¥125000",
+        "release_year":  "1978",
+        "verified":  true
+    },
+    {
+        "id":  "gotounit-goto",
+        "name":  "GOTO",
+        "url":  "https://audio-database.com/GOTOUNIT/unit/sg-17s-a-e.html",
+        "sub_category":  "",
+        "sections":  {
+                         "specifications":  "Method: Horn type tweeter unit | Music power: 5W | Impedance: 8 ~ 16 | Sound pressure level: 110dB | Frequency characteristic: 2.5 kHz to 25 kHz | Total flux: 120,000maxwell | Magnetic flux density: 18,500gauss | Optimal crossover: 4 kHz or more | Horn: SG-17S : S-2000, Aluminum Round Rod HollowedSG-17SA:S-2500 | Diaphragm: FRP Edge | External dimensions: Diameter 105x Depth 130 mm",
+                         "title":  "GOTOUNIT GOTO",
+                         "overview":  "SG-17 series horn type tweeter unit.The horn section consists of a circular aluminum bar hollowed out into a hyperbolic curve and is integrated with the driver. This horn provides a complete horn load horn load on the diaphragm and evenly applies the air impedance to all frequencies.Type A has a modified horn with a cutoff frequency of 2.5 kHz.Uses Mylar (FRP) edge.The voice coil uses an edgewise wound voice coil made of aluminum ribbon wire.An external magnetic ring magnet is used for the magnetic circuit."
+                     },
+        "category":  "UNIT",
+        "brandId":  "gotounit",
+        "image_url":  "https://audio-database.com/sg-17s-a.JPG",
+        "original_price":  "¥49800",
+        "release_year":  "1978",
+        "verified":  true
+    },
+    {
+        "id":  "gotounit-sg-17tt-a",
+        "name":  "SG-17TT-A",
+        "url":  "https://audio-database.com/GOTOUNIT/unit/sg-17tt-a-e.html",
+        "sub_category":  "",
+        "sections":  {
+                         "specifications":  "Method: Horn type tweeter unit | Music power: 5W | Impedance: 8 ~ 16 | Sound pressure level: 113dB | Frequency characteristic: 2.5 kHz to 25 kHz | Total flux: 350,000maxwell | Magnetic flux density: 23,000gauss | Optimal crossover: 4 kHz or more | Gap form: Permendur | Horn: SG-17TT : S-2000, Aluminum Round Rod HollowedSG-17TTA:S-2500 | Diaphragm: Titanium FRP Edge | External dimensions: Diameter 125x Depth 150 mm",
+                         "title":  "GOTOUNIT SG-17TT-A",
+                         "overview":  "  115,000 (1 unit, after February 1978)  125,000 (1 unit, after May 1979))\n\nHorn-type tweeter unit with SG-17PS base and diaphragm changed to titanium dome and Mylar (FRP) edge.The horn section consists of a circular aluminum bar hollowed out into a hyperbolic curve and is integrated with the driver. This horn provides a complete horn load horn load on the diaphragm and evenly applies the air impedance to all frequencies.Type A has a modified horn with a cutoff frequency of 2.5 kHz.The voice coil uses an edgewise wound voice coil made of aluminum ribbon wire.Permendur is used for the magnetic circuit."
+                     },
+        "category":  "UNIT",
+        "brandId":  "gotounit",
+        "image_url":  "https://audio-database.com/sg-17tt-a.JPG",
+        "original_price":  "¥115000",
+        "release_year":  "1978",
+        "verified":  true
+    },
+    {
+        "id":  "gotounit-sg-70",
+        "name":  "SG-70",
+        "url":  "https://audio-database.com/GOTOUNIT/unit/sg-70-e.html",
+        "sub_category":  "",
+        "sections":  {
+                         "specifications":  "Method: Horn type tweeter unit | Music power: 5W | Impedance: 8 ~ 16 | Sound pressure level: 110dB | Frequency characteristic: 2.5 kHz to 25 kHz | Total flux: 38,000maxwell | Magnetic flux density: 15,000gauss | Optimal crossover: 4 kHz or more | Horn: S-2000, Aluminum Round Bar Hollowout, Mounting Type | Diaphragm: FRP Edge | External dimensions: Diameter 80x depth 43 mm",
+                         "title":  "GOTOUNIT SG-70",
+                         "overview":  "  36,000 (1 unit, after February 1978)  39,800 (1 unit, after May 1979))\n\nHorn type tweeter unit corresponding to the horn modification type of SG-7.The horn section uses a new type horn with a cutoff of 2.5 kHz attached to the board.The magnetic circuit is an internal magnet type.Uses Mylar (FRP) edge."
+                     },
+        "category":  "UNIT",
+        "brandId":  "gotounit",
+        "image_url":  "https://audio-database.com/sg-70.JPG",
+        "original_price":  "¥36000",
+        "release_year":  "1978",
+        "verified":  true
+    },
+    {
+        "id":  "gotounit-sg-160",
+        "name":  "SG-160",
+        "url":  "https://audio-database.com/GOTOUNIT/unit/sg-160-e.html",
+        "sub_category":  "",
+        "sections":  {
+                         "specifications":  "Method: Horn type tweeter unit | Music power: 5W | Impedance: 8 ~ 16 | Output sound pressure level: 115dB | Playback frequency band: 4 kHz to 30 kHz | Total flux: 600,000maxwell | Magnetic flux density: 24,000gauss | Optimal crossover: 5 kHz or more | Gap system: Permendur | Horn: S-3000, Aluminum Round Rod Hollowed | Diaphragm: Titanium, FRP Edge | External dimensions: Diameter 130x Depth 120 mm",
+                         "title":  "GOTOUNIT SG-160",
+                         "overview":  "  185,000 (1 unit, after February 1978)  195,000 (1 unit, after May 1979))\n\nA horn type tweeter unit based on the SG-16TT and incorporating the know-how obtained in the development of the SG-370BL/DX.The SG 160 combines the titanium dome diaphragm used in the SG-16TT with a 130 mm   magnetic circuit.SG-160 can be upgraded to SG-160BL in which the diaphragm is changed to beryllium dome."
+                     },
+        "category":  "UNIT",
+        "brandId":  "gotounit",
+        "image_url":  "https://audio-database.com/sg-160.JPG",
+        "original_price":  "¥185000",
+        "release_year":  "1978",
+        "verified":  true
+    },
+    {
+        "id":  "gotounit-sg-37frp",
+        "name":  "SG-37FRP",
+        "url":  "https://audio-database.com/GOTOUNIT/unit/sg-37frp-e.html",
+        "sub_category":  "",
+        "sections":  {
+                         "specifications":  "Method: Driver unit for middle and high range | Music power: 5W | Impedance: 8 ~ 16 | Sound pressure level: 110dB | Frequency characteristic: 400 Hz to 10 kHz | Total flux: 120,000maxwell | Magnetic flux density: 18,500gauss | Optimal crossover: 500 Hz or more | Horn: S-Series | Diaphragm: FRP Edge | External dimensions: Diameter 105x Depth 112 mm",
+                         "title":  "GOTOUNIT SG-37FRP",
+                         "overview":  "  52,500 (1 unit, after February 1978)  56,000 (1 unit, after May 1979))\n\nDriver unit for mid - and high-frequency band developed to match medium - and small--sized systems.FRP edge has been adopted."
+                     },
+        "category":  "UNIT",
+        "brandId":  "gotounit",
+        "image_url":  "https://audio-database.com/sg-37frp.JPG",
+        "original_price":  "¥52500",
+        "release_year":  "1978",
+        "verified":  true
+    },
+    {
+        "id":  "gotounit-sg-370",
+        "name":  "SG-370",
+        "url":  "https://audio-database.com/GOTOUNIT/unit/sg-370-e.html",
+        "sub_category":  "",
+        "sections":  {
+                         "specifications":  "Method: Driver unit for middle and high range | Music power: 5W | Impedance: 8 ~ 16 | Sound pressure level: 116dB | Frequency characteristic: 400 Hz to 18 kHz | Total flux: 600,000maxwell | Magnetic flux density: 23,000gauss | Optimal crossover: 500 Hz to 5 kHz | Gap form: Permendur | Horn: S-Series | Diaphragm: Titanium FRP Edge | External dimensions: Diameter 130x Depth 120 mm",
+                         "title":  "GOTOUNIT SG-370",
+                         "overview":  "  128,000 (1 unit, after February 1978)  148,000 (1 unit, after May 1979))\n\nDriver unit designed for 4-way middle and high frequencies.Titanium diaphragm and (FRP) edge are adopted for vibration system.Permendur is used for the magnetic circuit."
+                     },
+        "category":  "UNIT",
+        "brandId":  "gotounit",
+        "image_url":  "https://audio-database.com/sg-370.JPG",
+        "original_price":  "¥128000",
+        "release_year":  "1978",
+        "verified":  true
+    },
+    {
+        "id":  "gotounit-sg-370b",
+        "name":  "SG-370B",
+        "url":  "https://audio-database.com/GOTOUNIT/unit/sg-370b-e.html",
+        "sub_category":  "",
+        "sections":  {
+                         "specifications":  "Method: Driver unit for middle and high range | Music power: 5W | Impedance: 8 ~ 16 | Output sound pressure level: 116dB | Playback frequency band: 400 Hz to 20 kHz | Total flux: 1,100,000maxwell | Magnetic flux density: 24,000gauss | Optimal crossover: 500 Hz to 5 kHz | Gap system: Permendur | Horn: S-Series | Diaphragm: Beryllium Dome, Mylar FRP Edge | External dimensions: Diameter 140x Depth 130 mm",
+                         "title":  "GOTOUNIT SG-370B",
+                         "overview":  "  320,000 (1 unit, after February 1978)  350,000 (1 unit, after May 1979))\n\nDriver unit for mid and high frequency band using beryllium diaphragm.Beryllium diaphragm is used for the diaphragm.Beryllium is a very light element and has more than twice the hardness of titanium. However, it is unstable as it is, and toxic gas is generated when the crystal is broken. To improve this, the Goto Unit uses a molded powder of beryllium oxide beryllium oxide, which is specially treated to form a dome shape.Uses Mylar (FRP) edge for the edge part.The magnetic circuit uses a 140 mm   magnet that uses a large amount of permendur."
+                     },
+        "category":  "UNIT",
+        "brandId":  "gotounit",
+        "image_url":  "https://audio-database.com/sg-370bl.JPG",
+        "original_price":  "¥320000",
+        "release_year":  "1978",
+        "verified":  true
+    },
+    {
+        "id":  "gotounit-goto",
+        "name":  "GOTO",
+        "url":  "https://audio-database.com/GOTOUNIT/unit/sg-370dx-e.html",
+        "sub_category":  "",
+        "sections":  {
+                         "specifications":  "Method: Driver unit for middle and high range | Music power: 5W | Impedance: 8 ~ 16 | Output sound pressure level: 116dB | Playback frequency band: 400 Hz to 20 kHz | Total flux: 1,100,000maxwell | Magnetic flux density: 24,000gauss | Optimal crossover: 500 Hz to 5 kHz | Gap system: Permendur | Horn: S-Series | Diaphragm: Titanium Dome, Mylar FRP Edge | External dimensions: Diameter 140x Depth 130 mm",
+                         "title":  "GOTOUNIT GOTO",
+                         "overview":  "  238,000 (1 unit, after February 1978)  258,000 (1 unit, after May 1979))\n\nDriver unit for middle and high frequency band developed based on the know-how obtained in the development of SG-370BL.The SG-370DX has the same configuration as the SG-370BL, and the diaphragm is changed from beryllium to titanium.This diaphragm was developed based on the know-how obtained in the development process of the beryllium diaphragm, and a more rigid titanium dome was realized by improving the molding method.Uses Mylar (FRP) edge for the edge part.The magnetic circuit uses a 140 mm   magnet that uses a large amount of permendur."
+                     },
+        "category":  "UNIT",
+        "brandId":  "gotounit",
+        "image_url":  "https://audio-database.com/sg-370dx.JPG",
+        "original_price":  "¥238000",
+        "release_year":  "1978",
+        "verified":  true
+    },
+    {
+        "id":  "gotounit-goto",
+        "name":  "GOTO",
+        "url":  "https://audio-database.com/GOTOUNIT/unit/sg-555dx-e.html",
+        "sub_category":  "",
+        "sections":  {
+                         "specifications":  "Method: Driver Unit for Middle Range | Music power: 5W | Impedance: 8 ~ 16 | Output sound pressure level: 116dB | Playback frequency band: 100 Hz to 8 kHz | Total flux: 1,100,000maxwell | Magnetic flux density: 24,000gauss | Optimal crossover: 200 Hz to 4 kHz | Gap system: Permendur | Horn: S-Series | Diaphragm: Titanium Dome, Mylar FRP Edge | External dimensions: Diameter 140x Depth 130 mm",
+                         "title":  "GOTOUNIT GOTO",
+                         "overview":  "  238,000 (1 unit, after February 1978)  258,000 (1 unit, after May 1979))\n\nMid-range driver unit using titanium diaphragm.Uses Mylar (FRP) edge for the edge part.The magnetic circuit uses a 140 mm   magnet that uses a large amount of permendur."
+                     },
+        "category":  "UNIT",
+        "brandId":  "gotounit",
+        "image_url":  "https://audio-database.com/sg-555dx.JPG",
+        "original_price":  "¥238000",
+        "release_year":  "1978",
+        "verified":  true
+    },
+    {
+        "id":  "gotounit-goto",
+        "name":  "GOTO",
+        "url":  "https://audio-database.com/GOTOUNIT/unit/sg-555frp-e.html",
+        "sub_category":  "",
+        "sections":  {
+                         "specifications":  "Method: Driver Unit for Middle Range | Music power: 5W | Impedance: 8 ~ 16 | Sound pressure level: 112dB | Frequency characteristic: 100 Hz to 6 kHz | Total flux: 350,000maxwell | Magnetic flux density: 15,000gauss | Optimal crossover: 200 Hz to 4 kHz | Horn: S-Series | Diaphragm: FRP Edge | External dimensions: Diameter 125x Depth 110 mm",
+                         "title":  "GOTOUNIT GOTO",
+                         "overview":  "Mid-range driver unit which is an improved version of SG 555 s.Hard duralumin diaphragm is used for the diaphragm, and Mylar (FRP) is used for the edge to improve the sound roughness of the SG-555S."
+                     },
+        "category":  "UNIT",
+        "brandId":  "gotounit",
+        "image_url":  "https://audio-database.com/sg-555frp.JPG",
+        "original_price":  "¥68500",
+        "release_year":  "1978",
+        "verified":  true
+    },
+    {
+        "id":  "gotounit-goto",
+        "name":  "GOTO",
+        "url":  "https://audio-database.com/GOTOUNIT/unit/sg-555ps-e.html",
+        "sub_category":  "",
+        "sections":  {
+                         "specifications":  "Method: Driver Unit for Middle Range | Music power: 5W | Impedance: 8 ~ 16 | Sound pressure level: 115dB | Frequency characteristic: 100 Hz to 6 kHz | Total flux: 600,000maxwell | Magnetic flux density: 23,000gauss | Optimal crossover: 200 Hz to 4 kHz | Gap form: Permendur | Horn: S-Series | Diaphragm: FRP Edge | External dimensions: Diameter 130x Depth 120 mm",
+                         "title":  "GOTOUNIT GOTO",
+                         "overview":  "  118,000 (1 unit, after February 1978)  138,000 (1 unit, after May 1979))\n\nDriver unit for middle range of SG 555 series.Hard duralumin diaphragm is used for the diaphragm, and Mylar (FRP) is used for the edge.The magnetic circuit uses a 130 mm   x60mm alnico ring magnet using Permendur."
+                     },
+        "category":  "UNIT",
+        "brandId":  "gotounit",
+        "image_url":  "https://audio-database.com/sg-555ps.JPG",
+        "original_price":  "¥118000",
+        "release_year":  "1978",
+        "verified":  true
+    },
+    {
+        "id":  "gotounit-goto",
+        "name":  "GOTO",
+        "url":  "https://audio-database.com/GOTOUNIT/unit/sg-555tt-e.html",
+        "sub_category":  "",
+        "sections":  {
+                         "specifications":  "Method: Driver Unit for Middle Range | Music power: 5W | Impedance: 8 ~ 16 | Sound pressure level: 115dB | Frequency characteristic: 100 Hz to 6 kHz | Total flux: 600,000maxwell | Magnetic flux density: 23,000gauss | Optimal crossover: 200 Hz to 4 kHz | Gap form: Permendur | Horn: S-Series | Diaphragm: Titanium FRP Edge | External dimensions: Diameter 130x Depth 120 mm",
+                         "title":  "GOTOUNIT GOTO",
+                         "overview":  "  128,000 (1 unit, after February 1978)  148,000 (1 unit, after May 1979))\n\nMid-range driver unit using titanium diaphragm.Titanium diaphragm of 55.5 mm diameter is adopted for the diaphragm, and (FRP) edge is adopted for the edge."
+                     },
+        "category":  "UNIT",
+        "brandId":  "gotounit",
+        "image_url":  "https://audio-database.com/sg-555tt.JPG",
+        "original_price":  "¥128000",
+        "release_year":  "1978",
+        "verified":  true
+    },
+    {
+        "id":  "gotounit-s-150",
+        "name":  "S-150",
+        "url":  "https://audio-database.com/GOTOUNIT/unit/s-150-e.html",
+        "sub_category":  "",
+        "sections":  {
+                         "specifications":  "Method: Mid-range horn | Total Length: 1,440mm | Opening diameter: 750 mm | Cutoff frequency: 150Hz | Optimal crossover: 200 Hz to 250 Hz | Material: Aluminum diaphragm | Shape: Round Straight",
+                         "title":  "GOTOUNIT S-150",
+                         "overview":  "  48,500 (1 unit, after February 1978)  52,500 (1 unit, after May 1979))\n\nRound hyperbolic straight horn with total length of 1,440 mm."
+                     },
+        "category":  "UNIT",
+        "brandId":  "gotounit",
+        "image_url":  "https://audio-database.com/s-150.JPG",
+        "original_price":  "¥48500",
+        "release_year":  "1978",
+        "verified":  true
+    },
+    {
+        "id":  "gotounit-s-175",
+        "name":  "S-175",
+        "url":  "https://audio-database.com/GOTOUNIT/unit/s-175-e.html",
+        "sub_category":  "",
+        "sections":  {
+                         "specifications":  "Method: Mid-range horn | Total Length: 1,145mm | Opening diameter: 618 mm | Cutoff frequency: 175Hz | Optimal crossover: 220 Hz to 300 kHz | Material: Aluminum Casting, Iron Plate | Shape: Morning facial shape straight",
+                         "title":  "GOTOUNIT S-175",
+                         "overview":  "Straight horn of morning facial shape.The throat of this horn is made of aluminum cast aluminum, and the flare part is welded finish of iron plate."
+                     },
+        "category":  "UNIT",
+        "brandId":  "gotounit",
+        "image_url":  "https://audio-database.com/s-175.JPG",
+        "original_price":  "¥70000",
+        "release_year":  "1978",
+        "verified":  true
+    },
+    {
+        "id":  "gotounit-s-200",
+        "name":  "S-200",
+        "url":  "https://audio-database.com/GOTOUNIT/unit/s-200-e.html",
+        "sub_category":  "",
+        "sections":  {
+                         "specifications":  "Method: Mid-range horn | Total Length: 960mm | Opening diameter: 540 mm | Cutoff frequency: 200Hz | Optimal crossover: 300 Hz to 350 Hz | Material: Aluminum diaphragm | Shape: Round Straight",
+                         "title":  "GOTOUNIT S-200",
+                         "overview":  "  38,500 (1 unit, after February 1978)  42,500 (1 unit, after May 1979))\n\nRound hyperbolic straight horn with total length of 960 mm."
+                     },
+        "category":  "UNIT",
+        "brandId":  "gotounit",
+        "image_url":  "https://audio-database.com/s-200.JPG",
+        "original_price":  "¥38500",
+        "release_year":  "1978",
+        "verified":  true
+    },
+    {
+        "id":  "gotounit-s-300a",
+        "name":  "S-300A",
+        "url":  "https://audio-database.com/GOTOUNIT/unit/s-300a-e.html",
+        "sub_category":  "",
+        "sections":  {
+                         "specifications":  "Method: Mid-range horn | Total Length: 560mm | Opening diameter: 400 mm | Cutoff frequency: 300Hz | Optimal crossover: 500 Hz to 600 Hz | Material: Aluminum diaphragm | Shape: Round Straight",
+                         "title":  "GOTOUNIT S-300A",
+                         "overview":  "  26,800 (1 unit, after February 1978)  28,500 (1 unit, after May 1979))\n\nA mid-range horn that is an improved version of the aluminum casting horn S-300.Can be used as a horn for both SG 555 series drivers and SG 37 series drivers."
+                     },
+        "category":  "UNIT",
+        "brandId":  "gotounit",
+        "image_url":  "https://audio-database.com/s-300a.JPG",
+        "original_price":  "¥26800",
+        "release_year":  "1978",
+        "verified":  true
+    },
+    {
+        "id":  "gotounit-s-400",
+        "name":  "S-400",
+        "url":  "https://audio-database.com/GOTOUNIT/unit/s-400-e.html",
+        "sub_category":  "",
+        "sections":  {
+                         "specifications":  "Method: Mid-range horn | Total Length: 400mm | Opening diameter: 300 mm | Cutoff frequency: 400Hz | Optimal crossover: 600Hz | Material: Aluminum diaphragm | Shape: Round Straight",
+                         "title":  "GOTOUNIT S-400",
+                         "overview":  "  19,500 (1 unit, after February 1978)  23,500 (1 unit, after May 1979))\n\nA horn designed for mid-range and mid-range use in relatively small enclosures.Can be used as an enclosure loading horn."
+                     },
+        "category":  "UNIT",
+        "brandId":  "gotounit",
+        "image_url":  "https://audio-database.com/s-400.JPG",
+        "original_price":  "¥19500",
+        "release_year":  "1978",
+        "verified":  true
+    },
+    {
+        "id":  "gotounit-s-500",
+        "name":  "S-500",
+        "url":  "https://audio-database.com/GOTOUNIT/unit/s-500-e.html",
+        "sub_category":  "",
+        "sections":  {
+                         "specifications":  "Method: Mid-range horn | Total Length: 300mm | Opening diameter: 220 mm | Cutoff frequency: 500Hz | Optimal crossover: 800 Hz to 1 kHz | Material: Aluminum diaphragm | Shape: Round Straight",
+                         "title":  "GOTOUNIT S-500",
+                         "overview":  "  15,800 (1 unit, after February 1978)  19,500 (1 unit, after May 1979))\n\nA horn that can be used for middle and high range by combining with SG 370, etc.A 4-way system can be configured by changing the S-150 for mid-range use and the S-500 for mid-range use."
+                     },
+        "category":  "UNIT",
+        "brandId":  "gotounit",
+        "image_url":  "https://audio-database.com/s-500.JPG",
+        "original_price":  "¥15800",
+        "release_year":  "1978",
+        "verified":  true
+    },
+    {
+        "id":  "gotounit-s-600",
+        "name":  "S-600",
+        "url":  "https://audio-database.com/GOTOUNIT/unit/s-600-e.html",
+        "sub_category":  "",
+        "sections":  {
+                         "specifications":  "Method: Mid-range horn | Total Length: 232mm | Opening diameter: 180 mm | Cutoff frequency: 600Hz | Optimal crossover: 1 kHz to 1.2 kHz | Material: Aluminum diaphragm | Shape: Round Straight",
+                         "title":  "GOTOUNIT S-600",
+                         "overview":  "  15,000 (1 unit, after February 1978)  18,500 (1 unit, after May 1979))\n\nA horn for middle and high frequencies with a cutoff of 600 Hz.It is originally used at 1.2 kHz or higher, but it is practical at 1 kHz because of the hyper ???? curve."
+                     },
+        "category":  "UNIT",
+        "brandId":  "gotounit",
+        "image_url":  "https://audio-database.com/s-600.JPG",
+        "original_price":  "¥15000",
+        "release_year":  "1978",
+        "verified":  true
+    },
+    {
+        "id":  "gotounit-cf-1",
+        "name":  "CF-1",
+        "url":  "https://audio-database.com/GOTOUNIT/etc/cf-1-e.html",
+        "sub_category":  "",
+        "sections":  {
+                         "specifications":  "Type: Channel dividing amplifier | Split band: L channel : 220 Hz or lessM channel : 220 Hz to 1 kHzMH channel : 1 kHz to 5 kHzH-channel : 5 kHz or more | Crossover frequency deviation: Within 4% | Damping property: 18dB/oct | Passband gain: -1dB (with output regulator for M, MH and H channels) | Input impedance: 50k | Output impedance: 300 or less (at maximum output for M, MH, and H channels) | Maximum allowable input: 3Vrms | Distortion factor: 0.15% or Less (at 1 V Input) | Signal-to-noise ratio: 90 dB or more (at each channel input of 1 V) | Pwer: 100 VAC, 50Hz/60Hz | Power consumption: Approximately 1.5 VA",
+                         "title":  "GOTOUNIT CF-1",
+                         "overview":  "3-way :   65,000 (around 1978)4-way :   75,000 (around 1978)\n\nChannel divider designed for 4-way use using Goto unit.The CF-1 was designed for 4-way use, but it could be used from 3-way to upgrade to 4-way.NF type with sharp cut-off characteristics and good shoulder characteristics is adopted for the circuit type.We use carefully selected parts.The printed circuit board of the filter part is fixed type rather than plug-in type, which suppresses noise caused by contact resistance.A constant voltage circuit is used for the power supply."
+                     },
+        "category":  "ETC",
+        "brandId":  "gotounit",
+        "image_url":  "https://audio-database.com/cf-1.JPG",
+        "original_price":  "¥65000",
+        "release_year":  "1978",
+        "verified":  true
+    },
+    {
+        "id":  "gotounit-sd-4000",
+        "name":  "SD-4000",
+        "url":  "https://audio-database.com/GOTOUNIT/etc/sd-4000-e.html",
+        "sub_category":  "",
+        "sections":  {
+                         "specifications":  "Type: LC type network | Model Name: SD-4000 | Use: 2way | Crossover frequency: 4kHz | Attenuation: 12dB/oct | Coil used: 1.2 Copper Air Core Coil",
+                         "title":  "GOTOUNIT SD-4000",
+                         "overview":  "Network by LC division method.SD-4000 is for 2-way use, and SD-4300A / SD-4300B / SD-4500 / SD-4600 is for 3-way use.Air-core coil using 1.2   enamel wire is adopted for SD-4000, SD-4300A, SD-4500 and SD-4600.In addition, an air core coil using a 1.5   enamel wire is adopted for SD 4300 b.A MP capacitor is used.There are two types of cutoff characteristics, 12 dB and 6 dB, and they are manufactured while measuring each unit."
+                     },
+        "category":  "ETC",
+        "brandId":  "gotounit",
+        "image_url":  "https://audio-database.com/sd-4000.JPG",
+        "verified":  true
+    },
+    {
+        "id":  "grantlumley-grant",
+        "name":  "GRANT",
+        "url":  "https://audio-database.com/GRANTLUMLEY/amp/gl-50a-e.html",
+        "sub_category":  "",
+        "sections":  {
+                         "specifications":  "Type: Stereo power amplifier | Effective power: 50W + 50W (8 ) | Output bandwidth: 20 Hz to 25 kHz | Input sensitivity: 1.0V | Input impedance: 100k | Signal-to-noise ratio: 78 dB or more | Vacuum tube used: ECC82 : 4KT-77 : 4 | Pwer: 110 VAC, 50Hz/60Hz | External dimensions: Width 484x Height 200x Depth 258 mm | Weight: 16.5kg",
+                         "title":  "GRANTLUMLEY GRANT",
+                         "overview":  "This is a stereo power amplifier from Grand Ramray Inc. in England, which started under the close relationship with The M-O Valve Company which is famous as a vacuum tube manufacturer.KT-77 of \"Gold Lion\" brand made by M-O Valve Company is used for the output tube.Class AB1 push-pull configuration with ultra-linear connection and fixed bias system."
+                     },
+        "category":  "Amplifiers",
+        "brandId":  "grantlumley",
+        "image_url":  "https://audio-database.com/gl-50a.JPG",
+        "original_price":  "¥398000",
+        "release_year":  "1980",
+        "verified":  true
+    },
+    {
+        "id":  "grantlumley-grant",
+        "name":  "GRANT",
+        "url":  "https://audio-database.com/GRANTLUMLEY/amp/gl-100a-e.html",
+        "sub_category":  "",
+        "sections":  {
+                         "specifications":  "Type: Stereo power amplifier | Effective power: 70W + 70W (8 ) | Output bandwidth: 20 Hz to 25 kHz | Input sensitivity: 1.2V | Input impedance: 100k | Signal-to-noise ratio: 86 dB or more | Vacuum tube used: ECC83 : 2ECC82 : 2KT-88 : 4 | Pwer: 110 VAC, 50Hz/60Hz | External dimensions: Width 510x Height 229x Depth 307 mm | Weight: 36kg",
+                         "title":  "GRANTLUMLEY GRANT",
+                         "overview":  "This is a stereo power amplifier from Grand Ramray Inc. in England, which started under the close relationship with The M-O Valve Company which is famous as a vacuum tube manufacturer.The circuit system is the same as GL-50A, and GL-100A uses KT-88 for the output tube to increase the output.Like the GL-50A, it is finished by hand wiring using a lug plate instead of a printed circuit board."
+                     },
+        "category":  "Amplifiers",
+        "brandId":  "grantlumley",
+        "image_url":  "https://audio-database.com/gl-100a.JPG",
+        "original_price":  "¥580000",
+        "release_year":  "1980",
+        "verified":  true
+    }
+]

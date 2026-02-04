@@ -1,0 +1,59 @@
+﻿[
+    {
+        "url":  "https://audio-database.com/AUDIONIX/speaker/pad-202.html",
+        "name":  "PAD-202",
+        "id":  "audionix-pad-202",
+        "original_price":  "¥39000",
+        "category":  "SPEAKER",
+        "description":  "\"A bookshelf type speaker system using a Philips speaker unit.A 20 cm double-cone type full-range unit, 9710M/01, is used for the mid-low range.This unit uses an Alnico V system magnet for the magnetic circuit.A 3-cm domed tweeter, 0160/T, is installed in the high range.The enclosure is a bass reflex system, and a hard particle board of 21 mm thickness is used for the plate material.\"",
+        "sub_category":  "",
+        "brandId":  "audionix",
+        "specifications":  "\"Method: 2-Way, 2-Speaker, Bass Reflex System, Bookshelf Type | Units Used: For Middle Low Band : 20 cm Cone Type (9710M/01)For High Range : 3 cm Dome Type (0160/T) | Frequency characteristic: 35 Hz to 20 kHz | Impedance: 8 � | Maximum allowable input: 40W | Rated input: 20W | fo: 45Hz | Output sound pressure level: 93dB/W/m | Crossover frequency: 2kHz/12dB/oct | External dimensions: Width 320x Height 580x Depth 260 mm | Weight: 15kg\"",
+        "release_year":  "1970",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/AUDIONIX/speaker/pad-202.jpg"
+    },
+    {
+        "url":  "https://audio-database.com/AUDIONIX/etc/adn-iii.html",
+        "name":  "ADN-III",
+        "id":  "audionix-adn-iii",
+        "original_price":  "¥70000",
+        "category":  "ETC",
+        "description":  "\"MC pre-preamp with independent power supply system for left and right.Each of the L and R channels is equipped with an independent power supply circuit and an amplifier circuit, which eliminates the crosstalk and dynamic crosstalk that occur when driven by a single power supply.An FET transistor is used as the output element. By selecting and combining FETs of different types in consideration of the characteristics of various FETs, linearity is improved in the small current region and low distortion factor is achieved. By connecting FETs of different types in parallel, noise in the amplification stage is reduced.We also reduce noise and improve S/N by selecting resistance elements, absorbing noise at noise sources, and shielding each circuit.Gold plated terminals are used for input / output terminals, and surface treatment and thickness of wire are taken into consideration in consideration of the effect of wire material on characteristics.By considering the amplification stage and power supply section, the gain that can be used from low output type to high output type is set.The power supply circuit has a 2-stage structure with an upper part and an amplifier part at the lower part, and the shortest wiring is used.The exterior is treated with a hammer net paint that strengthens the paint surface and makes dirt inconspicuous.\"",
+        "sub_category":  "",
+        "brandId":  "audionix",
+        "specifications":  "Type: Head Amplifier for MC | Frequency characteristic: 6 hz ~ 500 khz + 0 -1dB | Gain: 26 dB (3 � / 47k �) | Input reduced noise: -144dB(RIAA+IHF-A) | Total harmonic distortion factor: 0.003% | Input impedance: 68 � | Output impedance: 400 � | Separation: Undetectable | Power consumption: 5W | External dimensions: 76 mm wide x 110 mm high x 233 mm deep | Weight: 1.82kg",
+        "release_year":  "1978",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/AUDIONIX/etc/adn-iii.jpg"
+    },
+    {
+        "url":  "",
+        "name":  "Specifications",
+        "id":  "audionix-specifications",
+        "original_price":  "",
+        "category":  "General",
+        "description":  "\"Finished goods : ¥49,800 (around 1982)Kit : ¥43,000 (around 1982)",
+        "sub_category":  "",
+        "brandId":  "audionix",
+        "specifications":  "Type: Booster transformer | Gain: 32 dB (40 x) | Recommended representative model: DENON : DL103 SeriesOrtofon : MC Series | External dimensions: TH-7559 : 49 mm diameter x 53 mm height",
+        "release_year":  "1982",
+        "verified":  false,
+        "image_url":  ""
+    },
+    {
+        "url":  "",
+        "name":  "Specifications",
+        "id":  "audionix-specifications",
+        "original_price":  "",
+        "category":  "General",
+        "description":  "\"Finished goods : ¥108,000 (around 1982)Kit : ¥88,000 (around 1982)",
+        "sub_category":  "",
+        "brandId":  "audionix",
+        "specifications":  "\"Type: Booster transformer | Gain: 38 dB (79 times) | Recommended representative model: DENON : DL300 SeriesOrtofon : SPU series, MC20mkII, MC30EMT, etc. | External dimensions: TH-7834 : Diameter 52x Height 60 mm\"",
+        "release_year":  "1982",
+        "verified":  false,
+        "image_url":  ""
+    }
+]
+

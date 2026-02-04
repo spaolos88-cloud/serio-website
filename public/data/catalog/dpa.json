@@ -1,0 +1,30 @@
+﻿[
+    {
+        "url":  "https://audio-database.com/DPA/etc/littlebit.html",
+        "name":  "LITTLEBIT",
+        "id":  "dpa-littlebit",
+        "original_price":  "",
+        "category":  "ETC",
+        "description":  "D/A converter using bit stream 7350 chip.The input format is the SONY/Philips Biphase Format (SPDIF) Standard and uses a 7350 bit stream chip.Fully differential balanced mode with a sampling rate of 384 x.The digital filter uses 8 x oversampling of 18 bits.Dark green aluminum die-cast case is used for the case.The power supply is equipped with separate regulators for digital and analog power.Gold-plated terminals are used for input / output terminals.",
+        "sub_category":  "",
+        "brandId":  "dpa",
+        "specifications":  "Type: D/A converter | Input: SONY/Philips Biphase(SPDIF) Standard | Output: 2.0Vrms/0.01 � | Conversion: Fully differential balancedPassive EQBitstream 7350PDM | Indicator: 1 Green LED : Power ON/OFF | External dimensions: Width 197x Height 74x Depth 218 mm",
+        "release_year":  "1990",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/DPA/etc/littlebit.jpg"
+    },
+    {
+        "url":  "https://audio-database.com/DPA/etc/pdm-1-2.html",
+        "name":  "PDM-1-2",
+        "id":  "dpa-pdm-1-2",
+        "original_price":  "",
+        "category":  "ETC",
+        "description":  "\"D/A converter announced as an upgraded model of PDM-1.The input format is SONY/Philips Biphase Format TYPE1 Standard.The chip is a bit stream type 7350 chip.Fully differential balanced mode with a sampling rate of 384 x.The digital filter uses an 8-times oversampling 18-bit filter.For the analog circuit, OH-OA32 which is Hybrid OP-Amp of Dell Tech is adopted.There is an LED indicator on the front panel that shows power on/off and digital lock.The power supply consists of two power supplies with independent regulators for digital and analog power supplies.Dark green aluminum die-cast case is used for the case.Gold-plated terminals are used for input / output terminals.\"",
+        "sub_category":  "",
+        "brandId":  "dpa",
+        "specifications":  "\"Type: D/A converter | Input: SONY/Philips Biphase Format Type1 Standard | Output: 2.0Vrms/0.01 � | Conversion: Fully differential balancedPassive EQBitstream 7350PDM | Indicator: 2 Green LEDs : Power ON/OFF, digital data lock | External dimensions: Width 197x Height 74x Depth 218 mm\"",
+        "release_year":  "1990",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/DPA/etc/pdm-1-2.jpg"
+    }
+]

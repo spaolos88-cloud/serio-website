@@ -1,0 +1,31 @@
+﻿[
+    {
+        "url":  "https://audio-database.com/ROKSAN/player/rok-dp-e.html",
+        "name":  "ROK-DP",
+        "id":  "roksan-rok-dp",
+        "original_price":  "¥400000",
+        "category":  "Source",
+        "description":  "\"CD transport with top-loading mechanism.By adopting a separate configuration without a D/A converter, we not only prevent digital / analog signal interference for a reasonable upgrade of the D/A converter.In the same way as the \"\"Xerces\"\" turntable system developed by ROKSAN, we are conducting a rigorous analysis.From this analysis, we discovered a critical lack of signal reading accuracy in the CD player, and improved the ambiguity of the mechanical accuracy of the laser pickup support system and the uncertainty of the servo response.Wireless remote control is included.\"",
+        "sub_category":  "Player",
+        "brandId":  "roksan",
+        "specifications":  "\"Type: CD Transport | Digital output: Coaxial : 1 systemOptical (ST Link) : 1 system | Attachment mechanism: Program memoryTrack No SearchSpeed searchRepeatRemote control | Pwer: 100 VAC, 50Hz/60Hz | External dimensions: Width 451x Height 129x Depth 359 mmLid Open : Height 256 mm | Weight: 6.5kg | Attachment: Remote control\"",
+        "release_year":  "1992",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/ROKSAN/player/rok-dp.JPG"
+    },
+    {
+        "url":  "https://audio-database.com/ROKSAN/etc/rok-da1-e.html",
+        "name":  "ROK-DA1",
+        "id":  "roksan-rok-da1",
+        "original_price":  "¥200000",
+        "category":  "ETC",
+        "description":  "\"D/A converter unit exclusively for 75 � coaxial digital input developed with CD Transport ROK-DP1.The signal board is fixed directly inside the rear panel to guide the input signal to the circuit at the shortest distance and to send it out at the shortest distance.In addition, in order to avoid degradation of sound quality due to wiring and switch contact, etc., input is one coaxial system and output is one analog system only.The power supply of the toroidal transformer is mounted on the part of the under chassis, and the position where the interference with the signal system is minimized is selected and fixed. Moreover, the digital part and the analog part are separated to suppress mutual interference.The D/A converter / A converter is a 1-bit type of 64 x oversampling delta-sigma system manufactured by Crystal Semiconductors, Inc. of the United States. The power and ground patterns of the digital and analog sections are completely independent of each other, reducing interference between digital and analog circuits through the power and ground lines.The digital circuit is equipped with an 8 x oversampling digital filter.In addition to 44.1 kHz sampling frequency, 48 kHz and 32 kHz signals are also available.The ROK-DA1 signal board can be easily replaced to accommodate future upgrades.As a separately sold option, there was an external power supply unit to further enhance the sound quality of ROK-DA1.\"",
+        "sub_category":  "",
+        "brandId":  "roksan",
+        "specifications":  "\"Type: D/A converter | Input: Coaxial digital : 1 system | Output: Analog : stereo1 system | Sampling frequency: 32 kHz, 44.1 kHz, 48 kHz (automatic) | Dynamic range: 97dB | Signal-to-noise ratio: 126dB | S / (N + D) ratio: 94dB | Phase deviation: ¥0.5 degrees | Channel separation: 100 dB or more | DC Offset: Within ¥1 mv | Rated output: 2.0Vrms | Pwer: 100 VAC, 50Hz/60Hz | Power consumption: 10W max. | External dimensions: Width 215x Height 80x Depth 325 mm | Weight: 3kg | Sold Separately: External Power Supply Unit ROK-DS1 (¥280,000)\"",
+        "release_year":  "1992",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/ROKSAN/etc/rok-da1.JPG"
+    }
+]
+

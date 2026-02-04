@@ -1,0 +1,45 @@
+﻿[
+    {
+        "url":  "https://audio-database.com/CHARIO/speaker/hiperx.html",
+        "name":  "HIPERX",
+        "id":  "chario-hiperx",
+        "original_price":  "¥110000",
+        "category":  "SPEAKER",
+        "description":  "\"Speaker system using Italian solid walnut.A 12.5 cm cone type woofer made of polypropylene cone is mounted in the low range.A 2.5 cm soft dome type tweeter is installed in the high range.Butterworth type is used for the network part.The enclosure uses a bass reflex system.Italian solid walnut is used for the plate material. It is made through a luxurious process of cutting 38 mm thick walnut material to 30 mm. The structure is also acoustically examined. The use of thick solid wood suppresses unnecessary squealing, and uses a six sided round edge to eliminate diffraction effects and a bass reflex duct to improve transient characteristics.It is finished by hand by Michaelangelo Dara Fontana.There was a special speaker stand as an option sold separately.\"",
+        "sub_category":  "",
+        "brandId":  "chario",
+        "specifications":  "\"Method: 2-Way, 2-Speaker, Bass Reflex System, Bookshelf Type | Units Used: For low band : 12.5 cm cone typeFor high-pass : 2.5 cm dome type | Frequency characteristic: 50 Hz to 20 kHz | Impedance: 8 � | Output sound pressure level: 84dB SPL(2.83V/1m) | Network: Butterworth Type | Crossover frequency: 2.5kHz | Recommended amplifier output: 50W ~ 100W | External dimensions: Width 220x Height 320x Depth 308 mm | Weight: 9.5kg | Sold Separately: Dedicated Speaker Stand (2 Set, ¥45,000)\"",
+        "release_year":  "1990",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/CHARIO/speaker/hiperx.jpg"
+    },
+    {
+        "url":  "https://audio-database.com/CHARIO/speaker/hiper3x.html",
+        "name":  "HIPER3X",
+        "id":  "chario-hiper3x",
+        "original_price":  "¥198000",
+        "category":  "SPEAKER",
+        "description":  "\"Speaker system using Italian solid walnut.A 20 cm cone type woofer made of polypropylene cone is mounted in the low range.The mid-range features a 3.9 cm soft dome mid-range, and the high-range features a 2.5 cm soft dome tweeter.The network section uses a secondary link Witz-Riley type.The enclosure uses a bass reflex system.Italian solid walnut is used for the plate material. It is made through a luxurious process of cutting 38 mm thick walnut material to 30 mm. The structure is also acoustically examined. The use of thick solid wood suppresses unnecessary squealing, and uses a six sided round edge to eliminate diffraction effects and a bass reflex duct to improve transient characteristics.It is finished by hand by Michaelangelo Dara Fontana.\"",
+        "sub_category":  "",
+        "brandId":  "chario",
+        "specifications":  "\"Method: 3-Way, 3-Speaker, Bass reflex system, Bookshelf Type | Units Used: For low band : 20 cm cone typeFor Middle Area : 3.9 cm Dome TypeFor high-pass : 2.7 cm dome type | Frequency characteristic: 50 Hz to 20 kHz | Impedance: 4 � | Output sound pressure level: 86dB SPL(2.83V/1m) | Network: Link Wits Riley Type | Crossover frequency: 800 Hz, 1.4 kHz | Recommended amplifier output: 50W ~ 150W | External dimensions: Width 291x Height 520x Depth 330 mm | Weight: 19kg\"",
+        "release_year":  "1990",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/CHARIO/speaker/hiper3x.jpg"
+    },
+    {
+        "url":  "https://audio-database.com/CHARIO/speaker/reference100.html",
+        "name":  "REFERENCE100",
+        "id":  "chario-reference100",
+        "original_price":  "¥29800",
+        "category":  "SPEAKER",
+        "description":  "\"A bookshelf type speaker system with a bass reflex port at the bottom.A 13 cm cone type woofer is installed in the low range.This unit uses a paper cone that has been doped as a diaphragm.A 2.7 cm dome-shaped tweeter is installed in the high range.A textile dome diaphragm is used for the diaphragm.The crossover frequency is set to 1.950 Hz, which is lower than the average 2-way speaker. This minimizes the distortion caused by the high frequency coverage of the woofer and enables wide-clear mid-range playback.The enclosure uses a bass reflex system.In Reference100, a woofer is laid out in the upper part. The top plate near the woofer vibrates to prevent the decrease of the low range. The bass reflex port is laid out in the bottom part away from the woofer to enable low range playback with sound field feeling.The exterior is rough with a 6-sided veneer finish made of natural wood mahogany.There was a speaker stand as an option sold separately.The pole of this stand also has a mahogany veneer finish.\"",
+        "sub_category":  "",
+        "brandId":  "chario",
+        "specifications":  "\"Method: 2-Way, 2-Speaker, Bass Reflex System, Bookshelf Type | Units Used: For low band : 13 cm cone typeFor high-pass : 2.7 cm dome type | Impedance: 8 � (Minimum 3.9 �) | Allowable input: 80W | Output sound pressure level: 88dB/W/m | Crossover frequency: 1.95 kHz, 6dB/oct. | External dimensions: Width 180x Height 316x Depth 265 mm | Weight: 5.5kg | Top Plate Dimension: Width 180x Depth 250 mm | Ground plane dimension: Width 260x Depth 310 mm | Height: 600 mm (Excluding Spikes) | Attachment: Spike and spike saucer\"",
+        "release_year":  "1997",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/CHARIO/speaker/reference100.jpg"
+    }
+]
+

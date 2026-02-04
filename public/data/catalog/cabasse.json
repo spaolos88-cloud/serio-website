@@ -1,0 +1,72 @@
+﻿[
+    {
+        "url":  "",
+        "name":  "CABASSE",
+        "id":  "cabasse-cabasse",
+        "original_price":  "¥1030",
+        "category":  "General",
+        "description":  "\"BRIGANTIN : The price is unknown (around 1976).BRIGANTIN 3 vt : Price unknown (around 1976)",
+        "sub_category":  "",
+        "brandId":  "cabasse",
+        "specifications":  "\"Model Name: BRIGANTIN | Method: 3-Way, 3-Speaker, Bass Reflex System, Floor Type(BRIGANTIN 3 vt has a built-in amplifier) | Units Used: For low band : 36 cm cone typeFor Middle Area : 5.5 cm Dome TypeFor high-pass : 2.5 cm dome type | Frequency characteristic: 20 Hz to 22 kHz | Output sound pressure level: 96dB/W | Max Input: 130W | Impedance: 8 � | Output: - | Input: - | Power consumption: - | External dimensions: Width 580x Height 1,030x Depth 400 mm | Weight: 52kg\"",
+        "release_year":  "1976",
+        "verified":  true,
+        "image_url":  ""
+    },
+    {
+        "url":  "",
+        "name":  "CABASSE",
+        "id":  "cabasse-cabasse",
+        "original_price":  "",
+        "category":  "General",
+        "description":  "\"DINGHY2 : Unknown price (circa 1976)DINGHY2VT : Unknown price (circa 1976)",
+        "sub_category":  "",
+        "brandId":  "cabasse",
+        "specifications":  "\"Model Name: DINGHY 2 | Method: 2-Way, 2-Speaker, Bass Reflex System, Bookshelf Type(DINGHY2VT has built-in amplifier) | Units Used: Low bandHigh pass | Frequency characteristic: 50 Hz to 22 kHz | Output sound pressure level: 96dB/W | Max Input: 50W | Impedance: 8 � | Output: - | Input: - | Power consumption: - | External dimensions: Width 300x Height 610x Depth 240 mm | Weight: 11kg\"",
+        "release_year":  "1976",
+        "verified":  true,
+        "image_url":  ""
+    },
+    {
+        "url":  "",
+        "name":  "CABASSE",
+        "id":  "cabasse-cabasse",
+        "original_price":  "",
+        "category":  "General",
+        "description":  "\"GALION : The price is unknown (around 1976).GALION 3 vt : Price unknown (around 1976)",
+        "sub_category":  "",
+        "brandId":  "cabasse",
+        "specifications":  "\"Model Name: GALION | Method: 3-Way, 3-Speaker, Bass Reflex System, Floor Type(GALION 3 vt has a built-in amplifier) | Units Used: For low band : 30 cm cone typeFor Middle Area : 5.5 cm Dome TypeFor high-pass : 2.5 cm dome type | Frequency characteristic: 30 Hz to 22 kHz | Output sound pressure level: 95dB/W | Max Input: 90W | Impedance: 8 � | Output: - | Input: - | Power consumption: - | External dimensions: Width 430x Height 950x Depth 340 mm | Weight: 32kg\"",
+        "release_year":  "1976",
+        "verified":  false,
+        "image_url":  ""
+    },
+    {
+        "url":  "https://audio-database.com/CABASSE/speaker/sampanleger.html",
+        "name":  "ASSE",
+        "id":  "cabasse-asse",
+        "original_price":  "¥125000",
+        "category":  "SPEAKER",
+        "description":  "\"A 3-way speaker system using a cone type unit.There are two variations of the SAMPAN and the LEGEr has a cone type unit.A 30 cm cone woofer, 30BY12, is installed in the low range.The total magnetic flux of the unit is 104,000 maxwell.It is equipped with 12K16 which is a 12 cm cone type squaker in the middle area.The total magnetic flux is 54,000 maxwell.TWM3, a 9 cm cone type tweeter, is installed in the high range.The total magnetic flux is 20,000 maxwell.The enclosure is hermetically sealed and has a cheek or walnut finish on the exterior.\"",
+        "sub_category":  "",
+        "brandId":  "cabasse",
+        "specifications":  "\"Method: 3-Way, 3-Speaker, Airtight Type, Bookshelf Type | Units Used: For Low Band : 30 cm Cone Type (30BY12)For Medium Range : 12 cm Cone Type (12K16)For high range : 9 cm cone (TWM3) | Frequency characteristic: 40 Hz to 22 kHz | Output sound pressure level: 94dB/W | Max Input: 80W | Impedance: 8 � | Crossover frequency: 900 Hz, 9 kHz | External dimensions: Width 400x Height 640x Depth 310 mm | Weight: 18kg\"",
+        "release_year":  "1975",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/CABASSE/speaker/sampanleger.jpg"
+    },
+    {
+        "url":  "",
+        "name":  "CABASSE",
+        "id":  "cabasse-cabasse",
+        "original_price":  "",
+        "category":  "General",
+        "description":  "\"SAMPAN LOURD : Price Unknown (around 1976)SAMPAN 3 vt : Price unknown (around 1976)",
+        "sub_category":  "",
+        "brandId":  "cabasse",
+        "specifications":  "\"Model Name: SAMPAN LOURD | Method: 3-Way, 3-Speaker, Airtight Type, Bookshelf Type(SAMPAN 3 vt has a built-in amplifier) | Units Used: For Low Band : 30 cm Cone Type (30BY12)For Middle Area : 5.5 cm Dome Type (DOM13)For High Range : 2.2 cm Dome Type (DOM4) | Frequency characteristic: 40 Hz to 22 kHz | Output sound pressure level: 95dB/W | Max Input: 80W | Impedance: 8 � | Crossover frequency: 700 Hz, 5.5 kHz | Output: - | Input: - | Power consumption: - | External dimensions: Width 400x Height 640x Depth 310 mm | Weight: 22kg\"",
+        "release_year":  "1976",
+        "verified":  false,
+        "image_url":  ""
+    }
+]

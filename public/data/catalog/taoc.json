@@ -1,0 +1,45 @@
+﻿[
+    {
+        "url":  "https://audio-database.com/TAOC/speaker/fc3000.html",
+        "name":  "FC3000",
+        "id":  "taoc-fc3000",
+        "original_price":  "¥190000",
+        "category":  "SPEAKER",
+        "description":  "\"This speaker system is based on Aisin Takaoka\u0027s cast iron technology.A 18 cm cone woofer manufactured by ScanSpeak is installed in the low range.Non-press pulp cone is used for the diaphragm of this unit.A 2.8 cm soft dome tweeter made by Dinavio is installed in the high range.The network section uses parts that emphasize sound quality, such as a large OFC air-core coil.The network is also designed to minimize the effects of magnetic fields and currents. In addition, the high-frequency and low-frequency networks are divided into two independent boards, which are mounted asymmetrically to the left and right inside the enclosure to prevent interference.All contacts are caulked to eliminate solder alloy interference in consideration of minute signal flow.The enclosure uses a bass reflex system.The FC3000 has a mounting ring made of high carbon cast iron and an adjustable pendulum. The bass reflex port is equipped with a vibration control sheet coated with cast iron powder. By combining this structure with solid wood of walnut, vibration control and sound are matched according to the construction source, and sound without accompanying sound is realized. In addition, the graphite content of the mounting ring and the adjustable pendulum is changed according to the application, and each effect is enhanced.High-density conifer MDF is used for the plate material. Both sides are a composite structure of 22 mm thick MDF and 17 mm thick solid walnut. The remaining four sides are 24 mm thick. In addition, the front, back, left, and right baffles are tilted to prevent standing waves and ensure time alignment.The exterior features a black piano finish and a lustrous walnut finish.Equipped with a speaker terminal for bi-wiring.There was FST-60H as a recommended stand sold separately.FST-60H comes with a spike plate PTS-F.\"",
+        "sub_category":  "",
+        "brandId":  "taoc",
+        "specifications":  "\"Method: 2-Way, 2-Speaker, Bass Reflex System, Bookshelf Type | Units Used: For low band : 18 cm cone typeFor high-pass : 2.8 cm dome type | Frequency characteristic: 40 Hz to 30 kHz | Impedance: 8 � | Output sound pressure level: 88dB | Max Input: 120W | Crossover frequency: 2.5kHz/12dB | External dimensions: Height : 60 cmTabletop : 24x29cmBase plate : 36x42cmSpike Plate : Diameter 40x Height 16 mm | Weight: Stand Body : 28 kgSpike Plate : 130g\"",
+        "release_year":  "2002",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/TAOC/speaker/fc3000.jpg"
+    },
+    {
+        "url":  "",
+        "name":  "TAOC",
+        "id":  "taoc-taoc",
+        "original_price":  "",
+        "category":  "General",
+        "description":  "\"¥550,000 (1 unit sold on October 10, 2003)",
+        "sub_category":  "",
+        "brandId":  "taoc",
+        "specifications":  "\"Method: 3-Way, 3-Speaker, Bass Reflex System, Floor Type | Units Used: For low band : 25 cm cone typeFor Medium Range : 18 cm cone typeFor high-pass : 2.8 cm dome type | Frequency characteristic: 30 Hz to 30 kHz | Impedance: 8 � | Output sound pressure level: 90dB/W/m | Max Input: 150W | Crossover frequency: 200 Hz, 2.5 kHz, 12dB/oct. | External dimensions: Width 338x Height 1,092x Depth 364 mm | Weight: 46.5kg\"",
+        "release_year":  "2003",
+        "verified":  true,
+        "image_url":  ""
+    },
+    {
+        "url":  "https://audio-database.com/TAOC/speaker/fcs300.html",
+        "name":  "FCS300",
+        "id":  "taoc-fcs300",
+        "original_price":  "¥540000",
+        "category":  "SPEAKER",
+        "description":  "\"An active subwoofer that completely eliminates unnecessary vibrations for the purpose of playing back the deep bass that can be heard clearly.In order to suppress vibration to the enclosure due to heavy bass reproduction, resonance is eliminated by thoroughly implementing vibration control measures for the built-in equipment. In addition, the enclosure achieves heavy bass reproduction in which the sound scale can be clearly heard by balancing high rigidity and sound.The unit is equipped with a long stroke type 30 cm cone woofer.The unit is mounted using an isorayed mounting method and fixed to the enclosure via a mount ring made of high carbon cast iron to receive the strong movement of the unit and prevent the dispersion of the force of the unit, and to prevent the vibration of the unit from being transmitted directly to the enclosure.The enclosure uses a bass reflex system.By adopting a special structure for the sound path of the bass reflex port, the low sound reproduction limit frequency is lowered and sufficient low sound reproduction capability is secured. In addition, unnecessary vibration is removed by placing a unique vibration control sheet in the appropriate place inside.The amplifier section contains a 1-bit digital amplifier with a large output of 300W.An insulator made of high-carbon cast iron is placed at the bottom to ensure the sound of the base plate while minimizing the propagation of vibration to the floor.There are two types of input jacks, unbalanced and balanced. The unbalanced input also has a loop output for cascade connection.Equipped with an auto power OFF function linked to signal input.Wireless remote control is included.This remote control allows you to adjust the gain, adjust the LPF cutoff frequency, and turn the power on / off.\"",
+        "sub_category":  "",
+        "brandId":  "taoc",
+        "specifications":  "\"Method: Built-in Amplifier / 1-Way / 1-Speaker / Bass Reflex System / Floor Type | Units Used: For low band : 30 cm cone type | Frequency characteristic: 20 Hz to 120 Hz | Type of amplifier: 1-bit digital amplifier | Maximum power output: 300W | LPF cutoff frequency: 40 Hz ~ 120 Hz (Continuously Variable) | LPF cutoff characteristic: 24dB/oct. | Unbalanced input: RCA, R/L (Mono) | Unbalanced output: RCA, R/L | Balance input: Canon, R/L (mono) | Other Functions: Built-in LPF bypassAuto Power OffRemote control (gain adjustment, LPF adjustment, power ON/OFF) | Power consumption: 65W5W (standby) | External dimensions: Width 396x Height 662x Depth 508 mm | Weight: 46kg | Attachment: Remote controlPower cable\"",
+        "release_year":  "2003",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/TAOC/speaker/fcs300.jpg"
+    }
+]
+

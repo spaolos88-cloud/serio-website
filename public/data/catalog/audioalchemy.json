@@ -1,0 +1,59 @@
+﻿[
+    {
+        "url":  "https://audio-database.com/AUDIOALCHEMY/etc/v1_0-e.html",
+        "name":  "AUDIO",
+        "id":  "audioalchemy-audio",
+        "original_price":  "",
+        "category":  "ETC",
+        "description":  "\"The first D/A converter announced by Audio Alchemy, a digital technology group in California.DDE stands for Digital Decoding Engine.The D/A converter uses a bit stream method condensed to a minimum value to suppress noise generation.Compatible with 32 khz, 44.1 khz and 48 khz frequencies.Equipped with absolute phase switching.The power supply section has a separate structure.In addition, there was an enhanced power supply for upgrading sold separately.\"",
+        "sub_category":  "",
+        "brandId":  "audioalchemy",
+        "specifications":  "\"Type: D/A converter | D/A conversion method: Bit stream | Frequency characteristic: 20 Hz to 20 kHz ¥0.2 dB | Harmonic distortion + noise: -90dB | Signal-to-noise ratio: 93 dB or more | Digital input: Light : 1 systemCoaxial : 1 system | Digital output: Coaxial : 1 system | Analog output: Coaxial : 1 system (2.75 V) | External dimensions: Width 215x Height 45x Depth 136 mm | Weight: 850g | Sold Separately: Upgraded power supply (¥15,000)\"",
+        "release_year":  "",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/AUDIOALCHEMY/etc/v1_0.JPG"
+    },
+    {
+        "url":  "https://audio-database.com/AUDIOALCHEMY/etc/v2_0-e.html",
+        "name":  "AUDIO",
+        "id":  "audioalchemy-audio",
+        "original_price":  "¥128000",
+        "category":  "ETC",
+        "description":  "\"Based on the results of the first V1.0 of Audio Alchemy, the D/A converter was announced as the second to aim for higher grade digital reproduction.DDE stands for Digital Decoding Engine.The D/A converter uses the latest version of the bit stream method DAC, and the analog and digital sections are designed separately to achieve high-quality sound reproduction.The digital input is 3-frequency automatic switching of 32/44.1/48kHz, and the terminals are equipped with a coaxial Route 3 using BNC terminals as well as one optical system.\"",
+        "sub_category":  "",
+        "brandId":  "audioalchemy",
+        "specifications":  "\"Type: D/A converter | D/A conversion method: Bit stream | Frequency characteristic: 20 Hz to 20 kHz ¥0.2 dB | Harmonic distortion + noise: -98dB | Signal-to-noise ratio: 100 dB or more | Digital input: Light : 1 systemCoaxial (BNC) : Route 3 | Sampling frequency: 32 khz, 44.1 khz, 48 khz | Digital output: Coaxial : 1 system | Analog output: Coaxial : 1 system (2 V) | External dimensions: Width 407x Height 65x Depth 206 mm | Weight: 1.9kg\"",
+        "release_year":  "1992",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/AUDIOALCHEMY/etc/v2_0.JPG"
+    },
+    {
+        "url":  "https://audio-database.com/AUDIOALCHEMY/etc/xdp.html",
+        "name":  "AUDIO",
+        "id":  "audioalchemy-audio",
+        "original_price":  "¥98000",
+        "category":  "ETC",
+        "description":  "D/A converter developed for the ultimate.The XDP is designed to be used with DTI and v1.0 from the design stage and does not have a dedicated digital input circuit.The I2S Bus terminal is used for digital signal input.The D/A converter uses the latest bit stream method at that time.The analog circuit uses a discrete dual mono Class A circuit.The power supply is designed independently and uses an XDP power supply or a Power Station 2 power supply.",
+        "sub_category":  "",
+        "brandId":  "audioalchemy",
+        "specifications":  "\"Type: D/A converter | D/A conversion method: Bit stream | Frequency characteristic: 20 Hz to 20 kHz ¥1 dB | Harmonic distortion + noise: -101dB | Signal-to-noise ratio: 112dB(A-weighted) | Digital input: I2S Input Only | Digital output: Not installed | Analog output: RCA Type : 2.75 V | External dimensions: Width 215x Height 45x Depth 136 mm | Weight: 850g | Sold Separately: XDP Power Supply (¥20,000)Power Station 2 Power Supply (¥35,000)Clear Link Cable 30 cm (¥12,000)Clear Link Cable 1m (¥18,000)Clearstream Digital Isolator (¥15,000)Isopack (4 pcs 1 set, ¥4,000)Wood Case (2 horizontal, ¥20,000)\"",
+        "release_year":  "1992",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/AUDIOALCHEMY/etc/xdp.jpg"
+    },
+    {
+        "url":  "https://audio-database.com/AUDIOALCHEMY/etc/dti.html",
+        "name":  "AUDIO",
+        "id":  "audioalchemy-audio",
+        "original_price":  "",
+        "category":  "ETC",
+        "description":  "A D/D converter developed as the world\u0027s first externally connected jitter reduction device.DTI is designed to reduce jitter by shaping the input digital waveform and outputting it.It is possible to limit the time fluctuation of several hundred picoseconds to ¥35 picoseconds at the maximum.The power supply is designed independently and uses Power Station 1 and Power Station 2 power supplies.",
+        "sub_category":  "",
+        "brandId":  "audioalchemy",
+        "specifications":  "\"Type: D/D converter | Digital input: TOS, Coaxial | Digital output: I2S, Coaxial | External dimensions: Width 215x Height 45x Depth 136 mm | Weight: 810g | Sold Separately: Power Station 1 Power Supply (¥15,000)Power Station 2 Power Supply (¥35,000)Clear Link Cable 30 cm (¥12,000)Clear Link Cable 1m (¥18,000)Clearstream Digital Isolator (¥15,000)Isopack (4 pcs 1 set, ¥4,000)Wood Case (2 horizontal, ¥20,000)\"",
+        "release_year":  "",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/AUDIOALCHEMY/etc/dti.jpg"
+    }
+]
+

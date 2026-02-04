@@ -1,0 +1,45 @@
+﻿[
+    {
+        "url":  "https://audio-database.com/CAMBRIDGE-AUDIO/amp/c100.html",
+        "name":  "Cambridge",
+        "id":  "cambridge-audio-cambridge",
+        "original_price":  "¥200000",
+        "category":  "Amplifiers",
+        "description":  "\"A control amplifier developed using the latest technology.The circuit board is designed with computers and is designed for efficient signal transmission.High-class potentiometer is used for the volume.A toroidal transformer is used for the power supply section.In addition to two line inputs and phono inputs, two tape inputs and two phono inputs are available for both MC and MM.Remote switches are used for all input selectors so that signals can pass through at the shortest distance to prevent sound quality degradation and crosstalk.There are two outputs, active and passive.Use the passive output for normal output and the active output for long distances to active speakers or power amps.If a record defeat circuit is installed and you select a recording without connecting it to the recording output, the playback signal will pass through as it is.By eliminating the tone control circuit, unnecessary coloring is eliminated.Equipped with a dedicated circuit for headphones.It also has a MUTE switch that can be turned ON to cut the preoutput.\"",
+        "sub_category":  "",
+        "brandId":  "cambridge-audio",
+        "specifications":  "\"Type: Control amplifier | Output voltage: Passive:300mVActive:1V | Maximum output voltage: 11V | Input sensitivity: Phono MC:0.5mVPhono MM:4.5mVCD, Tuner, Tape : 300 mv | Frequency characteristic: 5 Hz to 130 kHz | Adaptive load impedance: 2k � or less | Signal-to-noise ratio: Phono MC:75dBPhono MM:80dBCD, Tuner, Tape : 94 dB | External dimensions: Width 430x Height 85x Depth 316 mm | Weight: 4.5kg\"",
+        "release_year":  "1990",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/CAMBRIDGE-AUDIO/amp/c100.jpg"
+    },
+    {
+        "url":  "https://audio-database.com/CAMBRIDGE-AUDIO/amp/a100.html",
+        "name":  "Cambridge",
+        "id":  "cambridge-audio-cambridge",
+        "original_price":  "¥200000",
+        "category":  "Amplifiers",
+        "description":  "\"A stereo power amplifier with dual monaural configuration.A dual-monaural configuration is adopted, and interference between channels is suppressed by putting two power amplifiers in one chassis.Two sets of high-efficiency toroidal transformers are installed in the power supply section, and two sets of custom-tune large capacitors are combined to improve low-frequency reproduction capability.The input has two systems, normal and filter, and the filter input has a built-in high-pass filter.\"",
+        "sub_category":  "",
+        "brandId":  "cambridge-audio",
+        "specifications":  "Type: Stereo power amplifier | Output (1 kHz): 110W + 110W (8 �)180W + 180W (4 �)250W + 250W (2 �) | Maximum output current: ¥40A | Distortion factor: 0.01% or Less (+ Noise @ 50% with load) | Signal-to-noise ratio: 100dB(A-wtd) | Input sensitivity: 1.1V | Input impedance: 75k � | External dimensions: Width 430x Height 85x Depth 317 mm | Weight: 9.8kg",
+        "release_year":  "1990",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/CAMBRIDGE-AUDIO/amp/a100.jpg"
+    },
+    {
+        "url":  "",
+        "name":  "Cambridge",
+        "id":  "cambridge-audio-cambridge",
+        "original_price":  "¥75000",
+        "category":  "General",
+        "description":  "\"Discretionary price (around ¥75,000, released on February 1, 2012)",
+        "sub_category":  "",
+        "brandId":  "cambridge-audio",
+        "specifications":  "\"Type: D/A converter | DAC: Dual Wolfson WM8740 24bit DAC | Harmonic distortion: Less than 0.001% (24 bit, 1 kHz, 0 dBFs)0.001% or Less (1 kHz, -10dBFs)0.002% or Less (20 kHz, 0 dBFs) | Digital filter: Analog Devices ADSP21261DSP upsampling to 384 kHz / 24 bit | Frequency characteristic: 20 Hz to 20 kHz ¥0.1 dB | Total correlated jitter: 130 pS or more | Output impedance: 50 � or less | Output level: 2.1 Vrms imbalance4.2 Vrms (2.1 V per phase) balance | Crosstalk: -130dB or less (1 kHz)-112dB or less (20 kHz) | Signal-to-noise ratio: -112dBr | Frequency corresponding to digital input word: 16-24 bit | Digital input sampling frequency: 32 kHz to 192 kHz* 176.4 kHz is digital input 1 \u0026 2 only | Upsampling audio output: 384kHz/24bit | Input terminal: S/PDIF : 2 systemsToslink : 2 routesUSB | Output terminal: S/PDIF : 1 systemToslink : 1 systemRCAXLRHeadphone | External dimensions: Width 215x Height 52x Depth 191 (210) mm | Weight: 1.2kg | Attachment: Vertical Stand\"",
+        "release_year":  "2012",
+        "verified":  true,
+        "image_url":  ""
+    }
+]
+

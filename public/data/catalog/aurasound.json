@@ -1,0 +1,73 @@
+﻿[
+    {
+        "url":  "https://audio-database.com/AURASOUND/speaker/ls-3b.html",
+        "name":  "LS-3B",
+        "id":  "aurasound-ls-3b",
+        "original_price":  "¥198000",
+        "category":  "SPEAKER",
+        "description":  "\"A bookshelf type speaker system with an all-neodymium magnet configuration.An 8 inch cone type woofer is installed in the low range.NRT (Neodymium Radial Technology) is used for the magnetic circuit.In this technology, a neodymium magnet is magnetized radially from the center to the outside. The neodymium magnet magnetized by NRT has a structure in which the magnetic flux applied to the gap of the voice coil can be obtained uniformly even in a larger stroke than that of the conventional ferrite type. There is no decrease in the magnetic force to the voice coil even at the maximum amplitude, and no distortion occurs. The Woofer Unit uses an internal magnetic circuit of NRT. Structurally, there is no leakage of magnetic force. The magnet generates a strong magnetic field in the gap that drives the voice coil. Even at large amplitude, the voice coil is strongly driven, and a high-quality sound with damping is realized.The mid-range is equipped with a 3.5 inch cone type mid-range.The magnetic circuit uses a neodymium magnet that uses NRT technology similar to the woofer.A line-source type tweeter unique to Aura Sound is installed in the high range.The diaphragm of this unit has a structure with a vertically long voice coil at the center of the vibration band, which is driven by a neodymium magnet.This structure realizes an ultra-wide directional characteristic of 180 degrees.The network section uses a full-scale 12 dB slope, and only the tweeter highpass uses 18 dB.The enclosure uses a bass reflex system.The exterior is finished with piano finish.Tri-wire configuration is used for the input terminal.\"",
+        "sub_category":  "",
+        "brandId":  "aurasound",
+        "specifications":  "\"Type: 3-Way, 3-Speaker, Bass reflex system, Bookshelf Type | Units Used: For Low Band : 8 inch Cone TypeFor Middle Range : 3.5 inch Cone TypeFor High Frequency : Line Source Type | Frequency characteristic: 32 Hz to 20 kHz | Output sound pressure level: 89dB(2.83V/1.0m) | Impedance: 4 � | Rated input: 150W | Max Input: 500W | Crossover frequency: 240 Hz, 2.7 kHz | External dimensions: Width 254x Height 456x Depth 304 mm | Weight: 11.5kg\"",
+        "release_year":  "2002",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/AURASOUND/speaker/ls-3b.jpg"
+    },
+    {
+        "url":  "",
+        "name":  "AURASOUND",
+        "id":  "aurasound-aurasound",
+        "original_price":  "",
+        "category":  "General",
+        "description":  "\"¥47,000 (a set of two cars, around 2002)",
+        "sub_category":  "",
+        "brandId":  "aurasound",
+        "specifications":  "\"Type: 2-way / 2-speaker / bookshelf type | Units Used: For Low Band : 3.5 inch Cone TypeFor High Frequency : Line Source Type | Frequency characteristic: 100 Hz to 20 kHz | Sensitivity: 89dB/2.83V/1m | Impedance: 6 � | External dimensions: Width 105x Height 190x Depth 102 mm | Weight: 1.53kg | Sold Separately: 5.1 ch surround speaker system LSCP-6 (¥198,000)\"",
+        "release_year":  "2002",
+        "verified":  false,
+        "image_url":  ""
+    },
+    {
+        "url":  "https://audio-database.com/AURASOUND/speaker/ls-c6.html",
+        "name":  "LS-C6",
+        "id":  "aurasound-ls-c6",
+        "original_price":  "¥34000",
+        "category":  "SPEAKER",
+        "description":  "\"A center speaker developed for 5.1 channel surround sound reproduction.Two 3.5 inch cone type woofers are installed in the low range.A line-source type tweeter is installed in the high frequency range.The line-source type has a unique structure with a vertically long voice coil at the center of the vibration band.The 5.1 ch surround speaker system LSCP-6 combines the satellite speaker LS-SAT6, center speaker LS-C6, and subwoofer LSS-089 into one package.\"",
+        "sub_category":  "",
+        "brandId":  "aurasound",
+        "specifications":  "\"Type: 2-way, 3-speaker, center type | Units Used: For low band : 2 x 3.5 inch cone typeFor High Frequency : Line Source Type | Frequency characteristic: 100 Hz to 20 kHz | Sensitivity: 89dB/2.83V/1m | Impedance: 6 � | External dimensions: Width 284x Height 105x Depth 102 mm | Weight: 2.34kg | Sold Separately: 5.1 ch surround speaker system LSCP-6 (¥198,000)\"",
+        "release_year":  "2002",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/AURASOUND/speaker/ls-c6.jpg"
+    },
+    {
+        "url":  "https://audio-database.com/AURASOUND/speaker/lss-089.html",
+        "name":  "LSS-089",
+        "id":  "aurasound-lss-089",
+        "original_price":  "¥82000",
+        "category":  "SPEAKER",
+        "description":  "\"An active subwoofer developed for 5.1 channel surround playback.An 8 inch cone type woofer is installed in the low range.Equipped with an amplifier with volume.Equipped with a high-cut filter.The 5.1 ch surround speaker system LSCP-6 combines the satellite speaker LS-SAT6, center speaker LS-C6, and subwoofer LSS-089 into one package.\"",
+        "sub_category":  "",
+        "brandId":  "aurasound",
+        "specifications":  "\"Type: Built-in Amplifier / 1-way / 1-speaker / Floor Type | Units Used: For Low Band : 8 inch Cone Type | Frequency characteristic: 32 Hz to variable | Sensitivity: 89dB/2.83V/1m | Impedance: 6 � | Rated output: 120W | Max.: 300W | High-cut filter: 60 Hz ~ 125 Hz Variable, OFF | External dimensions: Width 254x Height 388x Depth 283 mm | Weight: 11.4kg | Sold Separately: 5.1 ch surround speaker system LSCP-6 (¥198,000)\"",
+        "release_year":  "2002",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/AURASOUND/speaker/lss-089.jpg"
+    },
+    {
+        "url":  "https://audio-database.com/AURASOUND/speaker/sg-12.html",
+        "name":  "SG-12",
+        "id":  "aurasound-sg-12",
+        "original_price":  "¥378000",
+        "category":  "SPEAKER",
+        "description":  "\"A 12-inch subwoofer with a parametric equalizer.The unit has a 12 inch (30 cm) cone woofer.Butyl rubber treated aluminum diaphragm is used for the diaphragm.The neodymium magnet used in the magnetic circuit ensures super Longs (large amplitude) by NRT technology, and realizes a sound with no distortion and damping.Equipped with a parametric equalizer.Equipped with a 600W power amplifier with a limiter.\"",
+        "sub_category":  "",
+        "brandId":  "aurasound",
+        "specifications":  "\"Type: Built-in Amplifier / 1-way / 1-speaker / Floor Type | Units Used: For Low Band : 12 inch Cone Type | Minimum regeneration frequency: 25Hz | Low-pass filter: 30 Hz to 150 Hz, 12 dB curve continuously variable | Rated output: 600W, Anti-clamping Multi-function Amplifier with Limiter Circuit | Parametric equalizer section: Center Frequency : 18 Hz to 80 HzBandwidth (Q) : 0.1 to 1Level : -14.5 to + 6 | Input terminal: Left/RightLFE Direct | External dimensions: Width 380x Height 535x Depth 460 mm | Weight: 39.5kg\"",
+        "release_year":  "2002",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/AURASOUND/speaker/sg-12.jpg"
+    }
+]
+

@@ -1,0 +1,73 @@
+﻿[
+    {
+        "url":  "",
+        "name":  "Specifications",
+        "id":  "dokorder-specifications",
+        "original_price":  "",
+        "category":  "General",
+        "description":  "",
+        "sub_category":  "",
+        "brandId":  "dokorder",
+        "specifications":  "\"Method: 4-Way / 5-Speaker / Busref Non-Directional System / Floor Type | Units Used: For low band : 30 cm cone typeMedium : 12.5cmx2",
+        "release_year":  "",
+        "verified":  false,
+        "image_url":  ""
+    },
+    {
+        "url":  "",
+        "name":  "Specifications",
+        "id":  "dokorder-specifications",
+        "original_price":  "",
+        "category":  "General",
+        "description":  "\"¥72,000 (a set of two cars, around 1970)",
+        "sub_category":  "",
+        "brandId":  "dokorder",
+        "specifications":  "\"Method: 3-Way, 3-Speaker, Airtight Non-Directional System, Floor Type | Units Used: For low band : 25 cm cone typeFor Medium Range : 12 cm cone typeFor high pass : 8 cm cone type | Impedance: 8 � | Playback frequency band: 30 Hz to 20000 Hz | Max Input: 30W | Crossover frequency: 1500 Hz, 5000 Hz | External dimensions: Diameter 510 � x Height 640 mm | Weight: 19kg\"",
+        "release_year":  "1970",
+        "verified":  false,
+        "image_url":  ""
+    },
+    {
+        "url":  "https://audio-database.com/DOKORDER/speaker/ss-308-e.html",
+        "name":  "SS-308",
+        "id":  "dokorder-ss-308",
+        "original_price":  "¥36000",
+        "category":  "SPEAKER",
+        "description":  "\"¥36,000 (a set of two cars, around 1970)\"",
+        "sub_category":  "",
+        "brandId":  "dokorder",
+        "specifications":  "\"Method: 3-Way, 3-Speaker, Airtight Type, Bookshelf Type | Units Used: For low band : 20 cm cone typeFor Medium Range : 12 cm cone typeHigh Frequency : UHF Type | Impedance: 8 � | Playback frequency band: 45 Hz ~ 20000 Hz | Max Input: 25W | Crossover frequency: 1500 Hz, 5000 Hz | External dimensions: Width 330x Height 510x Depth 255 mm | Weight: 9kg\"",
+        "release_year":  "1970",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/DOKORDER/speaker/ss-308.JPG"
+    },
+    {
+        "url":  "https://audio-database.com/DOKORDER/speaker/ss-310-e.html",
+        "name":  "SS-310",
+        "id":  "dokorder-ss-310",
+        "original_price":  "¥47000",
+        "category":  "SPEAKER",
+        "description":  "\"¥47,000 (a set of two cars, around 1970)\"",
+        "sub_category":  "",
+        "brandId":  "dokorder",
+        "specifications":  "\"Method: 3-Way, 3-Speaker, Airtight Type, Bookshelf Type | Units Used: For low band : 30 cm cone typeFor Medium Range : 12 cm cone typeHigh Frequency : UHF Type | Impedance: 8 � | Playback frequency band: 40 Hz to 20000 Hz | Max Input: 40W | Crossover frequency: 800 Hz, 5000 Hz | External dimensions: Width 340x Height 560x Depth 300 mm | Weight: 12kg\"",
+        "release_year":  "1970",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/DOKORDER/speaker/ss-310.JPG"
+    },
+    {
+        "url":  "",
+        "name":  "Specifications",
+        "id":  "dokorder-specifications",
+        "original_price":  "",
+        "category":  "General",
+        "description":  "\"¥65,800 (a set of two cars, around 1970)",
+        "sub_category":  "",
+        "brandId":  "dokorder",
+        "specifications":  "\"Method: 4-Way, 5-Speaker, Airtight Type, Bookshelf Type | Units Used: For low band : 30 cm cone typeFor Medium Range : 12 cm cone typeFor high pass : 8 cm cone x2For Super High Band : 8 cm horn type | Impedance: 8 � | Playback frequency band: 35 Hz to 20000 Hz | Max Input: 60W | Crossover frequency: 750 Hz, 3000 Hz, 6000 Hz | External dimensions: Width 400x Height 680x Depth 300 mm | Weight: 20kg\"",
+        "release_year":  "1970",
+        "verified":  false,
+        "image_url":  ""
+    }
+]
+

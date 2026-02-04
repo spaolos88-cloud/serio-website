@@ -1,0 +1,45 @@
+﻿[
+    {
+        "url":  "https://audio-database.com/BEARD/amp/ca35.html",
+        "name":  "CA35",
+        "id":  "beard-ca35",
+        "original_price":  "",
+        "category":  "Amplifiers",
+        "description":  "\"Vacuum tube stereo preamplifier with 3-pole tube configuration for all stages.The amplifier stage consists of a phono equalizer amplifier and a line amplifier, each of which uses highly reliable twin triodes. The circuit structure is a 3-stage K-K feedback type amplifier, with two ECC-83 and one ECC-82 in the equalizer amplifier section and three ECC-82 in the line amplifier section for DC ignition operation.Equipped with MC cartridge booster transformer.\"",
+        "sub_category":  "",
+        "brandId":  "beard",
+        "specifications":  "\"Type: Control amplifier | Input Sensitivity / Impedance: CD, Tape, Tuner : 80mV/250k � | RIAA deviation: MC : 20 Hz ~ 20 kHz + 0 -1.5 dBMM : 20 Hz to 20 kHz ¥0.1 dB | Total harmonic distortion factor: 0.015%(IHF) | Maximum allowable input: MM/MC : 45 dB (1 kHz, IHF) | Signal-to-noise ratio: 78dB(unweighted) | Frequency characteristic: 20 Hz ~ 80 kHz + 0 -0.3 dB | Maximum power output: 45Vrms/100k � | Pwer: 100 VAC, 50Hz/60Hz | External dimensions: Width 445x Height 80x Depth 230 mm | Weight: 6kg\"",
+        "release_year":  "",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/BEARD/amp/ca35.jpg"
+    },
+    {
+        "url":  "",
+        "name":  "BEARD",
+        "id":  "beard-beard",
+        "original_price":  "",
+        "category":  "General",
+        "description":  "\"¥500,000 (1 unit, released in October 1988)",
+        "sub_category":  "",
+        "brandId":  "beard",
+        "specifications":  "\"Type: Monaural power amplifier | Rated output: 70W (4 ¥, 8 ¥, RMS) | Output bandwidth: 20 Hz ~ 20 kHz (1% THD) | Frequency characteristic: 5 Hz to 50 kHz + 0 -1dB | Signal-to-noise ratio: 90dB | Input Sensitivity / Impedance: 0.775V/680k � | Vacuum tube used: ECC81 : 2 PiecesEL84 : 12 Pieces | Pwer: 100 VAC, 50Hz/60Hz | External dimensions: Width 445x Height 150x Depth 335 mm | Weight: 17kg\"",
+        "release_year":  "1988",
+        "verified":  true,
+        "image_url":  ""
+    },
+    {
+        "url":  "https://audio-database.com/BEARD/amp/p35mkii.html",
+        "name":  "P35MKII",
+        "id":  "beard-p35mkii",
+        "original_price":  "¥530000",
+        "category":  "Amplifiers",
+        "description":  "\"Vacuum tube stereo power amplifier with output stage pure A-class operation.The circuit configuration uses three parallel EL84 output vacuum tubes (six single channels) for ultra-linear operation.In addition, the use of an independent power supply circuit for left and right channels and an automatic bias system for each output tube further improves physical characteristics and operation stability.* The stand in the photo is not included.\"",
+        "sub_category":  "",
+        "brandId":  "beard",
+        "specifications":  "\"Type: Stereo power amplifier | Rated output: 35W + 35W (4 ?, 8 ?, RMS) | Output bandwidth: 20 Hz ~ 20 kHz (1% THD) | Frequency characteristic: 5 Hz to 50 kHz + 0 -1dB | Signal-to-noise ratio: 90dB | Input Sensitivity / Impedance: 0.775V/680k � | Vacuum tube used: ECC81 : 2 PiecesEL84 : 12 Pieces | Pwer: 100 VAC, 50Hz/60Hz | External dimensions: Width 445x Height 150x Depth 335 mm | Weight: 19kg\"",
+        "release_year":  "1988",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/BEARD/amp/p35mkii.jpg"
+    }
+]
+

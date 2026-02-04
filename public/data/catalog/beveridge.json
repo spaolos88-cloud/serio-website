@@ -1,0 +1,45 @@
+﻿[
+    {
+        "url":  "https://audio-database.com/BEVERIDGE/amp/rm-1-e.html",
+        "name":  "RM-1",
+        "id":  "beveridge-rm-1",
+        "original_price":  "¥980000",
+        "category":  "Amplifiers",
+        "description":  "\"A bulb-type control amplifier that Vivaridge announced as a single component for the first time.Control amplifier RM-1 consists of an amplifier body RM-1 and a power supply RM-2.A semiconductor circuit is used for the power supply and control system supporting the amplifier system, and a vacuum tube is used for the amplifier element.The main circuit configuration consists of a DC amplifier configuration using a servo loop, a CR phono equalizer, an absolute phase control, and a touch-sensing mute mechanism.The audio booster consists of 12 6DJ8 (E88CC) balls.Equipped with a super sonic filter and a sub sonic filter.Mutual interference is suppressed by using a separate chassis for the power supply.\"",
+        "sub_category":  "",
+        "brandId":  "beveridge",
+        "specifications":  "\"Type: Control amplifier | Gain: Phono : 40 dB ¥6 dBLine:20dB | Phono maximum allowable input: 1000 mv (Gain 34 db)500 mv (gain 40 db)250 mv (gain 46 db) | NOISE: Input Conversion 0.5 Ï‰ V (10 mv Input, S/N86dB) | Frequency characteristic: Phono : 1 Hz to 100 kHz ¥0.05 dB0.15 Hz to 600 kHz -3dBLine : 1 Hz to 100 kHz ¥0.05 dB0.015 Hz to 600 kHz -3dB | THD and IMD: 0.02% or Less (at 10 V output) | Slew rate: 100 V / Ï‰ sec. | Blend control: stereo/1/2/3/mono | Pwer: 100 VAC, 50Hz/60Hz | Power consumption: 130W | External dimensions: RM-1 : Width 483x Height 89x Depth 230 mmRM-2 : 483 mm wide x 89 mm high x 230 mm deep | Weight: RM-1 : Approximately 6 kgRM-2 : Approximately 10 kg\"",
+        "release_year":  "1980",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/BEVERIDGE/amp/rm-1.JPG"
+    },
+    {
+        "url":  "https://audio-database.com/BEVERIDGE/speaker/system2sw-2-e.html",
+        "name":  "SYSTEM2SW-2",
+        "id":  "beveridge-system2sw-2",
+        "original_price":  "¥3000000",
+        "category":  "SPEAKER",
+        "description":  "\"A large speaker system created by Harold Vivaridge\u0027s 20-year research into electrostatic speakers.It is composed using an electrostatic transducer and realizes uniform diffusion of all sound ranges in phase with 180 degrees.The SYSTEM2SW-2 includes a subwoofer and a driver amplifier.The subwoofer has an independent enclosure and the amplifier system is a full bi-amp-driven system consisting of an electrostatic main unit (tube type), a subwoofer (solid state) and an electronic crossover.\"",
+        "sub_category":  "",
+        "brandId":  "beveridge",
+        "specifications":  "\"Type: Power amplifier, built-in electronic crossover, line-source sound system | Configuration: Full-range electro static system with 180-degree diffused acoustic lens and subwoofer (crossover 100 hz, bi-amplifier driven) | External dimensions: Body Part : Width 610x Height 1980x Depth 370 mmSubwoofer : W 560x H 660x D 400 mm | Weight: Body Part : Approx. 50 kgSubwoofer : Approx. 23 kg\"",
+        "release_year":  "1980",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/BEVERIDGE/speaker/system2sw-2.JPG"
+    },
+    {
+        "url":  "",
+        "name":  "Specifications",
+        "id":  "beveridge-specifications",
+        "original_price":  "",
+        "category":  "General",
+        "description":  "\"¥1,600,000 (1 set of 2, released in 1980)",
+        "sub_category":  "",
+        "brandId":  "beveridge",
+        "specifications":  "Type: Electro static line source speaker system | Units Used: For all band : 1 electrostatic type with acoustic lensLow Band : 10 inch Cone Type x2 | Crossover frequency: 200Hz | Impedance: 8 � | External dimensions: Diameter 530 � x Height 19800 mm | Remarks: A power amplifier with an output of 50W to 300W and stable operation against low impedance load is suitable for the drive power amplifier.",
+        "release_year":  "1980",
+        "verified":  false,
+        "image_url":  ""
+    }
+]
+

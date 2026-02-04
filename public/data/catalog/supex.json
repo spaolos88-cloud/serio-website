@@ -1,0 +1,45 @@
+﻿[
+    {
+        "url":  "https://audio-database.com/SUPEX/etc/6120.html",
+        "name":  "Specex",
+        "id":  "supex-specex",
+        "original_price":  "",
+        "category":  "ETC",
+        "description":  "\"This is the world\u0027s first static stereo tone arm that uses miniature bearings for all moving parts.The arm shape is an S-shape with good lateral balance for ultra-light needle pressure, and the inside force is canceled by the outside weight.Equipped with a hydraulic arm lift, the needle tip can be easily and gently lowered into the record groove.European type heads such as SME and Orthophone can be used for the head part.When viewed from the front, the terminal plates of the head mounting socket are red on the upper left, grass on the lower left, white on the upper right, and blue on the lower right. They are red R +, grass R -, white L +, blue L -, and black arm body ground.The shield wire is red and the L side is white.Adjust the inside force as same as the needle pressure.The out-side force scale above the arm supporting point is carved into one scale of 0.5g for a maximum of 4.5g.\"",
+        "sub_category":  "",
+        "brandId":  "supex",
+        "specifications":  "Type: Tone arm",
+        "release_year":  "1964",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/SUPEX/etc/6120.jpg"
+    },
+    {
+        "url":  "https://audio-database.com/SUPEX/etc/sm-100mkii.html",
+        "name":  "Specs",
+        "id":  "supex-specs",
+        "original_price":  "¥9000",
+        "category":  "ETC",
+        "description":  "The MM type cartridge is designed to balance the usability of the MM type with the sound of the MC type.5 types of replacement needles can be used.",
+        "sub_category":  "",
+        "brandId":  "supex",
+        "specifications":  "\"Type: MM Type Cartridge | Frequency range: 5 Hz to 26 kHz | Output voltage: 4 mv (1 khz, 3.54cm/45 �) | Channel balance: ¥0.5 dB at 1 kHz | Channel separation: 27 dB or More (1 kHz) | DC resistance: 500 � | Compliance: 13x10-6cm/dyne | Vertical tracking: 20 � | Proper needle pressure: 0.7g ~ 1.5g | Needle tip: 0.3milx0.8 mil (Ellipse Diameter Needle) | Dead weight: 7g | Attachment: SMM/5Y, SMM25E | Exchange needle: 0.5mil SMM/5(¥4,500)0.3x0.8 mil Solid Diamond Needle SMM/38E (¥5,800)0.2x0.5 mil Solid Diamond Needle SMM/25E (¥6,200)Using Ce. Co Magnet Marconi Solid Diamond Needle Rarenet SMR25E (¥8,000)2.5 milSP Record Needle SMM/250SP (¥5,500)\"",
+        "release_year":  "",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/SUPEX/etc/sm-100mkii.jpg"
+    },
+    {
+        "url":  "https://audio-database.com/SUPEX/etc/sd-700a.html",
+        "name":  "Specs",
+        "id":  "supex-specs",
+        "original_price":  "¥3900",
+        "category":  "ETC",
+        "description":  "\"The MC type cartridge was developed as a culmination of SUPEX Co., which has designed and produced only MC type cartridge since its establishment.The SD 700 a is based on the SD 700.The vibration system has been completely redesigned without changing the basic design of the newly developed Alnico magnet, etc. By adopting new design of structure and material, middle and high range with good damping and strong low range are realized.The magnetic circuit is made of mu-metal and annealed for use as a magnetic strip with a special structure.The newly designed vibration system uses a special light alloy pipe with an outer diameter of 0.4 mm and a wall thickness of 0.05 mm as the needle shaft. The coil is also wound to a very small size, and the damper material is newly selected, so that the weight is greatly reduced.SD-700A can be used with 0.5g as long as the performance of the arm is good. Generally, it is recommended to use 1.5g ~ 2.5g depending on the performance of the arm and the situation of the place where it is used.In addition, needle tip wear is especially small, and can be used for approximately 2,000 hours.\"",
+        "sub_category":  "",
+        "brandId":  "supex",
+        "specifications":  "\"Type: MC Type Cartridge | Frequency range: 5 Hz to 25 kHz | Output: 0.18mV | Impedance: 3.5 � | Crosstalk: 20 dB to 25 dB | Stylus: 0.5 mil Diamond | Needle pressure: 0.7g ~ 3g | Dead weight: 13.5g | Exterior: Gray plasticMetal Part Chrome Satin Plating | Needle exchange: Body by mail (¥3,900) | Remarks: Oval needle replacement (¥900)\"",
+        "release_year":  "1960",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/SUPEX/etc/sd-700a.jpg"
+    }
+]
+

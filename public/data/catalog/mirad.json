@@ -1,0 +1,15 @@
+﻿{
+    "url":  "https://audio-database.com/MIRAD/amp/a2000.html",
+    "name":  "A2000",
+    "id":  "mirad-a2000",
+    "original_price":  "¥570000",
+    "category":  "Amplifiers",
+    "description":  "\"As the second series of vacuum tube amplifiers, this is a low-cost stereo amplifier based on the concept of the SRA-M20.The output power of 35W is obtained by operating EL34 in UL push-pull.In addition, the drive circuit employs a direct-coupled differential circuit with independent right and left stabilizing power supplies, and by making fine adjustments exclusive to the A2000, low distortion and low crosstalk are achieved.By supplying a large power supply to the power stage, low noise and large current supply capability are secured.The chassis front and rear panels are made of thick aluminum plates, which are machined by machining centers, and each part is combined in a rational way to increase rigidity and reduce cost.We often use the same parts as the SRA-M20 for the parts that affect sound quality.\"",
+    "sub_category":  "",
+    "brandId":  "mirad",
+    "specifications":  "\"Type: Tube type pre-main amplifier | Circuit system: EL34UL Connection Push-PullFixed bias systemTwo stage differential direct-coupled drive circuit | Output (both channel operation): 35W + 35W (4 �)25W + 25W (8 �) | Input: Line : Route 3 (RCA)Selector with input OFF position | Input sensitivity: 500 mv (input required for 35W, 4 �) | Input impedance: 5k � | Output bandwidth: 30 Hz ~ 25 kHz ¥1 dB (8W) | Distortion factor: 0.5% or Less (8W, 1 kHz)0.2% or Less (1W, 1 kHz) | Damping factor: Approximately 3.2 (8 �) | Residual noise: -67dB or less (no weight) | Vacuum tube used: ECC81x2ECC82x2EL34x4 | Pwer: 100 VAC, 50Hz/60Hz | Fuse capacity: 5AT | Power consumption: 140W(PSE) | External dimensions: Width 390x Height 180x Depth 280 mm (excluding projections)Width 390x Height 180x Depth 315 mm (including projections) | Weight: Approx. 20 kg\"",
+    "release_year":  "2007",
+    "verified":  true,
+    "image_url":  "https://audio-database.com/MIRAD/amp/a2000.jpg"
+}
+

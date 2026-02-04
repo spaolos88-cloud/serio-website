@@ -1,0 +1,59 @@
+﻿[
+    {
+        "url":  "",
+        "name":  "Leben",
+        "id":  "leben-leben",
+        "original_price":  "",
+        "category":  "General",
+        "description":  "\"¥135,000 (year unknown (late 90\u0027s to early 2000?))",
+        "sub_category":  "",
+        "brandId":  "leben",
+        "specifications":  "\"Type: Stereo power amplifier | Rated output: 8W + 8W (8 �) | Maximum power output: 10W + 10W (8 �) | Frequency characteristic: 10 Hz to 50 kHz -3dB | Distortion factor: 0.9% (10W, 1 kHz) | Input sensitivity: 650mV | Input impedance: 100k � | Output impedance: 4 � / 8 � (Switching Type) | Vacuum tube used: 6V6GT(Electro Harmonix)x412AT7WC(Philips)x2 | Power consumption: 65W | External dimensions: Width 360x Height 140x Depth 290 mm | Weight: 12kg | Attachment: One power cable\"",
+        "release_year":  "2000",
+        "verified":  true,
+        "image_url":  ""
+    },
+    {
+        "url":  "https://audio-database.com/LEBEN/amp/cs300.html",
+        "name":  "CS300",
+        "id":  "leben-cs300",
+        "original_price":  "¥147000",
+        "category":  "Amplifiers",
+        "description":  "\"Tube type pre-main amplifier with high-performance transformer.The output tube is equipped with EL84 manufactured by SOVTEK.In addition, 5751 (12AX7A highly reliable tube) made by General Electric is used for the driver tube.Bus boost circuit is installed.\"",
+        "sub_category":  "",
+        "brandId":  "leben",
+        "specifications":  "Type: Stereo power amplifier | Output: 12W+12W | Frequency characteristic: 15 Hz to 100 kHz -2dB | Distortion factor: 0.7%(10W) | Input sensitivity: 600mV | Input: Line : Line 5Tape monitor : 1 system | Output impedance: 4 � / 6 � / 8 � (Switching Type) | Accessory function: Bus boost circuitHeadphone circuit | Vacuum tube used: EL84 (Sovtek) : 4 pieces5751 (General Electric) : 2 pieces | Power consumption: 65W | External dimensions: Width 360x Height 140x Depth 270 mm | Weight: 10kg | Attachment: One power cable",
+        "release_year":  "2003",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/LEBEN/amp/cs300.jpg"
+    },
+    {
+        "url":  "https://audio-database.com/LEBEN/amp/cs300x.html",
+        "name":  "CS300X",
+        "id":  "leben-cs300x",
+        "original_price":  "¥185714",
+        "category":  "Amplifiers",
+        "description":  "\"This is a bulb-type pre-main amplifier equivalent to the high-grade version of CS300.The CS300 uses EL84 manufactured by SOVTEK for the output tube, while the CS300X uses EL84 manufactured by 84 manufactured by Mullard of England is used.In addition, 5751 (12AX7A highly reliable tube) made by General Electric is used for the driver tube.High-grade parts such as RMG resistor, OS capacitor, silk fiber silmic capacitor, etc. are used for the parts. The printed circuit board, which is considered to have a bad influence on sound, is eliminated, and the wiring is completely done by hand with HIFLON lead.It is also equipped with a new output transformer developed for the CS300X.Bus boost circuit is installed.Equipped with a headphone circuit, which is directly output from the output transformer.It has an operation circuit to inform the operation status of the output tube.It says CS300X-Limited, but I think it is the same model.\"",
+        "sub_category":  "",
+        "brandId":  "leben",
+        "specifications":  "Type: Stereo power amplifier | Output: 15W+15W | Frequency characteristic: 15 Hz to 100 kHz -2dB | Distortion factor: 0.7%(10W) | Input sensitivity: 600mV | Input: Line : Line 5Tape monitor : 1 system | Output impedance: 4 � / 6 � / 8 � (Switching Type) | Accessory function: Bus boost circuitHeadphone circuit | Vacuum tube used: EL84 (Mullard) : 4 pieces5751 (General Electric) : 2 pieces | Power consumption: 82W | External dimensions: Width 360x Height 140x Depth 270 mm | Weight: 10.5kg | Attachment: One power cable",
+        "release_year":  "2000",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/LEBEN/amp/cs300x.jpg"
+    },
+    {
+        "url":  "https://audio-database.com/LEBEN/amp/rs-35a.html",
+        "name":  "RS-35A",
+        "id":  "leben-rs-35a",
+        "original_price":  "¥255000",
+        "category":  "Amplifiers",
+        "description":  "\"A stereo power amplifier using a beam type output tube.The beam-type output tube 5881/6L6GC is used for ultra linear connection.The output stage is self-biased to stabilize its operation and is designed to be less susceptible to aging.Twin triode 6CS7 is used for first stage amplification and phase inversion. The first stage is SRPP and the phase inversion is Mulard type.Damper tube 6CG3 is used for the rectifier circuit.The 6CG3 is a damper tube of 350 mA, which does not apply high voltage at once and greatly contributes to the life of the output tube.The output transformer is equipped with a customized energy audio transformer tuned for RS-35a.Hood and spare pipe are included.\"",
+        "sub_category":  "",
+        "brandId":  "leben",
+        "specifications":  "Type: Stereo power amplifier | Rated output: 25W + 25W (8 �) | Maximum power output: 30W + 30W (8 �) | Input resistance: 100k � | Input sensitivity: 1.1V | Frequency characteristic: 10 Hz to 130 kHz -1dB | Residual noise: 0.5 mv (8 �) | Vacuum tube used: 5881/6L6GCx46CS7x46CG3x1 | External dimensions: Width 455x Height 180x Depth 330 mm | Weight: 19kg | Attachment: Dedicated bonnet4 Spare Balls (5881/6L6GC)",
+        "release_year":  "1995",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/LEBEN/amp/rs-35a.jpg"
+    }
+]
+

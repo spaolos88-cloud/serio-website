@@ -1,0 +1,30 @@
+﻿[
+    {
+        "url":  "https://audio-database.com/GRANTLUMLEY/amp/gl-50a-e.html",
+        "name":  "GRANT",
+        "id":  "grantlumley-grant",
+        "original_price":  "¥398000",
+        "category":  "Amplifiers",
+        "description":  "\"This is a stereo power amplifier from Grand Ramray Inc. in England, which started under the close relationship with The M-O Valve Company which is famous as a vacuum tube manufacturer.KT-77 of \"\"Gold Lion\"\" brand made by M-O Valve Company is used for the output tube.Class AB1 push-pull configuration with ultra-linear connection and fixed bias system.\"",
+        "sub_category":  "",
+        "brandId":  "grantlumley",
+        "specifications":  "\"Type: Stereo power amplifier | Effective power: 50W + 50W (8 �) | Output bandwidth: 20 Hz to 25 kHz | Input sensitivity: 1.0V | Input impedance: 100k � | Signal-to-noise ratio: 78 dB or more | Vacuum tube used: ECC82 : 4KT-77 : 4 | Pwer: 110 VAC, 50Hz/60Hz | External dimensions: Width 484x Height 200x Depth 258 mm | Weight: 16.5kg\"",
+        "release_year":  "1980",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/GRANTLUMLEY/amp/gl-50a.JPG"
+    },
+    {
+        "url":  "https://audio-database.com/GRANTLUMLEY/amp/gl-100a-e.html",
+        "name":  "GRANT",
+        "id":  "grantlumley-grant",
+        "original_price":  "¥580000",
+        "category":  "Amplifiers",
+        "description":  "\"This is a stereo power amplifier from Grand Ramray Inc. in England, which started under the close relationship with The M-O Valve Company which is famous as a vacuum tube manufacturer.The circuit system is the same as GL-50A, and GL-100A uses KT-88 for the output tube to increase the output.Like the GL-50A, it is finished by hand wiring using a lug plate instead of a printed circuit board.\"",
+        "sub_category":  "",
+        "brandId":  "grantlumley",
+        "specifications":  "\"Type: Stereo power amplifier | Effective power: 70W + 70W (8 �) | Output bandwidth: 20 Hz to 25 kHz | Input sensitivity: 1.2V | Input impedance: 100k � | Signal-to-noise ratio: 86 dB or more | Vacuum tube used: ECC83 : 2ECC82 : 2KT-88 : 4 | Pwer: 110 VAC, 50Hz/60Hz | External dimensions: Width 510x Height 229x Depth 307 mm | Weight: 36kg\"",
+        "release_year":  "1980",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/GRANTLUMLEY/amp/gl-100a.JPG"
+    }
+]

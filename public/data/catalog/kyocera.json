@@ -1,0 +1,59 @@
+﻿[
+    {
+        "url":  "",
+        "name":  "Specifications",
+        "id":  "kyocera-specifications",
+        "original_price":  "",
+        "category":  "General",
+        "description":  "\"Based on Kyocera\u0027s non-resonance philosophy cultivated in the 910 series, this CD player has been made more completely non-resonance.Capacitors and transistors in operation cause the microphonic effect, which converts external vibrations into electrical signals. On the other hand, electric signals can be converted into vibrations in servo circuits and power supplies, which are subject to sudden changes in current or large currents.The DA-7CX employs a fine-ceramic spacer with excellent rigidity, heat resistance, and vibration damping characteristics to eliminate the adverse effects of these vibrations. The fine-ceramic spacers are installed in eight locations. First, they are used to support the joints between the chassis and the board in areas most susceptible to vibrations, such as power supplies, servo amplifiers, signal processing circuits, output amplifiers, and D/A converters. In addition, the spacers are also used on the feet of the body to prevent acoustic feedback and body squeals.In order to reduce resonance and unnecessary vibration of the mechanical deck, we have adopted an outsert technology, which forms a complex structure by sandwiching a base material when resin is press-molded. Two different materials enhance the damping effect.In order to reduce vibration in the low range and shock from the outside, 3D (3 point differential) suspension is adopted.Two points on the front panel side are supported by a rigid 3-way flexible damper, and one point on the rear side is floated by a soft spring. This prevents not only shock from the front panel but also vibration in the vertical direction.In addition, the 3-point support has the advantage of not losing balance even when the pickup is moved.",
+        "sub_category":  "",
+        "brandId":  "kyocera",
+        "specifications":  "\"Type: CD Player | Playback frequency band: 5 Hz to 20 kHz ¥0.5 dB | Signal-to-noise ratio (EIAJ): 100 dB or more | Dynamic range: 96 dB or more | Channel separation: 96 dB or more | Total harmonic distortion factor: 0.0035% or More (1 kHz) | Wow flutter: Measurement limit value or less (crystal oscillation accuracy) | Output Level / Impedance: 2.0Vrms/600 � | Pwer: 100 VAC, 50Hz/60Hz | Power consumption: 12W | External dimensions: Width 430x Height 90x Depth 308 mm | Weight: 4.9kg | Attachment: Wireless Remote Control RT-7\"",
+        "release_year":  "",
+        "verified":  true,
+        "image_url":  ""
+    },
+    {
+        "url":  "https://audio-database.com/KYOCERA/player/da-9cx.html",
+        "name":  "DA-9CX",
+        "id":  "kyocera-da-9cx",
+        "original_price":  "¥89800",
+        "category":  "Source",
+        "description":  "\"CD player using ZS mechanism.Zirconia ceramic is used for the slider shaft of the pickup part.Zirconia ceramic has abrasion resistance close to that of diamond and excellent smoothness, and the sound quality is improved by maintaining the initial characteristics.An outsert mechanical deck is adopted to protect the mechanical deck from unnecessary vibration and resonance.The outsert mechanical deck adopts a hybrid structure that combines two different materials, and by obtaining a high damping effect, resonance and vibration in the high frequency range are effectively suppressed.Uses 3D (3 point differential) suspension to reduce vibration in the low range and shock from the outside.By supporting two points on the front panel side with a 3-way flexible damper and one point on the rear side with a floating structure, a 3-point support with different resonance points is realized. This structure is resistant to shock and vibration and does not lose balance even when the pickup moves.Fine ceramic spacers are arranged in 4 places. In addition, unique black ceramic is used for the foot which is effective in eliminating unnecessary vibration from the outside.The digital filter is a 16-bit 4-times over-sampling digital filter, which makes it possible to use a third order Bessel filter with a gentle slope for the downstream filter, minimizing phase lag.The D/A converter is equipped with an independent 16-bit L/R-less D/A converter to prevent the phase difference between the left and right channels that occurs with a single D/A converter. This realizes a D/A conversion without a glitch circuit.Optical transmission is introduced into the Emphasis Data and Output Mute Data circuits, which are converted into analog signals and then converted into digital signals, to prevent the influence of digital noise.The power supply uses a separate system that completely separates digital and analog circuits.Equipped with a digital output terminal.Multi-function double display is adopted for the display section.In addition, an interactive operation program has been adopted to improve operability.Uses Luminescent Calendar 20 key that integrates calendar function and key function.The keys themselves act as lights and track calendars. For example, when the disc is set, the keys for the number of songs are lit, and when the performance is finished, the keys are played one by one.It has a direct call function that starts playing just by pressing the button of track number.It is also equipped with a BGM play function that plays songs on the disc at random.It is equipped with a program memory that can store up to 24 songs and a memory call function that can check the memory contents.In addition, you can repeat the memory contents, all songs, one song, and sections.A CAD system is used to design digital circuits.We use parts such as copper foil styrene capacitors, ceramic containing powder electrolytic capacitors, and OFCs.An independent headphone amplifier is installed in the main unit.Wireless remote control is included.\"",
+        "sub_category":  "Player",
+        "brandId":  "kyocera",
+        "specifications":  "\"Type: CD Player | Playback frequency band: 5 Hz to 20 kHz ¥0.5 dB | Signal-to-noise ratio (EIAJ): 100 dB or more | Dynamic range: 96 dB or more | Channel separation: 96 dB or more | Total harmonic distortion factor: 0.0035% or More (20 Hz to 20 kHz) | Wow flutter: Measurement limit value or less (crystal oscillation accuracy) | Output Level / Impedance: 2.0Vrms/1k � | Pwer: 100 VAC, 50Hz/60Hz | Power consumption: Approx. 16W | External dimensions: Width 430x Height 88x Depth 306 mm | Weight: Approx. 5.2 kg | Attachment: Wireless Remote Control RT-9CX\"",
+        "release_year":  "1986",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/KYOCERA/player/da-9cx.jpg"
+    },
+    {
+        "url":  "https://audio-database.com/KYOCERA/player/da-910.html",
+        "name":  "DA-910",
+        "id":  "kyocera-da-910",
+        "original_price":  "¥198000",
+        "category":  "Source",
+        "description":  "\"A CD player developed based on the concept that music information on CDs can be changed into sound without losing it.In order to reduce the effects of external vibrations, we have adopted a new material, CCR, which is a compound of fine ceramic and resin, for the base chassis that supports the main body. This material has high rigidity, moderate internal loss, and excellent vibration damping characteristics. In the DA-910, main parts such as circuit boards, power transformers, and condensers are directly attached to the base chassis, eliminating most of the sources of internal vibrations.In addition, a foot with height adjustment that can be fixed rigidly to the floor surface has been adopted to realize an extremely high structure against external vibration.In addition, delicate analog circuits are covered by the FCL module to provide a shielding effect against pulse noise leaking from the display and servo circuit, and to prevent thermal distortion of elements and parts.The digital circuit uses a DA conversion system with digital filters and L/R-independent DA converters.The DA 910 raises the frequency of the PCM signal by a factor of four (176.4 kHz) and eliminates unwanted signals between 20 kHz and 156.4 kHz with a digital filter. After DA conversion, a low-order analog low-pass filter with a gentle slope is used to extract the music signal without deteriorating the phase and group delay characteristics.The DA 910 is designed to simplify the signal path. First of all, the DA converter and subsequent parts are made non-contact, and the muting relay and output volume of the output are eliminated to reduce the adverse effect on sound quality. In addition, a discrete DC amplifier configuration is adopted in which the DA converter and the output terminal are directly connected. This improves the low-frequency phase characteristics and stabilizes the amplifier operation by the DC servo.In addition, the analog and digital power supplies are separated to eliminate the influence of digital noise leaking from the servo circuits in the display and optical sections.LC-OFC, which has been specially ordered by Kyocera for audio use, is used for signal wiring. LC-OFC has a feature that the number of crystal boundaries is much smaller than that of normal OFC, and it reduces degradation of music signal by boundary layer.We also use carefully selected parts, such as gold-plated connectors for contacts between boards and high-capacity (15A) power cords with polarity indication.A special alloy die cast with high rigidity is used for the head mechanism part.The parts after the DA converter are completely non-magnetic.It is equipped with functions such as index search, program memory of up to 20 songs, repeat, memory skip, pause, memory call and remaining time display.\"",
+        "sub_category":  "Player",
+        "brandId":  "kyocera",
+        "specifications":  "\"Type: CD Player | Playback frequency band: 5 Hz to 20 kHz ¥0.5 dB | Signal-to-noise ratio: 90 dB or More (20 Hz to 20 kHz) | Dynamic range: 90 dB or more | Channel separation: 90 dB or more | Total harmonic distortion factor: 0.007% or More (20 Hz to 20 kHz) | Wow flutter: Measurement limit value or less (crystal oscillation accuracy) | Output Level / Impedance: 2V/1k � | Pwer: 100 VAC, 50Hz/60Hz | Power consumption: 33W | External dimensions: Width 430x Height 140x Depth 330 mm | Weight: 9.5kg\"",
+        "release_year":  "1985",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/KYOCERA/player/da-910.jpg"
+    },
+    {
+        "url":  "",
+        "name":  "KYOCERA",
+        "id":  "kyocera-kyocera",
+        "original_price":  "",
+        "category":  "General",
+        "description":  "",
+        "sub_category":  "",
+        "brandId":  "kyocera",
+        "specifications":  "\"Type: Integrated amplifier | Effective output (both channel drive): 20 Hz to 20 kHz :",
+        "release_year":  "",
+        "verified":  false,
+        "image_url":  ""
+    }
+]
+

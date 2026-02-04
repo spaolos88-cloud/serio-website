@@ -1,0 +1,59 @@
+﻿[
+    {
+        "url":  "",
+        "name":  "Audio",
+        "id":  "audio-devices-audio",
+        "original_price":  "",
+        "category":  "General",
+        "description":  "\"AD-C2N : ¥1,300,000 (around 1990 s?)AD-C2B : ¥900,000 (around 1990 s?)",
+        "sub_category":  "",
+        "brandId":  "audio-devices",
+        "specifications":  "\"Type: Control amplifier | Input: Phono, CD, Tuner, Aux1/2 | Tape: Monitor, Rec | Gain: 16dB | External dimensions: Width 430x Height 121x Depth 449 mm | Weight: 16.7kg | Sold Separately: Upgrade from AD-C2B to AD-C2N (¥450,000)\"",
+        "release_year":  "1990",
+        "verified":  false,
+        "image_url":  ""
+    },
+    {
+        "url":  "",
+        "name":  "Audio",
+        "id":  "audio-devices-audio",
+        "original_price":  "",
+        "category":  "General",
+        "description":  "\"AD-P2 : ¥960,000 (1 unit, around 1990 s?)AD-P2E : ¥900,000 (1 unit, around 1990 s?)",
+        "sub_category":  "",
+        "brandId":  "audio-devices",
+        "specifications":  "Type: Monaural power amplifier | Maximum power output: 80W (8 �)100W (6 �)70W (4 �) | Input attenuator: 1 dB step (up to -34dB) | External dimensions: Width 430x Height 121x Depth 475 mm | Weight: AD-P2:25kgAD-P2E:24.7kg",
+        "release_year":  "1990",
+        "verified":  false,
+        "image_url":  ""
+    },
+    {
+        "url":  "https://audio-database.com/AUDIO-DEVICES/amp/ad-p55.html",
+        "name":  "Audio",
+        "id":  "audio-devices-audio",
+        "original_price":  "¥550000",
+        "category":  "Amplifiers",
+        "description":  "\"AD-5 series monaural power amplifier, the third stage of audio devices.The AD-P55 is focused on three issues : musical expression, speaker drive, and cost performance.The single power transistor used for the power stage and constant voltage stabilization circuit is used to improve the sound quality for small signals compared with parallel use.A constant voltage stabilization circuit is used for all circuits including power stages.The current supply to the amplifier circuit was generally stabilized up to the drive circuit, but not to the power stage. In the AD-P55, a constant voltage circuit is also used to stabilize the power stage in order to obtain the drive capability for the speaker whose power is higher than the power value.It is designed to deliver power linearly from 8 � to 3 � to accommodate low-impedance speakers.The parts are selected by veteran engineers who have worked for more than 15 years in the design team of audio devices. They are selected from inside and outside of Japan and used for important parts.Main parts include a large-size R-core power transformer (PAT. P) with special winding, a computer-grade electrolytic capacitor made by Sprag of the United States, and semiconductors made in the United States.A control amplifier that can be paired with AD-P55 was developed. The model name seems to be AD-C5.It was scheduled to be released in the spring of 1991. (The actual release has not been confirmed, so please contact the manager if you know.)\"",
+        "sub_category":  "",
+        "brandId":  "audio-devices",
+        "specifications":  "Type: Monaural power amplifier | Maximum power output: 40W (8 �)50W (6 �)75W (4 �)100W (3 �) | Input voltage: 0.85Vrms | Input impedance: 20k � | External dimensions: Width 430x Height 134x Depth 380 mm | Weight: 18.5kg",
+        "release_year":  "1990",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/AUDIO-DEVICES/amp/ad-p55.jpg"
+    },
+    {
+        "url":  "https://audio-database.com/AUDIO-DEVICES/amp/ad-e2.html",
+        "name":  "Audio",
+        "id":  "audio-devices-audio",
+        "original_price":  "¥1300000",
+        "category":  "Amplifiers",
+        "description":  "\"AD-2 series equalizer amplifier.Like the AD-E1, it is designed to be compatible with low impedance MC cartridges, and by further expanding the compatible impedance, it is compatible with various MC cartridges.Current input type is used for the circuit structure.We have adopted only excellent transistors from domestic and overseas products for important transistors, and we have prepared specially the most important transistors.In addition, an attenuator using a high-performance thin-film resistor or a precision resistor for sound is used for the resistors.Film capacitors are used as smoothing capacitors for power supply circuits except for the power stage.The power transformer, switch, printed circuit board, wiring material, etc. also use parts with consideration for sound quality.\"",
+        "sub_category":  "",
+        "brandId":  "audio-devices",
+        "specifications":  "\"Type: Phono equalizer amplifier | Compatible MC Cartridge Impedance: 2 � ~ 25 � | Gain: 73 dB (1 kHz, 3 � Cartridge Used) | External dimensions: Width 430x Height 121x Depth 449 mm | Weight: 17.5kg\"",
+        "release_year":  "1990",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/AUDIO-DEVICES/amp/ad-e2.jpg"
+    }
+]
+
