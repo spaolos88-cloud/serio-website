@@ -1,1 +1,31 @@
-﻿[{"url":"","name":"https://audio-database.com/CYRUS-MISSION/etc/773lc.html","id":"mc-type-cartridge-the-773-lc-773-hc-and-773-sm-have-different-specifications-and-designs-https:--audio-databasecom-cyrus-mission-etc-773lchtml","original_price":"","category":"General","description":"","sub_category":"","brandId":"mc-type-cartridge-the-773-lc-773-hc-and-773-sm-have-different-specifications-and-designs","specifications":"","release_year":"","verified":false,"image_url":""},{"url":"","name":"https://audio-database.com/CYRUS-MISSION/etc/773sm.html","id":"mc-type-cartridge-the-773-lc-773-hc-and-773-sm-have-different-specifications-and-designs-https:--audio-databasecom-cyrus-mission-etc-773smhtml","original_price":"","category":"General","description":"","sub_category":"","brandId":"mc-type-cartridge-the-773-lc-773-hc-and-773-sm-have-different-specifications-and-designs","specifications":"","release_year":"","verified":false,"image_url":""}]
+﻿[
+    {
+        "url":  "https://audio-database.com/CYRUS-MISSION/etc/773lc.html",
+        "name":  "773lc",
+        "id":  "mc-type-cartridge-the-773-lc-773-hc-and-773-sm-have-different-specifications-and-designs-https:--audio-databasecom-cyrus-mission-etc-773lchtml",
+        "original_price":  "¥45000",
+        "category":  "General",
+        "description":  "",
+        "sub_category":  "",
+        "brandId":  "mc-type-cartridge-the-773-lc-773-hc-and-773-sm-have-different-specifications-and-designs",
+        "specifications":  "",
+        "release_year":  "1983",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/773lc.jpg"
+    },
+    {
+        "url":  "https://audio-database.com/CYRUS-MISSION/etc/773sm.html",
+        "name":  "773sm",
+        "id":  "mc-type-cartridge-the-773-lc-773-hc-and-773-sm-have-different-specifications-and-designs-https:--audio-databasecom-cyrus-mission-etc-773smhtml",
+        "original_price":  "¥95000",
+        "category":  "General",
+        "description":  "",
+        "sub_category":  "",
+        "brandId":  "mc-type-cartridge-the-773-lc-773-hc-and-773-sm-have-different-specifications-and-designs",
+        "specifications":  "",
+        "release_year":  "1983",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/773sm.jpg"
+    }
+]
+

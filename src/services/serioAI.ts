@@ -33,81 +33,69 @@ export interface AnalysisResult {
 
 export const generatePrompts = (products: ProductData[], preference: string, diagnostic?: DiagnosticResult | null) => {
     const context = `
-    You are SONIC LAB, an objective audio analysis engine that evaluates equipment using ONLY verifiable technical data.
+    You are SONIC LAB: ${preference === 'MUSICAL' ? 'THE NATURALIST' : preference === 'ANALYTICAL' ? 'THE TRUTH-SEEKER' : 'THE STABILIZER'} DIVISION.
     
-    ## USER PSYCHOACOUSTIC PROFILE:
-    - Primary Identity: ${preference}
-    ${diagnostic ? `
-    - M-Signal (Musicality): ${diagnostic.signals.musical}
-    - A-Signal (Analytical): ${diagnostic.signals.analytical}
-    - S-Signal (Stability): ${diagnostic.signals.stability}
-    - R-Signal (Reference): ${diagnostic.signals.reference}
-    - F-Signal (Fatigue): ${diagnostic.signals.fatigue}
-    - V-Signal (Volume Dependency): ${diagnostic.signals.volume}
-    - C-Signal (Stimulation): ${diagnostic.signals.consumer}
-    ` : ''}
+
+
+    ## PRIME DIRECTIVE: THE HANDSHAKE RULE (LEGEND GATEKEEPER)
+    Before assigning a grade, you MUST check for a "Handshake" (Alignment between User Intent and Gear Behavior).
+    1. **MUSICAL HANDSHAKE**: Required: Natural Decay, Organic Flow. 
+       - REJECT: Gear with truncated ("fast/chopped") tails or artificial speed.
+    2. **ANALYTICAL HANDSHAKE**: Required: Precision, Separation, Low Masking.
+       - REJECT: Gear with bloom, overhang, or "romantic" blurring.
+    3. **BALANCED HANDSHAKE**: Required: Stability, Contextual Balance.
+       - REJECT: Gear that requires constant "tweaking" or has unstable tonal shifts.
+
+    ⚠️ **CRITICAL RULE**: If there is NO HANDSHAKE (Mismatch), the model is **DISQUALIFIED FROM LEGEND STATUS** and its score is **CAPPED at 8.9 (Class A)**. Legend status is ONLY for perfect alignment + perfect performance.
+
+    ## SCORING LEDGER (STRICT CALCULATION PATH):
+    To ensure consistency, YOU MUST follow this EXACT calculation path:
+    1. **BASE SCORE**: Start at 7.0.
+    2. **HANDSHAKE CHECK**: 
+       - If MATCH: +1.0. 
+       - If MISMATCH: -1.0 and CAP final result at 8.9.
+    3. **MATERIAL BONUS**: 
+       - If Analytical + (Beryllium/Titanium/Boron): +1.0.
+       - If Musical + (Alnico/Paper/Silk): +1.0.
+    4. **ENGINEERING PENALTY**: 
+       - If "Resonance" or "Coloration" noted in notes: -0.5.
+    5. **SPEC FINALIZER**: 
+       - If Bandwidth > 30kHz: +0.2.
+       - If Weight > 25kg (Build Authority): +0.3.
+
+    FINAL MATCH SCORE = SUM(Steps 1-5). (Max 10.0, Min 1.0).
+
+    ## ANALYSIS HIERARCHY (STRICT ORDER OF OPERATIONS):
+    1. **ACTIVE PROTOCOL (Your Identity)**: The primary lens for evaluation.
+    2. **THE HANDSHAKE (Gatekeeper)**: Determine if the unit is ELIGIBLE for Class Legend.
+    3. **ENGINEERING NOTES**: Priority data for behavior analysis.
+    4. **TECHNICAL SPECIFICATIONS**: Technical performance limits.
+    5. **SERIO KB PRINCIPLES**: The Grading Frameworks and Archive Rules.
     
-    ## CRITICAL DIRECTIVE: OBJECTIVE ANALYSIS ONLY
-    
-    ### DATA SOURCES YOU MUST USE:
-    ✅ Technical Specifications (frequency response, impedance, crossover points, sensitivity, power handling)
-    ✅ Engineering Notes (driver materials, cone construction, cabinet design, crossover topology)
-    ✅ Frequency Response Intel (measured data, distortion metrics, impedance curves if available)
-    ✅ Sonic Lab Knowledge Base (grading frameworks, psychoacoustic principles)
-    
-    ### DATA SOURCES YOU MUST REJECT:
-    ❌ Subjective reviewer opinions (even from "respected" sources)
-    ❌ Online store marketing copy and promotional language
-    ❌ Forum posts, social media comments, or hearsay
-    ❌ "Friend of a friend" testimonials
-    ❌ Anything without measurable, verifiable technical basis
-    
-    ## SELECTED LISTENING PROTOCOL: "${preference}"
-    
-    ### PROTOCOL-SPECIFIC EVALUATION CRITERIA:
+    ### PROTOCOL-SPECIFIC BEHAVIOR (${preference}):
     ${preference === 'MUSICAL' ? `
-    MUSICAL / NATURALIST MODE - Prioritize:
-    - Warm tonal balance, organic midrange presence
-    - Non-fatiguing treble with controlled extension
-    - Harmonic richness and decay characteristics
-    - Materials that favor natural resonance (paper, silk, treated cloth)
-    - Lower sensitivity to clinical precision, higher tolerance for "musical coloration"
+    - You evaluate "Musicality" as a gatekeeper. If not musical, it fails.
+    - You seek NATURAL DECAY. You reject "chopped" or "dry" sound as unrealistic.
+    - You prioritize smooth transitions over surgically defined edges.
     ` : preference === 'ANALYTICAL' ? `
-    ANALYTICAL / TRUTH-SEEKER MODE - Prioritize:
-    - Flat frequency response with minimal deviation
-    - Fast transient response and detail retrieval
-    - Low distortion metrics across the spectrum
-    - Precision driver materials (beryllium, diamond, titanium)
-    - Accuracy over euphony - truth before beauty
+    - You evaluate "Accuracy" as a gatekeeper. If vague or blury, it fails.
+    - You seek PRECISION. You reject "bloom" or "overhang" as distortion.
+    - You prioritize clear attack definition and information extraction.
     ` : `
-    BALANCED / STABILIZER MODE - Prioritize:
-    - Even frequency response with controlled character
-    - Versatility across genres and source material
-    - Moderate detail retrieval without harshness
-    - Stable impedance characteristics for amplifier compatibility
-    - The golden middle - neither too warm nor too clinical
+    - You evaluate "Stability" as a gatekeeper. If inconsistent across genres, it fails.
+    - You seek BALANCE. You reject extremes (too slow/warm or too fast/bright).
+    - You prioritize long-term trust and reliability.
     `}
     
     ### GRADING FRAMEWORKS (SOURCE OF TRUTH):
     ${GRADING_FRAMEWORKS_FULL}
-
-    ### KNOWLEDGE BASE (PHYSICS & PSYCHOACOUSTICS):
-    ${IDIOT_PROOF_GUIDE_FULL}
-
-    ### CLASSIFICATION RULES:
-    ${JSON.stringify(CATEGORY_CONFLICT_RULES, null, 2)}
-
-    ### IDENTITY DEFINITIONS:
-    ${JSON.stringify(SONIC_IDENTITIES, null, 2)}
     
     ## PRODUCTS TO ANALYZE:
     ${JSON.stringify(products.map(p => ({
         id: p.id,
         name: p.name,
-        category: p.category || 'Not provided',
-        sub_category: p.sub_category || 'Not provided',
-        specifications: p.specifications || 'Not provided',
         engineering_notes: p.engineering_notes || 'Not provided',
+        specifications: p.specifications || 'Not provided',
         description: p.description || 'Not provided',
         technical_intel: p.technical_intel || 'Not provided',
         tags: p.tags || [],
@@ -115,61 +103,23 @@ export const generatePrompts = (products: ProductData[], preference: string, dia
     })), null, 2)}
     
     ## OUTPUT FORMAT (DEEP DIVE JSON):
-    For each product, return comprehensive analysis:
+    For each product:
     {
         "[product_id]": {
-            "match": <60-99 based on alignment with ${preference} protocol>,
-            "verdict": "<2-3 sentence technical verdict. Reference SPECIFIC specs/materials>",
-            "keywords": ["<material/tech tag>", "<performance tag>", "<class if applicable>"],
-            "technicalHighlights": [
-                "<Key spec #1 with value, e.g. '35Hz-30kHz frequency response'>",
-                "<Key spec #2, e.g. '6Ω nominal impedance'>",
-                "<Key spec #3, e.g. '91dB/W/m sensitivity'>"
-            ],
-            "frequencyAnalysis": "<1-2 sentences analyzing frequency response characteristics and what they mean for the ${preference} protocol>",
-            "engineeringInsights": "<1-2 sentences about construction, materials, and design philosophy from engineering notes>",
-            "strengthsForProtocol": [
-                "<Strength #1 specific to ${preference} protocol>",
-                "<Strength #2 specific to ${preference} protocol>"
-            ],
-            "weaknessesForProtocol": [
-                "<Potential weakness or trade-off for ${preference} protocol>"
-            ],
-            "recommendedFor": "<Ideal use case, e.g. 'Jazz, Classical, Acoustic' or 'Studio Monitoring, Mixing'>",
-            "classAssignment": "<B, A, S, or Legend based on Grading System rules>",
-            "signalMatch": {
-                "M": <0-100 alignment with Musicality preference>,
-                "A": <0-100 alignment with Analytical preference>,
-                "S": <0-100 alignment with Stability/Reliability specs>,
-                "R": <0-100 alignment with Reference benchmarks>,
-                "V": <0-100 alignment with Volume scaling/power handling>,
-                "C": <0-100 alignment with Consumer engagement/fun factor>,
-                "F": <0-100 safety score: 100 = non-fatiguing, 0 = high ear stress>
-            }
+            "match": <Calculated score from Ledger. CAP AT 8.9 IF NO HANDSHAKE>,
+            "verdict": "<Verdict starting with Handshake assessment. Describe the decay/tail behavior.>",
+            "keywords": ["<Handshake Match/Mismatch>", "<material/tech>", "<Class>"],
+            "technicalHighlights": [...],
+            "frequencyAnalysis": "...",
+            "engineeringInsights": "...",
+            "strengthsForProtocol": [...],
+            "weaknessesForProtocol": [...],
+            "recommendedFor": "...",
+            "classAssignment": "<Legend (9.7+), S (9.0-9.6), A (8.0-8.9), or B.>",
+            "signalMatch": { ... }
         }
     }
-    
-    ## SIGNAL MATCH EVALUATION RULES:
-    - **M (Musicality):** Score high if engineering notes mention warm voicing, paper/silk materials, or harmonic richness.
-    - **A (Analytical):** Score high if specs show flat FR, use of beryllium/boron/titanium, or "monitor" designation.
-    - **S (Stability):** Score high for robust impedance curves and high-quality cabinet/chassis construction.
-    - **R (Reference):** Score high if the unit is a historical studio standard or benchmark performer.
-    - **V (Volume):** Score high for high sensitivity and high power handling capacity.
-    - **C (Consumer):** Score high for V-shaped signatures or "exciting" marketing/material traits.
-    - **F (Fatigue):** Score high (safe) if treble is controlled/rolled off. Score low (stressful) if there are sharp breakup modes or ringing.
-    
-    ## DEEP DIVE INSTRUCTIONS:
-    - **PRIORITY DIRECTIVE:** If 'serio_taxonomy' or 'tags' are provided, YOU MUST ALIGN WITH THEM.
-      - If 'tags' contains "Reference" -> Score 'R' (Reference) > 90.
-      - If 'serio_taxonomy.performance_class' is provided (e.g. "S", "A"), your 'classAssignment' MUST MATCH IT.
-      - Do not hallucinate a lower class for a verified unit.
-    - Extract ACTUAL numeric specs when available (Hz, dB, Ω, W)
-    - Reference specific materials (Carbon Graphite, Boronated Titanium, etc.)
-    - If 'technical_intel' is present, synthesize its 'visual_analysis' into your verdict.
-    - Explain HOW each spec benefits or hinders the ${preference} protocol
-    - Be honest about trade-offs - no product is perfect
-    - If data is missing, state "Specifications not provided" rather than inventing
-    
+
     Return ONLY valid JSON, no markdown code blocks.
     `;
     return context;
@@ -187,7 +137,12 @@ export const fetchGeminiAnalysis = async (apiKey: string, products: ProductData[
             body: JSON.stringify({
                 contents: [{
                     parts: [{ text: prompt }]
-                }]
+                }],
+                generationConfig: {
+                    temperature: 0,
+                    topP: 1,
+                    maxOutputTokens: 2048,
+                }
             })
         });
 
@@ -220,10 +175,9 @@ export const fetchOpenAIAnalysis = async (apiKey: string, products: ProductData[
             body: JSON.stringify({
                 model: "gpt-3.5-turbo", // Cost-effective default
                 messages: [
-                    { role: "system", content: "You are a specialized audio analysis engine that outputs only JSON." },
                     { role: "user", content: prompt }
                 ],
-                temperature: 0.7
+                temperature: 0
             })
         });
 

@@ -1,17 +1,20 @@
-﻿{
-    "id":  "coral-b-300",
-    "name":  "B-300",
-    "url":  "https://audio-database.com/CORAL/unit/b-300.html",
-    "sub_category":  "",
-    "sections":  {
-                     "specifications":  "Unit configuration: For Low Band : 38 cm Cone Type (15L-101)For High Range : Horn Type (M-100 + AH-501) | Nominal impedance: 8 | Program source input: 150W | Playback frequency band: 50 Hz to 18 kHz | Crossover frequency: 800Hz | External dimensions: Width 600x Height 1,200x Depth 600 mm",
-                     "title":  "CORAL B-300",
-                     "overview":  "B-300 (walnut finish) :   125,000 (1 piece, around 1980)(black finish) :   115000 (1 piece, around 1980)B-301 (walnut finish) :   40,000 (1 piece, around 1980)(black finish) :   35000 (1 piece, around 1980)\n\nThe front load horn enclosure was also used as a monitor system for the theatre.A 2-way system can be configured by combining with a horn box B-301 of a different specification.There are 2 variations of the appearance, walnut finish and black finish."
-                 },
-    "category":  "UNIT",
-    "brandId":  "coral",
-    "image_url":  "https://audio-database.com/b-300.jpg",
-    "original_price":  "¥125000",
-    "release_year":  "1980",
-    "verified":  true
-}
+[
+    {
+        "id": "coral-b-300",
+        "name": "B-300",
+        "url": "https://audio-database.com/CORAL/unit/b-300.html",
+        "sub_category": "",
+        "sections": {
+            "specifications": "Unit configuration: For Low Band : 38cm Cone Type (15L-101)For High Range : Horn Type (M-100+ AH-501) | Nominal impedance: 8| Program source input: 150W | Playback frequency band: 50Hz to 18kHz | Crossover frequency: 800Hz | External dimensions: Width 600x Height 1,200x Depth 600mm",
+            "title": "CORAL B-300",
+            "overview": "B-300(walnut finish) :   125,000(1piece, around 1980)(black finish) :   115000(1piece, around 1980)B-301(walnut finish) :   40,000(1piece, around 1980)(black finish) :   35000(1piece, around 1980)\n\nThe front load horn enclosure was also used as a monitor system for the theatre.A 2-way system can be configured by combining with a horn box B-301of a different specification.There are 2variations of the appearance, walnut finish and black finish."
+        },
+        "category": "UNIT",
+        "brandId": "coral",
+        "image_url": "https://audio-database.com/b-300.jpg",
+        "original_price": "¥125000",
+        "release_year": "1980",
+        "verified": true,
+        "description": "Audio Database CORAL B-300 B-300 (walnut finish) : ¥ 125,000 (1 piece, around 1980) (black finish) : ¥ 115000 (1 piece, around 1980) B-301 (walnut finish) : ¥ 40,000 (1 piece, around 1980) (black finish) : ¥ 35000 (1 piece, around 1980) Commentary The front load horn enclosure was also used as a monitor system for the theatre. A 2-way system can be configured by combining with a horn box B-301 of a different specification. There are 2 variations of the appearance, walnut finish and black finish. Major Specifications for System Examples Using B-300 and B-301 Unit configuration For Low Band : 38 cm Cone Type (15L-101) For High Range : Horn Type (M-100 + AH-501) Nominal impedance 8 Ω Program source input 150W Playback frequency band 50 Hz to 18 kHz Crossover frequency 800Hz External dimensions Width 600x Height 1,200x Depth 600 mm"
+    }
+]

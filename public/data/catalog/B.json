@@ -1,255 +1,285 @@
-﻿[
+[
     {
-        "id":  "bangandolufsen-bang",
-        "name":  "Bang",
-        "url":  "https://audio-database.com/BANGandOLUFSEN/etc/sp-10.html",
-        "sub_category":  "",
-        "sections":  {
-                         "specifications":  "Type: MMC Cartridge | Frequency band: 15 Hz to 25 kHz 3 db50 Hz to 10 kHz 1.5 dB | Stylus Diameter: 0.6 mil (oval) | Proper needle pressure: 1.0g ~ 1.5g | Channel separation: 25 dB or More (1 kHz) | Channel balance: Within 2 dB | Compliance: min:25x10-6cm/dyne | Vertical tracking angle: 15 | Output voltage: 5mV/5cm/s | Load impedance: 47k | Dead weight: 8.5g | Exchange needle: Type5429( 8,800)",
-                         "title":  "BANGandOLUFSEN Bang",
-                         "overview":  "MMC cartridge that uses MMC (Moving Micro Cross) system."
-                     },
-        "category":  "ETC",
-        "brandId":  "bangandolufsen",
-        "image_url":  "https://audio-database.com/sp-10.JPG",
-        "original_price":  "¥14500",
-        "release_year":  "1973",
-        "verified":  true
+        "id": "bangandolufsen-bang",
+        "name": "Bang",
+        "url": "https://audio-database.com/BANGandOLUFSEN/etc/sp-10.html",
+        "sub_category": "",
+        "sections": {
+            "specifications": "Type: MMC Cartridge | Frequency band: 15Hz to 25kHz 3db50Hz to 10kHz 1.5dB | Stylus Diameter: 0.6mil (oval) | Proper needle pressure: 1.0g ~ 1.5g | Channel separation: 25dB or More (1kHz) | Channel balance: Within 2dB | Compliance: min:25x10-6cm/dyne | Vertical tracking angle: 15| Output voltage: 5mV/5cm/s | Load impedance: 47k | Dead weight: 8.5g | Exchange needle: Type5429( 8,800)",
+            "title": "BANGandOLUFSEN Bang",
+            "overview": "MMC cartridge that uses MMC (Moving Micro Cross) system."
+        },
+        "category": "ETC",
+        "brandId": "bangandolufsen",
+        "image_url": "https://audio-database.com/sp-10.JPG",
+        "original_price": "¥14500",
+        "release_year": "1973",
+        "verified": true,
+        "specifications": "Type MMC Cartridge Frequency band 15 Hz to 25 kHz ± 3 db 50 Hz to 10 kHz ± 1.5 dB Stylus Diameter 0.6 mil (oval) Proper needle pressure 1.0g ~ 1.5g Channel separation 25 dB or More (1 kHz) Channel balance Within 2 dB Compliance min:25x10 -6 cm/dyne Vertical tracking angle 15 ° Output voltage 5mV/5cm/s Load impedance 47k Ω Dead weight 8.5g Exchange needle Type5429(¥8,800)",
+        "description": "Audio Database Bang &amp; Olufsen SP-10 ¥ 14,500 (around 1973) Commentary MMC cartridge that uses MMC (Moving Micro Cross) system. Model Rating Type MMC Cartridge Frequency band 15 Hz to 25 kHz ± 3 db 50 Hz to 10 kHz ± 1.5 dB Stylus Diameter 0.6 mil (oval) Proper needle pressure 1.0g ~ 1.5g Channel separation 25 dB or More (1 kHz) Channel balance Within 2 dB Compliance min:25x10 -6 cm/dyne Vertical tracking angle 15 ° Output voltage 5mV/5cm/s Load impedance 47k Ω Dead weight 8.5g Exchange needle Type5429(¥8,800)"
     },
     {
-        "id":  "beard-ca35",
-        "name":  "CA35",
-        "url":  "https://audio-database.com/BEARD/amp/ca35.html",
-        "sub_category":  "",
-        "sections":  {
-                         "specifications":  "Type: Control amplifier | Input Sensitivity / Impedance: CD, Tape, Tuner : 80mV/250k | RIAA deviation: MC : 20 Hz ~ 20 kHz + 0 -1.5 dBMM : 20 Hz to 20 kHz 0.1 dB | Total harmonic distortion factor: 0.015%(IHF) | Maximum allowable input: MM/MC : 45 dB (1 kHz, IHF) | Signal-to-noise ratio: 78dB(unweighted) | Frequency characteristic: 20 Hz ~ 80 kHz + 0 -0.3 dB | Maximum power output: 45Vrms/100k | Pwer: 100 VAC, 50Hz/60Hz | External dimensions: Width 445x Height 80x Depth 230 mm | Weight: 6kg",
-                         "title":  "BEARD CA35",
-                         "overview":  "Vacuum tube stereo preamplifier with 3-pole tube configuration for all stages.The amplifier stage consists of a phono equalizer amplifier and a line amplifier, each of which uses highly reliable twin triodes. The circuit structure is a 3-stage K-K feedback type amplifier, with two ECC-83 and one ECC-82 in the equalizer amplifier section and three ECC-82 in the line amplifier section for DC ignition operation.Equipped with MC cartridge booster transformer."
-                     },
-        "category":  "Amplifiers",
-        "brandId":  "beard",
-        "image_url":  "https://audio-database.com/ca35.JPG",
-        "original_price":  "¥350000",
-        "release_year":  "1988",
-        "verified":  true
+        "id": "beard-ca35",
+        "name": "CA35",
+        "url": "https://audio-database.com/BEARD/amp/ca35.html",
+        "sub_category": "",
+        "sections": {
+            "specifications": "Type: Control amplifier | Input Sensitivity / Impedance: CD, Tape, Tuner : 80mV/250k | RIAA deviation: MC : 20Hz ~ 20kHz + 0-1.5dBMM : 20Hz to 20kHz 0.1dB | Total harmonic distortion factor: 0.015%(IHF) | Maximum allowable input: MM/MC : 45dB (1kHz, IHF) | Signal-to-noise ratio: 78dB(unweighted) | Frequency characteristic: 20Hz ~ 80kHz + 0-0.3dB | Maximum power output: 45Vrms/100k | Pwer: 100VAC, 50Hz/60Hz | External dimensions: Width 445x Height 80x Depth 230mm | Weight: 6kg",
+            "title": "BEARD CA35",
+            "overview": "Vacuum tube stereo preamplifier with 3-pole tube configuration for all stages.The amplifier stage consists of a phono equalizer amplifier and a line amplifier, each of which uses highly reliable twin triodes. The circuit structure is a 3-stage K-K feedback type amplifier, with two ECC-83and one ECC-82in the equalizer amplifier section and three ECC-82in the line amplifier section for DC ignition operation.Equipped with MC cartridge booster transformer."
+        },
+        "category": "Amplifiers",
+        "brandId": "beard",
+        "image_url": "https://audio-database.com/ca35.JPG",
+        "original_price": "¥350000",
+        "release_year": "1988",
+        "verified": true,
+        "specifications": "Type Control amplifier Equalizer Amplifier Section Input Sensitivity / Impedance Phono MC : 0.1mV/7 Ω Phono MM : 1.2mV/47k Ω RIAA deviation MC : 20 Hz ~ 20 kHz + 0 -1.5 dB MM : 20 Hz to 20 kHz ± 0.1 dB Total harmonic distortion factor MM/MC:0.05%(IHF) Maximum allowable input MM/MC : 45 dB (1 kHz, IHF) Signal-to-noise ratio MM/MC:72dB(IHF) Flat Amplifier Section Input Sensitivity / Impedance CD, Tape, Tuner : 80mV/250k Ω Frequency characteristic 20 Hz ~ 80 kHz + 0 -0.3 dB Signal-to-noise ratio 78dB(unweighted) Total harmonic distortion factor 0.015%(IHF) Maximum power output 45Vrms/100k Ω &lt;General> Pwer 100 VAC, 50Hz/60Hz External dimensions Width 445x Height 80x Depth 230 mm | Weight 6kg",
+        "description": "Audio Database BEARD CA35 ¥ 350,000 (released in October 1988) Commentary Vacuum tube stereo preamplifier with 3-pole tube configuration for all stages. The amplifier stage consists of a phono equalizer amplifier and a line amplifier, each of which uses highly reliable twin triodes. The circuit structure is a 3-stage K-K feedback type amplifier, with two ECC-83 and one ECC-82 in the equalizer amplifier section and three ECC-82 in the line amplifier section for DC ignition operation. Equipped with MC cartridge booster transformer. Model Rating Type Control amplifier Equalizer Amplifier Section Input Sensitivity / Impedance Phono MC : 0.1mV/7 Ω Phono MM : 1.2mV/47k Ω RIAA deviation MC : 20 Hz ~ 20 kHz + 0 -1.5 dB MM : 20 Hz to 20 kHz ± 0.1 dB Total harmonic distortion factor MM/MC:0.05%(IHF) Maximum allowable input MM/MC : 45 dB (1 kHz, IHF) Signal-to-noise ratio MM/MC:72dB(IHF) Flat Amplifier Section Input Sensitivity / Impedance CD, Tape, Tuner : 80mV/250k Ω Frequency characteristic 20 Hz ~ 80 kHz + 0 -0.3 dB Signal-to-noise ratio 78dB(unweighted) Total harmonic distortion factor 0.015%(IHF) Maximum power output 45Vrms/100k Ω &lt;General> Pwer 100 VAC, 50Hz/60Hz External dimensions Width 445x Height 80x Depth 230 mm Weight 6kg"
     },
     {
-        "id":  "bladelius-s101",
-        "name":  "S101",
-        "url":  "https://audio-database.com/BLADELIUS/amp/s101.html",
-        "sub_category":  "",
-        "sections":  {
-                         "specifications":  "Type: Pre-main amplifier | Rated output: 150W + 150W (8 ) | Input terminal: XLR balance : 2 systems (hot #2 pin)RCA unbalance : 4 lines (Line1 to 4)One tape loop input (Tape) | Output terminal: Pre-out : 1 system (RCA)Tape out : 1 system (surround compatible) | Power consumption: 310W | External dimensions: Width 430x Height 125x Depth 435 mm (excluding protruding parts) | Weight: 21kg | Attachment: System remote control",
-                         "title":  "BLADELIUS S101",
-                         "overview":  "Integrated amplifier with perfect balance design.The amplifier has a fully balanced configuration using four independent amplifier circuits, which eliminates the effect of transmission noise and enables stable namp operation and high power output.A 1,800 VA large-capacity toroidal power transformer is used for the power supply.We have also adopted power filter condensers for audio equipment.In addition to two XLR balanced inputs, the input / output terminals are equipped with Line 5 RCA unbalanced inputs, tape out, pre-out, etc.The processor loop also connects surround processors for your home theater.The display section is equipped with a dot matrix display.Solid aluminum is used for the front panel.Speaker terminal made by WBT is used.Wireless remote control is included."
-                     },
-        "category":  "Amplifiers",
-        "brandId":  "bladelius",
-        "image_url":  "https://audio-database.com/s101.jpg",
-        "original_price":  "¥550000",
-        "release_year":  "2003",
-        "verified":  true
+        "id": "bladelius-s101",
+        "name": "S101",
+        "url": "https://audio-database.com/BLADELIUS/amp/s101.html",
+        "sub_category": "",
+        "sections": {
+            "specifications": "Type: Pre-main amplifier | Rated output: 150W + 150W (8) | Input terminal: XLR balance : 2systems (hot #2pin)RCA unbalance : 4lines (Line1to 4)One tape loop input (Tape) | Output terminal: Pre-out : 1system (RCA)Tape out : 1system (surround compatible) | Power consumption: 310W | External dimensions: Width 430x Height 125x Depth 435mm (excluding protruding parts) | Weight: 21kg | Attachment: System remote control",
+            "title": "BLADELIUS S101",
+            "overview": "Integrated amplifier with perfect balance design.The amplifier has a fully balanced configuration using four independent amplifier circuits, which eliminates the effect of transmission noise and enables stable namp operation and high power output.A 1,800VA large-capacity toroidal power transformer is used for the power supply.We have also adopted power filter condensers for audio equipment.In addition to two XLR balanced inputs, the input / output terminals are equipped with Line 5RCA unbalanced inputs, tape out, pre-out, etc.The processor loop also connects surround processors for your home theater.The display section is equipped with a dot matrix display.Solid aluminum is used for the front panel.Speaker terminal made by WBT is used.Wireless remote control is included."
+        },
+        "category": "Amplifiers",
+        "brandId": "bladelius",
+        "image_url": "https://audio-database.com/s101.jpg",
+        "original_price": "¥550000",
+        "release_year": "2003",
+        "verified": true,
+        "specifications": "Type Pre-main amplifier Rated output 150W + 150W (8 Ω) Input terminal XLR balance : 2 systems (hot #2 pin) RCA unbalance : 4 lines (Line1 to 4) One tape loop input (Tape) Output terminal Pre-out : 1 system (RCA) Tape out : 1 system (surround compatible) Power consumption 310W External dimensions Width 430x Height 125x Depth 435 mm (excluding protruding parts) | Weight 21kg Attachment | System remote control",
+        "description": "Audio Database Bladelius S101 ¥ 550,000 (released in 2003) Commentary Integrated amplifier with perfect balance design. The amplifier has a fully balanced configuration using four independent amplifier circuits, which eliminates the effect of transmission noise and enables stable namp operation and high power output. A 1,800 VA large-capacity toroidal power transformer is used for the power supply. We have also adopted power filter condensers for audio equipment. In addition to two XLR balanced inputs, the input / output terminals are equipped with Line 5 RCA unbalanced inputs, tape out, pre-out, etc. The processor loop also connects surround processors for your home theater. The display section is equipped with a dot matrix display. Solid aluminum is used for the front panel. Speaker terminal made by WBT is used. Wireless remote control is included. Model Rating Type Pre-main amplifier Rated output 150W + 150W (8 Ω) Input terminal XLR balance : 2 systems (hot #2 pin) RCA unbalance : 4 lines (Line1 to 4) One tape loop input (Tape) Output terminal Pre-out : 1 system (RCA) Tape out : 1 system (surround compatible) Power consumption 310W External dimensions Width 430x Height 125x Depth 435 mm (excluding protruding parts) Weight 21kg Attachment System remote control"
     },
     {
-        "id":  "bladelius-grendel",
-        "name":  "GRENDEL",
-        "url":  "https://audio-database.com/BLADELIUS/amp/grendel.html",
-        "sub_category":  "",
-        "sections":  {
-                         "specifications":  "Type: Multi-Channel Power Amplifier / Stereo Power Amplifier | Rated output: 350W/ch (8 , Distortion Factor 0.1% or Less)700W/ch (4 , Distortion Factor 0.1% or Less) | Frequency band: DC ~ 100 kHz 1 dB | Input terminal: XLR balanceRCA imbalance* Switching type | Input impedance: 50k | Output element: High-power MOS-FET | Power supply capacity: 8,000VA | Total power capacitor capacity: 80,000 ? F | External dimensions: Width 450x Height 215x Depth 538 mm | Weight: 33.5kg",
-                         "title":  "BLADELIUS GRENDEL",
-                         "overview":  "5-channel specifications :   1,650,000 (released in 2005)2-channel specification :   1,200,000 (released in 2005)\n\nMulti-channel power amplifier with modular design.The amplifier module employs 20 high-power MOS-FET output elements, and high power is realized by bridge configuration with 2 pairs of 5 parallel output stages.The circuit uses a perfectly balanced transmission from input to output, and achieves excellent performance in distortion factor and noise characteristics.The power supply section uses the latest switching regulator with a large capacity of 8 kva.There are two types of input jacks : XLR balanced and RCA unbalanced.A large speaker terminal with a plastic cover is used for the output terminal.Vibration isolation structure with extra-thick aluminum front panel and steel chassis is adopted.The Grendel is available in two variations, 5-channel and 2-channel, as well as 10-channel configuration with an optional stereo module."
-                     },
-        "category":  "Amplifiers",
-        "brandId":  "bladelius",
-        "image_url":  "https://audio-database.com/grendel.jpg",
-        "original_price":  "¥1650000",
-        "release_year":  "2005",
-        "verified":  true
+        "id": "bladelius-grendel",
+        "name": "GRENDEL",
+        "url": "https://audio-database.com/BLADELIUS/amp/grendel.html",
+        "sub_category": "",
+        "sections": {
+            "specifications": "Type: Multi-Channel Power Amplifier / Stereo Power Amplifier | Rated output: 350W/ch (8, Distortion Factor 0.1% or Less)700W/ch (4, Distortion Factor 0.1% or Less) | Frequency band: DC ~ 100kHz 1dB | Input terminal: XLR balanceRCA imbalance* Switching type | Input impedance: 50k | Output element: High-power MOS-FET | Power supply capacity: 8,000VA | Total power capacitor capacity: 80,000? F | External dimensions: Width 450x Height 215x Depth 538mm | Weight: 33.5kg",
+            "title": "BLADELIUS GRENDEL",
+            "overview": "5-channel specifications :   1,650,000(released in 2005)2-channel specification :   1,200,000(released in 2005)\n\nMulti-channel power amplifier with modular design.The amplifier module employs 20high-power MOS-FET output elements, and high power is realized by bridge configuration with 2pairs of 5parallel output stages.The circuit uses a perfectly balanced transmission from input to output, and achieves excellent performance in distortion factor and noise characteristics.The power supply section uses the latest switching regulator with a large capacity of 8kva.There are two types of input jacks : XLR balanced and RCA unbalanced.A large speaker terminal with a plastic cover is used for the output terminal.Vibration isolation structure with extra-thick aluminum front panel and steel chassis is adopted.The Grendel is available in two variations, 5-channel and 2-channel, as well as 10-channel configuration with an optional stereo module."
+        },
+        "category": "Amplifiers",
+        "brandId": "bladelius",
+        "image_url": "https://audio-database.com/grendel.jpg",
+        "original_price": "¥1650000",
+        "release_year": "2005",
+        "verified": true,
+        "specifications": "Type Multi-Channel Power Amplifier / Stereo Power Amplifier Rated output 350W/ch (8 Ω, Distortion Factor 0.1% or Less) 700W/ch (4 Ω, Distortion Factor 0.1% or Less) Frequency band DC ~ 100 kHz ± 1 dB Input terminal XLR balance RCA imbalance * Switching type Input impedance 50k Ω Output element High-power MOS-FET Power supply capacity 8,000VA Total power capacitor capacity 80,000 μ F External dimensions Width 450x Height 215x Depth 538 mm | Weight 33.5kg",
+        "description": "Audio Database Bladelius Grendel 5-channel specifications : ¥ 1,650,000 (released in 2005) 2-channel specification : ¥ 1,200,000 (released in 2005) Commentary Multi-channel power amplifier with modular design. The amplifier module employs 20 high-power MOS-FET output elements, and high power is realized by bridge configuration with 2 pairs of 5 parallel output stages. The circuit uses a perfectly balanced transmission from input to output, and achieves excellent performance in distortion factor and noise characteristics. The power supply section uses the latest switching regulator with a large capacity of 8 kva. There are two types of input jacks : XLR balanced and RCA unbalanced. A large speaker terminal with a plastic cover is used for the output terminal. Vibration isolation structure with extra-thick aluminum front panel and steel chassis is adopted. The Grendel is available in two variations, 5-channel and 2-channel, as well as 10-channel configuration with an optional stereo module. Model Rating Type Multi-Channel Power Amplifier / Stereo Power Amplifier Rated output 350W/ch (8 Ω, Distortion Factor 0.1% or Less) 700W/ch (4 Ω, Distortion Factor 0.1% or Less) Frequency band DC ~ 100 kHz ± 1 dB Input terminal XLR balance RCA imbalance * Switching type Input impedance 50k Ω Output element High-power MOS-FET Power supply capacity 8,000VA Total power capacitor capacity 80,000 μ F External dimensions Width 450x Height 215x Depth 538 mm Weight 33.5kg"
     },
     {
-        "id":  "bladelius-gondul",
-        "name":  "GONDUL",
-        "url":  "https://audio-database.com/BLADELIUS/player/gondul.html",
-        "sub_category":  "Player",
-        "sections":  {
-                         "specifications":  "Type: Universal player | Supported Disks: CD, SACD, CD-R, CD-RW, MP3, DVD-A, DVD-V, DVD-R, DVD-RW | Digital input: XLR balance : 1 systemRCA coaxial : 1 systemTOS Optical : 1 system | Analog output: Front XLR balance terminal7.1 channel RCA jacks (front, center, rear, surround back, subwoofer) | Analog input: * OptionalBalanced : 1 systemUnbalanced : 1 system | Video Out: Color difference component : 1 systemS-Video : One lineComposite video output : 1 systemDVI digital video output (optional) | Total harmonic distortion factor + noise: 0.001% | Signal-to-noise ratio: 120dB | Channel separation: 117dB | External dimensions: Width 438x Height 128x Depth 460 mm | Weight: 14.5kg",
-                         "title":  "BLADELIUS GONDUL",
-                         "overview":  "Universal player with multi-channel preamp function.\n\nAudio circuit sectionEquipped with a Dolby Digital, DTS, SACD multi-channel decoder and master volume.This allows direct connection to the power amplifier without going through the AV amplifier.The D/A converter for CD uses four Bar-Brown PCM1704K Sine Magnitude 24-bit DACs with a symmetrical balanced circuit configuration. These 24-bit DACsWith upsampling operation of up to 192 khz, it is possible to reproduce -120dB signal without 0 cross distortion or glitch even though it is a multi-bit DAC.The D/A conversion section for SACD uses a Bar Brown DSD1792 with two left and right channels each in a differential balance circuit configuration.Following the DAC, a discrete circuit is used for I/V conversion with an emphasis on sound quality.Jitter component is eliminated by asynchronous clock generation circuit.External digital inputs include XLR balance, RCA coaxial, and TOS optical.There was an optional analog input module.By adding this module, the analog input of balanced one system and unbalanced Route 3 can be added.\n\nVideo circuit partThe video circuit uses a pure cinema progressive scan (2-3 pull-down).The video DAC uses a 216MHz/12-bit high-end video DAC.Equipped with a focus filter with 4 : 4 : 4 video upsampling.You can adjust up to 16 video parameters.In addition, memory of 3 patterns is possible.Three standard image quality types are available : CRT, PDP, and Professional.The optional DVI digital video output jack supports digital video output.It uses a Japanese display menu and setup navigator to guide complicated home theater settings."
-                     },
-        "category":  "Source",
-        "brandId":  "bladelius",
-        "image_url":  "https://audio-database.com/gondul.jpg",
-        "original_price":  "¥1900000",
-        "release_year":  "2005",
-        "verified":  true
+        "id": "bladelius-gondul",
+        "name": "GONDUL",
+        "url": "https://audio-database.com/BLADELIUS/player/gondul.html",
+        "sub_category": "Player",
+        "sections": {
+            "specifications": "Type: Universal player | Supported Disks: CD, SACD, CD-R, CD-RW, MP3, DVD-A, DVD-V, DVD-R, DVD-RW | Digital input: XLR balance : 1systemRCA coaxial : 1systemTOS Optical : 1system | Analog output: Front XLR balance terminal7.1channel RCA jacks (front, center, rear, surround back, subwoofer) | Analog input: * OptionalBalanced : 1systemUnbalanced : 1system | Video Out: Color difference component : 1systemS-Video : One lineComposite video output : 1systemDVI digital video output (optional) | Total harmonic distortion factor + noise: 0.001% | Signal-to-noise ratio: 120dB | Channel separation: 117dB | External dimensions: Width 438x Height 128x Depth 460mm | Weight: 14.5kg",
+            "title": "BLADELIUS GONDUL",
+            "overview": "Universal player with multi-channel preamp function.\n\nAudio circuit sectionEquipped with a Dolby Digital, DTS, SACD multi-channel decoder and master volume.This allows direct connection to the power amplifier without going through the AV amplifier.The D/A converter for CD uses four Bar-Brown PCM1704K Sine Magnitude 24-bit DACs with a symmetrical balanced circuit configuration. These 24-bit DACsWith upsampling operation of up to 192khz, it is possible to reproduce -120dB signal without 0cross distortion or glitch even though it is a multi-bit DAC.The D/A conversion section for SACD uses a Bar Brown DSD1792with two left and right channels each in a differential balance circuit configuration.Following the DAC, a discrete circuit is used for I/V conversion with an emphasis on sound quality.Jitter component is eliminated by asynchronous clock generation circuit.External digital inputs include XLR balance, RCA coaxial, and TOS optical.There was an optional analog input module.By adding this module, the analog input of balanced one system and unbalanced Route 3can be added.\n\nVideo circuit partThe video circuit uses a pure cinema progressive scan (2-3pull-down).The video DAC uses a 216MHz/12-bit high-end video DAC.Equipped with a focus filter with 4: 4: 4video upsampling.You can adjust up to 16video parameters.In addition, memory of 3patterns is possible.Three standard image quality types are available : CRT, PDP, and Professional.The optional DVI digital video output jack supports digital video output.It uses a Japanese display menu and setup navigator to guide complicated home theater settings."
+        },
+        "category": "Source",
+        "brandId": "bladelius",
+        "image_url": "https://audio-database.com/gondul.jpg",
+        "original_price": "¥1900000",
+        "release_year": "2005",
+        "verified": true,
+        "specifications": "Type Universal player Supported Disks CD, SACD, CD-R, CD-RW, MP3, DVD-A, DVD-V, DVD-R, DVD-RW Digital input XLR balance : 1 system RCA coaxial : 1 system TOS Optical : 1 system Digital input XLR balance : 1 system RCA coaxial : 1 system TOS Optical : 1 system Analog output Front XLR balance terminal 7.1 channel RCA jacks (front, center, rear, surround back, subwoofer) Analog input * Optional Balanced : 1 system Unbalanced : 1 system Video Out Color difference component : 1 system S-Video : One line Composite video output : 1 system DVI digital video output (optional) Total harmonic distortion factor + noise 0.001% Signal-to-noise ratio 120dB Channel separation 117dB External dimensions Width 438x Height 128x Depth 460 mm | Weight 14.5kg",
+        "description": "Audio Database Bladelius Grendel ¥ 1,900,000 (released in 2005) Commentary Universal player with multi-channel preamp function. Audio circuit section Equipped with a Dolby Digital, DTS, SACD multi-channel decoder and master volume. This allows direct connection to the power amplifier without going through the AV amplifier. The D/A converter for CD uses four Bar-Brown PCM1704K Sine Magnitude 24-bit DACs with a symmetrical balanced circuit configuration. These 24-bit DACs With upsampling operation of up to 192 khz, it is possible to reproduce -120dB signal without 0 cross distortion or glitch even though it is a multi-bit DAC. The D/A conversion section for SACD uses a Bar Brown DSD1792 with two left and right channels each in a differential balance circuit configuration. Following the DAC, a discrete circuit is used for I/V conversion with an emphasis on sound quality. Jitter component is eliminated by asynchronous clock generation circuit. External digital inputs include XLR balance, RCA coaxial, and TOS optical. There was an optional analog input module. By adding this module, the analog input of balanced one system and unbalanced Route 3 can be added. Video circuit part The video circuit uses a pure cinema progressive scan (2-3 pull-down). The video DAC uses a 216MHz/12-bit high-end video DAC. Equipped with a focus filter with 4 : 4 : 4 video upsampling. You can adjust up to 16 video parameters. In addition, memory of 3 patterns is possible. Three standard image quality types are available : CRT, PDP, and Professional. The optional DVI digital video output jack supports digital video output. It uses a Japanese display menu and setup navigator to guide complicated home theater settings. Model Rating Type Universal player Supported Disks CD, SACD, CD-R, CD-RW, MP3, DVD-A, DVD-V, DVD-R, DVD-RW Digital input XLR balance : 1 system RCA coaxial : 1 system TOS Optical : 1 system Digital input XLR balance : 1 system RCA coaxial : 1 system TOS Optical : 1 system Analog out"
     },
     {
-        "id":  "bose-121",
-        "name":  "121",
-        "url":  "https://audio-database.com/BOSE/speaker/121.html",
-        "sub_category":  "",
-        "sections":  {
-                         "specifications":  "Method: 1-way, 1-speaker, bass reflex system, magnetic protection design | Units Used: For All Bands : 11.5 cm Cone Type (D-222) | Allowable input: 60W(rms)160W(peak IEC) | Input impedance: 6 | Color: Cabinet Part : Metallic Brown GraySide Panel : Dark Gold-Brown | Connection terminal: Screw Type (Gold Plated) for Dual Banana | External dimensions: 121 : 270 mm wide x 168 mm high x 180 mm deep121 v : 191 mm wide x 260.5 mm high x 201 mm deep | Weight: 121:4.2kg121V:4.3kg | Sold Separately: Wooden Floor-Standing Stand PS-2 (1 set of 2, 29,800)Pan Stand GMA-3 (1 set of 2, 12,000)Ceiling / Wall Bracket CW-30B (2 Units 1 Set, 9,000)Ceiling-Attached GCS-2 (2-unit 1 set, 3,000)Wall-Attached CWS-2 (2-unit 1 set, 5,000)Baton Hanger GBB-1 (1 set of 2, 11,000)Microphone Stand MK-4 (1 unit, 9,500)Microphone Stand Adapter GMK-4 (2 pcs 1 set, 6,000)",
-                         "title":  "BOSE 121",
-                         "overview":  "121 :   49,800 (2 sets, sold in November 1992)121 V :   55,000 (2 sets, around 2000)\n\nThis small speaker system was developed by integrating 11.5 cm full-range unit technology.There are 2 types of variations of 121 and 121 v for 121, and I could choose 2 types of vertical and horizontal.Also, 121 can be step-up to 363 by combining with 242.Equipped with 11.5 cm cone type full range unit D-222 for all band.A special plastic is used for the frame part to prevent the magnetic field of the magnet from being magnetized to the frame, thereby improving the operation of the magnetic circuit for the voice coil and preventing magnetic disturbance. In addition, energy is extracted efficiently by adopting a shape that smoothly extracts back pressure of corn paper.The cone paper contains mica, which is a mixture of layers of mica broken into fibers, to improve the response to the input signal by increasing the internal loss while maintaining the reality of the sound. The mica is characterized by increasing the hardness of the cone paper and increasing the response to the signal, but it is difficult to suppress the secondary mobility. The Bose is characterized by increasing the internal loss and suppressing the secondary mobility while maintaining the high rigidity of the cone paper by studying the mixing ratio to the cone paper and the materials. This realizes clear playback with good response over a wide bandwidth. In addition, the high-frequency characteristics are improved by adopting a unique curved shape.Glass fiber is used for the center cap to achieve a smooth high-frequency response.A new rubber-based edge is used for the edge part to improve response to a pulsed input signal and high-frequency characteristics.The helical voice coil uses an edgewise winding, and thanks to the introduction of a computer, an aluminum ribbon wire with a ratio of 4 : 1 in length and width is wound on the bobbin with precision and no gap. As a result, a strong magnetic field and high input resistance are achieved.Plastic foam is used for the damper.The cabinet is made of MDF, which is high in height and density, and is approximately 1.5 times stronger than conventional particle boards, reducing unnecessary noise. While most MDF is a mixture of broad-leaved and conifer trees, the 121 uses 100% of carefully selected conifer trees to enhance acoustic sound reproduction.In addition, the side panel is made of bird\u0027s eye maple with UV paint finish to give it a luxurious feel.An aero-flare port is used for the bass reflex port.By adopting the slit shape of this port, the peak of the reproduction sound due to the resonance of the port is suppressed, and the energy from the back of the unit is effectively utilized. In addition, before and after the pose, a newly designed aero-flare port which makes full use of hydrodynamics is installed, and by controlling the large amount of air and speed necessary for low sound reproduction, the port noise is suppressed, and the turbidity of low sound is eliminated.The speaker terminal uses a gold-plated screw terminal that can be used with banana plugs or thick wires.The 121 comes with a mounting plate for brackets that can be combined with Bose rich brackets."
-                     },
-        "category":  "SPEAKER",
-        "brandId":  "bose",
-        "image_url":  "https://audio-database.com/121.jpg",
-        "original_price":  "¥49800",
-        "release_year":  "1992",
-        "verified":  true
+        "id": "bose-121",
+        "name": "121",
+        "url": "https://audio-database.com/BOSE/speaker/121.html",
+        "sub_category": "",
+        "sections": {
+            "specifications": "Method: 1-way, 1-speaker, bass reflex system, magnetic protection design | Units Used: For All Bands : 11.5cm Cone Type (D-222) | Allowable input: 60W(rms)160W(peak IEC) | Input impedance: 6| Color: Cabinet Part : Metallic Brown GraySide Panel : Dark Gold-Brown | Connection terminal: Screw Type (Gold Plated) for Dual Banana | External dimensions: 121: 270mm wide x 168mm high x 180mm deep121v : 191mm wide x 260.5mm high x 201mm deep | Weight: 121:4.2kg121V:4.3kg | Sold Separately: Wooden Floor-Standing Stand PS-2(1set of 2, 29,800)Pan Stand GMA-3(1set of 2, 12,000)Ceiling / Wall Bracket CW-30B (2Units 1Set, 9,000)Ceiling-Attached GCS-2(2-unit 1set, 3,000)Wall-Attached CWS-2(2-unit 1set, 5,000)Baton Hanger GBB-1(1set of 2, 11,000)Microphone Stand MK-4(1unit, 9,500)Microphone Stand Adapter GMK-4(2pcs 1set, 6,000)",
+            "title": "BOSE 121",
+            "overview": "121:   49,800(2sets, sold in November 1992)121V :   55,000(2sets, around 2000)\n\nThis small speaker system was developed by integrating 11.5cm full-range unit technology.There are 2types of variations of 121and 121v for 121, and I could choose 2types of vertical and horizontal.Also, 121can be step-up to 363by combining with 242.Equipped with 11.5cm cone type full range unit D-222for all band.A special plastic is used for the frame part to prevent the magnetic field of the magnet from being magnetized to the frame, thereby improving the operation of the magnetic circuit for the voice coil and preventing magnetic disturbance. In addition, energy is extracted efficiently by adopting a shape that smoothly extracts back pressure of corn paper.The cone paper contains mica, which is a mixture of layers of mica broken into fibers, to improve the response to the input signal by increasing the internal loss while maintaining the reality of the sound. The mica is characterized by increasing the hardness of the cone paper and increasing the response to the signal, but it is difficult to suppress the secondary mobility. The Bose is characterized by increasing the internal loss and suppressing the secondary mobility while maintaining the high rigidity of the cone paper by studying the mixing ratio to the cone paper and the materials. This realizes clear playback with good response over a wide bandwidth. In addition, the high-frequency characteristics are improved by adopting a unique curved shape.Glass fiber is used for the center cap to achieve a smooth high-frequency response.A new rubber-based edge is used for the edge part to improve response to a pulsed input signal and high-frequency characteristics.The helical voice coil uses an edgewise winding, and thanks to the introduction of a computer, an aluminum ribbon wire with a ratio of 4: 1in length and width is wound on the bobbin with precision and no gap. As a result, a strong magnetic field and high input resistance are achieved.Plastic foam is used for the damper.The cabinet is made of MDF, which is high in height and density, and is approximately 1.5times stronger than conventional particle boards, reducing unnecessary noise. While most MDF is a mixture of broad-leaved and conifer trees, the 121uses 100% of carefully selected conifer trees to enhance acoustic sound reproduction.In addition, the side panel is made of bird'Ωs eye maple with UV paint finish to give it a luxurious feel.An aero-flare port is used for the bass reflex port.By adopting the slit shape of this port, the peak of the reproduction sound due to the resonance of the port is suppressed, and the energy from the back of the unit is effectively utilized. In addition, before and after the pose, a newly designed aero-flare port which makes full use of hydrodynamics is installed, and by controlling the large amount of air and speed necessary for low sound reproduction, the port noise is suppressed, and the turbidity of low sound is eliminated.The speaker terminal uses a gold-plated screw terminal that can be used with banana plugs or thick wires.The 121comes with a mounting plate for brackets that can be combined with Bose rich brackets."
+        },
+        "category": "SPEAKER",
+        "brandId": "bose",
+        "image_url": "https://audio-database.com/121.jpg",
+        "original_price": "¥49800",
+        "release_year": "1992",
+        "verified": true,
+        "specifications": "Method 1-way, 1-speaker, bass reflex system, magnetic protection design Units Used For All Bands : 11.5 cm Cone Type (D-222) Allowable input 60W(rms) 160W(peak IEC) Input impedance 6 Ω Color Cabinet Part : Metallic Brown Gray Side Panel : Dark Gold-Brown Connection terminal Screw Type (Gold Plated) for Dual Banana External dimensions 121 : 270 mm wide x 168 mm high x 180 mm deep 121 v : 191 mm wide x 260.5 mm high x 201 mm deep | Weight 121:4.2kg 121V:4.3kg Sold Separately Wooden Floor-Standing Stand PS-2 (1 set of 2, ¥ 29,800) Pan Stand GMA-3 (1 set of 2, ¥ 12,000) Ceiling / Wall Bracket CW-30B (2 Units 1 Set, ¥ 9,000) Ceiling-Attached GCS-2 (2-unit 1 set, ¥ 3,000) Wall-Attached CWS-2 (2-unit 1 set, ¥ 5,000) Baton Hanger GBB-1 (1 set of 2, ¥ 11,000) Microphone Stand MK-4 (1 unit, ¥ 9,500) Microphone Stand Adapter GMK-4 (2 pcs 1 set, ¥ 6,000)",
+        "description": "Audio Database BOSE 121 WestBorough 121 : ¥ 49,800 (2 sets, sold in November 1992) 121 V : ¥ 55,000 (2 sets, around 2000) Commentary This small speaker system was developed by integrating 11.5 cm full-range unit technology. There are 2 types of variations of 121 and 121 v for 121, and I could choose 2 types of vertical and horizontal. Also, 121 can be step-up to 363 by combining with 242. Equipped with 11.5 cm cone type full range unit D-222 for all band. A special plastic is used for the frame part to prevent the magnetic field of the magnet from being magnetized to the frame, thereby improving the operation of the magnetic circuit for the voice coil and preventing magnetic disturbance. In addition, energy is extracted efficiently by adopting a shape that smoothly extracts back pressure of corn paper. The cone paper contains mica, which is a mixture of layers of mica broken into fibers, to improve the response to the input signal by increasing the internal loss while maintaining the reality of the sound. The mica is characterized by increasing the hardness of the cone paper and increasing the response to the signal, but it is difficult to suppress the secondary mobility. The Bose is characterized by increasing the internal loss and suppressing the secondary mobility while maintaining the high rigidity of the cone paper by studying the mixing ratio to the cone paper and the materials. This realizes clear playback with good response over a wide bandwidth. In addition, the high-frequency characteristics are improved by adopting a unique curved shape. Glass fiber is used for the center cap to achieve a smooth high-frequency response. A new rubber-based edge is used for the edge part to improve response to a pulsed input signal and high-frequency characteristics. The helical voice coil uses an edgewise winding, and thanks to the introduction of a computer, an aluminum ribbon wire with a ratio of 4 : 1 in length and width is wound on the bobbin with precision and no gap."
     },
     {
-        "id":  "bose-501",
-        "name":  "501",
-        "url":  "https://audio-database.com/BOSE/speaker/501-e.html",
-        "sub_category":  "",
-        "sections":  {
-                         "specifications":  "Method: 2-way, 3-speaker, direct / reflecting system, floor type | Units Used: For low band : 25 cm cone typeFor high pass : 2 x 7.5 cm cone type | Crossover frequency: 1500 Hz, 3000 Hz | Impedance: 4 | External dimensions: Width 368x Height 610x Depth 368 mm | Weight: 19kg",
-                         "title":  "BOSE 501",
-                         "overview":  "A speaker system that inherits the design philosophy of 901.A 25 cm cone unit is used for the low range, and two 7.5 cm cone units are installed for the high range.The low-frequency unit is installed facing the front, and the two high-frequency units are set in opposite directions with respect to a 45   diagonal line. With this asymmetric layout, the radiation pattern of the sound pressure energy spreads in the listening room in a well-balanced manner, so that the sound image does not deviate regardless of the position of the listener.One of the two tweeters facing the side wall is equipped with a deflector that adjusts the radiation angle of sound.In most cases, you can get the correct spread by normal position, but if you want more spread, such as a large orchestra, you can get more spread by setting it to the outside.The network is a dual-frequency crossover network."
-                     },
-        "category":  "SPEAKER",
-        "brandId":  "bose",
-        "image_url":  "https://audio-database.com/501.JPG",
-        "release_year":  "1976",
-        "verified":  true
+        "id": "bose-501",
+        "name": "501",
+        "url": "https://audio-database.com/BOSE/speaker/501-e.html",
+        "sub_category": "",
+        "sections": {
+            "specifications": "Method: 2-way, 3-speaker, direct / reflecting system, floor type | Units Used: For low band : 25cm cone typeFor high pass : 2x 7.5cm cone type | Crossover frequency: 1500Hz, 3000Hz | Impedance: 4| External dimensions: Width 368x Height 610x Depth 368mm | Weight: 19kg",
+            "title": "BOSE 501",
+            "overview": "A speaker system that inherits the design philosophy of 901.A 25cm cone unit is used for the low range, and two 7.5cm cone units are installed for the high range.The low-frequency unit is installed facing the front, and the two high-frequency units are set in opposite directions with respect to a 45  diagonal line. With this asymmetric layout, the radiation pattern of the sound pressure energy spreads in the listening room in a well-balanced manner, so that the sound image does not deviate regardless of the position of the listener.One of the two tweeters facing the side wall is equipped with a deflector that adjusts the radiation angle of sound.In most cases, you can get the correct spread by normal position, but if you want more spread, such as a large orchestra, you can get more spread by setting it to the outside.The network is a dual-frequency crossover network."
+        },
+        "category": "SPEAKER",
+        "brandId": "bose",
+        "image_url": "https://audio-database.com/501.JPG",
+        "release_year": "1976",
+        "verified": true,
+        "specifications": "Method 2-way, 3-speaker, direct / reflecting system, floor type Units Used For low band : 25 cm cone type For high pass : 2 x 7.5 cm cone type Crossover frequency 1500 Hz, 3000 Hz Impedance 4 Ω External dimensions Width 368x Height 610x Depth 368 mm | Weight 19kg",
+        "description": "Audio Database BOSE 501 \\ Price Unknown (1 Available in 1976) Commentary A speaker system that inherits the design philosophy of 901. A 25 cm cone unit is used for the low range, and two 7.5 cm cone units are installed for the high range. The low-frequency unit is installed facing the front, and the two high-frequency units are set in opposite directions with respect to a 45 ° diagonal line. With this asymmetric layout, the radiation pattern of the sound pressure energy spreads in the listening room in a well-balanced manner, so that the sound image does not deviate regardless of the position of the listener. One of the two tweeters facing the side wall is equipped with a deflector that adjusts the radiation angle of sound. In most cases, you can get the correct spread by normal position, but if you want more spread, such as a large orchestra, you can get more spread by setting it to the outside. The network is a dual-frequency crossover network. Model Rating Method 2-way, 3-speaker, direct / reflecting system, floor type Units Used For low band : 25 cm cone type For high pass : 2 x 7.5 cm cone type Crossover frequency 1500 Hz, 3000 Hz Impedance 4 Ω External dimensions Width 368x Height 610x Depth 368 mm Weight 19kg"
     },
     {
-        "id":  "bose-am-033",
-        "name":  "AM-033",
-        "url":  "https://audio-database.com/BOSE/speaker/am-033.html",
-        "sub_category":  "",
-        "sections":  {
-                         "specifications":  "Method: 1-Way, 1-Speaker, Kusu Timmass System, Setting-free Type | Unit: For low band : 13 cm cone type | Impedance: 8 | Allowable input: 50W(rms:IEC286-5)150W(peak) | Frequency characteristic: 40 Hz to 200 Hz | External dimensions: Width 152x Height 35x Depth 90 mm | Weight: 280g | Input terminal: Harmonica terminal | Output terminal: One touch coupler | Attachment: Speaker cableWide Tip -2P one touch Coupler (5m) 2 pcs4-Core Metal Connector -4P one touch Coupler (3m) 1 pieceSimple Speaker Stand x 2 | Sold Separately: Ceiling / Wall Mounting Bracket CW-80 (1 pair, 7,200)Stand PS-70 (1 unit, 4,800)",
-                         "title":  "BOSE AM-033",
-                         "overview":  "A subwoofer developed for the 101 series and 1111 series.The AM-033 consists of a speaker and a dedicated network box.AM-033 adopts the original Kusu timas theory (US PAT. 4549631).This system uses Bose\u0027s unique acoustic filter effect. The Woofer unit is mounted inside the cabinet and the acoustic energy is radiated outside in resonance with the mass of the air inside the port. Therefore, even if mid-range energy or strain occurs inside the cabinet, resonance does not occur because the frequency energy is different from the resonance frequency of the air inside the port.With this system, high-quality bass can be obtained, and the installation position can be freely chosen by filtering out high-frequency distortion that gives a sense of direction of the sound source.In the acoustic theory, all acoustic energy is emitted through ports arranged in front and back of the Kusu.This port is tuned to different frequencies before and after the woofer unit, so that near one tuning frequency, there is little output from the other port, and both outputs are multiplied between tuning frequencies, resulting in a wide range of flat bass.The unit is equipped with a 13 cm cone shaped woofer with a highly responsive edge and damper.This unit uses a dual voice coil system. Two independent voice coils are wound simultaneously on one core to directly input both left and right channel signals.The cabinet has a cylindrical shape, and by matching the center of gravity of the structure with the center to receive the pressure of acoustic energy, generation of unnecessary resonance and standing wave is suppressed.It is made of lightweight and heat-resistant polycarbonate, making it possible to use in environments (below 120   C), such as car interiors in mid-summer.In consideration of the adverse effects on sound quality due to vibration and resonance, the AM-033 uses a box-type network that is independent of the speakers.In addition, a dedicated one touch coupler is used for the output terminal to easy wiring.A special simple stand is included.In addition, various settings are possible by the separately sold ceiling / wall mounting bracket and stand."
-                     },
-        "category":  "SPEAKER",
-        "brandId":  "bose",
-        "image_url":  "https://audio-database.com/am-033.jpg",
-        "original_price":  "¥39800",
-        "release_year":  "2000",
-        "verified":  true
+        "id": "bose-am-033",
+        "name": "AM-033",
+        "url": "https://audio-database.com/BOSE/speaker/am-033.html",
+        "sub_category": "",
+        "sections": {
+            "specifications": "Method: 1-Way, 1-Speaker, Kusu Timmass System, Setting-free Type | Unit: For low band : 13cm cone type | Impedance: 8| Allowable input: 50W(rms:IEC286-5)150W(peak) | Frequency characteristic: 40Hz to 200Hz | External dimensions: Width 152x Height 35x Depth 90mm | Weight: 280g | Input terminal: Harmonica terminal | Output terminal: One touch coupler | Attachment: Speaker cableWide Tip -2P one touch Coupler (5m) 2pcs4-Core Metal Connector -4P one touch Coupler (3m) 1pieceSimple Speaker Stand x 2| Sold Separately: Ceiling / Wall Mounting Bracket CW-80(1pair, 7,200)Stand PS-70(1unit, 4,800)",
+            "title": "BOSE AM-033",
+            "overview": "A subwoofer developed for the 101series and 1111series.The AM-033consists of a speaker and a dedicated network box.AM-033adopts the original Kusu timas theory (US PAT. 4549631).This system uses Bose'Ωs unique acoustic filter effect. The Woofer unit is mounted inside the cabinet and the acoustic energy is radiated outside in resonance with the mass of the air inside the port. Therefore, even if mid-range energy or strain occurs inside the cabinet, resonance does not occur because the frequency energy is different from the resonance frequency of the air inside the port.With this system, high-quality bass can be obtained, and the installation position can be freely chosen by filtering out high-frequency distortion that gives a sense of direction of the sound source.In the acoustic theory, all acoustic energy is emitted through ports arranged in front and back of the Kusu.This port is tuned to different frequencies before and after the woofer unit, so that near one tuning frequency, there is little output from the other port, and both outputs are multiplied between tuning frequencies, resulting in a wide range of flat bass.The unit is equipped with a 13cm cone shaped woofer with a highly responsive edge and damper.This unit uses a dual voice coil system. Two independent voice coils are wound simultaneously on one core to directly input both left and right channel signals.The cabinet has a cylindrical shape, and by matching the center of gravity of the structure with the center to receive the pressure of acoustic energy, generation of unnecessary resonance and standing wave is suppressed.It is made of lightweight and heat-resistant polycarbonate, making it possible to use in environments (below 120  C), such as car interiors in mid-summer.In consideration of the adverse effects on sound quality due to vibration and resonance, the AM-033uses a box-type network that is independent of the speakers.In addition, a dedicated one touch coupler is used for the output terminal to easy wiring.A special simple stand is included.In addition, various settings are possible by the separately sold ceiling / wall mounting bracket and stand."
+        },
+        "category": "SPEAKER",
+        "brandId": "bose",
+        "image_url": "https://audio-database.com/am-033.jpg",
+        "original_price": "¥39800",
+        "release_year": "2000",
+        "verified": true,
+        "specifications": "Method 1-Way, 1-Speaker, Kusu Timmass | System, Setting-free Type (Main Body) Unit For low band : 13 cm cone type Impedance 8 Ω Allowable input 50W(rms:IEC286-5) 150W(peak) Frequency characteristic 40 Hz to 200 Hz External dimensions Diameter 170x Depth 800 mm | Weight 3.4kg &lt;network box> Input terminal Harmonica terminal Output terminal One touch coupler External dimensions Width 152x Height 35x Depth 90 mm | Weight 280g &lt;Others> Attachment Speaker cable Wide Tip -2P one touch Coupler (5m) 2 pcs 4-Core Metal Connector -4P one touch Coupler (3m) 1 piece Simple Speaker Stand x 2 Sold Separately Ceiling / Wall Mounting Bracket CW-80 (1 pair, ¥ 7,200) Stand PS-70 (1 unit, ¥ 4,800)",
+        "description": "Audio Database BOSE AM-033 ¥ 39,800 (1 set, around 2000?) Commentary A subwoofer developed for the 101 series and 1111 series. The AM-033 consists of a speaker and a dedicated network box. AM-033 adopts the original Kusu timas theory (US PAT. 4549631). This system uses Bose&#39;s unique acoustic filter effect. The Woofer unit is mounted inside the cabinet and the acoustic energy is radiated outside in resonance with the mass of the air inside the port. Therefore, even if mid-range energy or strain occurs inside the cabinet, resonance does not occur because the frequency energy is different from the resonance frequency of the air inside the port. With this system, high-quality bass can be obtained, and the installation position can be freely chosen by filtering out high-frequency distortion that gives a sense of direction of the sound source. In the acoustic theory, all acoustic energy is emitted through ports arranged in front and back of the Kusu. This port is tuned to different frequencies before and after the woofer unit, so that near one tuning frequency, there is little output from the other port, and both outputs are multiplied between tuning frequencies, resulting in a wide range of flat bass. The unit is equipped with a 13 cm cone shaped woofer with a highly responsive edge and damper. This unit uses a dual voice coil system. Two independent voice coils are wound simultaneously on one core to directly input both left and right channel signals. The cabinet has a cylindrical shape, and by matching the center of gravity of the structure with the center to receive the pressure of acoustic energy, generation of unnecessary resonance and standing wave is suppressed. It is made of lightweight and heat-resistant polycarbonate, making it possible to use in environments (below 120 ° C), such as car interiors in mid-summer. In consideration of the adverse effects on sound quality due to vibration and resonance, the AM-033 uses a box-type network that is independent of "
     },
     {
-        "id":  "bozak-b-300",
-        "name":  "B-300",
-        "url":  "https://audio-database.com/BOZAK/speaker/b-300-e.html",
-        "sub_category":  "",
-        "sections":  {
-                         "specifications":  "Method: 2-way, 1-speaker floor type | Units Used: All Band : 30 cm Coaxial TypeFor Low Band : 30 cm Cone Type (B-199A)For High Range : 5 cm Cone Type x2 (B-200Y) | Frequency characteristic: 40 Hz to 20 kHz | Impedance: 8 | Rated input: 20W | Crossover frequency: 2.5 kHz, 6dB/oct. | External dimensions: Width 600x Height 765x Depth 500 mm | Weight: 41kg",
-                         "title":  "BOZAK B-300",
-                         "overview":  "This speaker system was developed as the most standard system in the TRIO-BOZAK lineup.The configuration is the same as the B-312, but the volume of the enclosure increases the bass playback capability.Equipped with a 30cm2-way coaxial speaker unit for all bands.This unit is a combination of a 30 cm cone type woofer B-199A and a 5 cm cone type tweeter B-200Y for a total of 3 units.The B-199A uses felted paper cone with wool mixed in pulp to achieve light weight, hardness and high compliance, as well as low distortion bass.In addition, the vibration plate of B-200Y is made by dumping the metal diaphragm in a special method to suppress the wild behavior of the characteristics, and a smoother playback sound is obtained.The exterior of the enclosure has a walnut oil finish.The terminal section is equipped with a multi-amplifier selector switch and multi-amplifier terminal."
-                     },
-        "category":  "SPEAKER",
-        "brandId":  "bozak",
-        "image_url":  "https://audio-database.com/b-302a.jpg",
-        "original_price":  "¥80500",
-        "release_year":  "1966",
-        "verified":  true
+        "id": "bozak-b-300",
+        "name": "B-300",
+        "url": "https://audio-database.com/BOZAK/speaker/b-300-e.html",
+        "sub_category": "",
+        "sections": {
+            "specifications": "Method: 2-way, 1-speaker floor type | Units Used: All Band : 30cm Coaxial TypeFor Low Band : 30cm Cone Type (B-199A)For High Range : 5cm Cone Type x2(B-200Y) | Frequency characteristic: 40Hz to 20kHz | Impedance: 8| Rated input: 20W | Crossover frequency: 2.5kHz, 6dB/oct. | External dimensions: Width 600x Height 765x Depth 500mm | Weight: 41kg",
+            "title": "BOZAK B-300",
+            "overview": "This speaker system was developed as the most standard system in the TRIO-BOZAK lineup.The configuration is the same as the B-312, but the volume of the enclosure increases the bass playback capability.Equipped with a 30cm2-way coaxial speaker unit for all bands.This unit is a combination of a 30cm cone type woofer B-199A and a 5cm cone type tweeter B-200Y for a total of 3units.The B-199A uses felted paper cone with wool mixed in pulp to achieve light weight, hardness and high compliance, as well as low distortion bass.In addition, the vibration plate of B-200Y is made by dumping the metal diaphragm in a special method to suppress the wild behavior of the characteristics, and a smoother playback sound is obtained.The exterior of the enclosure has a walnut oil finish.The terminal section is equipped with a multi-amplifier selector switch and multi-amplifier terminal."
+        },
+        "category": "SPEAKER",
+        "brandId": "bozak",
+        "image_url": "https://audio-database.com/b-302a.jpg",
+        "original_price": "¥80500",
+        "release_year": "1966",
+        "verified": true,
+        "specifications": "Method 2-way, 1-speaker floor type Units Used All Band : 30 cm Coaxial Type For Low Band : 30 cm Cone Type (B-199A) For High Range : 5 cm Cone Type x2 (B-200Y) Frequency characteristic 40 Hz to 20 kHz Impedance 8 Ω Rated input 20W Crossover frequency 2.5 kHz, 6dB/oct. External dimensions Width 600x Height 765x Depth 500 mm | Weight 41kg",
+        "description": "Audio Database BOZAK B-300 ConcertoIV ¥ 80,500 (1 unit, around 1966) Commentary This speaker system was developed as the most standard system in the TRIO-BOZAK lineup. The configuration is the same as the B-312, but the volume of the enclosure increases the bass playback capability. Equipped with a 30cm2-way coaxial speaker unit for all bands. This unit is a combination of a 30 cm cone type woofer B-199A and a 5 cm cone type tweeter B-200Y for a total of 3 units. The B-199A uses felted paper cone with wool mixed in pulp to achieve light weight, hardness and high compliance, as well as low distortion bass. In addition, the vibration plate of B-200Y is made by dumping the metal diaphragm in a special method to suppress the wild behavior of the characteristics, and a smoother playback sound is obtained. The exterior of the enclosure has a walnut oil finish. The terminal section is equipped with a multi-amplifier selector switch and multi-amplifier terminal. Model Rating Method 2-way, 1-speaker floor type Units Used All Band : 30 cm Coaxial Type For Low Band : 30 cm Cone Type (B-199A) For High Range : 5 cm Cone Type x2 (B-200Y) Frequency characteristic 40 Hz to 20 kHz Impedance 8 Ω Rated input 20W Crossover frequency 2.5 kHz, 6dB/oct. External dimensions Width 600x Height 765x Depth 500 mm Weight 41kg"
     },
     {
-        "id":  "bozak-b-302a",
-        "name":  "B-302A",
-        "url":  "https://audio-database.com/BOZAK/speaker/b-302a.html",
-        "sub_category":  "",
-        "sections":  {
-                         "specifications":  "Method: 3-way 2-speaker floor type | Units Used: For Low and High Frequency : 30 cm Coaxial TypeFor Low Band : 30 cm Cone Type (B-199A)For High Range : 5 cm Cone Type x2 (B-200Y)For Middle Range : 16 cm Cone Type (B-209B)Other : N-10102 | Frequency characteristic: 40 Hz to 20 kHz | Impedance: 8 | Rated input: 20W | Crossover frequency: 800 Hz, 2.5 kHz, 6dB/oct. | External dimensions: Width 600x Height 765x Depth 500 mm | Weight: 45.5kg",
-                         "title":  "BOZAK B-302A",
-                         "overview":  "A 3-way speaker system with mid-range added to the B-300.Equipped with a 30cm2-way coaxial speaker unit for all bands.This unit is a combination of a 30 cm cone type woofer B-199A and a 5 cm cone type tweeter B-200Y for a total of 3 units.The B-199A uses felted paper cone with wool mixed in pulp to achieve light weight, hardness and high compliance, as well as low distortion bass.In addition, the vibration plate of B-200Y is made by dumping the metal diaphragm in a special method to suppress the wild behavior of the characteristics, and a smoother playback sound is obtained.The mid-range is equipped with a 16 cm cone type mid-range B-209B.In this unit, the metal diaphragm is dumped by a special method similar to the B-200Y to suppress the characteristic wild behavior.N-10102 is used for the network part in order to support B-209B.The same enclosure as B-300 is used.The exterior has a walnut oil finish.The terminal section is equipped with a multi-amplifier selector switch and multi-amplifier terminal."
-                     },
-        "category":  "SPEAKER",
-        "brandId":  "bozak",
-        "image_url":  "https://audio-database.com/b-302a.jpg",
-        "original_price":  "¥115900",
-        "release_year":  "1966",
-        "verified":  true
+        "id": "bozak-b-302a",
+        "name": "B-302A",
+        "url": "https://audio-database.com/BOZAK/speaker/b-302a.html",
+        "sub_category": "",
+        "sections": {
+            "specifications": "Method: 3-way 2-speaker floor type | Units Used: For Low and High Frequency : 30cm Coaxial TypeFor Low Band : 30cm Cone Type (B-199A)For High Range : 5cm Cone Type x2(B-200Y)For Middle Range : 16cm Cone Type (B-209B)Other : N-10102| Frequency characteristic: 40Hz to 20kHz | Impedance: 8| Rated input: 20W | Crossover frequency: 800Hz, 2.5kHz, 6dB/oct. | External dimensions: Width 600x Height 765x Depth 500mm | Weight: 45.5kg",
+            "title": "BOZAK B-302A",
+            "overview": "A 3-way speaker system with mid-range added to the B-300.Equipped with a 30cm2-way coaxial speaker unit for all bands.This unit is a combination of a 30cm cone type woofer B-199A and a 5cm cone type tweeter B-200Y for a total of 3units.The B-199A uses felted paper cone with wool mixed in pulp to achieve light weight, hardness and high compliance, as well as low distortion bass.In addition, the vibration plate of B-200Y is made by dumping the metal diaphragm in a special method to suppress the wild behavior of the characteristics, and a smoother playback sound is obtained.The mid-range is equipped with a 16cm cone type mid-range B-209B.In this unit, the metal diaphragm is dumped by a special method similar to the B-200Y to suppress the characteristic wild behavior.N-10102is used for the network part in order to support B-209B.The same enclosure as B-300is used.The exterior has a walnut oil finish.The terminal section is equipped with a multi-amplifier selector switch and multi-amplifier terminal."
+        },
+        "category": "SPEAKER",
+        "brandId": "bozak",
+        "image_url": "https://audio-database.com/b-302a.jpg",
+        "original_price": "¥115900",
+        "release_year": "1966",
+        "verified": true,
+        "specifications": "Method 3-way 2-speaker floor type Units Used For Low and High Frequency : 30 cm Coaxial Type For Low Band : 30 cm Cone Type (B-199A) For High Range : 5 cm Cone Type x2 (B-200Y) For Middle Range : 16 cm Cone Type (B-209B) Other : N-10102 Frequency characteristic 40 Hz to 20 kHz Impedance 8 Ω Rated input 20W Crossover frequency 800 Hz, 2.5 kHz, 6dB/oct. External dimensions Width 600x Height 765x Depth 500 mm | Weight 45.5kg",
+        "description": "Audio Database BOZAK B-302A ConcertoV ¥ 115,900 (1 unit, around 1966) Commentary A 3-way speaker system with mid-range added to the B-300. Equipped with a 30cm2-way coaxial speaker unit for all bands. This unit is a combination of a 30 cm cone type woofer B-199A and a 5 cm cone type tweeter B-200Y for a total of 3 units. The B-199A uses felted paper cone with wool mixed in pulp to achieve light weight, hardness and high compliance, as well as low distortion bass. In addition, the vibration plate of B-200Y is made by dumping the metal diaphragm in a special method to suppress the wild behavior of the characteristics, and a smoother playback sound is obtained. The mid-range is equipped with a 16 cm cone type mid-range B-209B. In this unit, the metal diaphragm is dumped by a special method similar to the B-200Y to suppress the characteristic wild behavior. N-10102 is used for the network part in order to support B-209B. The same enclosure as B-300 is used. The exterior has a walnut oil finish. The terminal section is equipped with a multi-amplifier selector switch and multi-amplifier terminal. Model Rating Method 3-way 2-speaker floor type Units Used For Low and High Frequency : 30 cm Coaxial Type For Low Band : 30 cm Cone Type (B-199A) For High Range : 5 cm Cone Type x2 (B-200Y) For Middle Range : 16 cm Cone Type (B-209B) Other : N-10102 Frequency characteristic 40 Hz to 20 kHz Impedance 8 Ω Rated input 20W Crossover frequency 800 Hz, 2.5 kHz, 6dB/oct. External dimensions Width 600x Height 765x Depth 500 mm Weight 45.5kg"
     },
     {
-        "id":  "bozak-b-310b",
-        "name":  "B-310B",
-        "url":  "https://audio-database.com/BOZAK/speaker/b-310b.html",
-        "sub_category":  "",
-        "sections":  {
-                         "specifications":  "Method: 3-Way, 14-Speaker, Sealed Type, Floor Type | Units Used: For low band : 30 cm cone x4For Medium Range : 16 cm Cone Type x2For high pass : 8 x 5 cm cone type | Allowable input: 150W(MUSIC) | Playback frequency: 28 Hz to 20 kHz | Crossover frequency: 400 Hz, 2.5 kHz (6dB/oct.) | Impedance: 8 | External dimensions: Width 914x Height 1,312x Depth 483 mm | Weight: 102kg",
-                         "title":  "BOZAK B-310B",
-                         "overview":  "A large speaker system with 14 speaker units.In the low range, it is equipped with 4 B-199A which is 30 cm cone type woofer.A cone made of pulp and paper and wool is used for the diaphragm, and a variable density system is used. The density is highest in the central part and decreases as it goes to the periphery. This prevents interference due to flapping and reflection of propagating waves and provides a constant response.Two 16 cm cone type mid-range B-209 are installed in the mid-range.The diaphragm has a structure in which light aluminum is sandwiched between two thin neoprene rubber films. The center and periphery are processed into a stepped shape to realize a clear and natural sound.8 B-200Y which are 5 cm cone type tweeters are mounted in the high range.The cone is placed on a foam rubber platform to damp spurious peaks and vibrations. Similarly, ranges above 10 kHz are handled by a 2 cm aluminum center dome. This is based on the principle that the diameter of the cone must not exceed the wavelength of the maximum reproduction frequency.An N-104 crossover network is used in the network section.The enclosure is hermetically sealed.The front baffle has a solid construction and well dumped 4.8m3It is 3.8 cm thick at the front half on both sides of the baffle and at the top and bottom of the enclosure.The mid-range and woofer are completely separate structures.The exterior is finished with a matte walnut finish."
-                     },
-        "category":  "SPEAKER",
-        "brandId":  "bozak",
-        "image_url":  "https://audio-database.com/b-310b.jpg",
-        "original_price":  "¥680000",
-        "release_year":  "1974",
-        "verified":  true
+        "id": "bozak-b-310b",
+        "name": "B-310B",
+        "url": "https://audio-database.com/BOZAK/speaker/b-310b.html",
+        "sub_category": "",
+        "sections": {
+            "specifications": "Method: 3-Way, 14-Speaker, Sealed Type, Floor Type | Units Used: For low band : 30cm cone x4For Medium Range : 16cm Cone Type x2For high pass : 8x 5cm cone type | Allowable input: 150W(MUSIC) | Playback frequency: 28Hz to 20kHz | Crossover frequency: 400Hz, 2.5kHz (6dB/oct.) | Impedance: 8| External dimensions: Width 914x Height 1,312x Depth 483mm | Weight: 102kg",
+            "title": "BOZAK B-310B",
+            "overview": "A large speaker system with 14speaker units.In the low range, it is equipped with 4B-199A which is 30cm cone type woofer.A cone made of pulp and paper and wool is used for the diaphragm, and a variable density system is used. The density is highest in the central part and decreases as it goes to the periphery. This prevents interference due to flapping and reflection of propagating waves and provides a constant response.Two 16cm cone type mid-range B-209are installed in the mid-range.The diaphragm has a structure in which light aluminum is sandwiched between two thin neoprene rubber films. The center and periphery are processed into a stepped shape to realize a clear and natural sound.8B-200Y which are 5cm cone type tweeters are mounted in the high range.The cone is placed on a foam rubber platform to damp spurious peaks and vibrations. Similarly, ranges above 10kHz are handled by a 2cm aluminum center dome. This is based on the principle that the diameter of the cone must not exceed the wavelength of the maximum reproduction frequency.An N-104crossover network is used in the network section.The enclosure is hermetically sealed.The front baffle has a solid construction and well dumped 4.8m3It is 3.8cm thick at the front half on both sides of the baffle and at the top and bottom of the enclosure.The mid-range and woofer are completely separate structures.The exterior is finished with a matte walnut finish."
+        },
+        "category": "SPEAKER",
+        "brandId": "bozak",
+        "image_url": "https://audio-database.com/b-310b.jpg",
+        "original_price": "¥680000",
+        "release_year": "1974",
+        "verified": true,
+        "specifications": "Method 3-Way, 14-Speaker, Sealed Type, Floor Type Units Used For low band : 30 cm cone x4 For Medium Range : 16 cm Cone Type x2 For high pass : 8 x 5 cm cone type Allowable input 150W(MUSIC) Playback frequency 28 Hz to 20 kHz Crossover frequency 400 Hz, 2.5 kHz (6dB/oct.) Impedance 8 Ω External dimensions Width 914x Height 1,312x Depth 483 mm | Weight 102kg",
+        "description": "Audio Database BOZAK B-310 Contemporary The Concert Grand ¥ 680,000 (1 unit, around 1974) Commentary A large speaker system with 14 speaker units. In the low range, it is equipped with 4 B-199A which is 30 cm cone type woofer. A cone made of pulp and paper and wool is used for the diaphragm, and a variable density system is used. The density is highest in the central part and decreases as it goes to the periphery. This prevents interference due to flapping and reflection of propagating waves and provides a constant response. Two 16 cm cone type mid-range B-209 are installed in the mid-range. The diaphragm has a structure in which light aluminum is sandwiched between two thin neoprene rubber films. The center and periphery are processed into a stepped shape to realize a clear and natural sound. 8 B-200Y which are 5 cm cone type tweeters are mounted in the high range. The cone is placed on a foam rubber platform to damp spurious peaks and vibrations. Similarly, ranges above 10 kHz are handled by a 2 cm aluminum center dome. This is based on the principle that the diameter of the cone must not exceed the wavelength of the maximum reproduction frequency. An N-104 crossover network is used in the network section. The enclosure is hermetically sealed. The front baffle has a solid construction and well dumped 4.8m 3 It is 3.8 cm thick at the front half on both sides of the baffle and at the top and bottom of the enclosure. The mid-range and woofer are completely separate structures. The exterior is finished with a matte walnut finish. Model Rating Method 3-Way, 14-Speaker, Sealed Type, Floor Type Units Used For low band : 30 cm cone x4 For Medium Range : 16 cm Cone Type x2 For high pass : 8 x 5 cm cone type Allowable input 150W(MUSIC) Playback frequency 28 Hz to 20 kHz Crossover frequency 400 Hz, 2.5 kHz (6dB/oct.) Impedance 8 Ω External dimensions Width 914x Height 1,312x Depth 483 mm Weight 102kg"
     },
     {
-        "id":  "bozak-b-410moorish",
-        "name":  "B-410MOORISH",
-        "url":  "https://audio-database.com/BOZAK/speaker/b-410moorish-e.html",
-        "sub_category":  "",
-        "sections":  {
-                         "specifications":  "Method: 3-Way, 14-Speaker, Sealed Type, Floor Type | Units Used: For low band : 30 cm cone x4For Medium Range : 16 cm Cone Type x2For high pass : 8 x 5 cm cone type | Allowable input: 150W(MUSIC) | Playback frequency: 28 Hz to 20 kHz | Crossover frequency: 400 Hz, 2.5 kHz (6dB/oct.) | Impedance: 8 | External dimensions: Width 933x Height 1,276x Depth 464 mm | Weight: 102kg",
-                         "title":  "BOZAK B-410MOORISH",
-                         "overview":  "Released around 1951  750,000 (1 unit, around 1974)  775,000 (1 unit, around 1977)\n\nA large speaker system with 14 speaker units.In the low range, it is equipped with 4 B-199A which is 30 cm cone type woofer.A cone made of pulp and paper and wool is used for the diaphragm, and a variable density system is used. The density is highest in the central part and decreases as it goes to the periphery. This prevents interference due to flapping and reflection of propagating waves and provides a constant response.Two 16 cm cone type mid-range B-209 are installed in the mid-range.The diaphragm has a structure in which light aluminum is sandwiched between two thin neoprene rubber films. The center and periphery are processed into a stepped shape to realize a clear and natural sound.8 B-200Y which are 5 cm cone type tweeters are mounted in the high range.The cone is placed on a foam rubber platform to damp spurious peaks and vibrations. Similarly, ranges above 10 kHz are handled by a 2 cm aluminum center dome. This is based on the principle that the diameter of the cone must not exceed the wavelength of the maximum reproduction frequency.An N-104 crossover network is used in the network section.The enclosure is hermetically sealed.The front baffle has a solid construction and well dumped 4.8m3It is 3.8 cm thick at the front half on both sides of the baffle and at the top and bottom of the enclosure.The mid-range and woofer are completely separate structures.The front has an arch frame structure and the exterior is finished with a matte walnut finish."
-                     },
-        "category":  "SPEAKER",
-        "brandId":  "bozak",
-        "image_url":  "https://audio-database.com/b-410moorish.JPG",
-        "original_price":  "¥750000",
-        "release_year":  "1951",
-        "verified":  true
+        "id": "bozak-b-410moorish",
+        "name": "B-410MOORISH",
+        "url": "https://audio-database.com/BOZAK/speaker/b-410moorish-e.html",
+        "sub_category": "",
+        "sections": {
+            "specifications": "Method: 3-Way, 14-Speaker, Sealed Type, Floor Type | Units Used: For low band : 30cm cone x4For Medium Range : 16cm Cone Type x2For high pass : 8x 5cm cone type | Allowable input: 150W(MUSIC) | Playback frequency: 28Hz to 20kHz | Crossover frequency: 400Hz, 2.5kHz (6dB/oct.) | Impedance: 8| External dimensions: Width 933x Height 1,276x Depth 464mm | Weight: 102kg",
+            "title": "BOZAK B-410MOORISH",
+            "overview": "Released around 1951 750,000(1unit, around 1974)  775,000(1unit, around 1977)\n\nA large speaker system with 14speaker units.In the low range, it is equipped with 4B-199A which is 30cm cone type woofer.A cone made of pulp and paper and wool is used for the diaphragm, and a variable density system is used. The density is highest in the central part and decreases as it goes to the periphery. This prevents interference due to flapping and reflection of propagating waves and provides a constant response.Two 16cm cone type mid-range B-209are installed in the mid-range.The diaphragm has a structure in which light aluminum is sandwiched between two thin neoprene rubber films. The center and periphery are processed into a stepped shape to realize a clear and natural sound.8B-200Y which are 5cm cone type tweeters are mounted in the high range.The cone is placed on a foam rubber platform to damp spurious peaks and vibrations. Similarly, ranges above 10kHz are handled by a 2cm aluminum center dome. This is based on the principle that the diameter of the cone must not exceed the wavelength of the maximum reproduction frequency.An N-104crossover network is used in the network section.The enclosure is hermetically sealed.The front baffle has a solid construction and well dumped 4.8m3It is 3.8cm thick at the front half on both sides of the baffle and at the top and bottom of the enclosure.The mid-range and woofer are completely separate structures.The front has an arch frame structure and the exterior is finished with a matte walnut finish."
+        },
+        "category": "SPEAKER",
+        "brandId": "bozak",
+        "image_url": "https://audio-database.com/b-410moorish.JPG",
+        "original_price": "¥750000",
+        "release_year": "1951",
+        "verified": true,
+        "specifications": "Method 3-Way, 14-Speaker, Sealed Type, Floor Type Units Used For low band : 30 cm cone x4 For Medium Range : 16 cm Cone Type x2 For high pass : 8 x 5 cm cone type Allowable input 150W(MUSIC) Playback frequency 28 Hz to 20 kHz Crossover frequency 400 Hz, 2.5 kHz (6dB/oct.) Impedance 8 Ω External dimensions Width 933x Height 1,276x Depth 464 mm | Weight 102kg",
+        "description": "Audio Database BOZAK B-410 Moorish The Concert Grand Released around 1951 ¥ 750,000 (1 unit, around 1974) ¥ 775,000 (1 unit, around 1977) Commentary A large speaker system with 14 speaker units. In the low range, it is equipped with 4 B-199A which is 30 cm cone type woofer. A cone made of pulp and paper and wool is used for the diaphragm, and a variable density system is used. The density is highest in the central part and decreases as it goes to the periphery. This prevents interference due to flapping and reflection of propagating waves and provides a constant response. Two 16 cm cone type mid-range B-209 are installed in the mid-range. The diaphragm has a structure in which light aluminum is sandwiched between two thin neoprene rubber films. The center and periphery are processed into a stepped shape to realize a clear and natural sound. 8 B-200Y which are 5 cm cone type tweeters are mounted in the high range. The cone is placed on a foam rubber platform to damp spurious peaks and vibrations. Similarly, ranges above 10 kHz are handled by a 2 cm aluminum center dome. This is based on the principle that the diameter of the cone must not exceed the wavelength of the maximum reproduction frequency. An N-104 crossover network is used in the network section. The enclosure is hermetically sealed. The front baffle has a solid construction and well dumped 4.8m 3 It is 3.8 cm thick at the front half on both sides of the baffle and at the top and bottom of the enclosure. The mid-range and woofer are completely separate structures. The front has an arch frame structure and the exterior is finished with a matte walnut finish. Model Rating Method 3-Way, 14-Speaker, Sealed Type, Floor Type Units Used For low band : 30 cm cone x4 For Medium Range : 16 cm Cone Type x2 For high pass : 8 x 5 cm cone type Allowable input 150W(MUSIC) Playback frequency 28 Hz to 20 kHz Crossover frequency 400 Hz, 2.5 kHz (6dB/oct.) Impedance 8 Ω External dimensions Width 933x Height 1,276x Depth 464 m"
     },
     {
-        "id":  "bozak-b-4000",
-        "name":  "B-4000",
-        "url":  "https://audio-database.com/BOZAK/speaker/b-4000.html",
-        "sub_category":  "",
-        "sections":  {
-                         "specifications":  "Method: 3-way 11-speaker floor type | Units Used: For low band : 30 cm cone type (B-199A) x2For Middle Range : 20 cm Cone Type (B-800B)For High Range : 5 cm cone type (B-200Y) x8 | Frequency characteristic: 35 Hz to 20 kHz | Impedance: 8 | Rated input: 60W | Crossover frequency: 400 Hz, 2.5 kHz, 6dB/oct. | External dimensions: Width 700x Height 1,100x Depth 400 mm | Weight: 68kg",
-                         "title":  "BOZAK B-4000",
-                         "overview":  "* Handled as special order goods  227,900 (1 unit, around 1966)\n\nA floor-type speaker system corresponding to the top-level system.In the low range, it is equipped with 2 B-199A which is 30 cm cone type woofer.The B-199A uses felted paper cone with wool mixed in pulp to achieve light weight, hardness and high compliance, as well as low distortion bass.The mid-range is equipped with a 20 cm cone type mid-range B-800.8 B-200Y which are 5 cm cone type tweeters are used for the high range.The vibration plate of B-200Y is made by dumping the metal diaphragm with a special method to suppress the wild behavior of the characteristics, and a smoother playback sound is obtained.Enclosure has a symmetrical unit layoutIn addition, the exterior has a walnut oil finish.The terminal section is equipped with a multi-amplifier selector switch and multi-amplifier terminal."
-                     },
-        "category":  "SPEAKER",
-        "brandId":  "bozak",
-        "image_url":  "https://audio-database.com/b-4000.jpg",
-        "original_price":  "¥227900",
-        "release_year":  "1966",
-        "verified":  true
+        "id": "bozak-b-4000",
+        "name": "B-4000",
+        "url": "https://audio-database.com/BOZAK/speaker/b-4000.html",
+        "sub_category": "",
+        "sections": {
+            "specifications": "Method: 3-way 11-speaker floor type | Units Used: For low band : 30cm cone type (B-199A) x2For Middle Range : 20cm Cone Type (B-800B)For High Range : 5cm cone type (B-200Y) x8| Frequency characteristic: 35Hz to 20kHz | Impedance: 8| Rated input: 60W | Crossover frequency: 400Hz, 2.5kHz, 6dB/oct. | External dimensions: Width 700x Height 1,100x Depth 400mm | Weight: 68kg",
+            "title": "BOZAK B-4000",
+            "overview": "* Handled as special order goods  227,900(1unit, around 1966)\n\nA floor-type speaker system corresponding to the top-level system.In the low range, it is equipped with 2B-199A which is 30cm cone type woofer.The B-199A uses felted paper cone with wool mixed in pulp to achieve light weight, hardness and high compliance, as well as low distortion bass.The mid-range is equipped with a 20cm cone type mid-range B-800.8B-200Y which are 5cm cone type tweeters are used for the high range.The vibration plate of B-200Y is made by dumping the metal diaphragm with a special method to suppress the wild behavior of the characteristics, and a smoother playback sound is obtained.Enclosure has a symmetrical unit layoutIn addition, the exterior has a walnut oil finish.The terminal section is equipped with a multi-amplifier selector switch and multi-amplifier terminal."
+        },
+        "category": "SPEAKER",
+        "brandId": "bozak",
+        "image_url": "https://audio-database.com/b-4000.jpg",
+        "original_price": "¥227900",
+        "release_year": "1966",
+        "verified": true,
+        "specifications": "Method 3-way 11-speaker floor type Units Used For low band : 30 cm cone type (B-199A) x2 For Middle Range : 20 cm Cone Type (B-800B) For High Range : 5 cm cone type (B-200Y) x8 Frequency characteristic 35 Hz to 20 kHz Impedance 8 Ω Rated input 60W Crossover frequency 400 Hz, 2.5 kHz, 6dB/oct. External dimensions Width 700x Height 1,100x Depth 400 mm | Weight 68kg",
+        "description": "Audio Database BOZAK B-4000 Symphony No1 * Handled as special order goods ¥ 227,900 (1 unit, around 1966) Commentary A floor-type speaker system corresponding to the top-level system. In the low range, it is equipped with 2 B-199A which is 30 cm cone type woofer. The B-199A uses felted paper cone with wool mixed in pulp to achieve light weight, hardness and high compliance, as well as low distortion bass. The mid-range is equipped with a 20 cm cone type mid-range B-800. 8 B-200Y which are 5 cm cone type tweeters are used for the high range. The vibration plate of B-200Y is made by dumping the metal diaphragm with a special method to suppress the wild behavior of the characteristics, and a smoother playback sound is obtained. Enclosure has a symmetrical unit layout In addition, the exterior has a walnut oil finish. The terminal section is equipped with a multi-amplifier selector switch and multi-amplifier terminal. Model Rating Method 3-way 11-speaker floor type Units Used For low band : 30 cm cone type (B-199A) x2 For Middle Range : 20 cm Cone Type (B-800B) For High Range : 5 cm cone type (B-200Y) x8 Frequency characteristic 35 Hz to 20 kHz Impedance 8 Ω Rated input 60W Crossover frequency 400 Hz, 2.5 kHz, 6dB/oct. External dimensions Width 700x Height 1,100x Depth 400 mm Weight 68kg"
     },
     {
-        "id":  "braun-lv720",
-        "name":  "LV720",
-        "url":  "https://audio-database.com/BRAUN/speaker/lv720.html",
-        "sub_category":  "",
-        "sections":  {
-                         "specifications":  "Method: Built-in Amplifier / 3-way / 4-speaker / Sealed System? Bookshelf type | Units, etc.: For low band : 18 cm cone x2For Middle Area : 5 cm Dome TypeFor high-pass : 2.5 cm dome type | Frequency characteristic: 25 Hz to 25 kHz | Output sound pressure level: 107dB/1m | Crossover frequency: 550 Hz, 4 kHz, 12dB/oct. | Internal volume: 25.0 liters | Output of the power amplifier: 60W + 20W + 20W (Distortion Factor 1% or Less) | External dimensions: Width 200x Height 520x Depth 315 | Weight: 15.0kg | Sold Separately: Connection code ( 650)",
-                         "title":  "BRAUN LV720",
-                         "overview":  "An active speaker system based on the L710/1 and equipped with an internal power amplifier to realize a multi-channel system.The system is equipped with a power amplifier, and each speaker is connected directly to a specially designed power amplifier.It is equipped with two 18 cm cone woofers in the low range, a 5 cm soft dome scoker in the middle range, and a 2.5 cm soft dome tweeter in the high range.There were 3 types of exterior finish, walnut, black and white finish.The front panel has an anodized aluminum finish and the aluminum punching metal is removable.There was a speaker stand sold separately."
-                     },
-        "category":  "SPEAKER",
-        "brandId":  "braun",
-        "image_url":  "https://audio-database.com/l710-1.JPG",
-        "release_year":  "1974",
-        "verified":  true
+        "id": "braun-lv720",
+        "name": "LV720",
+        "url": "https://audio-database.com/BRAUN/speaker/lv720.html",
+        "sub_category": "",
+        "sections": {
+            "specifications": "Method: Built-in Amplifier / 3-way / 4-speaker / Sealed System? Bookshelf type | Units, etc.: For low band : 18cm cone x2For Middle Area : 5cm Dome TypeFor high-pass : 2.5cm dome type | Frequency characteristic: 25Hz to 25kHz | Output sound pressure level: 107dB/1m | Crossover frequency: 550Hz, 4kHz, 12dB/oct. | Internal volume: 25.0liters | Output of the power amplifier: 60W + 20W + 20W (Distortion Factor 1% or Less) | External dimensions: Width 200x Height 520x Depth 315| Weight: 15.0kg | Sold Separately: Connection code ( 650)",
+            "title": "BRAUN LV720",
+            "overview": "An active speaker system based on the L710/1and equipped with an internal power amplifier to realize a multi-channel system.The system is equipped with a power amplifier, and each speaker is connected directly to a specially designed power amplifier.It is equipped with two 18cm cone woofers in the low range, a 5cm soft dome scoker in the middle range, and a 2.5cm soft dome tweeter in the high range.There were 3types of exterior finish, walnut, black and white finish.The front panel has an anodized aluminum finish and the aluminum punching metal is removable.There was a speaker stand sold separately."
+        },
+        "category": "SPEAKER",
+        "brandId": "braun",
+        "image_url": "https://audio-database.com/l710-1.JPG",
+        "release_year": "1974",
+        "verified": true,
+        "specifications": "Method Built-in Amplifier / 3-way / 4-speaker / Sealed | System ・ Bookshelf type Units, etc. For low band : 18 cm cone x2 For Middle Area : 5 cm Dome Type For high-pass : 2.5 cm dome type Frequency characteristic 25 Hz to 25 kHz Output sound pressure level 107dB/1m Crossover frequency 550 Hz, 4 kHz, 12dB/oct. Internal volume 25.0 liters Output of the power amplifier 60W + 20W + 20W (Distortion Factor 1% or Less) External dimensions Width 310x Height 550x Depth 240 mm | Weight 15.0kg Sold Separately Connection code (¥ 650) Speaker Stand LF700 (2 Set, 10,500) (sold separately) External dimensions Width 200x Height 520x Depth 315",
+        "description": "Audio Database BRAUN LV720 Price unknown (1 unit, released in 1974) Commentary An active speaker system based on the L710/1 and equipped with an internal power amplifier to realize a multi-channel system. The system is equipped with a power amplifier, and each speaker is connected directly to a specially designed power amplifier. It is equipped with two 18 cm cone woofers in the low range, a 5 cm soft dome scoker in the middle range, and a 2.5 cm soft dome tweeter in the high range. There were 3 types of exterior finish, walnut, black and white finish. The front panel has an anodized aluminum finish and the aluminum punching metal is removable. There was a speaker stand sold separately. Model Rating Method Built-in Amplifier / 3-way / 4-speaker / Sealed System ・ Bookshelf type Units, etc. For low band : 18 cm cone x2 For Middle Area : 5 cm Dome Type For high-pass : 2.5 cm dome type Frequency characteristic 25 Hz to 25 kHz Output sound pressure level 107dB/1m Crossover frequency 550 Hz, 4 kHz, 12dB/oct. Internal volume 25.0 liters Output of the power amplifier 60W + 20W + 20W (Distortion Factor 1% or Less) External dimensions Width 310x Height 550x Depth 240 mm Weight 15.0kg Sold Separately Connection code (¥ 650) Speaker Stand LF700 (2 Set, 10,500) (sold separately) External dimensions Width 200x Height 520x Depth 315"
     },
     {
-        "id":  "braun-lv1020",
-        "name":  "LV1020",
-        "url":  "https://audio-database.com/BRAUN/speaker/lv1020.html",
-        "sub_category":  "",
-        "sections":  {
-                         "specifications":  "Method: Built-in Amplifier / 3-way / 3-speaker / Sealed System? Bookshelf type | Units, etc.: For low band : 30 cm cone typeFor Middle Area : 5 cm Dome TypeFor high-pass : 2.5 cm dome type | Frequency characteristic: 20 Hz to 25 kHz | Output sound pressure level: 108dB/1m | Crossover frequency: 400 Hz, 3 kHz, 12dB/oct. | Internal volume: 50 liters | Output of the power amplifier: 40W + 20W + 15W (Distortion Factor 1% or Less) | External dimensions: Width 200x Height 520x Depth 315 | Weight: 28kg | Sold Separately: Connection code ( 650)",
-                         "title":  "BRAUN LV1020",
-                         "overview":  "This active speaker system realizes a multi-channel system by installing a power amplifier inside.The system is equipped with a power amplifier, and each speaker is connected directly to a specially designed power amplifier.It is equipped with a 30 cm cone type woofer for the low range, a 5 cm soft dome type scoker for the middle range, and a 2.5 cm soft dome type tweeter for the high range.There were 2 types of exterior finish, walnut finish and white finish.The front panel has an anodized aluminum finish and the aluminum punching metal is removable.There was a speaker stand sold separately."
-                     },
-        "category":  "SPEAKER",
-        "brandId":  "braun",
-        "image_url":  "https://audio-database.com/lv1020.JPG",
-        "original_price":  "¥239000",
-        "release_year":  "1974",
-        "verified":  true
+        "id": "braun-lv1020",
+        "name": "LV1020",
+        "url": "https://audio-database.com/BRAUN/speaker/lv1020.html",
+        "sub_category": "",
+        "sections": {
+            "specifications": "Method: Built-in Amplifier / 3-way / 3-speaker / Sealed System? Bookshelf type | Units, etc.: For low band : 30cm cone typeFor Middle Area : 5cm Dome TypeFor high-pass : 2.5cm dome type | Frequency characteristic: 20Hz to 25kHz | Output sound pressure level: 108dB/1m | Crossover frequency: 400Hz, 3kHz, 12dB/oct. | Internal volume: 50liters | Output of the power amplifier: 40W + 20W + 15W (Distortion Factor 1% or Less) | External dimensions: Width 200x Height 520x Depth 315| Weight: 28kg | Sold Separately: Connection code ( 650)",
+            "title": "BRAUN LV1020",
+            "overview": "This active speaker system realizes a multi-channel system by installing a power amplifier inside.The system is equipped with a power amplifier, and each speaker is connected directly to a specially designed power amplifier.It is equipped with a 30cm cone type woofer for the low range, a 5cm soft dome type scoker for the middle range, and a 2.5cm soft dome type tweeter for the high range.There were 2types of exterior finish, walnut finish and white finish.The front panel has an anodized aluminum finish and the aluminum punching metal is removable.There was a speaker stand sold separately."
+        },
+        "category": "SPEAKER",
+        "brandId": "braun",
+        "image_url": "https://audio-database.com/lv1020.JPG",
+        "original_price": "¥239000",
+        "release_year": "1974",
+        "verified": true,
+        "specifications": "Method Built-in Amplifier / 3-way / 3-speaker / Sealed | System ・ Bookshelf type Units, etc. For low band : 30 cm cone type For Middle Area : 5 cm Dome Type For high-pass : 2.5 cm dome type Frequency characteristic 20 Hz to 25 kHz Output sound pressure level 108dB/1m Crossover frequency 400 Hz, 3 kHz, 12dB/oct. Internal volume 50 liters Output of the power amplifier 40W + 20W + 15W (Distortion Factor 1% or Less) External dimensions Width 380x Height 740x Depth 300 mm | Weight 28kg Sold Separately Connection code (¥ 650) Speaker Stand LF700 (2 Set, 10,500) (sold separately) External dimensions Width 200x Height 520x Depth 315",
+        "description": "Audio Database BRAUN LV1020 ¥ 239,000 (1 unit, around 1974) Commentary This active speaker system realizes a multi-channel system by installing a power amplifier inside. The system is equipped with a power amplifier, and each speaker is connected directly to a specially designed power amplifier. It is equipped with a 30 cm cone type woofer for the low range, a 5 cm soft dome type scoker for the middle range, and a 2.5 cm soft dome type tweeter for the high range. There were 2 types of exterior finish, walnut finish and white finish. The front panel has an anodized aluminum finish and the aluminum punching metal is removable. There was a speaker stand sold separately. Model Rating Method Built-in Amplifier / 3-way / 3-speaker / Sealed System ・ Bookshelf type Units, etc. For low band : 30 cm cone type For Middle Area : 5 cm Dome Type For high-pass : 2.5 cm dome type Frequency characteristic 20 Hz to 25 kHz Output sound pressure level 108dB/1m Crossover frequency 400 Hz, 3 kHz, 12dB/oct. Internal volume 50 liters Output of the power amplifier 40W + 20W + 15W (Distortion Factor 1% or Less) External dimensions Width 380x Height 740x Depth 300 mm Weight 28kg Sold Separately Connection code (¥ 650) Speaker Stand LF700 (2 Set, 10,500) (sold separately) External dimensions Width 200x Height 520x Depth 315"
     }
 ]

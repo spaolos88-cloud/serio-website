@@ -1,14 +1,16 @@
-﻿{
-    "url":  "https://audio-database.com/ACOUSTICARTS(eng)/speaker/amphora.html",
-    "name":  "Acoustic",
-    "id":  "acousticarts-eng-acoustic",
-    "original_price":  "¥260000",
-    "category":  "SPEAKER",
-    "description":  "\"Non-directional speaker system using ceramic deflector.AMPHA means an acupressure point with both handles made in the ancient Greek period.It features a 20 cm cone woofer in the low range, a 12 cm cone mid-range in the middle range and a 2.5 cm dome tweeter in the high range. Each unit is mounted horizontally and is surrounded by a ceramic deflector in the center for sound reproduction.There are 2 variations of the appearance, black and white.\"",
-    "sub_category":  "",
-    "brandId":  "acousticarts-eng",
-    "specifications":  "\"Method: 3-Way, 3-Speaker, Airtight System, Floor Type | Units, etc.: For low band : 20 cm cone typeFor Medium Range : 12 cm cone typeFor high-pass : 2.5 cm dome type | Frequency characteristic: 36 Hz to 20 kHz | Impedance: 8 � | Output sound pressure level: 86dB/W/m | Max Input: 220W | Crossover frequency: 400 Hz, 2.5 kHz | External dimensions: Diameter 350x Height 905 mm | Weight: 16.0kg\"",
-    "release_year":  "1991",
-    "verified":  true,
-    "image_url":  "https://audio-database.com/ACOUSTICARTS(eng)/speaker/amphora.jpg"
-}
+[
+    {
+        "url": "https://audio-database.com/ACOUSTICARTS(eng)/speaker/amphora.html",
+        "name": "Acoustic",
+        "id": "acousticarts-eng-acoustic",
+        "original_price": "¥260000",
+        "category": "SPEAKER",
+        "description": "## Description\n\n\"Non-directional speaker system using ceramic deflector.AMPHA means an acupressure point with both handles made in the ancient Greek period.It features a 20cm cone woofer in the low range, a 12cm cone mid-range in the middle range and a 2.5cm dome tweeter in the high range. Each unit is mounted horizontally and is surrounded by a ceramic deflector in the center for sound reproduction.There are 2variations of the appearance, black and white.\"",
+        "sub_category": "",
+        "brandId": "acousticarts-eng",
+        "specifications": "\"Method: 3-Way, 3-Speaker, Airtight System, Floor Type | Units, etc.: For low band : 20cm cone typeFor Medium Range : 12cm cone typeFor high-pass : 2.5cm dome type | Frequency characteristic: 36Hz to 20kHz | Impedance: 8� | Output sound pressure level: 86dB/W/m | Max Input: 220W | Crossover frequency: 400Hz, 2.5kHz | External dimensions: Diameter 350x Height 905mm | Weight: 16.0kg\"",
+        "release_year": "1991",
+        "verified": true,
+        "image_url": "https://audio-database.com/ACOUSTICARTS(eng)/speaker/amphora.jpg"
+    }
+]

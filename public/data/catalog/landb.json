@@ -1,15 +1,16 @@
-﻿{
-    "url":  "https://audio-database.com/LandB/speaker/fs-61-e.html",
-    "name":  "FS-61",
-    "id":  "landb-fs-61",
-    "original_price":  "¥85000",
-    "category":  "SPEAKER",
-    "description":  "\"A speaker system designed to improve musical performance with the aim of making sounds closer to reality.Uses a 12.5 cm polypropylene cone woofer for the low range.It is driven by a 90 � (451g) magnet and features parts such as lead wires and damper materials.A hard-dome type tweeter with a proven track record as a recording monitor is used for the proven track record as a recording monitor newly developed meta Le Dome and alnico magnet are used.These units are not merely units that display excellent characteristics, but units that can display musical characteristics, and European units are adopted.The enclosure is designed with natural wood baffle plates for better sound and longer depth, and has a large R-shape at the corners to prevent sound from being diffracted.By storing the tweeter and woofer in separate cases, mutual interference is prevented, and the layout matches the phase.Finished with special moss green paint.The network is secured to the bottom of the enclosure to avoid interference from the units.Designed to be combined with the FS-61 speaker stand (sold separately). The stand is made of a resonance-resistant star board.This stand can be fixed with screws to the speaker enclosure.\"",
-    "sub_category":  "",
-    "brandId":  "landb",
-    "specifications":  "\"Method: 2-Way, 2-Speaker, Bass Reflex System, Bookshelf Type | Units Used: For low band : 12.5 cm cone typeFor high-pass : 2.6 cm dome type | Impedance: 8 � | Frequency characteristic: 65 Hz ~ 25000 Hz | Allowable input: 60W | Music acceptance input: 120W | Efficiency: 86dB/W/m | Crossover frequency: 3.8 kHz, 12dB/oct. | External dimensions: Width 197x Height 344x Depth 296 mm | Weight: 8.5kg | Sold Separately: Speaker Stand S-61 (1 unit, ¥15,000)\"",
-    "release_year":  "1988",
-    "verified":  true,
-    "image_url":  "https://audio-database.com/LandB/speaker/fs-61.JPG"
-}
-
+[
+    {
+        "url": "https://audio-database.com/LandB/speaker/fs-61-e.html",
+        "name": "FS-61",
+        "id": "landb-fs-61",
+        "original_price": "¥85000",
+        "category": "SPEAKER",
+        "description": "## Description\n\n\"A speaker system designed to improve musical performance with the aim of making sounds closer to reality.Uses a 12.5cm polypropylene cone woofer for the low range.It is driven by a 90� (451g) magnet and features parts such as lead wires and damper materials.A hard-dome type tweeter with a proven track record as a recording monitor is used for the proven track record as a recording monitor newly developed meta Le Dome and alnico magnet are used.These units are not merely units that display excellent characteristics, but units that can display musical characteristics, and European units are adopted.The enclosure is designed with natural wood baffle plates for better sound and longer depth, and has a large R-shape at the corners to prevent sound from being diffracted.By storing the tweeter and woofer in separate cases, mutual interference is prevented, and the layout matches the phase.Finished with special moss green paint.The network is secured to the bottom of the enclosure to avoid interference from the units.Designed to be combined with the FS-61speaker stand (sold separately). The stand is made of a resonance-resistant star board.This stand can be fixed with screws to the speaker enclosure.\"",
+        "sub_category": "",
+        "brandId": "landb",
+        "specifications": "\"Method: 2-Way, 2-Speaker, Bass Reflex System, Bookshelf Type | Units Used: For low band : 12.5cm cone typeFor high-pass : 2.6cm dome type | Impedance: 8� | Frequency characteristic: 65Hz ~ 25000Hz | Allowable input: 60W | Music acceptance input: 120W | Efficiency: 86dB/W/m | Crossover frequency: 3.8kHz, 12dB/oct. | External dimensions: Width 197x Height 344x Depth 296mm | Weight: 8.5kg | Sold Separately: Speaker Stand S-61(1unit, ¥15,000)\"",
+        "release_year": "1988",
+        "verified": true,
+        "image_url": "https://audio-database.com/LandB/speaker/fs-61.JPG"
+    }
+]

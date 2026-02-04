@@ -1,1 +1,30 @@
-﻿[{"url":"","name":"https://audio-database.com/YL/unit/1250.html","id":"driver-unit-for-low-band-comes-with-a-dedicated-throat-https:--audio-databasecom-yl-unit-1250html","original_price":"","category":"General","description":"","sub_category":"","brandId":"driver-unit-for-low-band-comes-with-a-dedicated-throat","specifications":"","release_year":"","verified":false,"image_url":""},{"url":"","name":"https://audio-database.com/YL/unit/l-1250.html","id":"driver-unit-for-low-band-comes-with-a-dedicated-throat-https:--audio-databasecom-yl-unit-l-1250html","original_price":"","category":"General","description":"","sub_category":"","brandId":"driver-unit-for-low-band-comes-with-a-dedicated-throat","specifications":"","release_year":"","verified":false,"image_url":""}]
+[
+    {
+        "url": "https://audio-database.com/YL/unit/1250.html",
+        "name": "1250",
+        "id": "driver-unit-for-low-band-comes-with-a-dedicated-throat-https:--audio-databasecom-yl-unit-1250html",
+        "original_price": "¥75000",
+        "category": "General",
+        "description": "Audio Database YL Sound 125/1250 125 : ¥ 75,000 (1 unit, around 1960 s) 1250 : ¥ 150,000 (1 unit, around 1960 s) Commentary Driver unit for low band. Comes with a dedicated throat. Model Rating Type Low frequency horn Model Name 125 1250 Available bandwidth 16 Hz to 1 kHz Recommended bandwidth 200 Hz or less (listed in separate catalog) Impedance 8 Ω, 16 Ω Maximum peak input 80W (100 Hz or More) 20W (50 Hz or More) 5W (25 Hz or More) Magnetic flux density 14,000gauss 20,000gauss Total flux 1,300,000maxwell Weight 18kg",
+        "sub_category": "",
+        "brandId": "driver-unit-for-low-band-comes-with-a-dedicated-throat",
+        "specifications": "Type Low frequency horn Model Name 125 1250 Available bandwidth 16 Hz to 1 kHz Recommended bandwidth 200 Hz or less (listed in separate catalog) Impedance 8 Ω, 16 Ω Maximum peak input 80W (100 Hz or More) 20W (50 Hz or More) 5W (25 Hz or More) Magnetic flux density 14,000gauss 20,000gauss Total flux 1,300,000maxwell | Weight 18kg",
+        "release_year": "1960",
+        "verified": true,
+        "image_url": "https://audio-database.com/1250.jpg"
+    },
+    {
+        "url": "https://audio-database.com/YL/unit/l-1250.html",
+        "name": "l-1250",
+        "id": "driver-unit-for-low-band-comes-with-a-dedicated-throat-https:--audio-databasecom-yl-unit-l-1250html",
+        "original_price": "¥75000",
+        "category": "General",
+        "description": "Audio Database YL Sound L-125/L-1250 L-125 : ¥ 75,000 (1 unit, around 1965?) L-1250 : ¥ 150,000 (1 unit, around 1965?) Commentary Driver unit for low band. Comes with a dedicated throat. Model Rating Type Low frequency horn Model Name L-125 L-1250 Available bandwidth 16 Hz to 1 kHz Impedance 16 Ω Maximum peak input 80W (100 Hz or More) 20W (50 Hz or More) 5W (25 Hz or More) Magnetic flux density 14,000gauss 20,000gauss Horn mounting screw Special flange External dimensions Diameter 200x Height 150 mm Weight 18.5kg",
+        "sub_category": "",
+        "brandId": "driver-unit-for-low-band-comes-with-a-dedicated-throat",
+        "specifications": "Type Low frequency horn Model Name L-125 L-1250 Available bandwidth 16 Hz to 1 kHz Impedance 16 Ω Maximum peak input 80W (100 Hz or More) 20W (50 Hz or More) 5W (25 Hz or More) Magnetic flux density 14,000gauss 20,000gauss Horn mounting screw Special flange External dimensions Diameter 200x Height 150 mm | Weight 18.5kg",
+        "release_year": "1965",
+        "verified": true,
+        "image_url": "https://audio-database.com/l-1250.jpg"
+    }
+]

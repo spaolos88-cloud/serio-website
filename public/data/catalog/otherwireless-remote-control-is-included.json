@@ -1,1 +1,45 @@
-﻿[{"url":"","name":"https://audio-database.com/PIONEER-EXCLUSIVE/stereo/x-a55md.html","id":"otherwireless-remote-control-is-included-https:--audio-databasecom-pioneer-exclusive-stereo-x-a55mdhtml","original_price":"","category":"General","description":"","sub_category":"","brandId":"otherwireless-remote-control-is-included","specifications":"","release_year":"","verified":false,"image_url":""},{"url":"","name":"https://audio-database.com/PIONEER-EXCLUSIVE/stereo/x-qt1.html","id":"otherwireless-remote-control-is-included-https:--audio-databasecom-pioneer-exclusive-stereo-x-qt1html","original_price":"","category":"General","description":"","sub_category":"","brandId":"otherwireless-remote-control-is-included","specifications":"","release_year":"","verified":false,"image_url":""},{"url":"","name":"https://audio-database.com/TRIO-KENWOOD/stereo/es-9dvd.html","id":"otherwireless-remote-control-is-included-https:--audio-databasecom-trio-kenwood-stereo-es-9dvdhtml","original_price":"","category":"General","description":"","sub_category":"","brandId":"otherwireless-remote-control-is-included","specifications":"","release_year":"","verified":false,"image_url":""}]
+﻿[
+    {
+        "url":  "https://audio-database.com/PIONEER-EXCLUSIVE/stereo/x-a55md.html",
+        "name":  "x-a55md",
+        "id":  "otherwireless-remote-control-is-included-https:--audio-databasecom-pioneer-exclusive-stereo-x-a55mdhtml",
+        "original_price":  "¥36800",
+        "category":  "General",
+        "description":  "",
+        "sub_category":  "",
+        "brandId":  "otherwireless-remote-control-is-included",
+        "specifications":  "",
+        "release_year":  "1998",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/x-a55md(3).jpg"
+    },
+    {
+        "url":  "https://audio-database.com/PIONEER-EXCLUSIVE/stereo/x-qt1.html",
+        "name":  "x-qt1",
+        "id":  "otherwireless-remote-control-is-included-https:--audio-databasecom-pioneer-exclusive-stereo-x-qt1html",
+        "original_price":  "¥43000",
+        "category":  "General",
+        "description":  "",
+        "sub_category":  "",
+        "brandId":  "otherwireless-remote-control-is-included",
+        "specifications":  "",
+        "release_year":  "1995",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/x-qt1.jpg"
+    },
+    {
+        "url":  "https://audio-database.com/TRIO-KENWOOD/stereo/es-9dvd.html",
+        "name":  "es-9dvd",
+        "id":  "otherwireless-remote-control-is-included-https:--audio-databasecom-trio-kenwood-stereo-es-9dvdhtml",
+        "original_price":  "¥60000",
+        "category":  "General",
+        "description":  "",
+        "sub_category":  "",
+        "brandId":  "otherwireless-remote-control-is-included",
+        "specifications":  "",
+        "release_year":  "2003",
+        "verified":  true,
+        "image_url":  "https://audio-database.com/es-9dvd.jpg"
+    }
+]
+

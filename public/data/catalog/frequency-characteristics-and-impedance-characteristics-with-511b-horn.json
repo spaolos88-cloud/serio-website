@@ -1,1 +1,16 @@
-﻿{"url":"","name":"https://audio-database.com/ALTEC/unit/909-8a-16a.html","id":"frequency-characteristics-and-impedance-characteristics-with-511b-horn-https:--audio-databasecom-altec-unit-909-8a-16ahtml","original_price":"","category":"General","description":"","sub_category":"","brandId":"frequency-characteristics-and-impedance-characteristics-with-511b-horn","specifications":"","release_year":"","verified":false,"image_url":""}
+[
+    {
+        "url": "https://audio-database.com/ALTEC/unit/909-8a-16a.html",
+        "name": "909-8a-16a",
+        "id": "frequency-characteristics-and-impedance-characteristics-with-511b-horn-https:--audio-databasecom-altec-unit-909-8a-16ahtml",
+        "original_price": "¥96000",
+        "category": "General",
+        "description": "Audio Database ALTEC LANSING 909-8A/909-16A ¥ 96,000 (1 unit, released in 1988) Commentary 1-inch throat driver unit adopting PASCALITE diaphragm. It adopts PASCALITE structure diaphragm assembly developed in 299 which is driver unit of 1.4 inch throat. The voice coil adopts a high-heat-resistant voice coil bobbin made of aramid fiber to improve durability against long-time high-power drive. Using a Tangerine radial phase plug, high efficiency is achieved while maintaining the correct phase relationship. Ferrite magnet is used for the magnet, ensuring a magnetic flux density of 18000 Gauss. There were 2 kinds of variations, 909 to 8 a of 8 Ω specification and 909 to 16 a of 16 Ω specification. The 909 / 8 a / 16 a can be combined with the MR994A. Moreover, by using the 21216 conversion throat, it can be combined with medium and large manta ray ray-horns such as the MRII500 series. Frequency and Impedance Characteristics of Plain Wave Tube Harmonic distortion of plain wave tube at rated power input (3W) Frequency and and impedance characteristics when the MR994A horn is mounted Frequency Characteristics and Impedance Characteristics with 511B Horn Model Rating Type Driver unit Frequency characteristic 500 Hz to 20 kHz AES Rated Input (Pink Noise) 30W (500 Hz ~) 40W (800 Hz ~) Continuous program input 60W (500 Hz ~) 80W (800 Hz ~) Peak power 120W (500 Hz ~) 160W (800 Hz ~) Output sound pressure level (1W 500 Hz to 3.15 kHz, re : 20 μ Pa) 144 dB SPL (with acoustic tube) 108 dB SPL (with MR994A or 511B horn) Diaphragm Paskalite Voice coil 45mm Impedance 8 Ω (909-8A) 16 Ω (909-16A) External dimensions Diameter 140x Depth 69 mm Weight 2.9kg Replacement diaphragm 26420 (8 Ω) 26421 (16 Ω)",
+        "sub_category": "",
+        "brandId": "frequency-characteristics-and-impedance-characteristics-with-511b-horn",
+        "specifications": "Type Driver unit Frequency characteristic 500 Hz to 20 kHz AES Rated Input (Pink Noise) 30W (500 Hz ~) 40W (800 Hz ~) Continuous program input 60W (500 Hz ~) 80W (800 Hz ~) Peak power 120W (500 Hz ~) 160W (800 Hz ~) Output sound pressure level (1W 500 Hz to 3.15 kHz, re : 20 μ Pa) 144 dB SPL (with acoustic tube) 108 dB SPL (with MR994A or 511B horn) Diaphragm Paskalite Voice coil 45mm Impedance 8 Ω (909-8A) 16 Ω (909-16A) External dimensions Diameter 140x Depth 69 mm | Weight 2.9kg Replacement diaphragm 26420 (8 Ω) 26421 (16 Ω)",
+        "release_year": "1988",
+        "verified": true,
+        "image_url": "https://audio-database.com/909-8a-16a.jpg"
+    }
+]

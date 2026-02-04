@@ -1,1 +1,16 @@
-﻿{"url":"","name":"https://audio-database.com/CORAL/unit/nwseries.html","id":"a-high-end-dividing-network-specially-developed-to-fit-each-unit-of-the-coral-pro-series-https:--audio-databasecom-coral-unit-nwserieshtml","original_price":"","category":"General","description":"","sub_category":"","brandId":"a-high-end-dividing-network-specially-developed-to-fit-each-unit-of-the-coral-pro-series","specifications":"","release_year":"","verified":false,"image_url":""}
+[
+    {
+        "url": "https://audio-database.com/CORAL/unit/nwseries.html",
+        "name": "nwseries",
+        "id": "a-high-end-dividing-network-specially-developed-to-fit-each-unit-of-the-coral-pro-series-https:--audio-databasecom-coral-unit-nwserieshtml",
+        "original_price": "¥29500",
+        "category": "General",
+        "description": "Audio Database CORAL NW-Series Dividing Network NW-500 : ¥ 29,500 (1 piece, around 1980) NW-800 : ¥ 29,000 (1 piece, around 1980) NW-1200 : ¥ 27,500 (1 piece, around 1980) NW-7000 : ¥ 12,500 (1 piece, around 1980) Commentary A high-end dividing network specially developed to fit each unit of the Coral Pro Series. Model Rating Type Dividing network Model number NW-500 NW-800 NW-1200 NW-7000 Circuit configuration High Pass, Low Pass 12dB/oct Crossover frequency 500Hz 800Hz 1.2kHz 7kHz Adaptive impedance 8 Ω Max Input 200W External Dimensions (Width x Height x Depth) 310x115x220mm 310x100x220mm 310x90x220mm 220x87x150mm Weight 4.1kg 4.1kg 2.8kg 1kg",
+        "sub_category": "",
+        "brandId": "a-high-end-dividing-network-specially-developed-to-fit-each-unit-of-the-coral-pro-series",
+        "specifications": "Type Dividing network Model number NW-500 NW-800 NW-1200 NW-7000 Circuit configuration High Pass, Low Pass 12dB/oct Crossover frequency 500Hz 800Hz 1.2kHz 7kHz Adaptive impedance 8 Ω Max Input 200W External | Dimensions (Width x Height x Depth) 310x115x220mm 310x100x220mm 310x90x220mm 220x87x150mm | Weight 4.1kg 4.1kg 2.8kg 1kg",
+        "release_year": "1980",
+        "verified": true,
+        "image_url": "https://audio-database.com/nwseries.jpg"
+    }
+]

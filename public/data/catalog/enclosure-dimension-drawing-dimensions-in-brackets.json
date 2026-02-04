@@ -1,1 +1,16 @@
-﻿{"url":"","name":"https://audio-database.com/FOSTER-FOSTEX/unit/fe-133.html","id":"enclosure-dimension-drawing-dimensions-in-brackets-https:--audio-databasecom-foster-fostex-unit-fe-133html","original_price":"","category":"General","description":"","sub_category":"","brandId":"enclosure-dimension-drawing-dimensions-in-brackets","specifications":"","release_year":"","verified":false,"image_url":""}
+[
+    {
+        "url": "https://audio-database.com/FOSTER-FOSTEX/unit/fe-133.html",
+        "name": "fe-133",
+        "id": "enclosure-dimension-drawing-dimensions-in-brackets-https:--audio-databasecom-foster-fostex-unit-fe-133html",
+        "original_price": "¥3400",
+        "category": "General",
+        "description": "Audio Database FOSTER/FOSTEX FE133 Price unknown (1 piece, around 1968) ¥ 3,400 (1 piece, around 1976) Commentary 13 cm cone type full range unit of FE series. Roll edge method is adopted. In consideration of mounting in a small-capacity cabinet, a ferrite magnet is used so that the total height of the speaker is low. There was a model change around 1976 and it was described as FE133New (FE133N) in the catalog. Also, in the picture at that time, the magnetic circuit was changed, and there were 2 kinds of variations of 4 Ω and 8 Ω. Model Rating Method Cone type full range speaker Aperture 13cm Impedance 4 Ω (around 1976) 8 Ω Lowest resonance frequency 75 Hz ± 15% 70 Hz (around 1976) Playback frequency band Fo ~ 16 kHz Output sound pressure level 99dB/W/50cm 91dB/W/m (around 1976) Max Input 13W 18W (Music, circa 1976) Mo 3g 3.5g (around 1976) Qo 0.45 0.4 (circa 1976) Effective vibration radius (a) 5.0cm Magnet weight 386g 280g (around 1976) Magnetic flux density 13,000gauss Total flux 37,000maxwell Standard enclosure volume 12 liters Gross weight 1kg 0.95 kg (around 1976) Enclosure dimension drawing, dimensions in brackets Detailed dimensional drawing",
+        "sub_category": "",
+        "brandId": "enclosure-dimension-drawing-dimensions-in-brackets",
+        "specifications": "",
+        "release_year": "1968",
+        "verified": true,
+        "image_url": "https://audio-database.com/fe-133.jpg"
+    }
+]

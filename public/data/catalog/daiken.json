@@ -1,15 +1,16 @@
-﻿{
-    "url":  "https://audio-database.com/DAIKEN/speaker/craft-alpha9000.html",
-    "name":  "CRAFT-ALPHA9000",
-    "id":  "daiken-craft-alpha9000",
-    "original_price":  "¥700000",
-    "category":  "SPEAKER",
-    "description":  "\"A planar speaker system using an � - wood diaphragm.The CRAFT - ¥9000 is a speaker jointly researched by the Chubu Corn Factory and the Wood Research Institute of Kyoto University. It was sold by Daiken Industry.Flat units with � - wood diaphragms are installed in the low and middle regions.The alpha-wood diaphragm has a 3-layer structure with carbon fiber cloth sandwiched between acetylated Sitka spruce and carbon fiber cloth. In the acetylation process, the hydrophilic hydroxyl group which is the main component of the wood is acetylated with acetic anhydride to scientifically improve the wood. Dimensional stability, aging change, rigidity and corrosion resistance are improved. In addition, Sitka spruce, which is also used for piano soundboards, uses carefully selected top-quality parts which cannot be obtained much from large trees of 100m height and 2m diameter.The woofer unit is equipped with a large magnetic circuit using a ¥180 mm, 15,000 gauss magnet.A ribbon-type tweeter is installed in the high frequency band, and by aligning each unit in the same plane, the shift of sound wave transmission is eliminated.The enclosure uses solid wood of Sitka spruce, which is more than the size of a piano.The enclosure is constructed with a rigid aluminum frame to provide a rich sound by vibrating the baffle. Each unit is fixed to a separate aluminum frame. A soundbar is attached to the back of the solid wood Sitka Spruce baffle to create a sound similar to a piano soundboard.It has a high quality urethane finish that makes use of the grain of the wood.\"",
-    "sub_category":  "",
-    "brandId":  "daiken",
-    "specifications":  "\"Method: 3-way / 3-speaker / Closed Baffle Vibration System / Floor Type | Units Used: For Low Frequency : Flat TypeFor Middle Area : Flat TypeFor High Frequency : Ribbon Type | Frequency characteristic: 27 Hz to 40 kHz | Impedance: 8 � | Allowable input: 150W | Output sound pressure level: 88dB/W/m | Crossover frequency: 600 Hz, 6 kHz | Finish: Paint finish on solid Sitka spruce | External dimensions: Width 900x Height 1,250x Depth 350 mm (Including Legs) | Weight: 70kg\"",
-    "release_year":  "1987",
-    "verified":  true,
-    "image_url":  "https://audio-database.com/DAIKEN/speaker/craft-alpha9000.jpg"
-}
-
+[
+    {
+        "url": "https://audio-database.com/DAIKEN/speaker/craft-alpha9000.html",
+        "name": "CRAFT-ALPHA9000",
+        "id": "daiken-craft-alpha9000",
+        "original_price": "¥700000",
+        "category": "SPEAKER",
+        "description": "## Description\n\n\"A planar speaker system using an � - wood diaphragm.The CRAFT - ¥9000is a speaker jointly researched by the Chubu Corn Factory and the Wood Research Institute of Kyoto University. It was sold by Daiken Industry.Flat units with � - wood diaphragms are installed in the low and middle regions.The alpha-wood diaphragm has a 3-layer structure with carbon fiber cloth sandwiched between acetylated Sitka spruce and carbon fiber cloth. In the acetylation process, the hydrophilic hydroxyl group which is the main component of the wood is acetylated with acetic anhydride to scientifically improve the wood. Dimensional stability, aging change, rigidity and corrosion resistance are improved. In addition, Sitka spruce, which is also used for piano soundboards, uses carefully selected top-quality parts which cannot be obtained much from large trees of 100m height and 2m diameter.The woofer unit is equipped with a large magnetic circuit using a ¥180mm, 15,000gauss magnet.A ribbon-type tweeter is installed in the high frequency band, and by aligning each unit in the same plane, the shift of sound wave transmission is eliminated.The enclosure uses solid wood of Sitka spruce, which is more than the size of a piano.The enclosure is constructed with a rigid aluminum frame to provide a rich sound by vibrating the baffle. Each unit is fixed to a separate aluminum frame. A soundbar is attached to the back of the solid wood Sitka Spruce baffle to create a sound similar to a piano soundboard.It has a high quality urethane finish that makes use of the grain of the wood.\"",
+        "sub_category": "",
+        "brandId": "daiken",
+        "specifications": "\"Method: 3-way / 3-speaker / Closed Baffle Vibration System / Floor Type | Units Used: For Low Frequency : Flat TypeFor Middle Area : Flat TypeFor High Frequency : Ribbon Type | Frequency characteristic: 27Hz to 40kHz | Impedance: 8� | Allowable input: 150W | Output sound pressure level: 88dB/W/m | Crossover frequency: 600Hz, 6kHz | Finish: Paint finish on solid Sitka spruce | External dimensions: Width 900x Height 1,250x Depth 350mm (Including Legs) | Weight: 70kg\"",
+        "release_year": "1987",
+        "verified": true,
+        "image_url": "https://audio-database.com/DAIKEN/speaker/craft-alpha9000.jpg"
+    }
+]

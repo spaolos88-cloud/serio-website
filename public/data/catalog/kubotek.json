@@ -1,31 +1,30 @@
-﻿[
+[
     {
-        "url":  "",
-        "name":  "HANIWA/KUBOTEK",
-        "id":  "kubotek-haniwa-kubotek",
-        "original_price":  "",
-        "category":  "General",
-        "description":  "\"¥500,000 (a set of two cars, around 2008)",
-        "sub_category":  "",
-        "brandId":  "kubotek",
-        "specifications":  "Type: Monaural power amplifier | Output: 30W (Ultra Linear Connection) | Frequency characteristic: 20 Hz to 20 kHz ¥1 dB | Distortion factor: 1% or Less (1 kHz) | Vacuum tube used: 12AX7A(ECC83)x2KT88x2 | External dimensions: Width 315x Height 200x Depth 245 mm | Weight: 12.5kg",
-        "release_year":  "2008",
-        "verified":  false,
-        "image_url":  ""
+        "url": "",
+        "name": "HANIWA/KUBOTEK",
+        "id": "kubotek-haniwa-kubotek",
+        "original_price": "¥500",
+        "category": "General",
+        "description": "\"¥500,000(a set of two cars, around 2008)",
+        "sub_category": "",
+        "brandId": "kubotek",
+        "specifications": "Type: Monaural power amplifier | Output: 30W (Ultra Linear Connection) | Frequency characteristic: 20Hz to 20kHz ¥1dB | Distortion factor: 1% or Less (1kHz) | Vacuum tube used: 12AX7A(ECC83)x2KT88x2| External dimensions: Width 315x Height 200x Depth 245mm | Weight: 12.5kg",
+        "release_year": "2008",
+        "verified": false,
+        "image_url": ""
     },
     {
-        "url":  "https://audio-database.com/KUBOTEK/amp/hamp05.html",
-        "name":  "HAMP05",
-        "id":  "kubotek-hamp05",
-        "original_price":  "¥300000",
-        "category":  "Amplifiers",
-        "description":  "\"This is a stereo power amplifier that is ideal for the middle and high frequencies of multi-amplifier systems.6CA7 of Hi-Fi ball is used to ensure the luster and sweetness unique to triode.Single operation, class A operation is adopted.For high-efficiency horn speakers, the hum noise is reduced to the limit and the NFB is minimized to achieve excellent transient characteristics.\"",
-        "sub_category":  "",
-        "brandId":  "kubotek",
-        "specifications":  "Type: Stereo power amplifier | Output: 5W + 5W (triode Coupled) | Frequency characteristic: 20 Hz to 20 kHz ¥1 dB | Distortion factor: Not more than 1% | Vacuum tube used: 12AX7A(ECC83)x26CA7(EL34)x2 | External dimensions: Width 315x Height 200x Depth 245 mm | Weight: 16kg",
-        "release_year":  "2008",
-        "verified":  true,
-        "image_url":  "https://audio-database.com/KUBOTEK/amp/hamp05.jpg"
+        "url": "https://audio-database.com/KUBOTEK/amp/hamp05.html",
+        "name": "HAMP05",
+        "id": "kubotek-hamp05",
+        "original_price": "¥300000",
+        "category": "Amplifiers",
+        "description": "## Description\n\n\"This is a stereo power amplifier that is ideal for the middle and high frequencies of multi-amplifier systems.6CA7of Hi-Fi ball is used to ensure the luster and sweetness unique to triode.Single operation, class A operation is adopted.For high-efficiency horn speakers, the hum noise is reduced to the limit and the NFB is minimized to achieve excellent transient characteristics.\"",
+        "sub_category": "",
+        "brandId": "kubotek",
+        "specifications": "Type: Stereo power amplifier | Output: 5W + 5W (triode Coupled) | Frequency characteristic: 20Hz to 20kHz ¥1dB | Distortion factor: Not more than 1% | Vacuum tube used: 12AX7A(ECC83)x26CA7(EL34)x2| External dimensions: Width 315x Height 200x Depth 245mm | Weight: 16kg",
+        "release_year": "2008",
+        "verified": true,
+        "image_url": "https://audio-database.com/KUBOTEK/amp/hamp05.jpg"
     }
 ]
-

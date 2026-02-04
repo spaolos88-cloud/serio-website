@@ -1,1 +1,16 @@
-﻿{"url":"","name":"https://audio-database.com/ACAPELLA-ATR/unit/tw-1s.html","id":"a-15-w-pure-class-a-power-amplifier-high-pass-filter-and-input-level-control-are-provided-https:--audio-databasecom-acapella-atr-unit-tw-1shtml","original_price":"","category":"General","description":"","sub_category":"","brandId":"a-15-w-pure-class-a-power-amplifier-high-pass-filter-and-input-level-control-are-provided","specifications":"","release_year":"","verified":false,"image_url":""}
+[
+    {
+        "url": "https://audio-database.com/ACAPELLA-ATR/unit/tw-1s.html",
+        "name": "tw-1s",
+        "id": "a-15-w-pure-class-a-power-amplifier-high-pass-filter-and-input-level-control-are-provided-https:--audio-databasecom-acapella-atr-unit-tw-1shtml",
+        "original_price": "¥500000",
+        "category": "General",
+        "description": "Audio Database A Capella TW-1S 500,000yen(each, Release time unknown) Features A tweeter unit employing an ion discharge method. In the ion discharge method, a special metal electrode provided inside the quartz cell generates an ion discharge from a high-pressure high-frequency oscillator. And by modulating and adding the audio signal, it is structured to be converted into air vibration that occurs as fluctuation of ionized gas. The ion discharge method does not use a diaphragm. Because of this, the characteristics of the tweeter, which were affected by the inherent sound of the diaphragm, have been dramatically improved, and the ability to reproduce music signals has been enhanced. The TW-1S uses a special metal that boasts high durability for the electrode of the ion discharge section. This enhances durability and enables semi-permanent use. The electrode section is equipped with a circular exponential horn made of brass. I improve the low sound pressure level and acquire high sound pressure. The flare cutoff is designed to be as low as 2 kHz. This allows you to freely set the crossover between 3kHz and 8kHz. A 15 W pure Class A power amplifier, high pass filter, and input level control are provided. Specifications Type Tweeter system Frequency range 3kHz - 100kHz(Lower limit crossover changeable) Maximum sound pressure level 110dB/W/m Input sensitivity 0.775V Input impedance 600ohm Crossover frequency 12dB/oct Crossover frequency 3kHz - 8kHz Dimensions W300 x H150 x D230mm Weight 15kg",
+        "sub_category": "",
+        "brandId": "a-15-w-pure-class-a-power-amplifier-high-pass-filter-and-input-level-control-are-provided",
+        "specifications": "Type Tweeter system Frequency range 3kHz - 100kHz(Lower limit crossover changeable) Maximum sound pressure level 110dB/W/m Input sensitivity 0.775V Input impedance 600ohm Crossover frequency 12dB/oct Crossover frequency 3kHz - 8kHz | Dimensions W300 x H150 x D230mm | Weight 15kg",
+        "release_year": "",
+        "verified": true,
+        "image_url": "https://audio-database.com/tw-1s.jpg"
+    }
+]

@@ -1,14 +1,16 @@
-﻿{
-    "url":  "https://audio-database.com/CAIRN/player/tornado.html",
-    "name":  "TORNADO",
-    "id":  "cairn-tornado",
-    "original_price":  "¥168000",
-    "category":  "Source",
-    "description":  "\"A low-cost CD player that retains the goodness of Cologne products.The design is based on square and circle, and all operations are possible from the front panel.Wireless remote control is included.\"",
-    "sub_category":  "Player",
-    "brandId":  "cairn",
-    "specifications":  "Type: CD Player | Signal-to-noise ratio: 120 dB or less | Frequency characteristic: 20 Hz ~ 20 kHz + 0 -0.1 dB | Total harmonic distortion factor: 0.01% or less (1 dB)1% or less (70 dB) | Output impedance: 50 � | Analog output: RCA line output : 1 system | Digital output: Optical : 1 systemCoaxial : 1 system | Maximum rating: 120VA | External dimensions: Width 432x Height 82x Depth 250 mm | Weight: 8kg | Attachment: Wireless Remote Control",
-    "release_year":  "2008",
-    "verified":  true,
-    "image_url":  "https://audio-database.com/CAIRN/player/tornado.jpg"
-}
+[
+    {
+        "url": "https://audio-database.com/CAIRN/player/tornado.html",
+        "name": "TORNADO",
+        "id": "cairn-tornado",
+        "original_price": "¥168000",
+        "category": "Source",
+        "description": "## Description\n\n\"A low-cost CD player that retains the goodness of Cologne products.The design is based on square and circle, and all operations are possible from the front panel.Wireless remote control is included.\"",
+        "sub_category": "Player",
+        "brandId": "cairn",
+        "specifications": "Type: CD Player | Signal-to-noise ratio: 120dB or less | Frequency characteristic: 20Hz ~ 20kHz + 0-0.1dB | Total harmonic distortion factor: 0.01% or less (1dB)1% or less (70dB) | Output impedance: 50� | Analog output: RCA line output : 1system | Digital output: Optical : 1systemCoaxial : 1system | Maximum rating: 120VA | External dimensions: Width 432x Height 82x Depth 250mm | Weight: 8kg | Attachment: Wireless Remote Control",
+        "release_year": "2008",
+        "verified": true,
+        "image_url": "https://audio-database.com/CAIRN/player/tornado.jpg"
+    }
+]

@@ -1,359 +1,401 @@
-﻿[
+[
     {
-        "id":  "inax-qx-100",
-        "name":  "QX-100",
-        "url":  "https://audio-database.com/INAX/speaker/qx-100-e.html",
-        "sub_category":  "",
-        "sections":  {
-                         "specifications":  "Method: 1-Way, 1-Speaker, Basref System, Bookshelf Type | Units Used: For all bands : 10 cm cone type | Frequency characteristic: 60 Hz to 20 kHz | Impedance: 8 | Output sound pressure level: 92dB/W/m | Rated input: 20W | Max Input: 50W | External dimensions: Width 210x Height 275x Depth 200 mm | Weight: Approx. 5 kg",
-                         "title":  "INAX QX-100",
-                         "overview":  "  52,000 (a set of two cars, around 1987)\n\nA compact speaker system with an omnidirectional round baffle.The unit uses a 10 cm full range cone type unit.The enclosure is made of ceramic and uses an omnidirectional round baffle to improve directional characteristics and frequency characteristics.There are 4 color variations."
-                     },
-        "category":  "SPEAKER",
-        "brandId":  "inax",
-        "image_url":  "https://audio-database.com/qx-100.JPG",
-        "original_price":  "¥52000",
-        "release_year":  "1987",
-        "verified":  true
+        "id": "inax-qx-100",
+        "name": "QX-100",
+        "url": "https://audio-database.com/INAX/speaker/qx-100-e.html",
+        "sub_category": "",
+        "sections": {
+            "specifications": "Method: 1-Way, 1-Speaker, Basref System, Bookshelf Type | Units Used: For all bands : 10cm cone type | Frequency characteristic: 60Hz to 20kHz | Impedance: 8| Output sound pressure level: 92dB/W/m | Rated input: 20W | Max Input: 50W | External dimensions: Width 210x Height 275x Depth 200mm | Weight: Approx. 5kg",
+            "title": "INAX QX-100",
+            "overview": "  52,000(a set of two cars, around 1987)\n\nA compact speaker system with an omnidirectional round baffle.The unit uses a 10cm full range cone type unit.The enclosure is made of ceramic and uses an omnidirectional round baffle to improve directional characteristics and frequency characteristics.There are 4color variations."
+        },
+        "category": "SPEAKER",
+        "brandId": "inax",
+        "image_url": "https://audio-database.com/qx-100.JPG",
+        "original_price": "¥52000",
+        "release_year": "1987",
+        "verified": true,
+        "specifications": "Method 1-Way, 1-Speaker, Basref | System, Bookshelf Type Units Used For all bands : 10 cm cone type Frequency characteristic 60 Hz to 20 kHz Impedance 8 Ω Output sound pressure level 92dB/W/m Rated input 20W Max Input 50W External dimensions Width 210x Height 275x Depth 200 mm | Weight Approx. 5 kg",
+        "description": "Audio Database INAX QX-100 ¥ 52,000 (a set of two cars, around 1987) Commentary A compact speaker system with an omnidirectional round baffle. The unit uses a 10 cm full range cone type unit. The enclosure is made of ceramic and uses an omnidirectional round baffle to improve directional characteristics and frequency characteristics. There are 4 color variations. Model Rating Method 1-Way, 1-Speaker, Basref System, Bookshelf Type Units Used For all bands : 10 cm cone type Frequency characteristic 60 Hz to 20 kHz Impedance 8 Ω Output sound pressure level 92dB/W/m Rated input 20W Max Input 50W External dimensions Width 210x Height 275x Depth 200 mm Weight Approx. 5 kg"
     },
     {
-        "id":  "infinity-infinitesimal-iv",
-        "name":  "INFINITESIMAL-IV",
-        "url":  "https://audio-database.com/INFINITY/speaker/infinitesimal-iv-e.html",
-        "sub_category":  "",
-        "sections":  {
-                         "specifications":  "Method: 2-Way, 2-Speaker, Bass Reflex System, Bookshelf Type | Units Used: For low band : 10.8 cm cone typeFor High Frequency : Flat Type (EMIT-R) | Frequency characteristic: 100 Hz to 40 kHz 2 dB | Input impedance: 6 | Output sound pressure level: 90dB/1W/1m | Allowable input: 80W | Crossover frequency: 5kHz | External dimensions: Width 152x Height 238x Depth 175 mm | Weight: 330g | Sold Separately: Subwoofer Infinitesimal-IV Sub woofer (1 unit, 140,000) | Features: Wall surface and hanging type (arm length : about 11.5 cm)",
-                         "title":  "INFINITY INFINITESIMAL-IV",
-                         "overview":  "  80,000 (a set of two cars, around 1990)\n\nA compact speaker system developed as the first of the Infinitesimal Series.The naming derives from the compact speakers ????????? I, II and III which appeared in 1979.A 10.8 cm cone type woofer is installed in the low range.The IMG (Injection Molded Graphite) cone made of graphite reinforced polypropylene, which has a reputation as an original technology of Infiniti, is equipped with a voice coil of   2.5 cm diameter and a magnetic circuit with anti-vibration measures to achieve low-sound reproduction exceeding the size.A newly developed EMIT-R tweeter is installed in the high frequency range.This unit inherits Infiniti\u0027s proprietary EMIT Tweeter technology. By driving a 3 cm diameter flat diaphragm with a strong magnetic field, it enables superior transient performance, low distortion, and wide-band reproduction.The flat diaphragm of EMIT-R consists of a very thin KAPTON film surface and a circular voice coil photo-etched on it. The diaphragm is directly driven by a magnetic circuit composed of strong ferrite magnets (70   x10) and anti-magnetic magnets.To eliminate topological contamination, phase alignment of the bass and treble units is achieved through the use of stepped baffles, and faithful time alignment is achieved through the design of a dense crossover network.The network section uses carefully selected materials such as special polypropylene and condenser.In addition, a protection circuit is mounted to cope with an excessive abnormal input signal.ABS synthetic resin material is used for the enclosure to suppress unwanted resonance, and rubber damping material is used for the lower part and the outer circumference of the grill.There is also a wall mounting bracket on the back.There was a special bracket as an option sold separately.In combination with a separately sold ????????? IV sub-woofer, 40 Hz ultra-low frequency playback is possible."
-                     },
-        "category":  "SPEAKER",
-        "brandId":  "infinity",
-        "image_url":  "https://audio-database.com/infinitesimal-iv.JPG",
-        "original_price":  "¥80000",
-        "release_year":  "1990",
-        "verified":  true
+        "id": "infinity-infinitesimal-iv",
+        "name": "INFINITESIMAL-IV",
+        "url": "https://audio-database.com/INFINITY/speaker/infinitesimal-iv-e.html",
+        "sub_category": "",
+        "sections": {
+            "specifications": "Method: 2-Way, 2-Speaker, Bass Reflex System, Bookshelf Type | Units Used: For low band : 10.8cm cone typeFor High Frequency : Flat Type (EMIT-R) | Frequency characteristic: 100Hz to 40kHz 2dB | Input impedance: 6| Output sound pressure level: 90dB/1W/1m | Allowable input: 80W | Crossover frequency: 5kHz | External dimensions: Width 152x Height 238x Depth 175mm | Weight: 330g | Sold Separately: Subwoofer Infinitesimal-IV Sub woofer (1unit, 140,000) | Features: Wall surface and hanging type (arm length : about 11.5cm)",
+            "title": "INFINITY INFINITESIMAL-IV",
+            "overview": "  80,000(a set of two cars, around 1990)\n\nA compact speaker system developed as the first of the Infinitesimal Series.The naming derives from the compact speakers ????????? I, II and III which appeared in 1979.A 10.8cm cone type woofer is installed in the low range.The IMG (Injection Molded Graphite) cone made of graphite reinforced polypropylene, which has a reputation as an original technology of Infiniti, is equipped with a voice coil of   2.5cm diameter and a magnetic circuit with anti-vibration measures to achieve low-sound reproduction exceeding the size.A newly developed EMIT-R tweeter is installed in the high frequency range.This unit inherits Infiniti'Ωs proprietary EMIT Tweeter technology. By driving a 3cm diameter flat diaphragm with a strong magnetic field, it enables superior transient performance, low distortion, and wide-band reproduction.The flat diaphragm of EMIT-R consists of a very thin KAPTON film surface and a circular voice coil photo-etched on it. The diaphragm is directly driven by a magnetic circuit composed of strong ferrite magnets (70  x10) and anti-magnetic magnets.To eliminate topological contamination, phase alignment of the bass and treble units is achieved through the use of stepped baffles, and faithful time alignment is achieved through the design of a dense crossover network.The network section uses carefully selected materials such as special polypropylene and condenser.In addition, a protection circuit is mounted to cope with an excessive abnormal input signal.ABS synthetic resin material is used for the enclosure to suppress unwanted resonance, and rubber damping material is used for the lower part and the outer circumference of the grill.There is also a wall mounting bracket on the back.There was a special bracket as an option sold separately.In combination with a separately sold ????????? IV sub-woofer, 40Hz ultra-low frequency playback is possible."
+        },
+        "category": "SPEAKER",
+        "brandId": "infinity",
+        "image_url": "https://audio-database.com/infinitesimal-iv.JPG",
+        "original_price": "¥80000",
+        "release_year": "1990",
+        "verified": true,
+        "specifications": "Method 2-Way, 2-Speaker, Bass Reflex | System, Bookshelf Type Units Used For low band : 10.8 cm cone type For High Frequency : Flat Type (EMIT-R) Frequency characteristic 100 Hz to 40 kHz ± 2 dB Input impedance 6 Ω Output sound pressure level 90dB/1W/1m Allowable input 80W Crossover frequency 5kHz External dimensions Width 152x Height 238x Depth 175 mm | Weight 2.4kg Sold Separately Subwoofer Infinitesimal-IV Sub woofer (1 unit, ¥ 140,000) Sold separately : Wall Bracket (pair, ¥ 16,000) Features Wall surface and hanging type (arm length : about 11.5 cm) | Weight 330g",
+        "description": "Audio Database INFINITY Infinitesimal-IV ¥ 80,000 (a set of two cars, around 1990) Commentary A compact speaker system developed as the first of the Infinitesimal Series. The naming derives from the compact speakers インフィニテシマル I, II and III which appeared in 1979. A 10.8 cm cone type woofer is installed in the low range. The IMG (Injection Molded Graphite) cone made of graphite reinforced polypropylene, which has a reputation as an original technology of Infiniti, is equipped with a voice coil of φ 2.5 cm diameter and a magnetic circuit with anti-vibration measures to achieve low-sound reproduction exceeding the size. A newly developed EMIT-R tweeter is installed in the high frequency range. This unit inherits Infiniti&#39;s proprietary EMIT Tweeter technology. By driving a 3 cm diameter flat diaphragm with a strong magnetic field, it enables superior transient performance, low distortion, and wide-band reproduction. The flat diaphragm of EMIT-R consists of a very thin KAPTON film surface and a circular voice coil photo-etched on it. The diaphragm is directly driven by a magnetic circuit composed of strong ferrite magnets (70 φ x10) and anti-magnetic magnets. To eliminate topological contamination, phase alignment of the bass and treble units is achieved through the use of stepped baffles, and faithful time alignment is achieved through the design of a dense crossover network. The network section uses carefully selected materials such as special polypropylene and condenser. In addition, a protection circuit is mounted to cope with an excessive abnormal input signal. ABS synthetic resin material is used for the enclosure to suppress unwanted resonance, and rubber damping material is used for the lower part and the outer circumference of the grill. There is also a wall mounting bracket on the back. There was a special bracket as an option sold separately. In combination with a separately sold インフィニテシマル IV sub-woofer, 40 Hz ultra-low frequency playback is possible. Mode"
     },
     {
-        "id":  "infinity-irs",
-        "name":  "IRS",
-        "url":  "https://audio-database.com/INFINITY/speaker/irs-e.html",
-        "sub_category":  "",
-        "sections":  {
-                         "specifications":  "Method: 3-way, 54 speaker floor type | Configuration: Consists of four units(includes 1.5 kW servo amplifier for two woofer units) | Units Used: For low band : 30.0 cm cone type x6 (driven by servo amplifier with MFB)For Medium Range : 12 EMIM TypeFor High Range : EMIT Type x36 (24 Front, 12 Back) | Woofer amplifier: Two monaural amplifiersOutput : 1.5 kWWoofer servo system using US military standard ????????Approximately 20 dB feedback is possible | Frequency characteristic: 15 Hz to 40 kHz 2 dB | Crossover frequency: Woofer / Midrange : 70 Hz (standard setting)* Variable from 60 hz to 120 hz with attached control amplifierMid-range / Tweeter : 5 kHz (tweeter level control) | Recommended amplifier: Mid-range / Tweeter : Amp up to 500W/ch and up to 100W/ch | Control amplifier: Contour controlBus variable low pass filterLow-pass variable dampingWoofer level controlInput impedance control for mid-range / tweeter amplifierWoofer phase switchServo bus ON/OFF circuit | External dimensions: Woofer unit : 457 mm wide x 2290 mm high x 457 mm deepMid-range / Tweeter unit : 100 mm wide x 2290 mm high x 250 mm deep(Base Part : Width 100x Depth 450 mm) | Weight: 544.8 kg (system weight)",
-                         "title":  "INFINITY IRS",
-                         "overview":  "* Production to order for 3 months or more  12,000,000 (1 system, about 1980)  10,000,000 (1 system, circa 1981)\n\nA speaker system developed by combining Infiniti\u0027s technologies.The product name IRS stands for Infinity Reference Standard.The IRS consists of four cabinets and is a large system with a height of 2.29m and a total weight of 544.8 kg.The mid - and high-range enclosure contains 24 EMIT and 12 bi-directional EMIMs on the front and 12 on the back, while the low-range enclosure contains six 30 cm cone woofers.A 30 cm cone type woofer is installed in the low range.This unit uses a unique dual voice coil system to solve the problem of low resonance frequency (fo). This structure uses two voice coils with different impedance. In principle, when the first voice coil approaches fo, the second voice coil gradually takes over and flattens the frequency characteristics.In addition, polypropylene is used for the diaphragm.EMIM (Electromagnetic Induction Mid Range) is mounted in the middle range.This unit is bi-directional with an ultra-lightweight plastic diaphragm sandwiched between strong magnetic materials such as samarium-cobalt.EMIT (Electromagnetic Induction Tweeter) is installed in the high range.Similar to the EMIM, it is a full-surface drive type made of samarium-cobalt lightweight plastic diaphragm sandwiched by samarium-cobalt, and realizes ultra-high frequency reproduction up to 32 kHz."
-                     },
-        "category":  "SPEAKER",
-        "brandId":  "infinity",
-        "image_url":  "https://audio-database.com/irs.JPG",
-        "original_price":  "¥12000000",
-        "release_year":  "1980",
-        "verified":  true
+        "id": "infinity-irs",
+        "name": "IRS",
+        "url": "https://audio-database.com/INFINITY/speaker/irs-e.html",
+        "sub_category": "",
+        "sections": {
+            "specifications": "Method: 3-way, 54speaker floor type | Configuration: Consists of four units(includes 1.5kW servo amplifier for two woofer units) | Units Used: For low band : 30.0cm cone type x6(driven by servo amplifier with MFB)For Medium Range : 12EMIM TypeFor High Range : EMIT Type x36(24Front, 12Back) | Woofer amplifier: Two monaural amplifiersOutput : 1.5kWWoofer servo system using US military standard ????????Approximately 20dB feedback is possible | Frequency characteristic: 15Hz to 40kHz 2dB | Crossover frequency: Woofer / Midrange : 70Hz (standard setting)* Variable from 60hz to 120hz with attached control amplifierMid-range / Tweeter : 5kHz (tweeter level control) | Recommended amplifier: Mid-range / Tweeter : Amp up to 500W/ch and up to 100W/ch | Control amplifier: Contour controlBus variable low pass filterLow-pass variable dampingWoofer level controlInput impedance control for mid-range / tweeter amplifierWoofer phase switchServo bus ON/OFF circuit | External dimensions: Woofer unit : 457mm wide x 2290mm high x 457mm deepMid-range / Tweeter unit : 100mm wide x 2290mm high x 250mm deep(Base Part : Width 100x Depth 450mm) | Weight: 544.8kg (system weight)",
+            "title": "INFINITY IRS",
+            "overview": "* Production to order for 3months or more  12,000,000(1system, about 1980)  10,000,000(1system, circa 1981)\n\nA speaker system developed by combining Infiniti'Ωs technologies.The product name IRS stands for Infinity Reference Standard.The IRS consists of four cabinets and is a large system with a height of 2.29m and a total weight of 544.8kg.The mid - and high-range enclosure contains 24EMIT and 12bi-directional EMIMs on the front and 12on the back, while the low-range enclosure contains six 30cm cone woofers.A 30cm cone type woofer is installed in the low range.This unit uses a unique dual voice coil system to solve the problem of low resonance frequency (fo). This structure uses two voice coils with different impedance. In principle, when the first voice coil approaches fo, the second voice coil gradually takes over and flattens the frequency characteristics.In addition, polypropylene is used for the diaphragm.EMIM (Electromagnetic Induction Mid Range) is mounted in the middle range.This unit is bi-directional with an ultra-lightweight plastic diaphragm sandwiched between strong magnetic materials such as samarium-cobalt.EMIT (Electromagnetic Induction Tweeter) is installed in the high range.Similar to the EMIM, it is a full-surface drive type made of samarium-cobalt lightweight plastic diaphragm sandwiched by samarium-cobalt, and realizes ultra-high frequency reproduction up to 32kHz."
+        },
+        "category": "SPEAKER",
+        "brandId": "infinity",
+        "image_url": "https://audio-database.com/irs.JPG",
+        "original_price": "¥12000000",
+        "release_year": "1980",
+        "verified": true,
+        "specifications": "Method 3-way, 54 speaker floor type Configuration Consists of four units (includes 1.5 kW servo amplifier for two woofer units) Units Used For low band : 30.0 cm cone type x6 (driven by servo amplifier with MFB) For Medium Range : 12 EMIM Type For High Range : EMIT Type x36 (24 Front, 12 Back) Woofer amplifier Two monaural amplifiers Output : 1.5 kW Woofer servo system using US military standard エクセロロメータ Approximately 20 dB feedback is possible Frequency characteristic 15 Hz to 40 kHz ± 2 dB Crossover frequency Woofer / Midrange : 70 Hz (standard setting) * Variable from 60 hz to 120 hz with attached control amplifier Mid-range / Tweeter : 5 kHz (tweeter level control) Recommended amplifier Mid-range / Tweeter : Amp up to 500W/ch and up to 100W/ch Control amplifier Contour control Bus variable low pass filter Low-pass variable damping Woofer level control Input impedance control for mid-range / tweeter amplifier Woofer phase switch Servo bus ON/OFF circuit External dimensions Woofer unit : 457 mm wide x 2290 mm high x 457 mm deep Mid-range / Tweeter unit : 100 mm wide x 2290 mm high x 250 mm deep (Base Part : Width 100x Depth 450 mm) | Weight 544.8 kg (system weight)",
+        "description": "Audio Database INFINITY IRS * Production to order for 3 months or more ¥ 12,000,000 (1 system, about 1980) ¥ 10,000,000 (1 system, circa 1981) Commentary A speaker system developed by combining Infiniti&#39;s technologies. The product name IRS stands for Infinity Reference Standard. The IRS consists of four cabinets and is a large system with a height of 2.29m and a total weight of 544.8 kg. The mid - and high-range enclosure contains 24 EMIT and 12 bi-directional EMIMs on the front and 12 on the back, while the low-range enclosure contains six 30 cm cone woofers. A 30 cm cone type woofer is installed in the low range. This unit uses a unique dual voice coil system to solve the problem of low resonance frequency (fo). This structure uses two voice coils with different impedance. In principle, when the first voice coil approaches fo, the second voice coil gradually takes over and flattens the frequency characteristics. In addition, polypropylene is used for the diaphragm. EMIM (Electromagnetic Induction Mid Range) is mounted in the middle range. This unit is bi-directional with an ultra-lightweight plastic diaphragm sandwiched between strong magnetic materials such as samarium-cobalt. EMIT (Electromagnetic Induction Tweeter) is installed in the high range. Similar to the EMIM, it is a full-surface drive type made of samarium-cobalt lightweight plastic diaphragm sandwiched by samarium-cobalt, and realizes ultra-high frequency reproduction up to 32 kHz. Model Rating Method 3-way, 54 speaker floor type Configuration Consists of four units (includes 1.5 kW servo amplifier for two woofer units) Units Used For low band : 30.0 cm cone type x6 (driven by servo amplifier with MFB) For Medium Range : 12 EMIM Type For High Range : EMIT Type x36 (24 Front, 12 Back) Woofer amplifier Two monaural amplifiers Output : 1.5 kW Woofer servo system using US military standard エクセロロメータ Approximately 20 dB feedback is possible Frequency characteristic 15 Hz to 40 kHz ± 2 dB Crossover frequ"
     },
     {
-        "id":  "infinity-kappa6_1i",
-        "name":  "KAPPA6_1I",
-        "url":  "https://audio-database.com/INFINITY/speaker/kappa6_1i-e.html",
-        "sub_category":  "",
-        "sections":  {
-                         "specifications":  "Method: 3-Way, 3-Speaker, Bass Reflex System, Floor Type | Units Used: For low band : 20 cm cone typeFor Middle Area : 7.6 cm Dome TypeFor High Frequency : Flat Type | Frequency characteristic: 45 Hz to 35 kHz 2 dB | Input impedance: 6 | Output sound pressure level: 89dB/2.8Vrms | Allowable input: 150W | Crossover frequency: 500 Hz, 4.5 kHz | External dimensions: Width 305x Height 940x Depth 252 mm | Weight: 18.6kg | Attachment: Spike",
-                         "title":  "INFINITY KAPPA6_1I",
-                         "overview":  "This is a speaker system made with technology developed in the New Kappa series.A 20 cm cone type woofer by IMG cone is mounted in the low range.This IMG cone is made of a composite material of graphite fiber and polypropylene. It is molded under high pressure (injection molding) with high sound frequency. The graphite fibers are arranged radially from the center to the outer circumference, so that the non-deformation operating region of the cone is large and there is no breakup of the cone.In addition, it uses a specially designed Kirby linear cone (adding strength to the piston during motion) and a newly designed inverted dust cap to increase the strength, minimizing the deformation of the cone even under high power conditions.The Kappa6.1i is lighter and stiffer than conventional IMG cones (10% lighter and 5% harder than conventional cones).  133x19mm magnet and cotton thread wire are used for the magnetic circuit.The middle section is equipped with a 7.6 cm poly dome type unit that uses a diaphragm that inherits the technology of the first Kappa series.This diaphragm is a newly developed ultra-thin film (0.3 mm) made of soft polypropylene composite. In addition, an aluminum mesh diffuser is attached to the dome rear surface. By this diffuser, the disturbance of frequency characteristics due to the rear surface wave is suppressed without applying any additional force to the diaphragm, and flat frequency characteristics and low distortion are achieved.Furthermore, the acoustic energy radiated to the back surface of the dome is guided from the center of the magnetic circuit with a special structure to the back cavity, eliminating the influence of back sound pressure.This polydome drives a low Q dome-shaped diaphragm from the dome periphery by a large diameter edge-wound voice coil.A plane drive type EMIT-R tweeter with a circular diaphragm is mounted in the high range.The flat diaphragm of the EMIT-R tweeter uses an ultra-thin KAPTON film. An annular voice coil is photo-etched on its surface to form a vibration film, which is combined with a magnetic circuit of a special shape to directly drive the diaphragm.As a result, flat frequency characteristics and wide-directional characteristics are obtained.The network is designed by a computer using the MLSSA FET program, and the operating range of each speaker unit is determined. In addition, real-time fine-tuning is performed in an anechoic room, and finally, many audition experiments are repeated in the same room as the actual home environment.In addition, individual components such as capacitors, resistors, and coils are carefully selected through subjective listening experiments, and extra-thick monster cable of Infiniti special specification is used for internal wiring.It is bi-amped and has level adjustment for middle and high sound.To minimize the effects of internal standing waves, the enclosure uses a column-shaped polygonal cabinet with 26.5 mm thick baffle material, natural wood solid oak, and oak-plated board.A bass reflex duct is located at the bottom of the rear of the enclosure with removable spikes for bass and room tuning.There was also the Black Oak model as an order model."
-                     },
-        "category":  "SPEAKER",
-        "brandId":  "infinity",
-        "image_url":  "https://audio-database.com/kappa6_1i.JPG",
-        "original_price":  "¥120000",
-        "release_year":  "1993",
-        "verified":  true
+        "id": "infinity-kappa6_1i",
+        "name": "KAPPA6_1I",
+        "url": "https://audio-database.com/INFINITY/speaker/kappa6_1i-e.html",
+        "sub_category": "",
+        "sections": {
+            "specifications": "Method: 3-Way, 3-Speaker, Bass Reflex System, Floor Type | Units Used: For low band : 20cm cone typeFor Middle Area : 7.6cm Dome TypeFor High Frequency : Flat Type | Frequency characteristic: 45Hz to 35kHz 2dB | Input impedance: 6| Output sound pressure level: 89dB/2.8Vrms | Allowable input: 150W | Crossover frequency: 500Hz, 4.5kHz | External dimensions: Width 305x Height 940x Depth 252mm | Weight: 18.6kg | Attachment: Spike",
+            "title": "INFINITY KAPPA6_1I",
+            "overview": "This is a speaker system made with technology developed in the New Kappa series.A 20cm cone type woofer by IMG cone is mounted in the low range.This IMG cone is made of a composite material of graphite fiber and polypropylene. It is molded under high pressure (injection molding) with high sound frequency. The graphite fibers are arranged radially from the center to the outer circumference, so that the non-deformation operating region of the cone is large and there is no breakup of the cone.In addition, it uses a specially designed Kirby linear cone (adding strength to the piston during motion) and a newly designed inverted dust cap to increase the strength, minimizing the deformation of the cone even under high power conditions.The Kappa6.1i is lighter and stiffer than conventional IMG cones (10% lighter and 5% harder than conventional cones).  133x19mm magnet and cotton thread wire are used for the magnetic circuit.The middle section is equipped with a 7.6cm poly dome type unit that uses a diaphragm that inherits the technology of the first Kappa series.This diaphragm is a newly developed ultra-thin film (0.3mm) made of soft polypropylene composite. In addition, an aluminum mesh diffuser is attached to the dome rear surface. By this diffuser, the disturbance of frequency characteristics due to the rear surface wave is suppressed without applying any additional force to the diaphragm, and flat frequency characteristics and low distortion are achieved.Furthermore, the acoustic energy radiated to the back surface of the dome is guided from the center of the magnetic circuit with a special structure to the back cavity, eliminating the influence of back sound pressure.This polydome drives a low Q dome-shaped diaphragm from the dome periphery by a large diameter edge-wound voice coil.A plane drive type EMIT-R tweeter with a circular diaphragm is mounted in the high range.The flat diaphragm of the EMIT-R tweeter uses an ultra-thin KAPTON film. An annular voice coil is photo-etched on its surface to form a vibration film, which is combined with a magnetic circuit of a special shape to directly drive the diaphragm.As a result, flat frequency characteristics and wide-directional characteristics are obtained.The network is designed by a computer using the MLSSA FET program, and the operating range of each speaker unit is determined. In addition, real-time fine-tuning is performed in an anechoic room, and finally, many audition experiments are repeated in the same room as the actual home environment.In addition, individual components such as capacitors, resistors, and coils are carefully selected through subjective listening experiments, and extra-thick monster cable of Infiniti special specification is used for internal wiring.It is bi-amped and has level adjustment for middle and high sound.To minimize the effects of internal standing waves, the enclosure uses a column-shaped polygonal cabinet with 26.5mm thick baffle material, natural wood solid oak, and oak-plated board.A bass reflex duct is located at the bottom of the rear of the enclosure with removable spikes for bass and room tuning.There was also the Black Oak model as an order model."
+        },
+        "category": "SPEAKER",
+        "brandId": "infinity",
+        "image_url": "https://audio-database.com/kappa6_1i.JPG",
+        "original_price": "¥120000",
+        "release_year": "1993",
+        "verified": true,
+        "specifications": "Method 3-Way, 3-Speaker, Bass Reflex | System, Floor Type Units Used For low band : 20 cm cone type For Middle Area : 7.6 cm Dome Type For High Frequency : Flat Type Frequency characteristic 45 Hz to 35 kHz ± 2 dB Input impedance 6 Ω Output sound pressure level 89dB/2.8Vrms Allowable input 150W Crossover frequency 500 Hz, 4.5 kHz External dimensions Width 305x Height 940x Depth 252 mm | Weight 18.6kg Attachment Spike",
+        "description": "Audio Database INFINITY Kappa 6.1i ¥ 120,000 (1 unit, around 1993) Commentary This is a speaker system made with technology developed in the New Kappa series. A 20 cm cone type woofer by IMG cone is mounted in the low range. This IMG cone is made of a composite material of graphite fiber and polypropylene. It is molded under high pressure (injection molding) with high sound frequency. The graphite fibers are arranged radially from the center to the outer circumference, so that the non-deformation operating region of the cone is large and there is no breakup of the cone. In addition, it uses a specially designed Kirby linear cone (adding strength to the piston during motion) and a newly designed inverted dust cap to increase the strength, minimizing the deformation of the cone even under high power conditions. The Kappa6.1i is lighter and stiffer than conventional IMG cones (10% lighter and 5% harder than conventional cones). Φ 133x19mm magnet and cotton thread wire are used for the magnetic circuit. The middle section is equipped with a 7.6 cm poly dome type unit that uses a diaphragm that inherits the technology of the first Kappa series. This diaphragm is a newly developed ultra-thin film (0.3 mm) made of soft polypropylene composite. In addition, an aluminum mesh diffuser is attached to the dome rear surface. By this diffuser, the disturbance of frequency characteristics due to the rear surface wave is suppressed without applying any additional force to the diaphragm, and flat frequency characteristics and low distortion are achieved. Furthermore, the acoustic energy radiated to the back surface of the dome is guided from the center of the magnetic circuit with a special structure to the back cavity, eliminating the influence of back sound pressure. This polydome drives a low Q dome-shaped diaphragm from the dome periphery by a large diameter edge-wound voice coil. A plane drive type EMIT-R tweeter with a circular diaphragm is mounted in the high range. The flat "
     },
     {
-        "id":  "infinity-kappa7_1i",
-        "name":  "KAPPA7_1I",
-        "url":  "https://audio-database.com/INFINITY/speaker/kappa7_1i-e.html",
-        "sub_category":  "",
-        "sections":  {
-                         "specifications":  "Method: 3-Way, 3-Speaker, Bass Reflex System, Floor Type | Units Used: For low band : 25 cm cone typeFor Middle Area : 7.6 cm Dome TypeFor High Frequency : Flat Type | Frequency characteristic: 39 Hz to 35 kHz 2 dB | Input impedance: 6 | Output sound pressure level: 89dB/2.8Vrms | Allowable input: 225W | Crossover frequency: 500 Hz, 4.5 kHz | External dimensions: Width 360x Height 1075x Depth 263 mm | Weight: 24.7kg | Attachment: Spike",
-                         "title":  "INFINITY KAPPA7_1I",
-                         "overview":  "This speaker system combines a column-shaped enclosure with state-of-the-art acoustic engineering to enhance basic physical performance and improve the ability to play music.A 25 cm cone type woofer by IMG cone is mounted in the low range.This IMG cone is made of a composite material of graphite fiber and polypropylene. It is molded under high pressure (injection molding) with high sound frequency. The graphite fibers are arranged radially from the center to the outer circumference, so that the non-deformation operating region of the cone is large and there is no breakup of the cone.In addition, it uses a specially designed Kirby linear cone (adding strength to the piston during motion) and a newly designed inverted dust cap to increase the strength, minimizing the deformation of the cone even under high power conditions.The Kappa7.1i is lighter and stiffer than conventional IMG cones (10% lighter and 5% harder than conventional cones).In addition, the magnetic circuit uses a   133x19mm magnet and a ribbon wire that exhibits power for instantaneous large current.The middle section is equipped with a 7.6 cm poly dome type unit that uses a diaphragm that inherits the technology of the first Kappa series.This diaphragm is a newly developed ultra-thin film (0.3 mm) made of soft polypropylene composite. In addition, an aluminum mesh diffuser is attached to the dome rear surface. By this diffuser, the disturbance of frequency characteristics due to the rear surface wave is suppressed without applying any additional force to the diaphragm, and flat frequency characteristics and low distortion are achieved.Furthermore, the acoustic energy radiated to the back surface of the dome is guided from the center of the magnetic circuit with a special structure to the back cavity, eliminating the influence of back sound pressure.This polydome drives a low Q dome-shaped diaphragm from the dome periphery by a large diameter edge-wound voice coil.A plane drive type EMIT-R tweeter with a circular diaphragm is mounted in the high range.The flat diaphragm of the EMIT-R tweeter uses an ultra-thin KAPTON film. An annular voice coil is photo-etched on its surface to form a vibration film, which is combined with a magnetic circuit of a special shape to directly drive the diaphragm.As a result, flat frequency characteristics and wide-directional characteristics are obtained.The network is designed by a computer using the MLSSA FET program, and the operating range of each speaker unit is determined. In addition, real-time fine-tuning is performed in an anechoic room, and finally, many audition experiments are repeated in the same room as the actual home environment.In addition, individual components such as capacitors, resistors, and coils are carefully selected through subjective listening experiments, and extra-thick monster cable of Infiniti special specification is used for internal wiring.It is bi-amped and has level adjustment for middle and high sound.To minimize the effects of internal standing waves, the enclosure uses a column-shaped polygonal cabinet with 26.5 mm thick baffle material, natural wood solid oak, and oak-plated board.A bass reflex duct is located at the bottom of the rear of the enclosure with removable spikes for bass and room tuning.There was also the Black Oak model as an order model."
-                     },
-        "category":  "SPEAKER",
-        "brandId":  "infinity",
-        "image_url":  "https://audio-database.com/kappa7_1i.JPG",
-        "original_price":  "¥150000",
-        "release_year":  "1993",
-        "verified":  true
+        "id": "infinity-kappa7_1i",
+        "name": "KAPPA7_1I",
+        "url": "https://audio-database.com/INFINITY/speaker/kappa7_1i-e.html",
+        "sub_category": "",
+        "sections": {
+            "specifications": "Method: 3-Way, 3-Speaker, Bass Reflex System, Floor Type | Units Used: For low band : 25cm cone typeFor Middle Area : 7.6cm Dome TypeFor High Frequency : Flat Type | Frequency characteristic: 39Hz to 35kHz 2dB | Input impedance: 6| Output sound pressure level: 89dB/2.8Vrms | Allowable input: 225W | Crossover frequency: 500Hz, 4.5kHz | External dimensions: Width 360x Height 1075x Depth 263mm | Weight: 24.7kg | Attachment: Spike",
+            "title": "INFINITY KAPPA7_1I",
+            "overview": "This speaker system combines a column-shaped enclosure with state-of-the-art acoustic engineering to enhance basic physical performance and improve the ability to play music.A 25cm cone type woofer by IMG cone is mounted in the low range.This IMG cone is made of a composite material of graphite fiber and polypropylene. It is molded under high pressure (injection molding) with high sound frequency. The graphite fibers are arranged radially from the center to the outer circumference, so that the non-deformation operating region of the cone is large and there is no breakup of the cone.In addition, it uses a specially designed Kirby linear cone (adding strength to the piston during motion) and a newly designed inverted dust cap to increase the strength, minimizing the deformation of the cone even under high power conditions.The Kappa7.1i is lighter and stiffer than conventional IMG cones (10% lighter and 5% harder than conventional cones).In addition, the magnetic circuit uses a   133x19mm magnet and a ribbon wire that exhibits power for instantaneous large current.The middle section is equipped with a 7.6cm poly dome type unit that uses a diaphragm that inherits the technology of the first Kappa series.This diaphragm is a newly developed ultra-thin film (0.3mm) made of soft polypropylene composite. In addition, an aluminum mesh diffuser is attached to the dome rear surface. By this diffuser, the disturbance of frequency characteristics due to the rear surface wave is suppressed without applying any additional force to the diaphragm, and flat frequency characteristics and low distortion are achieved.Furthermore, the acoustic energy radiated to the back surface of the dome is guided from the center of the magnetic circuit with a special structure to the back cavity, eliminating the influence of back sound pressure.This polydome drives a low Q dome-shaped diaphragm from the dome periphery by a large diameter edge-wound voice coil.A plane drive type EMIT-R tweeter with a circular diaphragm is mounted in the high range.The flat diaphragm of the EMIT-R tweeter uses an ultra-thin KAPTON film. An annular voice coil is photo-etched on its surface to form a vibration film, which is combined with a magnetic circuit of a special shape to directly drive the diaphragm.As a result, flat frequency characteristics and wide-directional characteristics are obtained.The network is designed by a computer using the MLSSA FET program, and the operating range of each speaker unit is determined. In addition, real-time fine-tuning is performed in an anechoic room, and finally, many audition experiments are repeated in the same room as the actual home environment.In addition, individual components such as capacitors, resistors, and coils are carefully selected through subjective listening experiments, and extra-thick monster cable of Infiniti special specification is used for internal wiring.It is bi-amped and has level adjustment for middle and high sound.To minimize the effects of internal standing waves, the enclosure uses a column-shaped polygonal cabinet with 26.5mm thick baffle material, natural wood solid oak, and oak-plated board.A bass reflex duct is located at the bottom of the rear of the enclosure with removable spikes for bass and room tuning.There was also the Black Oak model as an order model."
+        },
+        "category": "SPEAKER",
+        "brandId": "infinity",
+        "image_url": "https://audio-database.com/kappa7_1i.JPG",
+        "original_price": "¥150000",
+        "release_year": "1993",
+        "verified": true,
+        "specifications": "Method 3-Way, 3-Speaker, Bass Reflex | System, Floor Type Units Used For low band : 25 cm cone type For Middle Area : 7.6 cm Dome Type For High Frequency : Flat Type Frequency characteristic 39 Hz to 35 kHz ± 2 dB Input impedance 6 Ω Output sound pressure level 89dB/2.8Vrms Allowable input 225W Crossover frequency 500 Hz, 4.5 kHz External dimensions Width 360x Height 1075x Depth 263 mm | Weight 24.7kg Attachment Spike",
+        "description": "Audio Database INFINITY Kappa 7.1i ¥ 150,000 (1 unit, around 1993) Commentary This speaker system combines a column-shaped enclosure with state-of-the-art acoustic engineering to enhance basic physical performance and improve the ability to play music. A 25 cm cone type woofer by IMG cone is mounted in the low range. This IMG cone is made of a composite material of graphite fiber and polypropylene. It is molded under high pressure (injection molding) with high sound frequency. The graphite fibers are arranged radially from the center to the outer circumference, so that the non-deformation operating region of the cone is large and there is no breakup of the cone. In addition, it uses a specially designed Kirby linear cone (adding strength to the piston during motion) and a newly designed inverted dust cap to increase the strength, minimizing the deformation of the cone even under high power conditions. The Kappa7.1i is lighter and stiffer than conventional IMG cones (10% lighter and 5% harder than conventional cones). In addition, the magnetic circuit uses a φ 133x19mm magnet and a ribbon wire that exhibits power for instantaneous large current. The middle section is equipped with a 7.6 cm poly dome type unit that uses a diaphragm that inherits the technology of the first Kappa series. This diaphragm is a newly developed ultra-thin film (0.3 mm) made of soft polypropylene composite. In addition, an aluminum mesh diffuser is attached to the dome rear surface. By this diffuser, the disturbance of frequency characteristics due to the rear surface wave is suppressed without applying any additional force to the diaphragm, and flat frequency characteristics and low distortion are achieved. Furthermore, the acoustic energy radiated to the back surface of the dome is guided from the center of the magnetic circuit with a special structure to the back cavity, eliminating the influence of back sound pressure. This polydome drives a low Q dome-shaped diaphragm from the dome peri"
     },
     {
-        "id":  "infinity-kappa8_1i",
-        "name":  "KAPPA8_1I",
-        "url":  "https://audio-database.com/INFINITY/speaker/kappa8_1i-e.html",
-        "sub_category":  "",
-        "sections":  {
-                         "specifications":  "Method: 4-Way, 4-Speaker, Bass Reflex System, Floor Type | Units Used: For low band : 30 cm cone typeFor middle and low band : 16 cm cone typeFor Middle and High Areas : 7.6 cm Dome TypeFor High Frequency : Flat Type | Frequency characteristic: 32 Hz to 35 kHz 2 dB | Input impedance: 6 | Output sound pressure level: 89dB/2.8Vrms | Allowable input: 300W | Crossover frequency: 180 Hz, 700 Hz, 4.7 kHz | External dimensions: Width 415x Height 1200x Depth 300 mm | Weight: 36.5kg | Attachment: Spike",
-                         "title":  "INFINITY KAPPA8_1I",
-                         "overview":  "This floor-type speaker system combines a column-shaped enclosure with state-of-the-art acoustic engineering to realize wide-range, flat response and wide-directional characteristics.A 30 cm cone type woofer with IMG cone is mounted in the low range.This IMG cone is made of a composite material of graphite fiber and polypropylene. It is molded under high pressure (injection molding) with high sound frequency. The graphite fibers are arranged radially from the center to the outer circumference, so that the non-deformation operating region of the cone is large and there is no breakup of the cone.In addition, it uses a specially designed Kirby linear cone (adding strength to the piston during motion) and a newly designed inverted dust cap to increase the strength, minimizing the deformation of the cone even under high power conditions.The Kappa8.1i is lighter and stiffer than conventional IMG cones (10% lighter and 5% harder than conventional cones).In addition, the magnetic circuit uses a   133x19mm magnet and a ribbon wire that exhibits power for instantaneous large current.A 16 cm cone type midbus unit using IMG cone is mounted in the middle and low range, and the connection with woofer is smooth.A 7.6 cm polydome type unit with a diaphragm that inherits the technology of the first Kappa series is installed in the middle and high area.This diaphragm is a newly developed ultra-thin film (0.3 mm) made of soft polypropylene composite. In addition, an aluminum mesh diffuser is attached to the dome rear surface. By this diffuser, the disturbance of frequency characteristics due to the rear surface wave is suppressed without applying any additional force to the diaphragm, and flat frequency characteristics and low distortion are achieved.Furthermore, the acoustic energy radiated to the back surface of the dome is guided from the center of the magnetic circuit with a special structure to the back cavity, eliminating the influence of back sound pressure.This polydome drives a low Q dome-shaped diaphragm from the dome periphery by a large diameter edge-wound voice coil.A plane drive type EMIT-R tweeter with a circular diaphragm is mounted in the high range.The flat diaphragm of the EMIT-R tweeter uses an ultra-thin KAPTON film. An annular voice coil is photo-etched on its surface to form a vibration film, which is combined with a magnetic circuit of a special shape to directly drive the diaphragm.As a result, flat frequency characteristics and wide-directional characteristics are obtained.The network is designed by a computer using the MLSSA FET program, and the operating range of each speaker unit is determined. In addition, real-time fine-tuning is performed in an anechoic room, and finally, many audition experiments are repeated in the same room as the actual home environment.In addition, individual components such as capacitors, resistors, and coils are carefully selected through subjective listening experiments, and extra-thick monster cable of Infiniti special specification is used for internal wiring.It is bi-amped and has level adjustment for middle and high sound.To minimize the effects of internal standing waves, the enclosure uses a column-shaped polygonal cabinet with 26.5 mm thick baffle material, natural wood solid oak, and oak-plated board.A bass reflex duct is located at the bottom of the rear of the enclosure with removable spikes for bass and room tuning.There was also the Black Oak model as an order model."
-                     },
-        "category":  "SPEAKER",
-        "brandId":  "infinity",
-        "image_url":  "https://audio-database.com/kappa8_1i.JPG",
-        "original_price":  "¥230000",
-        "release_year":  "1993",
-        "verified":  true
+        "id": "infinity-kappa8_1i",
+        "name": "KAPPA8_1I",
+        "url": "https://audio-database.com/INFINITY/speaker/kappa8_1i-e.html",
+        "sub_category": "",
+        "sections": {
+            "specifications": "Method: 4-Way, 4-Speaker, Bass Reflex System, Floor Type | Units Used: For low band : 30cm cone typeFor middle and low band : 16cm cone typeFor Middle and High Areas : 7.6cm Dome TypeFor High Frequency : Flat Type | Frequency characteristic: 32Hz to 35kHz 2dB | Input impedance: 6| Output sound pressure level: 89dB/2.8Vrms | Allowable input: 300W | Crossover frequency: 180Hz, 700Hz, 4.7kHz | External dimensions: Width 415x Height 1200x Depth 300mm | Weight: 36.5kg | Attachment: Spike",
+            "title": "INFINITY KAPPA8_1I",
+            "overview": "This floor-type speaker system combines a column-shaped enclosure with state-of-the-art acoustic engineering to realize wide-range, flat response and wide-directional characteristics.A 30cm cone type woofer with IMG cone is mounted in the low range.This IMG cone is made of a composite material of graphite fiber and polypropylene. It is molded under high pressure (injection molding) with high sound frequency. The graphite fibers are arranged radially from the center to the outer circumference, so that the non-deformation operating region of the cone is large and there is no breakup of the cone.In addition, it uses a specially designed Kirby linear cone (adding strength to the piston during motion) and a newly designed inverted dust cap to increase the strength, minimizing the deformation of the cone even under high power conditions.The Kappa8.1i is lighter and stiffer than conventional IMG cones (10% lighter and 5% harder than conventional cones).In addition, the magnetic circuit uses a   133x19mm magnet and a ribbon wire that exhibits power for instantaneous large current.A 16cm cone type midbus unit using IMG cone is mounted in the middle and low range, and the connection with woofer is smooth.A 7.6cm polydome type unit with a diaphragm that inherits the technology of the first Kappa series is installed in the middle and high area.This diaphragm is a newly developed ultra-thin film (0.3mm) made of soft polypropylene composite. In addition, an aluminum mesh diffuser is attached to the dome rear surface. By this diffuser, the disturbance of frequency characteristics due to the rear surface wave is suppressed without applying any additional force to the diaphragm, and flat frequency characteristics and low distortion are achieved.Furthermore, the acoustic energy radiated to the back surface of the dome is guided from the center of the magnetic circuit with a special structure to the back cavity, eliminating the influence of back sound pressure.This polydome drives a low Q dome-shaped diaphragm from the dome periphery by a large diameter edge-wound voice coil.A plane drive type EMIT-R tweeter with a circular diaphragm is mounted in the high range.The flat diaphragm of the EMIT-R tweeter uses an ultra-thin KAPTON film. An annular voice coil is photo-etched on its surface to form a vibration film, which is combined with a magnetic circuit of a special shape to directly drive the diaphragm.As a result, flat frequency characteristics and wide-directional characteristics are obtained.The network is designed by a computer using the MLSSA FET program, and the operating range of each speaker unit is determined. In addition, real-time fine-tuning is performed in an anechoic room, and finally, many audition experiments are repeated in the same room as the actual home environment.In addition, individual components such as capacitors, resistors, and coils are carefully selected through subjective listening experiments, and extra-thick monster cable of Infiniti special specification is used for internal wiring.It is bi-amped and has level adjustment for middle and high sound.To minimize the effects of internal standing waves, the enclosure uses a column-shaped polygonal cabinet with 26.5mm thick baffle material, natural wood solid oak, and oak-plated board.A bass reflex duct is located at the bottom of the rear of the enclosure with removable spikes for bass and room tuning.There was also the Black Oak model as an order model."
+        },
+        "category": "SPEAKER",
+        "brandId": "infinity",
+        "image_url": "https://audio-database.com/kappa8_1i.JPG",
+        "original_price": "¥230000",
+        "release_year": "1993",
+        "verified": true,
+        "specifications": "Method 4-Way, 4-Speaker, Bass Reflex | System, Floor Type Units Used For low band : 30 cm cone type For middle and low band : 16 cm cone type For Middle and High Areas : 7.6 cm Dome Type For High Frequency : Flat Type Frequency characteristic 32 Hz to 35 kHz ± 2 dB Input impedance 6 Ω Output sound pressure level 89dB/2.8Vrms Allowable input 300W Crossover frequency 180 Hz, 700 Hz, 4.7 kHz External dimensions Width 415x Height 1200x Depth 300 mm | Weight 36.5kg Attachment Spike",
+        "description": "Audio Database INFINITY Kappa 8.1i ¥ 230,000 (1 unit, around 1993) Commentary This floor-type speaker system combines a column-shaped enclosure with state-of-the-art acoustic engineering to realize wide-range, flat response and wide-directional characteristics. A 30 cm cone type woofer with IMG cone is mounted in the low range. This IMG cone is made of a composite material of graphite fiber and polypropylene. It is molded under high pressure (injection molding) with high sound frequency. The graphite fibers are arranged radially from the center to the outer circumference, so that the non-deformation operating region of the cone is large and there is no breakup of the cone. In addition, it uses a specially designed Kirby linear cone (adding strength to the piston during motion) and a newly designed inverted dust cap to increase the strength, minimizing the deformation of the cone even under high power conditions. The Kappa8.1i is lighter and stiffer than conventional IMG cones (10% lighter and 5% harder than conventional cones). In addition, the magnetic circuit uses a φ 133x19mm magnet and a ribbon wire that exhibits power for instantaneous large current. A 16 cm cone type midbus unit using IMG cone is mounted in the middle and low range, and the connection with woofer is smooth. A 7.6 cm polydome type unit with a diaphragm that inherits the technology of the first Kappa series is installed in the middle and high area. This diaphragm is a newly developed ultra-thin film (0.3 mm) made of soft polypropylene composite. In addition, an aluminum mesh diffuser is attached to the dome rear surface. By this diffuser, the disturbance of frequency characteristics due to the rear surface wave is suppressed without applying any additional force to the diaphragm, and flat frequency characteristics and low distortion are achieved. Furthermore, the acoustic energy radiated to the back surface of the dome is guided from the center of the magnetic circuit with a special structure to"
     },
     {
-        "id":  "infinity-prelude",
-        "name":  "PRELUDE",
-        "url":  "https://audio-database.com/INFINITY/speaker/prelude-e.html",
-        "sub_category":  "",
-        "sections":  {
-                         "specifications":  "Method: Built-in Amplifier / 4-way / 8-speaker / Floor Type / Anti-magnetic Design | Units Used: For Low Band : 30 cm Cone Type (Built-in Amplifier Drive)For middle and low band : 12.5 cm cone x4For Middle and High Area : 10 cm Cone Type x2For high-pass : 2.5 cm dome type | Frequency band: 35 Hz to 20000 Hz 2 dB | Average output sound pressure level: 96dB Spl(1m/2.83V) | Impedance: 6 | Crossover frequency: 110 , 350 , 3 kHz | Power supply voltage: With 120 V, 100 V ? 120 V Conversion Transformer | Power consumption: Maximum : 300WStandby : 8W | External dimensions: Width 194x Height 1375x Depth 500 mm | Weight: 34.5kg",
-                         "title":  "INFINITY PRELUDE",
-                         "overview":  "This floor-type speaker system is part of the Composition series, a lineup of home theater speakers.The 30 cm cone type active subwoofer for the low range allows for more profound bass playback.In addition, it is equipped with a 12.5cmx4 cone type unit for middle and low band, a 10.0cmx2 cone type unit for middle and high band, and a 2.5 cm dome type tweeter for high band."
-                     },
-        "category":  "SPEAKER",
-        "brandId":  "infinity",
-        "image_url":  "https://audio-database.com/prelude.JPG",
-        "original_price":  "¥250000",
-        "release_year":  "1996",
-        "verified":  true
+        "id": "infinity-prelude",
+        "name": "PRELUDE",
+        "url": "https://audio-database.com/INFINITY/speaker/prelude-e.html",
+        "sub_category": "",
+        "sections": {
+            "specifications": "Method: Built-in Amplifier / 4-way / 8-speaker / Floor Type / Anti-magnetic Design | Units Used: For Low Band : 30cm Cone Type (Built-in Amplifier Drive)For middle and low band : 12.5cm cone x4For Middle and High Area : 10cm Cone Type x2For high-pass : 2.5cm dome type | Frequency band: 35Hz to 20000Hz 2dB | Average output sound pressure level: 96dB Spl(1m/2.83V) | Impedance: 6| Crossover frequency: 110, 350, 3kHz | Power supply voltage: With 120V, 100V ? 120V Conversion Transformer | Power consumption: Maximum : 300WStandby : 8W | External dimensions: Width 194x Height 1375x Depth 500mm | Weight: 34.5kg",
+            "title": "INFINITY PRELUDE",
+            "overview": "This floor-type speaker system is part of the Composition series, a lineup of home theater speakers.The 30cm cone type active subwoofer for the low range allows for more profound bass playback.In addition, it is equipped with a 12.5cmx4cone type unit for middle and low band, a 10.0cmx2cone type unit for middle and high band, and a 2.5cm dome type tweeter for high band."
+        },
+        "category": "SPEAKER",
+        "brandId": "infinity",
+        "image_url": "https://audio-database.com/prelude.JPG",
+        "original_price": "¥250000",
+        "release_year": "1996",
+        "verified": true,
+        "specifications": "Method Built-in Amplifier / 4-way / 8-speaker / Floor Type / Anti-magnetic Design Units Used For Low Band : 30 cm Cone Type (Built-in Amplifier Drive) For middle and low band : 12.5 cm cone x4 For Middle and High Area : 10 cm Cone Type x2 For high-pass : 2.5 cm dome type Frequency band 35 Hz to 20000 Hz ± 2 dB Average output sound pressure level 96dB Spl(1m/2.83V) Impedance 6 Ω Crossover frequency 110 Ω, 350 Ω, 3 kHz Power supply voltage With 120 V, 100 V → 120 V Conversion Transformer Power consumption Maximum : 300W Standby : 8W External dimensions Width 194x Height 1375x Depth 500 mm | Weight 34.5kg",
+        "description": "Audio Database INFINITY PRELUDE ¥ 250,000 (1 unit, around 1996) Commentary This floor-type speaker system is part of the Composition series, a lineup of home theater speakers. The 30 cm cone type active subwoofer for the low range allows for more profound bass playback. In addition, it is equipped with a 12.5cmx4 cone type unit for middle and low band, a 10.0cmx2 cone type unit for middle and high band, and a 2.5 cm dome type tweeter for high band. Model Rating Method Built-in Amplifier / 4-way / 8-speaker / Floor Type / Anti-magnetic Design Units Used For Low Band : 30 cm Cone Type (Built-in Amplifier Drive) For middle and low band : 12.5 cm cone x4 For Middle and High Area : 10 cm Cone Type x2 For high-pass : 2.5 cm dome type Frequency band 35 Hz to 20000 Hz ± 2 dB Average output sound pressure level 96dB Spl(1m/2.83V) Impedance 6 Ω Crossover frequency 110 Ω, 350 Ω, 3 kHz Power supply voltage With 120 V, 100 V → 120 V Conversion Transformer Power consumption Maximum : 300W Standby : 8W External dimensions Width 194x Height 1375x Depth 500 mm Weight 34.5kg"
     },
     {
-        "id":  "infinity-quadrapole",
-        "name":  "QUADRAPOLE",
-        "url":  "https://audio-database.com/INFINITY/speaker/quadrapole-e.html",
-        "sub_category":  "",
-        "sections":  {
-                         "specifications":  "Method: 2-Way, 5-Speaker, Thin Type, Antimagnetic Design | Units Used: For low band : 12.5 cm cone typeFor Middle and High Areas : 9 cm Cone Type x4 | Frequency band: 80 Hz to 10000 Hz 2 dB | Average output sound pressure level: 90dB Spl(1m/2.83V) | Impedance: 6 | Crossover frequency: 350 | External dimensions: Width 353x Height 245x Depth 114 mm | Weight: 3.2kg",
-                         "title":  "INFINITY QUADRAPOLE",
-                         "overview":  "  130,000 (a set of two cars, around 1996)\n\nA surround speaker system of the Composition series, a lineup of home theater speakers.Uses 12.5 cm cone type woofer for low band and 4 9 cm cone type units for middle and high band.In order to make more effective use of the installation space and improve the sound field reproduction capability, it is compatible with installation on the wall, built-in, and bracket installation."
-                     },
-        "category":  "SPEAKER",
-        "brandId":  "infinity",
-        "image_url":  "https://audio-database.com/quadrapole.JPG",
-        "original_price":  "¥130000",
-        "release_year":  "1996",
-        "verified":  true
+        "id": "infinity-quadrapole",
+        "name": "QUADRAPOLE",
+        "url": "https://audio-database.com/INFINITY/speaker/quadrapole-e.html",
+        "sub_category": "",
+        "sections": {
+            "specifications": "Method: 2-Way, 5-Speaker, Thin Type, Antimagnetic Design | Units Used: For low band : 12.5cm cone typeFor Middle and High Areas : 9cm Cone Type x4| Frequency band: 80Hz to 10000Hz 2dB | Average output sound pressure level: 90dB Spl(1m/2.83V) | Impedance: 6| Crossover frequency: 350| External dimensions: Width 353x Height 245x Depth 114mm | Weight: 3.2kg",
+            "title": "INFINITY QUADRAPOLE",
+            "overview": "  130,000(a set of two cars, around 1996)\n\nA surround speaker system of the Composition series, a lineup of home theater speakers.Uses 12.5cm cone type woofer for low band and 49cm cone type units for middle and high band.In order to make more effective use of the installation space and improve the sound field reproduction capability, it is compatible with installation on the wall, built-in, and bracket installation."
+        },
+        "category": "SPEAKER",
+        "brandId": "infinity",
+        "image_url": "https://audio-database.com/quadrapole.JPG",
+        "original_price": "¥130000",
+        "release_year": "1996",
+        "verified": true,
+        "specifications": "Method 2-Way, 5-Speaker, Thin Type, Antimagnetic Design Units Used For low band : 12.5 cm cone type For Middle and High Areas : 9 cm Cone Type x4 Frequency band 80 Hz to 10000 Hz ± 2 dB Average output sound pressure level 90dB Spl(1m/2.83V) Impedance 6 Ω Crossover frequency 350 Ω External dimensions Width 353x Height 245x Depth 114 mm | Weight 3.2kg",
+        "description": "Audio Database INFINITY QUADRAPOLE ¥ 130,000 (a set of two cars, around 1996) Commentary A surround speaker system of the Composition series, a lineup of home theater speakers. Uses 12.5 cm cone type woofer for low band and 4 9 cm cone type units for middle and high band. In order to make more effective use of the installation space and improve the sound field reproduction capability, it is compatible with installation on the wall, built-in, and bracket installation. Model Rating Method 2-Way, 5-Speaker, Thin Type, Antimagnetic Design Units Used For low band : 12.5 cm cone type For Middle and High Areas : 9 cm Cone Type x4 Frequency band 80 Hz to 10000 Hz ± 2 dB Average output sound pressure level 90dB Spl(1m/2.83V) Impedance 6 Ω Crossover frequency 350 Ω External dimensions Width 353x Height 245x Depth 114 mm Weight 3.2kg"
     },
     {
-        "id":  "infinity-referenceone",
-        "name":  "REFERENCEONE",
-        "url":  "https://audio-database.com/INFINITY/speaker/referenceone-e.html",
-        "sub_category":  "",
-        "sections":  {
-                         "specifications":  "Method: 2-Way, 2-Speaker, Airtight Type, Bookshelf Type | Units Used: For low band : 15.2 cm cone typeFor high-pass : 1.9 cm dome type | Frequency band: 55 Hz to 25 kHz 3 db | Allowable input: 75W | Output sound pressure level: 90dB/W/m | Crossover frequency: 4kHz | Impedance: 6 | External dimensions: Width 229x Height 361.9x Depth 187.3 mm | Weight: 5kg",
-                         "title":  "INFINITY REFERENCEONE",
-                         "overview":  "  56,000 (a set of two cars, around 1996)\n\nCompact 2-way speaker system.For the low range, a 15.2 cm cone type woofer is used which uses IMG cone made of a mixture of polypropylene and graphite fiber.A 1.9 cm polycell tweeter is used for the high-frequency band."
-                     },
-        "category":  "SPEAKER",
-        "brandId":  "infinity",
-        "image_url":  "https://audio-database.com/referenceone.JPG",
-        "original_price":  "¥56000",
-        "release_year":  "1996",
-        "verified":  true
+        "id": "infinity-referenceone",
+        "name": "REFERENCEONE",
+        "url": "https://audio-database.com/INFINITY/speaker/referenceone-e.html",
+        "sub_category": "",
+        "sections": {
+            "specifications": "Method: 2-Way, 2-Speaker, Airtight Type, Bookshelf Type | Units Used: For low band : 15.2cm cone typeFor high-pass : 1.9cm dome type | Frequency band: 55Hz to 25kHz 3db | Allowable input: 75W | Output sound pressure level: 90dB/W/m | Crossover frequency: 4kHz | Impedance: 6| External dimensions: Width 229x Height 361.9x Depth 187.3mm | Weight: 5kg",
+            "title": "INFINITY REFERENCEONE",
+            "overview": "  56,000(a set of two cars, around 1996)\n\nCompact 2-way speaker system.For the low range, a 15.2cm cone type woofer is used which uses IMG cone made of a mixture of polypropylene and graphite fiber.A 1.9cm polycell tweeter is used for the high-frequency band."
+        },
+        "category": "SPEAKER",
+        "brandId": "infinity",
+        "image_url": "https://audio-database.com/referenceone.JPG",
+        "original_price": "¥56000",
+        "release_year": "1996",
+        "verified": true,
+        "specifications": "Method 2-Way, 2-Speaker, Airtight Type, Bookshelf Type Units Used For low band : 15.2 cm cone type For high-pass : 1.9 cm dome type Frequency band 55 Hz to 25 kHz ± 3 db Allowable input 75W Output sound pressure level 90dB/W/m Crossover frequency 4kHz Impedance 6 Ω External dimensions Width 229x Height 361.9x Depth 187.3 mm | Weight 5kg",
+        "description": "Audio Database INFINITY Reference ONE ¥ 56,000 (a set of two cars, around 1996) Commentary Compact 2-way speaker system. For the low range, a 15.2 cm cone type woofer is used which uses IMG cone made of a mixture of polypropylene and graphite fiber. A 1.9 cm polycell tweeter is used for the high-frequency band. Model Rating Method 2-Way, 2-Speaker, Airtight Type, Bookshelf Type Units Used For low band : 15.2 cm cone type For high-pass : 1.9 cm dome type Frequency band 55 Hz to 25 kHz ± 3 db Allowable input 75W Output sound pressure level 90dB/W/m Crossover frequency 4kHz Impedance 6 Ω External dimensions Width 229x Height 361.9x Depth 187.3 mm Weight 5kg"
     },
     {
-        "id":  "infinity-reference10",
-        "name":  "REFERENCE10",
-        "url":  "https://audio-database.com/INFINITY/speaker/reference10-e.html",
-        "sub_category":  "",
-        "sections":  {
-                         "specifications":  "Method: 2-Way, 2-Speaker, Airtight Type, Bookshelf Type | Units Used: For low band : 16.2 cm cone typeFor high-pass : 1.9 cm dome type | Frequency band: 55 Hz to 25 kHz 2.5 dB | Allowable input: 75W | Output sound pressure level: 90dB/W/m | Crossover frequency: 4.5kHz | Impedance: 6 | External dimensions: Width 228.6x Height 361.9x Depth 225.4 mm | Weight: 5.3kg",
-                         "title":  "INFINITY REFERENCE10",
-                         "overview":  "  60,000 (a set of two cars, around 1991)\n\nCompact 2-way speaker system.A 16.2 cm cone woofer is installed in the low range.IMG (Injection Molded Graphite) cone is used for the diaphragm. This material combines polypropylene and high-rigidity graphite fiber to ensure moderate internal loss and high strength.A 1.9 cm dome-shaped tweeter is installed in the high range.The diaphragm uses a polydome whose quality has been improved based on the results of the past five years. By using polypropylene on cells with small mass, wide-band reproduction and good damping characteristics are ensured.The enclosure is hermetically sealed.The exterior has a Chatsworth Oak finish."
-                     },
-        "category":  "SPEAKER",
-        "brandId":  "infinity",
-        "image_url":  "https://audio-database.com/reference10.JPG",
-        "original_price":  "¥60000",
-        "release_year":  "1991",
-        "verified":  true
+        "id": "infinity-reference10",
+        "name": "REFERENCE10",
+        "url": "https://audio-database.com/INFINITY/speaker/reference10-e.html",
+        "sub_category": "",
+        "sections": {
+            "specifications": "Method: 2-Way, 2-Speaker, Airtight Type, Bookshelf Type | Units Used: For low band : 16.2cm cone typeFor high-pass : 1.9cm dome type | Frequency band: 55Hz to 25kHz 2.5dB | Allowable input: 75W | Output sound pressure level: 90dB/W/m | Crossover frequency: 4.5kHz | Impedance: 6| External dimensions: Width 228.6x Height 361.9x Depth 225.4mm | Weight: 5.3kg",
+            "title": "INFINITY REFERENCE10",
+            "overview": "  60,000(a set of two cars, around 1991)\n\nCompact 2-way speaker system.A 16.2cm cone woofer is installed in the low range.IMG (Injection Molded Graphite) cone is used for the diaphragm. This material combines polypropylene and high-rigidity graphite fiber to ensure moderate internal loss and high strength.A 1.9cm dome-shaped tweeter is installed in the high range.The diaphragm uses a polydome whose quality has been improved based on the results of the past five years. By using polypropylene on cells with small mass, wide-band reproduction and good damping characteristics are ensured.The enclosure is hermetically sealed.The exterior has a Chatsworth Oak finish."
+        },
+        "category": "SPEAKER",
+        "brandId": "infinity",
+        "image_url": "https://audio-database.com/reference10.JPG",
+        "original_price": "¥60000",
+        "release_year": "1991",
+        "verified": true,
+        "specifications": "Method 2-Way, 2-Speaker, Airtight Type, Bookshelf Type Units Used For low band : 16.2 cm cone type For high-pass : 1.9 cm dome type Frequency band 55 Hz to 25 kHz ± 2.5 dB Allowable input 75W Output sound pressure level 90dB/W/m Crossover frequency 4.5kHz Impedance 6 Ω External dimensions Width 228.6x Height 361.9x Depth 225.4 mm | Weight 5.3kg",
+        "description": "Audio Database INFINITY Reference 10 ¥ 60,000 (a set of two cars, around 1991) Commentary Compact 2-way speaker system. A 16.2 cm cone woofer is installed in the low range. IMG (Injection Molded Graphite) cone is used for the diaphragm. This material combines polypropylene and high-rigidity graphite fiber to ensure moderate internal loss and high strength. A 1.9 cm dome-shaped tweeter is installed in the high range. The diaphragm uses a polydome whose quality has been improved based on the results of the past five years. By using polypropylene on cells with small mass, wide-band reproduction and good damping characteristics are ensured. The enclosure is hermetically sealed. The exterior has a Chatsworth Oak finish. Model Rating Method 2-Way, 2-Speaker, Airtight Type, Bookshelf Type Units Used For low band : 16.2 cm cone type For high-pass : 1.9 cm dome type Frequency band 55 Hz to 25 kHz ± 2.5 dB Allowable input 75W Output sound pressure level 90dB/W/m Crossover frequency 4.5kHz Impedance 6 Ω External dimensions Width 228.6x Height 361.9x Depth 225.4 mm Weight 5.3kg"
     },
     {
-        "id":  "infinity-reference50",
-        "name":  "REFERENCE50",
-        "url":  "https://audio-database.com/INFINITY/speaker/reference50-e.html",
-        "sub_category":  "",
-        "sections":  {
-                         "specifications":  "Method: 3-Way, 3-Speaker, Sealed System, Tall Boy Type | Units Used: For low band : 20.3 cm cone typeFor Medium Range : 12.7 cm Cone TypeFor High Frequency : EMIT-R Type | Frequency band: 44 Hz to 40 kHz 2.5 dB | Allowable input: 150W | Output sound pressure level: 90dB/W/m | Crossover frequency: 300 Hz, 4 kHz | Impedance: 6 | External dimensions: Width 266.7x Height 838.2x Depth 250.8 mm | Weight: 14.7kg | Attachment: Spike foot",
-                         "title":  "INFINITY REFERENCE50",
-                         "overview":  "A tall boy type speaker system with a 3-way configuration.A 20.3 cm cone woofer is installed in the low range.IMG (Injection Molded Graphite) cone is used for the diaphragm. This material combines polypropylene and high-rigidity graphite fiber to ensure moderate internal loss and high strength.A 12.7 cm cone type squaker using IMG cone is mounted in the middle area.The IMG cone used in the mid-range has achieved high rigidity with a light mass by selecting the mixing ratio of polypropylene and graphite fiber.In addition, the cone center, where physical stress is concentrated, uses a dust cap to enhance rigidity.The high-frequency band is equipped with an EMIT-R type tweeter that is an improvement of the EMIT-type tweeter based on Infiniti\u0027s unique technology.The EMIT-R uses a flat diaphragm with a diameter of 3 cm to achieve transient characteristics, low distortion rate and wide-range reproduction, which are the major features of the EMIT-type tweeter.The enclosure is hermetically sealed.The exterior has a Chatsworth Oak finish.Two gold-plated input terminals for bi-amplifier are attached, and metal spike legs are attached."
-                     },
-        "category":  "SPEAKER",
-        "brandId":  "infinity",
-        "image_url":  "https://audio-database.com/reference50.JPG",
-        "original_price":  "¥70000",
-        "release_year":  "1991",
-        "verified":  true
+        "id": "infinity-reference50",
+        "name": "REFERENCE50",
+        "url": "https://audio-database.com/INFINITY/speaker/reference50-e.html",
+        "sub_category": "",
+        "sections": {
+            "specifications": "Method: 3-Way, 3-Speaker, Sealed System, Tall Boy Type | Units Used: For low band : 20.3cm cone typeFor Medium Range : 12.7cm Cone TypeFor High Frequency : EMIT-R Type | Frequency band: 44Hz to 40kHz 2.5dB | Allowable input: 150W | Output sound pressure level: 90dB/W/m | Crossover frequency: 300Hz, 4kHz | Impedance: 6| External dimensions: Width 266.7x Height 838.2x Depth 250.8mm | Weight: 14.7kg | Attachment: Spike foot",
+            "title": "INFINITY REFERENCE50",
+            "overview": "A tall boy type speaker system with a 3-way configuration.A 20.3cm cone woofer is installed in the low range.IMG (Injection Molded Graphite) cone is used for the diaphragm. This material combines polypropylene and high-rigidity graphite fiber to ensure moderate internal loss and high strength.A 12.7cm cone type squaker using IMG cone is mounted in the middle area.The IMG cone used in the mid-range has achieved high rigidity with a light mass by selecting the mixing ratio of polypropylene and graphite fiber.In addition, the cone center, where physical stress is concentrated, uses a dust cap to enhance rigidity.The high-frequency band is equipped with an EMIT-R type tweeter that is an improvement of the EMIT-type tweeter based on Infiniti'Ωs unique technology.The EMIT-R uses a flat diaphragm with a diameter of 3cm to achieve transient characteristics, low distortion rate and wide-range reproduction, which are the major features of the EMIT-type tweeter.The enclosure is hermetically sealed.The exterior has a Chatsworth Oak finish.Two gold-plated input terminals for bi-amplifier are attached, and metal spike legs are attached."
+        },
+        "category": "SPEAKER",
+        "brandId": "infinity",
+        "image_url": "https://audio-database.com/reference50.JPG",
+        "original_price": "¥70000",
+        "release_year": "1991",
+        "verified": true,
+        "specifications": "Method 3-Way, 3-Speaker, Sealed | System, Tall Boy Type Units Used For low band : 20.3 cm cone type For Medium Range : 12.7 cm Cone Type For High Frequency : EMIT-R Type Frequency band 44 Hz to 40 kHz ± 2.5 dB Allowable input 150W Output sound pressure level 90dB/W/m Crossover frequency 300 Hz, 4 kHz Impedance 6 Ω External dimensions Width 266.7x Height 838.2x Depth 250.8 mm | Weight 14.7kg Attachment Spike foot",
+        "description": "Audio Database INFINITY Reference 50 ¥ 70,000 (1 unit, around 1991) Commentary A tall boy type speaker system with a 3-way configuration. A 20.3 cm cone woofer is installed in the low range. IMG (Injection Molded Graphite) cone is used for the diaphragm. This material combines polypropylene and high-rigidity graphite fiber to ensure moderate internal loss and high strength. A 12.7 cm cone type squaker using IMG cone is mounted in the middle area. The IMG cone used in the mid-range has achieved high rigidity with a light mass by selecting the mixing ratio of polypropylene and graphite fiber. In addition, the cone center, where physical stress is concentrated, uses a dust cap to enhance rigidity. The high-frequency band is equipped with an EMIT-R type tweeter that is an improvement of the EMIT-type tweeter based on Infiniti&#39;s unique technology. The EMIT-R uses a flat diaphragm with a diameter of 3 cm to achieve transient characteristics, low distortion rate and wide-range reproduction, which are the major features of the EMIT-type tweeter. The enclosure is hermetically sealed. The exterior has a Chatsworth Oak finish. Two gold-plated input terminals for bi-amplifier are attached, and metal spike legs are attached. Model Rating Method 3-Way, 3-Speaker, Sealed System, Tall Boy Type Units Used For low band : 20.3 cm cone type For Medium Range : 12.7 cm Cone Type For High Frequency : EMIT-R Type Frequency band 44 Hz to 40 kHz ± 2.5 dB Allowable input 150W Output sound pressure level 90dB/W/m Crossover frequency 300 Hz, 4 kHz Impedance 6 Ω External dimensions Width 266.7x Height 838.2x Depth 250.8 mm Weight 14.7kg Attachment Spike foot"
     },
     {
-        "id":  "infinity-reference60",
-        "name":  "REFERENCE60",
-        "url":  "https://audio-database.com/INFINITY/speaker/reference60-e.html",
-        "sub_category":  "",
-        "sections":  {
-                         "specifications":  "Method: 3-Way, 4-Speaker, Sealed System, Tall Gear Type | Units Used: For low band : 20.3 cm cone x2For Medium Range : 12.7 cm Cone TypeFor High Frequency : EMIT-R Type | Frequency band: 42 Hz to 40 kHz 2.5 dB | Allowable input: 200W | Output sound pressure level: 90dB/W/m | Crossover frequency: 250 Hz, 4 kHz | Impedance: 6 | External dimensions: Width 266.7x Height 965.2x Depth 342.9 mm | Weight: 22.6kg | Attachment: Spike foot",
-                         "title":  "INFINITY REFERENCE60",
-                         "overview":  "A tall boy type speaker system that uses a double woofer drive system.Two 20.3 cm cone type woofers are installed in the lower range.IMG (Injection Molded Graphite) cone is used for the diaphragm. This material combines polypropylene and high-rigidity graphite fiber to ensure moderate internal loss and high strength.A 12.7 cm cone type squaker using IMG cone is mounted in the middle area.The IMG cone used in the mid-range has achieved high rigidity with a light mass by selecting the mixing ratio of polypropylene and graphite fiber.In addition, the cone center, where physical stress is concentrated, uses a dust cap to enhance rigidity.The high-frequency band is equipped with an EMIT-R type tweeter that is an improvement of the EMIT-type tweeter based on Infiniti\u0027s unique technology.The EMIT-R uses a flat diaphragm with a diameter of 3 cm to achieve transient characteristics, low distortion rate and wide-range reproduction, which are the major features of the EMIT-type tweeter.The enclosure is hermetically sealed.The exterior has a Chatsworth Oak finish.Two gold-plated input terminals for bi-amplifier are attached, and metal spike legs are attached."
-                     },
-        "category":  "SPEAKER",
-        "brandId":  "infinity",
-        "image_url":  "https://audio-database.com/reference60.JPG",
-        "original_price":  "¥96000",
-        "release_year":  "1991",
-        "verified":  true
+        "id": "infinity-reference60",
+        "name": "REFERENCE60",
+        "url": "https://audio-database.com/INFINITY/speaker/reference60-e.html",
+        "sub_category": "",
+        "sections": {
+            "specifications": "Method: 3-Way, 4-Speaker, Sealed System, Tall Gear Type | Units Used: For low band : 20.3cm cone x2For Medium Range : 12.7cm Cone TypeFor High Frequency : EMIT-R Type | Frequency band: 42Hz to 40kHz 2.5dB | Allowable input: 200W | Output sound pressure level: 90dB/W/m | Crossover frequency: 250Hz, 4kHz | Impedance: 6| External dimensions: Width 266.7x Height 965.2x Depth 342.9mm | Weight: 22.6kg | Attachment: Spike foot",
+            "title": "INFINITY REFERENCE60",
+            "overview": "A tall boy type speaker system that uses a double woofer drive system.Two 20.3cm cone type woofers are installed in the lower range.IMG (Injection Molded Graphite) cone is used for the diaphragm. This material combines polypropylene and high-rigidity graphite fiber to ensure moderate internal loss and high strength.A 12.7cm cone type squaker using IMG cone is mounted in the middle area.The IMG cone used in the mid-range has achieved high rigidity with a light mass by selecting the mixing ratio of polypropylene and graphite fiber.In addition, the cone center, where physical stress is concentrated, uses a dust cap to enhance rigidity.The high-frequency band is equipped with an EMIT-R type tweeter that is an improvement of the EMIT-type tweeter based on Infiniti'Ωs unique technology.The EMIT-R uses a flat diaphragm with a diameter of 3cm to achieve transient characteristics, low distortion rate and wide-range reproduction, which are the major features of the EMIT-type tweeter.The enclosure is hermetically sealed.The exterior has a Chatsworth Oak finish.Two gold-plated input terminals for bi-amplifier are attached, and metal spike legs are attached."
+        },
+        "category": "SPEAKER",
+        "brandId": "infinity",
+        "image_url": "https://audio-database.com/reference60.JPG",
+        "original_price": "¥96000",
+        "release_year": "1991",
+        "verified": true,
+        "specifications": "Method 3-Way, 4-Speaker, Sealed | System, Tall Gear Type Units Used For low band : 20.3 cm cone x2 For Medium Range : 12.7 cm Cone Type For High Frequency : EMIT-R Type Frequency band 42 Hz to 40 kHz ± 2.5 dB Allowable input 200W Output sound pressure level 90dB/W/m Crossover frequency 250 Hz, 4 kHz Impedance 6 Ω External dimensions Width 266.7x Height 965.2x Depth 342.9 mm | Weight 22.6kg Attachment Spike foot",
+        "description": "Audio Database INFINITY Reference 60 ¥ 96,000 (1 unit, around 1991) Commentary A tall boy type speaker system that uses a double woofer drive system. Two 20.3 cm cone type woofers are installed in the lower range. IMG (Injection Molded Graphite) cone is used for the diaphragm. This material combines polypropylene and high-rigidity graphite fiber to ensure moderate internal loss and high strength. A 12.7 cm cone type squaker using IMG cone is mounted in the middle area. The IMG cone used in the mid-range has achieved high rigidity with a light mass by selecting the mixing ratio of polypropylene and graphite fiber. In addition, the cone center, where physical stress is concentrated, uses a dust cap to enhance rigidity. The high-frequency band is equipped with an EMIT-R type tweeter that is an improvement of the EMIT-type tweeter based on Infiniti&#39;s unique technology. The EMIT-R uses a flat diaphragm with a diameter of 3 cm to achieve transient characteristics, low distortion rate and wide-range reproduction, which are the major features of the EMIT-type tweeter. The enclosure is hermetically sealed. The exterior has a Chatsworth Oak finish. Two gold-plated input terminals for bi-amplifier are attached, and metal spike legs are attached. Model Rating Method 3-Way, 4-Speaker, Sealed System, Tall Gear Type Units Used For low band : 20.3 cm cone x2 For Medium Range : 12.7 cm Cone Type For High Frequency : EMIT-R Type Frequency band 42 Hz to 40 kHz ± 2.5 dB Allowable input 200W Output sound pressure level 90dB/W/m Crossover frequency 250 Hz, 4 kHz Impedance 6 Ω External dimensions Width 266.7x Height 965.2x Depth 342.9 mm Weight 22.6kg Attachment Spike foot"
     },
     {
-        "id":  "infinity-referencee-l",
-        "name":  "REFERENCEE-L",
-        "url":  "https://audio-database.com/INFINITY/speaker/referencee-l-e.html",
-        "sub_category":  "",
-        "sections":  {
-                         "specifications":  "Method: 2-Way, 2-Speaker, Airtight Type, Bookshelf Type | Units Used: For low band : 13 cm cone typeFor high-pass : 1.25 cm dome type | Frequency band: 70 Hz to 20 kHz 3 dB | Allowable input: 60W | Output sound pressure level: 89dB/W/m | Crossover frequency: 5.5kHz | Impedance: 6 | External dimensions: Width 190x Height 295x Depth 170 mm | Weight: 3.4kg",
-                         "title":  "INFINITY REFERENCEE-L",
-                         "overview":  "  40,000 (a set of two cars, around 1991)\n\nCompact sealed 2-way speaker system.A 13 cm cone type woofer is installed in the low range.IMG (Injection Molded Graphite) cone is used for the diaphragm. This material combines polypropylene and high-rigidity graphite fiber to ensure moderate internal loss and high strength.A 1.25 cm dome-shaped tweeter is installed in the high range.A newly developed polycarbonate diaphragm is used for the diaphragm.The enclosure is hermetically sealed.The exterior has a Chatsworth Oak finish."
-                     },
-        "category":  "SPEAKER",
-        "brandId":  "infinity",
-        "image_url":  "https://audio-database.com/referencee-l.JPG",
-        "original_price":  "¥40000",
-        "release_year":  "1991",
-        "verified":  true
+        "id": "infinity-referencee-l",
+        "name": "REFERENCEE-L",
+        "url": "https://audio-database.com/INFINITY/speaker/referencee-l-e.html",
+        "sub_category": "",
+        "sections": {
+            "specifications": "Method: 2-Way, 2-Speaker, Airtight Type, Bookshelf Type | Units Used: For low band : 13cm cone typeFor high-pass : 1.25cm dome type | Frequency band: 70Hz to 20kHz 3dB | Allowable input: 60W | Output sound pressure level: 89dB/W/m | Crossover frequency: 5.5kHz | Impedance: 6| External dimensions: Width 190x Height 295x Depth 170mm | Weight: 3.4kg",
+            "title": "INFINITY REFERENCEE-L",
+            "overview": "  40,000(a set of two cars, around 1991)\n\nCompact sealed 2-way speaker system.A 13cm cone type woofer is installed in the low range.IMG (Injection Molded Graphite) cone is used for the diaphragm. This material combines polypropylene and high-rigidity graphite fiber to ensure moderate internal loss and high strength.A 1.25cm dome-shaped tweeter is installed in the high range.A newly developed polycarbonate diaphragm is used for the diaphragm.The enclosure is hermetically sealed.The exterior has a Chatsworth Oak finish."
+        },
+        "category": "SPEAKER",
+        "brandId": "infinity",
+        "image_url": "https://audio-database.com/referencee-l.JPG",
+        "original_price": "¥40000",
+        "release_year": "1991",
+        "verified": true,
+        "specifications": "Method 2-Way, 2-Speaker, Airtight Type, Bookshelf Type Units Used For low band : 13 cm cone type For high-pass : 1.25 cm dome type Frequency band 70 Hz to 20 kHz ± 3 dB Allowable input 60W Output sound pressure level 89dB/W/m Crossover frequency 5.5kHz Impedance 6 Ω External dimensions Width 190x Height 295x Depth 170 mm | Weight 3.4kg",
+        "description": "Audio Database INFINITY Reference E-L ¥ 40,000 (a set of two cars, around 1991) Commentary Compact sealed 2-way speaker system. A 13 cm cone type woofer is installed in the low range. IMG (Injection Molded Graphite) cone is used for the diaphragm. This material combines polypropylene and high-rigidity graphite fiber to ensure moderate internal loss and high strength. A 1.25 cm dome-shaped tweeter is installed in the high range. A newly developed polycarbonate diaphragm is used for the diaphragm. The enclosure is hermetically sealed. The exterior has a Chatsworth Oak finish. Model Rating Method 2-Way, 2-Speaker, Airtight Type, Bookshelf Type Units Used For low band : 13 cm cone type For high-pass : 1.25 cm dome type Frequency band 70 Hz to 20 kHz ± 3 dB Allowable input 60W Output sound pressure level 89dB/W/m Crossover frequency 5.5kHz Impedance 6 Ω External dimensions Width 190x Height 295x Depth 170 mm Weight 3.4kg"
     },
     {
-        "id":  "infinity-referencestandardi",
-        "name":  "REFERENCESTANDARDI",
-        "url":  "https://audio-database.com/INFINITY/speaker/referencestandardi-e.html",
-        "sub_category":  "",
-        "sections":  {
-                         "specifications":  "Method: 5-way, 17-speaker floor type | Sytem: It consists of four units (two woofer units and two mid-range units) and a channel divider. | Units Used: For low band : 20 cm cone x6For mid-low band : 6 EMIM modelsFor Middle and High Range : EMIM Type x1For High Frequency : EMIT Type x3For Super High Range : Super EMIT x1 | Frequency band: 25 Hz to 32 kHz 2 dB | Impedance: 3 | Crossover frequency: 140 hz, 700 hz, 3 khz, 8 khz | Recommended amplifier: Woofer unit : 150W/ch or moreMid-range / Tweeter : 100W/ch or more (bi-amplifier system) | External dimensions: Woofer unit : 360 mm wide x 1,500 mm high x 360 mm deepMidrange / Tweeter : W 600x H 1,500x D 600 mm | System weight: Approx. 176.5 kg (total weight)",
-                         "title":  "INFINITY REFERENCESTANDARDI",
-                         "overview":  "This speaker system inherits the development concept and design of the IRS and is 1.5m tall and can be installed in ordinary homes.RS-1 is designed by the diffraction wing and point source theory.Point source theory is an acoustic theory that radiates all frequencies in all directions from an infinitesimal vibrating sphere. However, this theory was treated somewhat vaguely because it was impossible in reality. RS-1 is designed to produce an effect equivalent to that of point source transmission at the listening position, making it closer to point source theory.As with the IRS, we use gently curved diffraction wings to reduce the dispersion caused by the interference between direct and reflected waves. In order to improve the directivity over the entire band, we use bidirectivity, which emits sound waves on the rear surface, especially in the middle and high regions, to realize an ideal spherical wave. Furthermore, as the frequency increases, we reduce the area of the diaphragm and arrange the unit so that the focus of the sound image is narrowed down to the super tweeter to clarify the total focus.As a result, although it is multi-way and multi-drive, the energy response is almost equivalent to that of a point source. Pin-point sound localization and 3-dimensional sound field reproducibility are obtained.The woofer column has a structure with R at the corner.The unit has six 20 cm polypropylene cone type woofers arranged in tandem for the low frequency band, and the newly developed servo sensing network enables flat playback down to the ultra low frequency band.The polypropylene used for the diaphragm has an extremely low Q value of 7 to 9 compared to 90 to 100 for paper cone, and exhibits excellent linearity. In addition, since the Young\u0027s elastic modulus is also high, the cone distortion caused by transient large input is almost eliminated, and a clear playback sound is achieved. In addition, polypropylene cone forms an effective sonic barrier against back waves in the enclosure, has strong tearing force, can withstand high temperatures of 135 ?, and is not affected by humidity. It has many advantages.Thick solid oak is used for the diffraction wing part.The unit is equipped with seven bi-directional EMIMs, three EMITs in the front and one in the rear.Six of the seven EMIMs are responsible for the frequencies from 140 Hz to 700 Hz. Only the third one from the top receives frequencies from 700 Hz to 3 kHz. Among the three EMITs in the front and back, two EMITs at the top and bottom receive frequencies from 3 to 8 kHz. The frequency band of 8 kHz or diaphragm is 1/2 inch wide and 1 inch long, receives frequencies above 8 kHz. This EMIT is located adjacent to the third EMIM from the top.As a result, the total energy response is extremely clear at low levels and uniform over all bands.The EMIM (Electromagnetic Induction Midrange) mounted in the mid-range has a structure in which an ultra-thin and ultra-lightweight plastic diaphragm made by etching an ultra-thin voice coil is sandwiched between samarium-cobalt, a strong magnetic material, and the diaphragm is driven entirely by a strong magnetic field.As a result, it can respond to transient signals and large instantaneous inputs that the cone, dome, and horn types cannot follow due to their structure. Moreover, it is more resistant to large continuous inputs than the condenser type, and realizes excellent mid-range reproduction. In addition, the reproduction band is wide, and a flat response from 150 Hz to 5 kHz is obtained.In addition, it is bi-directional with slit-shaped gratings on the back plate, which realizes excellent sound field reproducibility.The EMIT (Electromagnetic Induction Tweeter) mounted on the high-frequency range is a full-surface drive type tweeter in which an ultra-thin and ultra-light plastic diaphragm diaphragm is sandwiched between strong samarium-cobalt magnets like the EMIM.Flat reproduction is possible up to 32 kHz ultra-high frequencies. Moreover, since the main radiation source is 1 1/2 inch wide, excellent horizontal directional characteristics of -2dB (20 kHz) are exhibited even in the 60   direction.Comes with a dedicated crossover unit.* In RS-1, there was a recommended specification for power amplifier for woofer.The condition is a power amplifier with an output of 150W/ch or more, a substantial power source, and a housing installation with a thick cable on the - side. It was written that the use of bridge wiring amplifier or vacuum tube type amplifier should be avoided as much as possible."
-                     },
-        "category":  "SPEAKER",
-        "brandId":  "infinity",
-        "image_url":  "https://audio-database.com/rs-1.JPG",
-        "original_price":  "¥2200000",
-        "release_year":  "1980",
-        "verified":  true
+        "id": "infinity-referencestandardi",
+        "name": "REFERENCESTANDARDI",
+        "url": "https://audio-database.com/INFINITY/speaker/referencestandardi-e.html",
+        "sub_category": "",
+        "sections": {
+            "specifications": "Method: 5-way, 17-speaker floor type | Sytem: It consists of four units (two woofer units and two mid-range units) and a channel divider. | Units Used: For low band : 20cm cone x6For mid-low band : 6EMIM modelsFor Middle and High Range : EMIM Type x1For High Frequency : EMIT Type x3For Super High Range : Super EMIT x1| Frequency band: 25Hz to 32kHz 2dB | Impedance: 3| Crossover frequency: 140hz, 700hz, 3khz, 8khz | Recommended amplifier: Woofer unit : 150W/ch or moreMid-range / Tweeter : 100W/ch or more (bi-amplifier system) | External dimensions: Woofer unit : 360mm wide x 1,500mm high x 360mm deepMidrange / Tweeter : W 600x H 1,500x D 600mm | System weight: Approx. 176.5kg (total weight)",
+            "title": "INFINITY REFERENCESTANDARDI",
+            "overview": "This speaker system inherits the development concept and design of the IRS and is 1.5m tall and can be installed in ordinary homes.RS-1is designed by the diffraction wing and point source theory.Point source theory is an acoustic theory that radiates all frequencies in all directions from an infinitesimal vibrating sphere. However, this theory was treated somewhat vaguely because it was impossible in reality. RS-1is designed to produce an effect equivalent to that of point source transmission at the listening position, making it closer to point source theory.As with the IRS, we use gently curved diffraction wings to reduce the dispersion caused by the interference between direct and reflected waves. In order to improve the directivity over the entire band, we use bidirectivity, which emits sound waves on the rear surface, especially in the middle and high regions, to realize an ideal spherical wave. Furthermore, as the frequency increases, we reduce the area of the diaphragm and arrange the unit so that the focus of the sound image is narrowed down to the super tweeter to clarify the total focus.As a result, although it is multi-way and multi-drive, the energy response is almost equivalent to that of a point source. Pin-point sound localization and 3-dimensional sound field reproducibility are obtained.The woofer column has a structure with R at the corner.The unit has six 20cm polypropylene cone type woofers arranged in tandem for the low frequency band, and the newly developed servo sensing network enables flat playback down to the ultra low frequency band.The polypropylene used for the diaphragm has an extremely low Q value of 7to 9compared to 90to 100for paper cone, and exhibits excellent linearity. In addition, since the Young'Ωs elastic modulus is also high, the cone distortion caused by transient large input is almost eliminated, and a clear playback sound is achieved. In addition, polypropylene cone forms an effective sonic barrier against back waves in the enclosure, has strong tearing force, can withstand high temperatures of 135?, and is not affected by humidity. It has many advantages.Thick solid oak is used for the diffraction wing part.The unit is equipped with seven bi-directional EMIMs, three EMITs in the front and one in the rear.Six of the seven EMIMs are responsible for the frequencies from 140Hz to 700Hz. Only the third one from the top receives frequencies from 700Hz to 3kHz. Among the three EMITs in the front and back, two EMITs at the top and bottom receive frequencies from 3to 8kHz. The frequency band of 8kHz or diaphragm is 1/2inch wide and 1inch long, receives frequencies above 8kHz. This EMIT is located adjacent to the third EMIM from the top.As a result, the total energy response is extremely clear at low levels and uniform over all bands.The EMIM (Electromagnetic Induction Midrange) mounted in the mid-range has a structure in which an ultra-thin and ultra-lightweight plastic diaphragm made by etching an ultra-thin voice coil is sandwiched between samarium-cobalt, a strong magnetic material, and the diaphragm is driven entirely by a strong magnetic field.As a result, it can respond to transient signals and large instantaneous inputs that the cone, dome, and horn types cannot follow due to their structure. Moreover, it is more resistant to large continuous inputs than the condenser type, and realizes excellent mid-range reproduction. In addition, the reproduction band is wide, and a flat response from 150Hz to 5kHz is obtained.In addition, it is bi-directional with slit-shaped gratings on the back plate, which realizes excellent sound field reproducibility.The EMIT (Electromagnetic Induction Tweeter) mounted on the high-frequency range is a full-surface drive type tweeter in which an ultra-thin and ultra-light plastic diaphragm diaphragm is sandwiched between strong samarium-cobalt magnets like the EMIM.Flat reproduction is possible up to 32kHz ultra-high frequencies. Moreover, since the main radiation source is 11/2inch wide, excellent horizontal directional characteristics of -2dB (20kHz) are exhibited even in the 60  direction.Comes with a dedicated crossover unit.* In RS-1, there was a recommended specification for power amplifier for woofer.The condition is a power amplifier with an output of 150W/ch or more, a substantial power source, and a housing installation with a thick cable on the - side. It was written that the use of bridge wiring amplifier or vacuum tube type amplifier should be avoided as much as possible."
+        },
+        "category": "SPEAKER",
+        "brandId": "infinity",
+        "image_url": "https://audio-database.com/rs-1.JPG",
+        "original_price": "¥2200000",
+        "release_year": "1980",
+        "verified": true,
+        "specifications": "Method 5-way, 17-speaker floor type Sytem It consists of four units (two woofer units and two mid-range units) and a channel divider. Units Used For low band : 20 cm cone x6 For mid-low band : 6 EMIM models For Middle and High Range : EMIM Type x1 For High Frequency : EMIT Type x3 For Super High Range : Super EMIT x1 Frequency band 25 Hz to 32 kHz ± 2 dB Impedance 3 Ω Crossover frequency 140 hz, 700 hz, 3 khz, 8 khz Recommended amplifier Woofer unit : 150W/ch or more Mid-range / Tweeter : 100W/ch or more (bi-amplifier system) External dimensions Woofer unit : 360 mm wide x 1,500 mm high x 360 mm deep Midrange / Tweeter : W 600x H 1,500x D 600 mm | System weight Approx. 176.5 kg (total weight)",
+        "description": "Audio Database INFINITY RS-1(Reference Standard I) ¥ 2,200,000 (1 system, released in 1980) Commentary This speaker system inherits the development concept and design of the IRS and is 1.5m tall and can be installed in ordinary homes. RS-1 is designed by the diffraction wing and point source theory. Point source theory is an acoustic theory that radiates all frequencies in all directions from an infinitesimal vibrating sphere. However, this theory was treated somewhat vaguely because it was impossible in reality. RS-1 is designed to produce an effect equivalent to that of point source transmission at the listening position, making it closer to point source theory. As with the IRS, we use gently curved diffraction wings to reduce the dispersion caused by the interference between direct and reflected waves. In order to improve the directivity over the entire band, we use bidirectivity, which emits sound waves on the rear surface, especially in the middle and high regions, to realize an ideal spherical wave. Furthermore, as the frequency increases, we reduce the area of the diaphragm and arrange the unit so that the focus of the sound image is narrowed down to the super tweeter to clarify the total focus. As a result, although it is multi-way and multi-drive, the energy response is almost equivalent to that of a point source. Pin-point sound localization and 3-dimensional sound field reproducibility are obtained. The woofer column has a structure with R at the corner. The unit has six 20 cm polypropylene cone type woofers arranged in tandem for the low frequency band, and the newly developed servo sensing network enables flat playback down to the ultra low frequency band. The polypropylene used for the diaphragm has an extremely low Q value of 7 to 9 compared to 90 to 100 for paper cone, and exhibits excellent linearity. In addition, since the Young&#39;s elastic modulus is also high, the cone distortion caused by transient large input is almost eliminated, and a clear"
     },
     {
-        "id":  "infinity-referencestandardiia",
-        "name":  "REFERENCESTANDARDIIA",
-        "url":  "https://audio-database.com/INFINITY/speaker/referencestandardiia-e.html",
-        "sub_category":  "",
-        "sections":  {
-                         "specifications":  "Method: 3-way, 8-speaker floor type | Units Used: For low band : 25 cm cone x2For mid-range : 3 EMIM modelsFor High Frequency : EMIT Type x3 | Frequency band: 29 Hz to 32000 Hz, 3 db | Impedance: 4 | Output sound pressure level: 87dB/W/m | Crossover frequency: 150 Hz, 800 Hz, 4000 Hz, 8000 Hz | Recommended power amplifier output: 100W ~ 500W | External dimensions: Width 580x Height 1220x Depth 460 mm | Weight: 45.0kg",
-                         "title":  "INFINITY REFERENCESTANDARDIIA",
-                         "overview":  "  560,000 (1 unit, released in April 1984)\n\nIn order to realize the expressive power equivalent to RS-1, the woofer part is also incorporated into the diffraction wing, and this speaker system puts the point source theory into practice.There are two 25 cm cone units in the low range, three EMIM units in the middle range, and three EMIT units in the high range (one of which is on the back).Special equalizer amplifier is included and bi-amplifier drive is possible."
-                     },
-        "category":  "SPEAKER",
-        "brandId":  "infinity",
-        "image_url":  "https://audio-database.com/referencestandardiia.JPG",
-        "original_price":  "¥560000",
-        "release_year":  "1984",
-        "verified":  true
+        "id": "infinity-referencestandardiia",
+        "name": "REFERENCESTANDARDIIA",
+        "url": "https://audio-database.com/INFINITY/speaker/referencestandardiia-e.html",
+        "sub_category": "",
+        "sections": {
+            "specifications": "Method: 3-way, 8-speaker floor type | Units Used: For low band : 25cm cone x2For mid-range : 3EMIM modelsFor High Frequency : EMIT Type x3| Frequency band: 29Hz to 32000Hz, 3db | Impedance: 4| Output sound pressure level: 87dB/W/m | Crossover frequency: 150Hz, 800Hz, 4000Hz, 8000Hz | Recommended power amplifier output: 100W ~ 500W | External dimensions: Width 580x Height 1220x Depth 460mm | Weight: 45.0kg",
+            "title": "INFINITY REFERENCESTANDARDIIA",
+            "overview": "  560,000(1unit, released in April 1984)\n\nIn order to realize the expressive power equivalent to RS-1, the woofer part is also incorporated into the diffraction wing, and this speaker system puts the point source theory into practice.There are two 25cm cone units in the low range, three EMIM units in the middle range, and three EMIT units in the high range (one of which is on the back).Special equalizer amplifier is included and bi-amplifier drive is possible."
+        },
+        "category": "SPEAKER",
+        "brandId": "infinity",
+        "image_url": "https://audio-database.com/referencestandardiia.JPG",
+        "original_price": "¥560000",
+        "release_year": "1984",
+        "verified": true,
+        "specifications": "Method 3-way, 8-speaker floor type Units Used For low band : 25 cm cone x2 For mid-range : 3 EMIM models For High Frequency : EMIT Type x3 Frequency band 29 Hz to 32000 Hz, ± 3 db Impedance 4 Ω Output sound pressure level 87dB/W/m Crossover frequency 150 Hz, 800 Hz, 4000 Hz, 8000 Hz Recommended power amplifier output 100W ~ 500W External dimensions Width 580x Height 1220x Depth 460 mm | Weight 45.0kg",
+        "description": "Audio Database INFINITY Reference Standard IIa ¥ 560,000 (1 unit, released in April 1984) Commentary In order to realize the expressive power equivalent to RS-1, the woofer part is also incorporated into the diffraction wing, and this speaker system puts the point source theory into practice. There are two 25 cm cone units in the low range, three EMIM units in the middle range, and three EMIT units in the high range (one of which is on the back). Special equalizer amplifier is included and bi-amplifier drive is possible. Model Rating Method 3-way, 8-speaker floor type Units Used For low band : 25 cm cone x2 For mid-range : 3 EMIM models For High Frequency : EMIT Type x3 Frequency band 29 Hz to 32000 Hz, ± 3 db Impedance 4 Ω Output sound pressure level 87dB/W/m Crossover frequency 150 Hz, 800 Hz, 4000 Hz, 8000 Hz Recommended power amplifier output 100W ~ 500W External dimensions Width 580x Height 1220x Depth 460 mm Weight 45.0kg"
     },
     {
-        "id":  "infinity-rs-5kappa",
-        "name":  "RS-5KAPPA",
-        "url":  "https://audio-database.com/INFINITY/speaker/rs-5kappa-e.html",
-        "sub_category":  "",
-        "sections":  {
-                         "specifications":  "Method: 2-Way, 2-Speaker, Airtight Type, Bookshelf Type | Units Used: For low band : 16.5 cm cone typeFor High Frequency : EMITk Type | Frequency band: 46 Hz to 45000 Hz | Adaptive input: 20W ~ 100W | Output sound pressure level: 87dB/W/m | Crossover frequency: 4500Hz | Impedance: 4 | External dimensions: Width 431x Height 266x Depth 228 mm | Weight: 8.5kg",
-                         "title":  "INFINITY RS-5KAPPA",
-                         "overview":  "This is a full-scale monitor size 2-way speaker system that achieves high quality and wide range within the limitation of small size.A 16.5 cm diameter IMG (Injection molded graphite) woofer that uses glassite reinforced polypropylene is used for the low range, and it realizes a realistic low sound with less distortion.The EMITk Tweeter is used for the high range.The EMI-type (Electro Magnetic Induction) speaker uses a lightweight diaphragm directly driven by a strong magnetic field, which in principle makes it possible to achieve excellent transient response and low distortion. The EMITk Tweeter used in the RS-5KAPPA uses a Lomas Kapton membrane diaphragm and rare-earth neodymium magnet to achieve high sound without distortion while achieving wide range reproduction.Each part of the network is selected through repeated computer design and listening experiments. In the lower range, Infiniti\u0027s original L/C tuning circuit is installed to extend the lower range playback limit.The enclosure is a closed, shapely round baffle with a natural oak finish from carefully selected materials and matte-coated coated baffle that concentrates Infiniti\u0027s technology into details."
-                     },
-        "category":  "SPEAKER",
-        "brandId":  "infinity",
-        "image_url":  "https://audio-database.com/rs-5kappa.JPG",
-        "original_price":  "¥85000",
-        "release_year":  "1990",
-        "verified":  true
+        "id": "infinity-rs-5kappa",
+        "name": "RS-5KAPPA",
+        "url": "https://audio-database.com/INFINITY/speaker/rs-5kappa-e.html",
+        "sub_category": "",
+        "sections": {
+            "specifications": "Method: 2-Way, 2-Speaker, Airtight Type, Bookshelf Type | Units Used: For low band : 16.5cm cone typeFor High Frequency : EMITk Type | Frequency band: 46Hz to 45000Hz | Adaptive input: 20W ~ 100W | Output sound pressure level: 87dB/W/m | Crossover frequency: 4500Hz | Impedance: 4| External dimensions: Width 431x Height 266x Depth 228mm | Weight: 8.5kg",
+            "title": "INFINITY RS-5KAPPA",
+            "overview": "This is a full-scale monitor size 2-way speaker system that achieves high quality and wide range within the limitation of small size.A 16.5cm diameter IMG (Injection molded graphite) woofer that uses glassite reinforced polypropylene is used for the low range, and it realizes a realistic low sound with less distortion.The EMITk Tweeter is used for the high range.The EMI-type (Electro Magnetic Induction) speaker uses a lightweight diaphragm directly driven by a strong magnetic field, which in principle makes it possible to achieve excellent transient response and low distortion. The EMITk Tweeter used in the RS-5KAPPA uses a Lomas Kapton membrane diaphragm and rare-earth neodymium magnet to achieve high sound without distortion while achieving wide range reproduction.Each part of the network is selected through repeated computer design and listening experiments. In the lower range, Infiniti'Ωs original L/C tuning circuit is installed to extend the lower range playback limit.The enclosure is a closed, shapely round baffle with a natural oak finish from carefully selected materials and matte-coated coated baffle that concentrates Infiniti'Ωs technology into details."
+        },
+        "category": "SPEAKER",
+        "brandId": "infinity",
+        "image_url": "https://audio-database.com/rs-5kappa.JPG",
+        "original_price": "¥85000",
+        "release_year": "1990",
+        "verified": true,
+        "specifications": "Method 2-Way, 2-Speaker, Airtight Type, Bookshelf Type Units Used For low band : 16.5 cm cone type For High Frequency : EMITk Type Frequency band 46 Hz to 45000 Hz Adaptive input 20W ~ 100W Output sound pressure level 87dB/W/m Crossover frequency 4500Hz Impedance 4 Ω External dimensions Width 431x Height 266x Depth 228 mm | Weight 8.5kg",
+        "description": "Audio Database INFINITY RS-5Kappa ¥ 85,000 (1 unit, around 1990) Commentary This is a full-scale monitor size 2-way speaker system that achieves high quality and wide range within the limitation of small size. A 16.5 cm diameter IMG (Injection molded graphite) woofer that uses glassite reinforced polypropylene is used for the low range, and it realizes a realistic low sound with less distortion. The EMITk Tweeter is used for the high range. The EMI-type (Electro Magnetic Induction) speaker uses a lightweight diaphragm directly driven by a strong magnetic field, which in principle makes it possible to achieve excellent transient response and low distortion. The EMITk Tweeter used in the RS-5KAPPA uses a Lomas Kapton membrane diaphragm and rare-earth neodymium magnet to achieve high sound without distortion while achieving wide range reproduction. Each part of the network is selected through repeated computer design and listening experiments. In the lower range, Infiniti&#39;s original L/C tuning circuit is installed to extend the lower range playback limit. The enclosure is a closed, shapely round baffle with a natural oak finish from carefully selected materials and matte-coated coated baffle that concentrates Infiniti&#39;s technology into details. Model Rating Method 2-Way, 2-Speaker, Airtight Type, Bookshelf Type Units Used For low band : 16.5 cm cone type For High Frequency : EMITk Type Frequency band 46 Hz to 45000 Hz Adaptive input 20W ~ 100W Output sound pressure level 87dB/W/m Crossover frequency 4500Hz Impedance 4 Ω External dimensions Width 431x Height 266x Depth 228 mm Weight 8.5kg"
     },
     {
-        "id":  "infinity-rs-a",
-        "name":  "RS-A",
-        "url":  "https://audio-database.com/INFINITY/speaker/rs-a-e.html",
-        "sub_category":  "",
-        "sections":  {
-                         "specifications":  "Method: 2-Way, 2-Speaker, Airtight Type, Bookshelf Type | Units Used: For low band : 25 cm cone typeFor High Frequency : Full Drive Type (EMIT) | Frequency band: 45 Hz ~ 32000 Hz | Rated input: 75W | Amplifier recommended output: 25W ~ 150W/ch | Output sound pressure level: 89dB/W/m | Crossover frequency: 3000Hz | Impedance: 4 | External dimensions: Width 350x Height 630x Depth 250 mm | Weight: 18kg",
-                         "title":  "INFINITY RS-A",
-                         "overview":  "This 2-way speaker system uses Infiniti\u0027s original EMIT tweeter.A 25 cm cone type woofer is installed in the low range.Polypropylene is used for the cone part, and the Q of general paper cone is as low as 7 ~ 9 compared to 80 ~ 100, and it reduces waving phenomenon and deflection of the cone and prevents muddy sound.The high-range is equipped with EMIT (Electromagnetic Induction Tweeter), a full-drive type tweeter originally developed by Infiniti.Samarium-cobalt, the most powerful magnetic material, is a full-surface drive type sandwiched by ultra-thin and ultra-lightweight plastic diaphragms, achieving excellent high-frequency reproduction."
-                     },
-        "category":  "SPEAKER",
-        "brandId":  "infinity",
-        "image_url":  "https://audio-database.com/rs-a.JPG",
-        "original_price":  "¥58000",
-        "release_year":  "1980",
-        "verified":  true
+        "id": "infinity-rs-a",
+        "name": "RS-A",
+        "url": "https://audio-database.com/INFINITY/speaker/rs-a-e.html",
+        "sub_category": "",
+        "sections": {
+            "specifications": "Method: 2-Way, 2-Speaker, Airtight Type, Bookshelf Type | Units Used: For low band : 25cm cone typeFor High Frequency : Full Drive Type (EMIT) | Frequency band: 45Hz ~ 32000Hz | Rated input: 75W | Amplifier recommended output: 25W ~ 150W/ch | Output sound pressure level: 89dB/W/m | Crossover frequency: 3000Hz | Impedance: 4| External dimensions: Width 350x Height 630x Depth 250mm | Weight: 18kg",
+            "title": "INFINITY RS-A",
+            "overview": "This 2-way speaker system uses Infiniti'Ωs original EMIT tweeter.A 25cm cone type woofer is installed in the low range.Polypropylene is used for the cone part, and the Q of general paper cone is as low as 7~ 9compared to 80~ 100, and it reduces waving phenomenon and deflection of the cone and prevents muddy sound.The high-range is equipped with EMIT (Electromagnetic Induction Tweeter), a full-drive type tweeter originally developed by Infiniti.Samarium-cobalt, the most powerful magnetic material, is a full-surface drive type sandwiched by ultra-thin and ultra-lightweight plastic diaphragms, achieving excellent high-frequency reproduction."
+        },
+        "category": "SPEAKER",
+        "brandId": "infinity",
+        "image_url": "https://audio-database.com/rs-a.JPG",
+        "original_price": "¥58000",
+        "release_year": "1980",
+        "verified": true,
+        "specifications": "Method 2-Way, 2-Speaker, Airtight Type, Bookshelf Type Units Used For low band : 25 cm cone type For High Frequency : Full Drive Type (EMIT) Frequency band 45 Hz ~ 32000 Hz Rated input 75W Amplifier recommended output 25W ~ 150W/ch Output sound pressure level 89dB/W/m Crossover frequency 3000Hz Impedance 4 Ω External dimensions Width 350x Height 630x Depth 250 mm | Weight 18kg",
+        "description": "Audio Database INFINITY RS-a ¥ 58,000 (1 unit, around 1980) Commentary This 2-way speaker system uses Infiniti&#39;s original EMIT tweeter. A 25 cm cone type woofer is installed in the low range. Polypropylene is used for the cone part, and the Q of general paper cone is as low as 7 ~ 9 compared to 80 ~ 100, and it reduces waving phenomenon and deflection of the cone and prevents muddy sound. The high-range is equipped with EMIT (Electromagnetic Induction Tweeter), a full-drive type tweeter originally developed by Infiniti. Samarium-cobalt, the most powerful magnetic material, is a full-surface drive type sandwiched by ultra-thin and ultra-lightweight plastic diaphragms, achieving excellent high-frequency reproduction. Model Rating Method 2-Way, 2-Speaker, Airtight Type, Bookshelf Type Units Used For low band : 25 cm cone type For High Frequency : Full Drive Type (EMIT) Frequency band 45 Hz ~ 32000 Hz Rated input 75W Amplifier recommended output 25W ~ 150W/ch Output sound pressure level 89dB/W/m Crossover frequency 3000Hz Impedance 4 Ω External dimensions Width 350x Height 630x Depth 250 mm Weight 18kg"
     },
     {
-        "id":  "infinity-rs",
-        "name":  "RS",
-        "url":  "https://audio-database.com/INFINITY/speaker/rs-b-e.html",
-        "sub_category":  "",
-        "sections":  {
-                         "specifications":  "Method: 3-Way, 3-Speaker, Airtight Type, Bookshelf Type | Units Used: For low band : 25 cm cone typeFor Medium Range : 12.5 cm Cone TypeFor High Frequency : Full Drive Type (EMIT) | Frequency band: 45 Hz ~ 32000 Hz | Rated input: 100W | Amplifier recommended output: 25W ~ 150W/ch | Output sound pressure level: 89dB/W/m | Crossover frequency: 600 Hz, 4000 Hz | Impedance: 4 | External dimensions: Width 350x Height 630x Depth 250 mm | Weight: 19.5kg",
-                         "title":  "INFINITY RS",
-                         "overview":  "This 3-way speaker system uses Infiniti\u0027s original EMIT tweeter.A 25 cm cone type woofer is installed in the low range.Polypropylene is used for the cone part, and the Q of general paper cone is as low as 7 ~ 9 compared to 80 ~ 100, and it reduces waving phenomenon and deflection of the cone and prevents muddy sound.The mid-range is equipped with a 12.5 cm cone type mid-range.Polypropylene is used for the cone part as well as the low frequency part.The high-range is equipped with EMIT (Electromagnetic Induction Tweeter), a full-drive type tweeter originally developed by Infiniti.Samarium-cobalt, the most powerful magnetic material, is a full-surface drive type sandwiched by ultra-thin and ultra-lightweight plastic diaphragms, achieving excellent high-frequency reproduction."
-                     },
-        "category":  "SPEAKER",
-        "brandId":  "infinity",
-        "image_url":  "https://audio-database.com/rs-b.JPG",
-        "original_price":  "¥79000",
-        "release_year":  "1980",
-        "verified":  true
+        "id": "infinity-rs",
+        "name": "RS",
+        "url": "https://audio-database.com/INFINITY/speaker/rs-b-e.html",
+        "sub_category": "",
+        "sections": {
+            "specifications": "Method: 3-Way, 3-Speaker, Airtight Type, Bookshelf Type | Units Used: For low band : 25cm cone typeFor Medium Range : 12.5cm Cone TypeFor High Frequency : Full Drive Type (EMIT) | Frequency band: 45Hz ~ 32000Hz | Rated input: 100W | Amplifier recommended output: 25W ~ 150W/ch | Output sound pressure level: 89dB/W/m | Crossover frequency: 600Hz, 4000Hz | Impedance: 4| External dimensions: Width 350x Height 630x Depth 250mm | Weight: 19.5kg",
+            "title": "INFINITY RS",
+            "overview": "This 3-way speaker system uses Infiniti'Ωs original EMIT tweeter.A 25cm cone type woofer is installed in the low range.Polypropylene is used for the cone part, and the Q of general paper cone is as low as 7~ 9compared to 80~ 100, and it reduces waving phenomenon and deflection of the cone and prevents muddy sound.The mid-range is equipped with a 12.5cm cone type mid-range.Polypropylene is used for the cone part as well as the low frequency part.The high-range is equipped with EMIT (Electromagnetic Induction Tweeter), a full-drive type tweeter originally developed by Infiniti.Samarium-cobalt, the most powerful magnetic material, is a full-surface drive type sandwiched by ultra-thin and ultra-lightweight plastic diaphragms, achieving excellent high-frequency reproduction."
+        },
+        "category": "SPEAKER",
+        "brandId": "infinity",
+        "image_url": "https://audio-database.com/rs-b.JPG",
+        "original_price": "¥79000",
+        "release_year": "1980",
+        "verified": true,
+        "specifications": "Method 3-Way, 3-Speaker, Airtight Type, Bookshelf Type Units Used For low band : 25 cm cone type For Medium Range : 12.5 cm Cone Type For High Frequency : Full Drive Type (EMIT) Frequency band 45 Hz ~ 32000 Hz Rated input 100W Amplifier recommended output 25W ~ 150W/ch Output sound pressure level 89dB/W/m Crossover frequency 600 Hz, 4000 Hz Impedance 4 Ω External dimensions Width 350x Height 630x Depth 250 mm | Weight 19.5kg",
+        "description": "Audio Database INFINITY RS-b ¥ 79,000 (1 unit, around 1980) Commentary This 3-way speaker system uses Infiniti&#39;s original EMIT tweeter. A 25 cm cone type woofer is installed in the low range. Polypropylene is used for the cone part, and the Q of general paper cone is as low as 7 ~ 9 compared to 80 ~ 100, and it reduces waving phenomenon and deflection of the cone and prevents muddy sound. The mid-range is equipped with a 12.5 cm cone type mid-range. Polypropylene is used for the cone part as well as the low frequency part. The high-range is equipped with EMIT (Electromagnetic Induction Tweeter), a full-drive type tweeter originally developed by Infiniti. Samarium-cobalt, the most powerful magnetic material, is a full-surface drive type sandwiched by ultra-thin and ultra-lightweight plastic diaphragms, achieving excellent high-frequency reproduction. Model Rating Method 3-Way, 3-Speaker, Airtight Type, Bookshelf Type Units Used For low band : 25 cm cone type For Medium Range : 12.5 cm Cone Type For High Frequency : Full Drive Type (EMIT) Frequency band 45 Hz ~ 32000 Hz Rated input 100W Amplifier recommended output 25W ~ 150W/ch Output sound pressure level 89dB/W/m Crossover frequency 600 Hz, 4000 Hz Impedance 4 Ω External dimensions Width 350x Height 630x Depth 250 mm Weight 19.5kg"
     },
     {
-        "id":  "infinity-rs-m",
-        "name":  "RS-M",
-        "url":  "https://audio-database.com/INFINITY/speaker/rs-m-e.html",
-        "sub_category":  "",
-        "sections":  {
-                         "specifications":  "Method: 3-Way, 3-Speaker, Airtight Type, Bookshelf Type | Units Used: For low band : 30 cm cone typeFor Medium Range : 12.5 cm Cone TypeFor High Frequency : Full Drive Type (EMIT) | Frequency band: 43 Hz to 32000 Hz | Rated input: 125W | Amplifier recommended output: 35W ~ 250W/ch | Output sound pressure level: 90dB/W/m | Crossover frequency: 500 Hz, 5000 Hz | Impedance: 4 | External dimensions: Width 380x Height 670x Depth 254 mm | Weight: 22.7kg",
-                         "title":  "INFINITY RS-M",
-                         "overview":  "This is a speaker system introduced as Reference Studio Monitor with Infiniti\u0027s original technology.A 30 cm cone type woofer is installed in the low range.Polypropylene is used for the cone part, and the Q of general paper cone is as low as 7 ~ 9 compared to 80 ~ 100, and it reduces waving phenomenon and deflection of the cone and prevents muddy sound.The mid-range is equipped with a 12.5 cm cone type mid-range.Polypropylene is used for the cone part as well as the low frequency part.The high-range is equipped with EMIT (Electromagnetic Induction Tweeter), a full-drive type tweeter originally developed by Infiniti.Samarium-cobalt, the most powerful magnetic material, is a full-surface drive type sandwiched by ultra-thin and ultra-lightweight plastic diaphragms, achieving excellent high-frequency reproduction."
-                     },
-        "category":  "SPEAKER",
-        "brandId":  "infinity",
-        "image_url":  "https://audio-database.com/rs-m.JPG",
-        "original_price":  "¥108000",
-        "release_year":  "1980",
-        "verified":  true
+        "id": "infinity-rs-m",
+        "name": "RS-M",
+        "url": "https://audio-database.com/INFINITY/speaker/rs-m-e.html",
+        "sub_category": "",
+        "sections": {
+            "specifications": "Method: 3-Way, 3-Speaker, Airtight Type, Bookshelf Type | Units Used: For low band : 30cm cone typeFor Medium Range : 12.5cm Cone TypeFor High Frequency : Full Drive Type (EMIT) | Frequency band: 43Hz to 32000Hz | Rated input: 125W | Amplifier recommended output: 35W ~ 250W/ch | Output sound pressure level: 90dB/W/m | Crossover frequency: 500Hz, 5000Hz | Impedance: 4| External dimensions: Width 380x Height 670x Depth 254mm | Weight: 22.7kg",
+            "title": "INFINITY RS-M",
+            "overview": "This is a speaker system introduced as Reference Studio Monitor with Infiniti'Ωs original technology.A 30cm cone type woofer is installed in the low range.Polypropylene is used for the cone part, and the Q of general paper cone is as low as 7~ 9compared to 80~ 100, and it reduces waving phenomenon and deflection of the cone and prevents muddy sound.The mid-range is equipped with a 12.5cm cone type mid-range.Polypropylene is used for the cone part as well as the low frequency part.The high-range is equipped with EMIT (Electromagnetic Induction Tweeter), a full-drive type tweeter originally developed by Infiniti.Samarium-cobalt, the most powerful magnetic material, is a full-surface drive type sandwiched by ultra-thin and ultra-lightweight plastic diaphragms, achieving excellent high-frequency reproduction."
+        },
+        "category": "SPEAKER",
+        "brandId": "infinity",
+        "image_url": "https://audio-database.com/rs-m.JPG",
+        "original_price": "¥108000",
+        "release_year": "1980",
+        "verified": true,
+        "specifications": "Method 3-Way, 3-Speaker, Airtight Type, Bookshelf Type Units Used For low band : 30 cm cone type For Medium Range : 12.5 cm Cone Type For High Frequency : Full Drive Type (EMIT) Frequency band 43 Hz to 32000 Hz Rated input 125W Amplifier recommended output 35W ~ 250W/ch Output sound pressure level 90dB/W/m Crossover frequency 500 Hz, 5000 Hz Impedance 4 Ω External dimensions Width 380x Height 670x Depth 254 mm | Weight 22.7kg",
+        "description": "Audio Database INFINITY RS-M ¥ 108,000 (1 unit, around 1980) Commentary This is a speaker system introduced as Reference Studio Monitor with Infiniti&#39;s original technology. A 30 cm cone type woofer is installed in the low range. Polypropylene is used for the cone part, and the Q of general paper cone is as low as 7 ~ 9 compared to 80 ~ 100, and it reduces waving phenomenon and deflection of the cone and prevents muddy sound. The mid-range is equipped with a 12.5 cm cone type mid-range. Polypropylene is used for the cone part as well as the low frequency part. The high-range is equipped with EMIT (Electromagnetic Induction Tweeter), a full-drive type tweeter originally developed by Infiniti. Samarium-cobalt, the most powerful magnetic material, is a full-surface drive type sandwiched by ultra-thin and ultra-lightweight plastic diaphragms, achieving excellent high-frequency reproduction. Model Rating Method 3-Way, 3-Speaker, Airtight Type, Bookshelf Type Units Used For low band : 30 cm cone type For Medium Range : 12.5 cm Cone Type For High Frequency : Full Drive Type (EMIT) Frequency band 43 Hz to 32000 Hz Rated input 125W Amplifier recommended output 35W ~ 250W/ch Output sound pressure level 90dB/W/m Crossover frequency 500 Hz, 5000 Hz Impedance 4 Ω External dimensions Width 380x Height 670x Depth 254 mm Weight 22.7kg"
     },
     {
-        "id":  "infinity-centerchannel",
-        "name":  "CENTERCHANNEL",
-        "url":  "https://audio-database.com/INFINITY/speaker/centerchannel-e.html",
-        "sub_category":  "",
-        "sections":  {
-                         "specifications":  "Method: Built-in Amplifier / 1-Way / 1-Speaker / Bass Reflex System / Floor Type / Anti-magnetic Design | Units Used: For low band : 30 cm cone type | Amplifier output: 150W | Playback frequency band: 30 Hz to 150 kHz 3 dB | Crossover frequency: 50 Hz ~ 150 Hz (Continuously Variable) | Power supply voltage: 120V* 100 V conversion transformer included | External dimensions: Width 368x Height 368x Depth 368 mm (Excluding Foot)Foot Height : 45 mm | Weight: 19.5kg",
-                         "title":  "INFINITY CENTERCHANNEL",
-                         "overview":  "Active subwoofer with a built-in power amplifier.The unit is equipped with 30 cm cone type woofer.The amplifier section has a volume control function.The crossover frequency can be continuously variable.The enclosure uses a bass reflex system.Also, the exterior is finished in black.Power supply voltage conversion transformer (100 ? 120 V) is attached."
-                     },
-        "category":  "SPEAKER",
-        "brandId":  "infinity",
-        "image_url":  "https://audio-database.com/bu-120.jpg",
-        "original_price":  "¥75000",
-        "release_year":  "2001",
-        "verified":  true
+        "id": "infinity-centerchannel",
+        "name": "CENTERCHANNEL",
+        "url": "https://audio-database.com/INFINITY/speaker/centerchannel-e.html",
+        "sub_category": "",
+        "sections": {
+            "specifications": "Method: Built-in Amplifier / 1-Way / 1-Speaker / Bass Reflex System / Floor Type / Anti-magnetic Design | Units Used: For low band : 30cm cone type | Amplifier output: 150W | Playback frequency band: 30Hz to 150kHz 3dB | Crossover frequency: 50Hz ~ 150Hz (Continuously Variable) | Power supply voltage: 120V* 100V conversion transformer included | External dimensions: Width 368x Height 368x Depth 368mm (Excluding Foot)Foot Height : 45mm | Weight: 19.5kg",
+            "title": "INFINITY CENTERCHANNEL",
+            "overview": "Active subwoofer with a built-in power amplifier.The unit is equipped with 30cm cone type woofer.The amplifier section has a volume control function.The crossover frequency can be continuously variable.The enclosure uses a bass reflex system.Also, the exterior is finished in black.Power supply voltage conversion transformer (100? 120V) is attached."
+        },
+        "category": "SPEAKER",
+        "brandId": "infinity",
+        "image_url": "https://audio-database.com/bu-120.jpg",
+        "original_price": "¥75000",
+        "release_year": "2001",
+        "verified": true,
+        "specifications": "Method Built-in Amplifier / 1-Way / 1-Speaker / Bass Reflex | System / Floor Type / Anti-magnetic Design Units Used For low band : 30 cm cone type Amplifier output 150W Playback frequency band 30 Hz to 150 kHz ± 3 dB Crossover frequency 50 Hz ~ 150 Hz (Continuously Variable) Power supply voltage 120V * 100 V conversion transformer included External dimensions Width 368x Height 368x Depth 368 mm (Excluding Foot) Foot Height : 45 mm | Weight 19.5kg",
+        "description": "Audio Database INFINITY BU-120 ¥ 75,000 (around 2001) Commentary Active subwoofer with a built-in power amplifier. The unit is equipped with 30 cm cone type woofer. The amplifier section has a volume control function. The crossover frequency can be continuously variable. The enclosure uses a bass reflex system. Also, the exterior is finished in black. Power supply voltage conversion transformer (100 → 120 V) is attached. Model Rating Method Built-in Amplifier / 1-Way / 1-Speaker / Bass Reflex System / Floor Type / Anti-magnetic Design Units Used For low band : 30 cm cone type Amplifier output 150W Playback frequency band 30 Hz to 150 kHz ± 3 dB Crossover frequency 50 Hz ~ 150 Hz (Continuously Variable) Power supply voltage 120V * 100 V conversion transformer included External dimensions Width 368x Height 368x Depth 368 mm (Excluding Foot) Foot Height : 45 mm Weight 19.5kg"
     },
     {
-        "id":  "infinity-kappavideo",
-        "name":  "KAPPAVIDEO",
-        "url":  "https://audio-database.com/INFINITY/speaker/kappavideo-e.html",
-        "sub_category":  "",
-        "sections":  {
-                         "specifications":  "Method: 2-way, 3-speaker, bass reflex system, magnetic protection design | Units Used: For low band : 13 cm cone x2For High Frequency : Flat Type | Frequency characteristic: 90 Hz to 35 kHz 2 dB | Input impedance: 6 | Output sound pressure level: 89dB/2.8Vrms | Allowable input: 150W | Crossover frequency: 4kHz | External dimensions: Width 527x Height 206x Depth 160 mm | Weight: 6.2kg",
-                         "title":  "INFINITY KAPPAVIDEO",
-                         "overview":  "This is a center speaker with new Kappa series technology.Anti-magnetic design is applied for AV applications.Two 13 cm cone type woofers with IMG cone are installed in the lower range.This IMG cone is made of a composite material of graphite fiber and polypropylene. It is molded under high pressure (injection molding) with high sound frequency. The graphite fibers are arranged radially from the center to the outer circumference, so that the non-deformation operating region of the cone is large and there is no breakup of the cone.In addition, it uses a specially designed Kirby linear cone (adding strength to the piston during motion) and a newly designed inverted dust cap to increase the strength, minimizing the deformation of the cone even under high power conditions.The New Kappa series is lighter and more rigid than the conventional IMG cone (10% lighter and 5% harder than the conventional one), and uses   133x19mm magnet and cotton thread wire for the magnetic circuit.A plane drive type EMIT-R tweeter with a circular diaphragm is mounted in the high range.The flat diaphragm of the EMIT-R tweeter uses an ultra-thin KAPTON film. An annular voice coil is photo-etched on its surface to form a vibration film, which is combined with a magnetic circuit of a special shape to directly drive the diaphragm.As a result, flat frequency characteristics and wide-directional characteristics are obtained.The enclosure uses a column-shaped polygonal cabinet to minimize the effects of internal standing waves.In addition, it can be mounted on ceiling or wall surface.There was also the Black Oak model as an order model."
-                     },
-        "category":  "SPEAKER",
-        "brandId":  "infinity",
-        "image_url":  "https://audio-database.com/kappavideo.JPG",
-        "original_price":  "¥60000",
-        "release_year":  "1993",
-        "verified":  true
+        "id": "infinity-kappavideo",
+        "name": "KAPPAVIDEO",
+        "url": "https://audio-database.com/INFINITY/speaker/kappavideo-e.html",
+        "sub_category": "",
+        "sections": {
+            "specifications": "Method: 2-way, 3-speaker, bass reflex system, magnetic protection design | Units Used: For low band : 13cm cone x2For High Frequency : Flat Type | Frequency characteristic: 90Hz to 35kHz 2dB | Input impedance: 6| Output sound pressure level: 89dB/2.8Vrms | Allowable input: 150W | Crossover frequency: 4kHz | External dimensions: Width 527x Height 206x Depth 160mm | Weight: 6.2kg",
+            "title": "INFINITY KAPPAVIDEO",
+            "overview": "This is a center speaker with new Kappa series technology.Anti-magnetic design is applied for AV applications.Two 13cm cone type woofers with IMG cone are installed in the lower range.This IMG cone is made of a composite material of graphite fiber and polypropylene. It is molded under high pressure (injection molding) with high sound frequency. The graphite fibers are arranged radially from the center to the outer circumference, so that the non-deformation operating region of the cone is large and there is no breakup of the cone.In addition, it uses a specially designed Kirby linear cone (adding strength to the piston during motion) and a newly designed inverted dust cap to increase the strength, minimizing the deformation of the cone even under high power conditions.The New Kappa series is lighter and more rigid than the conventional IMG cone (10% lighter and 5% harder than the conventional one), and uses   133x19mm magnet and cotton thread wire for the magnetic circuit.A plane drive type EMIT-R tweeter with a circular diaphragm is mounted in the high range.The flat diaphragm of the EMIT-R tweeter uses an ultra-thin KAPTON film. An annular voice coil is photo-etched on its surface to form a vibration film, which is combined with a magnetic circuit of a special shape to directly drive the diaphragm.As a result, flat frequency characteristics and wide-directional characteristics are obtained.The enclosure uses a column-shaped polygonal cabinet to minimize the effects of internal standing waves.In addition, it can be mounted on ceiling or wall surface.There was also the Black Oak model as an order model."
+        },
+        "category": "SPEAKER",
+        "brandId": "infinity",
+        "image_url": "https://audio-database.com/kappavideo.JPG",
+        "original_price": "¥60000",
+        "release_year": "1993",
+        "verified": true,
+        "specifications": "Method 2-way, 3-speaker, bass reflex system, magnetic protection design Units Used For low band : 13 cm cone x2 For High Frequency : Flat Type Frequency characteristic 90 Hz to 35 kHz ± 2 dB Input impedance 6 Ω Output sound pressure level 89dB/2.8Vrms Allowable input 150W Crossover frequency 4kHz External dimensions Width 527x Height 206x Depth 160 mm | Weight 6.2kg",
+        "description": "Audio Database INFINITY Kappa Video ¥ 60,000 (1 unit, around 1993) Commentary This is a center speaker with new Kappa series technology. Anti-magnetic design is applied for AV applications. Two 13 cm cone type woofers with IMG cone are installed in the lower range. This IMG cone is made of a composite material of graphite fiber and polypropylene. It is molded under high pressure (injection molding) with high sound frequency. The graphite fibers are arranged radially from the center to the outer circumference, so that the non-deformation operating region of the cone is large and there is no breakup of the cone. In addition, it uses a specially designed Kirby linear cone (adding strength to the piston during motion) and a newly designed inverted dust cap to increase the strength, minimizing the deformation of the cone even under high power conditions. The New Kappa series is lighter and more rigid than the conventional IMG cone (10% lighter and 5% harder than the conventional one), and uses φ 133x19mm magnet and cotton thread wire for the magnetic circuit. A plane drive type EMIT-R tweeter with a circular diaphragm is mounted in the high range. The flat diaphragm of the EMIT-R tweeter uses an ultra-thin KAPTON film. An annular voice coil is photo-etched on its surface to form a vibration film, which is combined with a magnetic circuit of a special shape to directly drive the diaphragm. As a result, flat frequency characteristics and wide-directional characteristics are obtained. The enclosure uses a column-shaped polygonal cabinet to minimize the effects of internal standing waves. In addition, it can be mounted on ceiling or wall surface. There was also the Black Oak model as an order model. Model Rating Method 2-way, 3-speaker, bass reflex system, magnetic protection design Units Used For low band : 13 cm cone x2 For High Frequency : Flat Type Frequency characteristic 90 Hz to 35 kHz ± 2 dB Input impedance 6 Ω Output sound pressure level 89dB/2.8Vrms Allowable input"
     }
 ]

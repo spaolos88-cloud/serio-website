@@ -1,17 +1,21 @@
-﻿{
-    "url":  "https://audio-database.com/ACOUSTICARTS(eng)/speaker/amphora.html",
-    "sections":  {
-                     "specifications":  "\"Method: 3-Way, 3-Speaker, Airtight System, Floor Type | Units, etc.: For low band : 20 cm cone typeFor Medium Range : 12 cm cone typeFor high-pass : 2.5 cm dome type | Frequency characteristic: 36 Hz to 20 kHz | Impedance: 8 | Output sound pressure level: 86dB/W/m | Max Input: 220W | Crossover frequency: 400 Hz, 2.5 kHz | External dimensions: Diameter 350x Height 905 mm | Weight: 16.0kg\"",
-                     "title":  "ACOUSTICARTS(eng) Acoustic",
-                     "overview":  "\"Non-directional speaker system using ceramic deflector.AMPHA means an acupressure point with both handles made in the ancient Greek period.It features a 20 cm cone woofer in the low range, a 12 cm cone mid-range in the middle range and a 2.5 cm dome tweeter in the high range. Each unit is mounted horizontally and is surrounded by a ceramic deflector in the center for sound reproduction.There are 2 variations of the appearance, black and white.\""
-                 },
-    "sub_category":  "",
-    "id":  "acousticartseng-acoustic",
-    "category":  "SPEAKER",
-    "name":  "Acoustic",
-    "verified":  true,
-    "brandId":  "acousticartseng",
-    "image_url":  "https://audio-database.com/amphora.jpg",
-    "original_price":  "¥260000",
-    "release_year":  "1991"
-}
+[
+    {
+        "url": "https://audio-database.com/ACOUSTICARTS(eng)/speaker/amphora.html",
+        "sections": {
+            "specifications": "\"Method: 3-Way, 3-Speaker, Airtight System, Floor Type | Units, etc.: For low band : 20cm cone typeFor Medium Range : 12cm cone typeFor high-pass : 2.5cm dome type | Frequency characteristic: 36Hz to 20kHz | Impedance: 8| Output sound pressure level: 86dB/W/m | Max Input: 220W | Crossover frequency: 400Hz, 2.5kHz | External dimensions: Diameter 350x Height 905mm | Weight: 16.0kg\"",
+            "title": "ACOUSTICARTS(eng) Acoustic",
+            "overview": "\"Non-directional speaker system using ceramic deflector.AMPHA means an acupressure point with both handles made in the ancient Greek period.It features a 20cm cone woofer in the low range, a 12cm cone mid-range in the middle range and a 2.5cm dome tweeter in the high range. Each unit is mounted horizontally and is surrounded by a ceramic deflector in the center for sound reproduction.There are 2variations of the appearance, black and white.\""
+        },
+        "sub_category": "",
+        "id": "acousticartseng-acoustic",
+        "category": "SPEAKER",
+        "name": "Acoustic",
+        "verified": true,
+        "brandId": "acousticartseng",
+        "image_url": "https://audio-database.com/amphora.jpg",
+        "original_price": "¥260000",
+        "release_year": "1991",
+        "specifications": "Method 3-Way, 3-Speaker, Airtight | System, Floor Type Units, etc. For low band : 20 cm cone type For Medium Range : 12 cm cone type For high-pass : 2.5 cm dome type Frequency characteristic 36 Hz to 20 kHz Impedance 8 Ω Output sound pressure level 86dB/W/m Max Input 220W Crossover frequency 400 Hz, 2.5 kHz External dimensions Diameter 350x Height 905 mm | Weight 16.0kg",
+        "description": "Audio Database ACOUSTIC ARTS AMPHORA ¥ 260,000 (1 unit, around 1991) Commentary Non-directional speaker system using ceramic deflector. AMPHA means an acupressure point with both handles made in the ancient Greek period. It features a 20 cm cone woofer in the low range, a 12 cm cone mid-range in the middle range and a 2.5 cm dome tweeter in the high range. Each unit is mounted horizontally and is surrounded by a ceramic deflector in the center for sound reproduction. There are 2 variations of the appearance, black and white. Model Rating Method 3-Way, 3-Speaker, Airtight System, Floor Type Units, etc. For low band : 20 cm cone type For Medium Range : 12 cm cone type For high-pass : 2.5 cm dome type Frequency characteristic 36 Hz to 20 kHz Impedance 8 Ω Output sound pressure level 86dB/W/m Max Input 220W Crossover frequency 400 Hz, 2.5 kHz External dimensions Diameter 350x Height 905 mm Weight 16.0kg"
+    }
+]

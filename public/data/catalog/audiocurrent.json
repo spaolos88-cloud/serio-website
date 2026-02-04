@@ -1,14 +1,16 @@
-﻿{
-    "url":  "https://audio-database.com/AUDIOCURRENT/amp/partitac2.html",
-    "name":  "Audio",
-    "id":  "audiocurrent-audio",
-    "original_price":  "¥550000",
-    "category":  "Amplifiers",
-    "description":  "\"As the second version of the control amplifier, this control amplifier was designed to be combined with the power amplifier Partita P2.A 3-stage direct connection circuit is adopted for the circuit structure.In order to maximize the potential of this circuit, it is tuned up acoustically and electrically. In particular, the sound quality is improved by eliminating the normally common-sense NF circuit capacitors. Therefore, only two DC (direct current) rejection capacitors, the input and output, are used.All transistors are made by Motorola for the reason of sound quality.30 transistors are used for the main circuit.Overseas products are also actively used in ICs and LEDs.For the main circuit (signal amplification circuit), we put priority on performance over price. We are not particular about domestic parts. For example, two ICs are made by Motorola and six LEDs are made by HP.MIL-grade Teflon film capacitor is used for the input part, and MIL-grade polypropylene capacitor is used for the output part.A MIL-grade 4-terminal electrolytic capacitor is used for the power supply.The base of the main circuit is fixed to a 5 mm brass plate with 18 screws to improve stability against vibration.This is based on several years of experience in designing module amplifiers.The material of the knob has been changed from aluminum to heavy brass, considering stabilization against vibration of the volume contact.Equipped with an attenuator switch, it can be easily controlled at low volume when combined with a high-gain power amplifier or efficiency speaker.The power transformer uses a low-pass filter circuit similar to the ALT series.MIL-grade Teflon coated wire (made by Berden) is used for the wiring material.Manual soldering is used.In the design of ParitaC2, a circuit is tuned to electrically reflect the results of the hearing test. In the tuning, there are 24 acoustic points per channel, and each point is tuned to approximate the tone that is being sought while the music is played by the hearing test.The Phono input is provided, but no equalizer amplifier is provided.\"",
-    "sub_category":  "",
-    "brandId":  "audiocurrent",
-    "specifications":  "\"Type: Control amplifier | Frequency characteristic: 5 Hz to 100 kHz -1dB (1 v, 10k � load) | Maximum power output: 3 V (1 kHz, THD 0.007% or less, 10k � load) | Input terminal: Phono EQ, CD, Tuner, Aux1/2/3* Phono EQ does not have an equalizer circuit | Tape monitor circuit: 1 Circuit | Input impedance: 20k � | Gain: 16dB | Recording out / off circuit: Equipped with Rec out off switch | Attenuator circuit: -6dB | External dimensions: Width 430x Height 72x Depth 320 mm | Weight: 7.9kg\"",
-    "release_year":  "1996",
-    "verified":  true,
-    "image_url":  "https://audio-database.com/AUDIOCURRENT/amp/partitac2.jpg"
-}
+[
+    {
+        "url": "https://audio-database.com/AUDIOCURRENT/amp/partitac2.html",
+        "name": "Audio",
+        "id": "audiocurrent-audio",
+        "original_price": "¥550000",
+        "category": "Amplifiers",
+        "description": "## Description\n\n\"As the second version of the control amplifier, this control amplifier was designed to be combined with the power amplifier Partita P2.A 3-stage direct connection circuit is adopted for the circuit structure.In order to maximize the potential of this circuit, it is tuned up acoustically and electrically. In particular, the sound quality is improved by eliminating the normally common-sense NF circuit capacitors. Therefore, only two DC (direct current) rejection capacitors, the input and output, are used.All transistors are made by Motorola for the reason of sound quality.30transistors are used for the main circuit.Overseas products are also actively used in ICs and LEDs.For the main circuit (signal amplification circuit), we put priority on performance over price. We are not particular about domestic parts. For example, two ICs are made by Motorola and six LEDs are made by HP.MIL-grade Teflon film capacitor is used for the input part, and MIL-grade polypropylene capacitor is used for the output part.A MIL-grade 4-terminal electrolytic capacitor is used for the power supply.The base of the main circuit is fixed to a 5mm brass plate with 18screws to improve stability against vibration.This is based on several years of experience in designing module amplifiers.The material of the knob has been changed from aluminum to heavy brass, considering stabilization against vibration of the volume contact.Equipped with an attenuator switch, it can be easily controlled at low volume when combined with a high-gain power amplifier or efficiency speaker.The power transformer uses a low-pass filter circuit similar to the ALT series.MIL-grade Teflon coated wire (made by Berden) is used for the wiring material.Manual soldering is used.In the design of ParitaC2, a circuit is tuned to electrically reflect the results of the hearing test. In the tuning, there are 24acoustic points per channel, and each point is tuned to approximate the tone that is being sought while the music is played by the hearing test.The Phono input is provided, but no equalizer amplifier is provided.\"",
+        "sub_category": "",
+        "brandId": "audiocurrent",
+        "specifications": "\"Type: Control amplifier | Frequency characteristic: 5Hz to 100kHz -1dB (1v, 10k � load) | Maximum power output: 3V (1kHz, THD 0.007% or less, 10k � load) | Input terminal: Phono EQ, CD, Tuner, Aux1/2/3* Phono EQ does not have an equalizer circuit | Tape monitor circuit: 1Circuit | Input impedance: 20k � | Gain: 16dB | Recording out / off circuit: Equipped with Rec out off switch | Attenuator circuit: -6dB | External dimensions: Width 430x Height 72x Depth 320mm | Weight: 7.9kg\"",
+        "release_year": "1996",
+        "verified": true,
+        "image_url": "https://audio-database.com/AUDIOCURRENT/amp/partitac2.jpg"
+    }
+]

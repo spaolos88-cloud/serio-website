@@ -1,1 +1,16 @@
-﻿{"url":"","name":"https://audio-database.com/YAMAHA/speaker/ns-620.html","id":"configuration-examples-at-that-time-player-yp-700-stereo-receiver-cr-700-speaker-ns-620-https:--audio-databasecom-yamaha-speaker-ns-620html","original_price":"","category":"General","description":"","sub_category":"","brandId":"configuration-examples-at-that-time-player-yp-700-stereo-receiver-cr-700-speaker-ns-620","specifications":"","release_year":"","verified":false,"image_url":""}
+[
+    {
+        "url": "https://audio-database.com/YAMAHA/speaker/ns-620.html",
+        "name": "ns-620",
+        "id": "configuration-examples-at-that-time-player-yp-700-stereo-receiver-cr-700-speaker-ns-620-https:--audio-databasecom-yamaha-speaker-ns-620html",
+        "original_price": "¥21000",
+        "category": "General",
+        "description": "Audio Database YAMAHA NS-620 ¥ 21,000 (1 unit, around 1973) Commentary NS-600 series (NS-650, NS-630, NS-620) speaker systems. The NS 600 Series is a series that has returned to the origin of the bookshelf type. The development theme of the NS 2000 Series is &quot;high performance that is as good as a large system even if it is small&quot; and the miniaturization of the enclosure and improvement of the performance of the unit are attempted. JA 1601, which is a 16 cm cone type unit, is used for the low range. This unit is designed for small enclosed enclosures with low and wide range regeneration capabilities in mind. The vibration system is designed to reduce the moving mass by examining the material of the cone paper. At the same time, a large diameter (42 φ) long size (coil winding width 20 mm) heat-resistant voice coil is adopted to maintain linear motion. Thermosetting polyester-imide resin is used for the insulation film of the voice coil the voice coil, and epoxy resin is used for the coil adhesive to enhance the heat resistance to cope with excessive input. 100 φ ferrite magnet is used for the magnetic circuit. A dome-shaped tweeter, JA 0508 a, is installed in the high range. By using special cone paper for the vibration system, the cut-off frequency is designed to be low, and the directional characteristics are improved by the front diffuser. A ferrite core containing coil is used in the network section. By using 1 φ Holimar wire for this coil, the resistance value of the coil is reduced to less than 1/20 (0.34 Ω) of the speaker impedance, reducing power loss and characteristic change. In addition, in order to eliminate mutual inductance of the coil, the coils are mounted at right angles to each other. The front baffle is equipped with a continuously variable level control. The enclosure is a completely sealed type with 18 mm baffle plate thickness, and has a solid structure that suppresses resonance. Finished with an oil finish of walnut flat grain. Model R",
+        "sub_category": "",
+        "brandId": "configuration-examples-at-that-time-player-yp-700-stereo-receiver-cr-700-speaker-ns-620",
+        "specifications": "Method 2-Way, 2-Speaker, Airtight Type, Bookshelf Type Units Used For Low Band : 16 cm Cone Type (JA-1601) For High Range : Dome Type (JA-0508A) Playback frequency band 60 Hz to 20 kHz Crossover frequency 3.5kHz(12dB/oct) Lowest resonance frequency (fo) 60Hz Impedance 8 Ω Output sound pressure level (new JIS) 86dB/W/m Maximum allowable input 30W External dimensions Width 260x Height 460x Depth 235.5 mm | Weight 8.0kg",
+        "release_year": "1973",
+        "verified": true,
+        "image_url": "https://audio-database.com/ns-620.JPG"
+    }
+]

@@ -1,15 +1,16 @@
-﻿{
-    "url":  "https://audio-database.com/AUDIO_OF_OREGON/amp/cc-2-e.html",
-    "name":  "AUDIO",
-    "id":  "audio-of-oregon-audio",
-    "original_price":  "¥198000",
-    "category":  "Amplifiers",
-    "description":  "\"This is a stereo power amplifier that realizes as good open-loop characteristics as possible and applies extremely low NFB.The circuit structure and power supply that guarantee perfectly symmetrical operation are enhanced, and the dynamic characteristics are improved with an emphasis on overall balance.It can be used as a BTL connected monaural power amplifier.Equipped with an LED peak indicator that can be used as a pilot lamp.\"",
-    "sub_category":  "",
-    "brandId":  "audio-of-oregon",
-    "specifications":  "\"Type: Stereo power amplifier | Rated output(Both channel drive, 20 Hz to 20 kHz, FTC method): 170W + 170W (2 �)120W + 120W (4 �)70W + 70W (8 �)225W (8 ¥, BTL connected) | Power bandwidth: 5 hz to 70 khz -3dB | Total harmonic distortion rate (20 Hz to 20 kHz): 0.18% or Less (8 � at Rated Output) | Slew rate: 36 V / Ï‰ sec72 v / Ï‰ sec (BTL connected) | Input sensitivity: 1.2V | Pwer: 117 VAC, 50Hz/60Hz | External dimensions: Width 483x Height 89x Depth 216 mm | Weight: 7.7kg\"",
-    "release_year":  "1979",
-    "verified":  true,
-    "image_url":  "https://audio-database.com/AUDIO_OF_OREGON/amp/cc-2.JPG"
-}
-
+[
+    {
+        "url": "https://audio-database.com/AUDIO_OF_OREGON/amp/cc-2-e.html",
+        "name": "AUDIO",
+        "id": "audio-of-oregon-audio",
+        "original_price": "¥198000",
+        "category": "Amplifiers",
+        "description": "## Description\n\n\"This is a stereo power amplifier that realizes as good open-loop characteristics as possible and applies extremely low NFB.The circuit structure and power supply that guarantee perfectly symmetrical operation are enhanced, and the dynamic characteristics are improved with an emphasis on overall balance.It can be used as a BTL connected monaural power amplifier.Equipped with an LED peak indicator that can be used as a pilot lamp.\"",
+        "sub_category": "",
+        "brandId": "audio-of-oregon",
+        "specifications": "\"Type: Stereo power amplifier | Rated output(Both channel drive, 20Hz to 20kHz, FTC method): 170W + 170W (2�)120W + 120W (4�)70W + 70W (8�)225W (8¥, BTL connected) | Power bandwidth: 5hz to 70khz -3dB | Total harmonic distortion rate (20Hz to 20kHz): 0.18% or Less (8� at Rated Output) | Slew rate: 36V / Ï‰ sec72v / Ï‰ sec (BTL connected) | Input sensitivity: 1.2V | Pwer: 117VAC, 50Hz/60Hz | External dimensions: Width 483x Height 89x Depth 216mm | Weight: 7.7kg\"",
+        "release_year": "1979",
+        "verified": true,
+        "image_url": "https://audio-database.com/AUDIO_OF_OREGON/amp/cc-2.JPG"
+    }
+]

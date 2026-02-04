@@ -1,5 +1,5 @@
 import { motion, AnimatePresence } from 'framer-motion';
-import { ArrowRight, BrainCircuit, Activity, X, Waves, Settings2, ChevronDown, Database, Tag, ShieldCheck, Scale, Ear, BarChart3, Key, Zap } from 'lucide-react';
+import { ArrowRight, BrainCircuit, Activity, Waves, Settings2, ChevronDown, Database, Tag, ShieldCheck, Scale, Ear, BarChart3, Zap } from 'lucide-react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import { fetchGeminiAnalysis, fetchOpenAIAnalysis } from '../services/serioAI';
@@ -106,6 +106,8 @@ const parseFullSpecs = (specStr: string | undefined): string[] => {
         if (kg >= 25) status = ':::GOOD';
         else if (kg <= 5) status = ':::BAD';
         highlights.push(`${weight}${status}`);
+    } else {
+        highlights.push("Weight: Data Unavailable:::BAD");
     }
 
     return highlights.length > 0 ? highlights : ["Specs Unavailable"];
@@ -132,11 +134,11 @@ const ComparePage = () => {
     } | null>>({});
 
     // AI Settings
-    const [aiProvider, setAiProvider] = useState<'GEMINI' | 'OPENAI' | 'SIMULATED'>(
+    const [aiProvider] = useState<'GEMINI' | 'OPENAI' | 'SIMULATED'>(
         import.meta.env.VITE_OPENAI_API_KEY ? 'OPENAI' : 'SIMULATED'
     );
-    const [apiKey, setApiKey] = useState(import.meta.env.VITE_OPENAI_API_KEY || '');
-    const [showAiSettings, setShowAiSettings] = useState(false);
+    const apiKey = import.meta.env.VITE_OPENAI_API_KEY || '';
+
 
     // Loading Message State (must be at top before any returns)
     const [loadingMessageIndex, setLoadingMessageIndex] = useState(0);
@@ -376,7 +378,16 @@ const ComparePage = () => {
 
                 if (!fullDetails) throw new Error("Product not found in catalog");
 
-                return fullDetails;
+                // Ensure deep scan references full context as per Serio KB principle
+                return {
+                    ...fullDetails,
+                    // Map description to engineering_notes if missing to ensure AI receives full text information
+                    engineering_notes: fullDetails.engineering_notes || fullDetails.description || "Data archival pending",
+                    // Ensure specifications are passed explicitly
+                    specifications: fullDetails.specifications || "Specs unavailable",
+                    // Pass technical intel if available
+                    technical_intel: fullDetails.technical_intel || {}
+                };
             } catch (e) {
                 console.warn(`Fallback to basic details for ${item.id}`, e);
                 return item as unknown as ModelDetail; // Fallback
@@ -713,13 +724,7 @@ const ComparePage = () => {
                     <div className="flex items-center gap-6">
                         {!analyzing && (
                             <div className="flex items-center gap-4">
-                                <button
-                                    onClick={() => setShowAiSettings(true)}
-                                    className="p-2.5 bg-white/5 border border-white/10 rounded hover:bg-white/10 hover:border-white/20 transition-all group"
-                                    title="AI Engine Calibration"
-                                >
-                                    <Settings2 className="w-5 h-5 text-textDim group-hover:text-white group-hover:rotate-45 transition-all" />
-                                </button>
+
                                 <button
                                     onClick={runAiAnalysis}
                                     disabled={analyzing}
@@ -1237,86 +1242,7 @@ const ComparePage = () => {
                     </div>
                 </div>
 
-                {/* AI Settings Modal Overlay */}
-                <AnimatePresence>
-                    {showAiSettings && (
-                        <motion.div
-                            initial={{ opacity: 0 }}
-                            animate={{ opacity: 1 }}
-                            exit={{ opacity: 0 }}
-                            className="fixed inset-0 z-[110] flex items-center justify-center p-4 bg-black/90 backdrop-blur-md"
-                        >
-                            <motion.div
-                                initial={{ scale: 0.9, y: 20 }}
-                                animate={{ scale: 1, y: 0 }}
-                                className="bg-[#0a0a0a] border border-custom-gold/30 p-8 rounded-sm w-full max-w-md relative shadow-[0_0_50px_rgba(255,215,0,0.1)]"
-                            >
-                                <button
-                                    onClick={() => setShowAiSettings(false)}
-                                    className="absolute top-4 right-4 text-textDim hover:text-white transition-colors"
-                                >
-                                    <X className="w-5 h-5" />
-                                </button>
 
-                                <div className="flex items-center gap-4 mb-8">
-                                    <div className="p-2 bg-custom-gold/10 rounded border border-custom-gold/20">
-                                        <BrainCircuit className="w-6 h-6 text-custom-gold" />
-                                    </div>
-                                    <div>
-                                        <h3 className="text-xl font-bold text-white font-display uppercase tracking-widest">Intelligence Source</h3>
-                                        <p className="text-[10px] text-custom-gold/50 font-mono tracking-widest">CALIBRATE NEURAL ENGINE</p>
-                                    </div>
-                                </div>
-
-                                <div className="space-y-8">
-                                    <div className="grid grid-cols-3 gap-3">
-                                        {(['SIMULATED', 'GEMINI', 'OPENAI'] as const).map(p => (
-                                            <button
-                                                key={p}
-                                                onClick={() => setAiProvider(p)}
-                                                className={`px-2 py-4 text-[10px] font-mono border rounded-sm transition-all uppercase tracking-tighter ${aiProvider === p
-                                                    ? 'bg-custom-gold/20 border-custom-gold text-custom-gold shadow-[0_0_15px_rgba(255,215,0,0.2)]'
-                                                    : 'bg-white/2 border-white/10 text-textDim hover:border-white/30'
-                                                    }`}
-                                            >
-                                                {p}
-                                            </button>
-                                        ))}
-                                    </div>
-
-                                    {aiProvider !== 'SIMULATED' && (
-                                        <motion.div
-                                            initial={{ opacity: 0, height: 0 }}
-                                            animate={{ opacity: 1, height: 'auto' }}
-                                            className="space-y-3"
-                                        >
-                                            <label className="text-[10px] font-mono text-textDim block uppercase tracking-[0.2em]">
-                                                Access Token ({aiProvider === 'GEMINI' ? 'Google' : 'OpenAI'})
-                                            </label>
-                                            <div className="relative">
-                                                <Key className="absolute left-3 top-3 w-4 h-4 text-custom-gold/50" />
-                                                <input
-                                                    type="password"
-                                                    value={apiKey}
-                                                    onChange={(e) => setApiKey(e.target.value)}
-                                                    placeholder="ENTER TOKEN_ID..."
-                                                    className="w-full bg-black border border-white/10 rounded-sm py-3 pl-10 pr-4 text-xs font-mono text-white focus:border-custom-gold/50 outline-none transition-all"
-                                                />
-                                            </div>
-                                        </motion.div>
-                                    )}
-
-                                    <button
-                                        onClick={() => setShowAiSettings(false)}
-                                        className="w-full py-4 bg-custom-gold text-black font-mono font-bold text-xs uppercase tracking-[0.3em] hover:bg-white transition-all shadow-lg"
-                                    >
-                                        Confirm Configuration
-                                    </button>
-                                </div>
-                            </motion.div>
-                        </motion.div>
-                    )}
-                </AnimatePresence>
             </div>
         </div>
     );

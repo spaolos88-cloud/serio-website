@@ -1,31 +1,30 @@
-﻿[
+[
     {
-        "url":  "https://audio-database.com/GOLDMUND-STELLAVOX/amp/pw1-e.html",
-        "name":  "PW1",
-        "id":  "goldmund-stellavox-pw1",
-        "original_price":  "¥250000",
-        "category":  "Amplifiers",
-        "description":  "\"A monaural power amplifier released by ????????, a professional audio brand of Gold Mundo.Equipped with a JOB circuit, an amplification module unique to Gold Mundo, it realizes a power of 200W in spite of its small size.A 1-dB step 10-position input attenuator is available for balanced and unbalanced input.Aluminum heat sink is used for the front panel.\"",
-        "sub_category":  "",
-        "brandId":  "goldmund-stellavox",
-        "specifications":  "Type: Monaural power amplifier | Input: Route 2XLR balance : 1 systemRCA unbalanced : 1 line | Effective power: 200W (2 � ~ 8 �) | Maximum power output: 250W (3 �) | Frequency characteristic: 6 Hz to 1 MHz ¥1 dB3 Hz to 1 MHz ¥1 dB | Maximum Power Consumption: 350W | External dimensions: Width 150x Height 65x Depth 270 mm | Weight: 4.2kg",
-        "release_year":  "2000",
-        "verified":  true,
-        "image_url":  "https://audio-database.com/GOLDMUND-STELLAVOX/amp/pw1.JPG"
+        "url": "https://audio-database.com/GOLDMUND-STELLAVOX/amp/pw1-e.html",
+        "name": "PW1",
+        "id": "goldmund-stellavox-pw1",
+        "original_price": "¥250000",
+        "category": "Amplifiers",
+        "description": "## Description\n\n\"A monaural power amplifier released by ????????, a professional audio brand of Gold Mundo.Equipped with a JOB circuit, an amplification module unique to Gold Mundo, it realizes a power of 200W in spite of its small size.A 1-dB step 10-position input attenuator is available for balanced and unbalanced input.Aluminum heat sink is used for the front panel.\"",
+        "sub_category": "",
+        "brandId": "goldmund-stellavox",
+        "specifications": "Type: Monaural power amplifier | Input: Route 2XLR balance : 1systemRCA unbalanced : 1line | Effective power: 200W (2� ~ 8�) | Maximum power output: 250W (3�) | Frequency characteristic: 6Hz to 1MHz ¥1dB3Hz to 1MHz ¥1dB | Maximum Power Consumption: 350W | External dimensions: Width 150x Height 65x Depth 270mm | Weight: 4.2kg",
+        "release_year": "2000",
+        "verified": true,
+        "image_url": "https://audio-database.com/GOLDMUND-STELLAVOX/amp/pw1.JPG"
     },
     {
-        "url":  "https://audio-database.com/GOLDMUND-STELLAVOX/etc/st2-96-24-e.html",
-        "name":  "ST2-96-24",
-        "id":  "goldmund-stellavox-st2-96-24",
-        "original_price":  "¥280000",
-        "category":  "ETC",
-        "description":  "\"Based on the D/A converter ST2 released by ????????, a professional audio brand of Gold Mundo, the DA converter module DA converter module has been updated to the newly developed 96kHz/24bit compatible DA96.The DA96 is designed to minimize the emission of high-frequency noise, minimize the signal path and increase the circuit speed by modularizing the four sections of the DIR, digital filter, D/A and analog filter with a jittering absorption function.It was also possible to upgrade from the normal ST2 to 96kHz/24bit compatible version.\"",
-        "sub_category":  "",
-        "brandId":  "goldmund-stellavox",
-        "specifications":  "\"Type: D/A converter | Converter section: Gold Mundo \"\"DA96\"\" * Details not disclosed | Digital input: Route 3S/PDIF (RCA75 �) : 2 systemsAES/EBU (XLR 110 �) : 1 system | Analog output: Route 2RCA unbalanced : 1 lineXLR balance : 1 system | Frequency band: 20 Hz to 20 kHz ¥0.1 dB | Maximum Power Consumption: 5W | External dimensions: Width 150x Height 54x Depth 240 mm | Weight: 1.5kg | Remarks: Upgrade from ST2 to 96kHz/24bit (¥70,000)\"",
-        "release_year":  "2000",
-        "verified":  true,
-        "image_url":  "https://audio-database.com/GOLDMUND-STELLAVOX/etc/st2-96-24.JPG"
+        "url": "https://audio-database.com/GOLDMUND-STELLAVOX/etc/st2-96-24-e.html",
+        "name": "ST2-96-24",
+        "id": "goldmund-stellavox-st2-96-24",
+        "original_price": "¥280000",
+        "category": "ETC",
+        "description": "## Description\n\n\"Based on the D/A converter ST2released by ????????, a professional audio brand of Gold Mundo, the DA converter module DA converter module has been updated to the newly developed 96kHz/24bit compatible DA96.The DA96is designed to minimize the emission of high-frequency noise, minimize the signal path and increase the circuit speed by modularizing the four sections of the DIR, digital filter, D/A and analog filter with a jittering absorption function.It was also possible to upgrade from the normal ST2to 96kHz/24bit compatible version.\"",
+        "sub_category": "",
+        "brandId": "goldmund-stellavox",
+        "specifications": "\"Type: D/A converter | Converter section: Gold Mundo \"\"DA96\"\" * Details not disclosed | Digital input: Route 3S/PDIF (RCA75�) : 2systemsAES/EBU (XLR 110�) : 1system | Analog output: Route 2RCA unbalanced : 1lineXLR balance : 1system | Frequency band: 20Hz to 20kHz ¥0.1dB | Maximum Power Consumption: 5W | External dimensions: Width 150x Height 54x Depth 240mm | Weight: 1.5kg | Remarks: Upgrade from ST2to 96kHz/24bit (¥70,000)\"",
+        "release_year": "2000",
+        "verified": true,
+        "image_url": "https://audio-database.com/GOLDMUND-STELLAVOX/etc/st2-96-24.JPG"
     }
 ]
-

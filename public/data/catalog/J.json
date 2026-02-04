@@ -1,35 +1,38 @@
-﻿[
+[
     {
-        "id":  "jbl-opus",
-        "name":  "OPUS",
-        "url":  "https://audio-database.com/JBL/speaker/opus.html",
-        "sub_category":  "",
-        "sections":  {
-                         "specifications":  "Method: 1-2 Way / 1-2 Speaker / Bookshelf Type | Corresponding unit: S9 | S10: LE10B | LE14C: LE14C | External dimensions: Width 711x Height 356x Depth 368 mm",
-                         "title":  "JBL OPUS",
-                         "overview":  "D52S9 : Price Unknown (1 unit, available in 1962)D52S10 : Price Unknown (1 unit, available in 1962)D52LE14C : Price unknown (1 unit, sold in 1962)D52SMS9 : Price unknown (1 unit, released in 1962)D52SMS10 : Price Unknown (1 unit, 1962 release)D52SMLE14C : Price unknown (1 unit, released in 1962)\n\nA bookshelf-type speaker system incorporating Olympus and Apollo technologies.There were 3 different combinations of units.Because the Opus can be installed horizontally or vertically, the acoustic lens is designed to be installed horizontally or vertically.There were two variations of Opus, one for general use and the other for studio monitors.The model number for studio monitor starts with D52SM. The exterior is finished in gray and a cloth grill is used for the grill.The general model comes in five finishes, Tauny Walnut, Oiled Walnut, Mahogany, Danish teak and Ebony, and uses a grid grill for the grill.It can be used either horizontally or vertically.The high-frequency sound lens can be installed in either horizontal or vertical position, depending on the installation condition of the enclosure."
-                     },
-        "category":  "SPEAKER",
-        "brandId":  "jbl",
-        "image_url":  "https://audio-database.com/d52opus.jpg",
-        "release_year":  "1962",
-        "verified":  true
+        "id": "jbl-opus",
+        "name": "OPUS",
+        "url": "https://audio-database.com/JBL/speaker/opus.html",
+        "sub_category": "",
+        "sections": {
+            "specifications": "Method: 1-2Way / 1-2Speaker / Bookshelf Type | Corresponding unit: S9| S10: LE10B | LE14C: LE14C | External dimensions: Width 711x Height 356x Depth 368mm",
+            "title": "JBL OPUS",
+            "overview": "D52S9: Price Unknown (1unit, available in 1962)D52S10: Price Unknown (1unit, available in 1962)D52LE14C : Price unknown (1unit, sold in 1962)D52SMS9: Price unknown (1unit, released in 1962)D52SMS10: Price Unknown (1unit, 1962release)D52SMLE14C : Price unknown (1unit, released in 1962)\n\nA bookshelf-type speaker system incorporating Olympus and Apollo technologies.There were 3different combinations of units.Because the Opus can be installed horizontally or vertically, the acoustic lens is designed to be installed horizontally or vertically.There were two variations of Opus, one for general use and the other for studio monitors.The model number for studio monitor starts with D52SM. The exterior is finished in gray and a cloth grill is used for the grill.The general model comes in five finishes, Tauny Walnut, Oiled Walnut, Mahogany, Danish teak and Ebony, and uses a grid grill for the grill.It can be used either horizontally or vertically.The high-frequency sound lens can be installed in either horizontal or vertical position, depending on the installation condition of the enclosure."
+        },
+        "category": "SPEAKER",
+        "brandId": "jbl",
+        "image_url": "https://audio-database.com/d52opus.jpg",
+        "release_year": "1962",
+        "verified": true,
+        "description": "Audio Database JBL Opus D52S9 : Price Unknown (1 unit, available in 1962) D52S10 : Price Unknown (1 unit, available in 1962) D52LE14C : Price unknown (1 unit, sold in 1962) D52SMS9 : Price unknown (1 unit, released in 1962) D52SMS10 : Price Unknown (1 unit, 1962 release) D52SMLE14C : Price unknown (1 unit, released in 1962) Commentary A bookshelf-type speaker system incorporating Olympus and Apollo technologies. There were 3 different combinations of units. Because the Opus can be installed horizontally or vertically, the acoustic lens is designed to be installed horizontally or vertically. There were two variations of Opus, one for general use and the other for studio monitors. The model number for studio monitor starts with D52SM. The exterior is finished in gray and a cloth grill is used for the grill. The general model comes in five finishes, Tauny Walnut, Oiled Walnut, Mahogany, Danish teak and Ebony, and uses a grid grill for the grill. It can be used either horizontally or vertically. The high-frequency sound lens can be installed in either horizontal or vertical position, depending on the installation condition of the enclosure. Model Rating Method 1-2 Way / 1-2 Speaker / Bookshelf Type Low band For Middle Range High pass Network Required adapter Corresponding unit S9 LE10B LE75+H91+L92 LX6 - S10 LE10B LE85+H91+L92 LE14C LE14C LX2-1 External dimensions Width 711x Height 356x Depth 368 mm"
     },
     {
-        "id":  "jbl-s101",
-        "name":  "S101",
-        "url":  "https://audio-database.com/JBL/speaker/s101-e.html",
-        "sub_category":  "",
-        "sections":  {
-                         "specifications":  "Method: 2-Way, 2-Speaker, Bass Reflex System, Floor Type | Unit: For Low Band : 30 cm Cone Type (2214H)For High Range : Horn Type (2416H + 2371) | Frequency Response ( 3 db): 35 Hz to 16 kHz | Directional characteristics (horizontal x vertical): 90 ? x40 ? | Sound pressure level (1W, 1m): 92dB | Impedance: 8 | Allowable input: 150W (continuous program) | Crossover frequency: 900Hz | Enclosure volume: 53.5L | External dimensions: Width 445x Height 629x Depth 320 mm | Weight: 29.1kg",
-                         "title":  "JBL S101",
-                         "overview":  "This commemoration of the 40th anniversary of the foundation of JBL, this is a speaker system that reprints the inscription L101 Lancer of the floor type speaker.It has been refined by introducing JBL technology while maintaining the impression of the exterior.A 30 cm cone type woofer, 2214H, is used for the low range.In order to increase the rigidity of the cone paper and increase the internal loss, a unique coating reinforcement material \"Aqua Plus\" is applied to the pulp base. This diaphragm expands the piston motion with a 76 mm   large-diameter copper ribbon edgewise wound voice coil.An SFG magnetic circuit is adopted for the magnetic circuit, and low distortion is measured by magnetic field control.The high-frequency range uses a combination of a driver 2416H and a bi-radial horn 2371.The driver diaphragm uses pure titanium fused with a unique diamond structure to suppress split vibration. The voice coil uses an edge-wise wound voice coil made of a lightweight and highly conductive pure aluminum ribbon wire.The Bi-Radial Horn 2371 has been newly developed based on acoustic theory. It has a special shape to achieve 90   x40   directional characteristics in both horizontal and vertical directions.The top plate of the enclosure is made of marble to greatly reduce the resonance of the enclosure.Also, the front grill is hand-carved Kumiko with JBL\u0027s traditional woodworking technology."
-                     },
-        "category":  "SPEAKER",
-        "brandId":  "jbl",
-        "image_url":  "https://audio-database.com/s101.JPG",
-        "original_price":  "¥298000",
-        "release_year":  "1986",
-        "verified":  true
+        "id": "jbl-s101",
+        "name": "S101",
+        "url": "https://audio-database.com/JBL/speaker/s101-e.html",
+        "sub_category": "",
+        "sections": {
+            "specifications": "Method: 2-Way, 2-Speaker, Bass Reflex System, Floor Type | Unit: For Low Band : 30cm Cone Type (2214H)For High Range : Horn Type (2416H + 2371) | Frequency Response ( 3db): 35Hz to 16kHz | Directional characteristics (horizontal x vertical): 90? x40? | Sound pressure level (1W, 1m): 92dB | Impedance: 8| Allowable input: 150W (continuous program) | Crossover frequency: 900Hz | Enclosure volume: 53.5L | External dimensions: Width 445x Height 629x Depth 320mm | Weight: 29.1kg",
+            "title": "JBL S101",
+            "overview": "This commemoration of the 40th anniversary of the foundation of JBL, this is a speaker system that reprints the inscription L101Lancer of the floor type speaker.It has been refined by introducing JBL technology while maintaining the impression of the exterior.A 30cm cone type woofer, 2214H, is used for the low range.In order to increase the rigidity of the cone paper and increase the internal loss, a unique coating reinforcement material \"Aqua Plus\" is applied to the pulp base. This diaphragm expands the piston motion with a 76mm   large-diameter copper ribbon edgewise wound voice coil.An SFG magnetic circuit is adopted for the magnetic circuit, and low distortion is measured by magnetic field control.The high-frequency range uses a combination of a driver 2416H and a bi-radial horn 2371.The driver diaphragm uses pure titanium fused with a unique diamond structure to suppress split vibration. The voice coil uses an edge-wise wound voice coil made of a lightweight and highly conductive pure aluminum ribbon wire.The Bi-Radial Horn 2371has been newly developed based on acoustic theory. It has a special shape to achieve 90  x40  directional characteristics in both horizontal and vertical directions.The top plate of the enclosure is made of marble to greatly reduce the resonance of the enclosure.Also, the front grill is hand-carved Kumiko with JBL'Ωs traditional woodworking technology."
+        },
+        "category": "SPEAKER",
+        "brandId": "jbl",
+        "image_url": "https://audio-database.com/s101.JPG",
+        "original_price": "¥298000",
+        "release_year": "1986",
+        "verified": true,
+        "specifications": "Method 2-Way, 2-Speaker, Bass Reflex | System, Floor Type Unit For Low Band : 30 cm Cone Type (2214H) For High Range : Horn Type (2416H + 2371) Frequency Response (± 3 db) 35 Hz to 16 kHz Directional characteristics (horizontal x vertical) 90 ゜ x40 ゜ Sound pressure level (1W, 1m) 92dB Impedance 8 Ω Allowable input 150W (continuous program) Crossover frequency 900Hz Enclosure volume 53.5L External dimensions Width 445x Height 629x Depth 320 mm | Weight 29.1kg",
+        "description": "Audio Database JBL S101 ¥ 298,000 (1 unit, released in 1986) Commentary This commemoration of the 40th anniversary of the foundation of JBL, this is a speaker system that reprints the inscription L101 Lancer of the floor type speaker. It has been refined by introducing JBL technology while maintaining the impression of the exterior. A 30 cm cone type woofer, 2214H, is used for the low range. In order to increase the rigidity of the cone paper and increase the internal loss, a unique coating reinforcement material &quot;Aqua Plus&quot; is applied to the pulp base. This diaphragm expands the piston motion with a 76 mm φ large-diameter copper ribbon edgewise wound voice coil. An SFG magnetic circuit is adopted for the magnetic circuit, and low distortion is measured by magnetic field control. The high-frequency range uses a combination of a driver 2416H and a bi-radial horn 2371. The driver diaphragm uses pure titanium fused with a unique diamond structure to suppress split vibration. The voice coil uses an edge-wise wound voice coil made of a lightweight and highly conductive pure aluminum ribbon wire. The Bi-Radial Horn 2371 has been newly developed based on acoustic theory. It has a special shape to achieve 90 ° x40 ° directional characteristics in both horizontal and vertical directions. The top plate of the enclosure is made of marble to greatly reduce the resonance of the enclosure. Also, the front grill is hand-carved Kumiko with JBL&#39;s traditional woodworking technology. Model Rating Method 2-Way, 2-Speaker, Bass Reflex System, Floor Type Unit For Low Band : 30 cm Cone Type (2214H) For High Range : Horn Type (2416H + 2371) Frequency Response (± 3 db) 35 Hz to 16 kHz Directional characteristics (horizontal x vertical) 90 ゜ x40 ゜ Sound pressure level (1W, 1m) 92dB Impedance 8 Ω Allowable input 150W (continuous program) Crossover frequency 900Hz Enclosure volume 53.5L External dimensions Width 445x Height 629x Depth 320 mm Weight 29.1kg"
     }
 ]

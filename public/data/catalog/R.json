@@ -1,444 +1,444 @@
-﻿[
+[
     {
-        "id":  "roksan-rok-dp",
-        "name":  "ROK-DP",
-        "url":  "https://audio-database.com/ROKSAN/player/rok-dp-e.html",
-        "sub_category":  "Player",
-        "sections":  {
-                         "specifications":  "Type: CD Transport | Digital output: Coaxial : 1 systemOptical (ST Link) : 1 system | Attachment mechanism: Program memoryTrack No SearchSpeed searchRepeatRemote control | Pwer: 100 VAC, 50Hz/60Hz | External dimensions: Width 451x Height 129x Depth 359 mmLid Open : Height 256 mm | Weight: 6.5kg | Attachment: Remote control",
-                         "title":  "ROKSAN ROK-DP",
-                         "overview":  "CD transport with top-loading mechanism.By adopting a separate configuration without a D/A converter, we not only prevent digital / analog signal interference for a reasonable upgrade of the D/A converter.In the same way as the \"Xerces\" turntable system developed by ROKSAN, we are conducting a rigorous analysis.From this analysis, we discovered a critical lack of signal reading accuracy in the CD player, and improved the ambiguity of the mechanical accuracy of the laser pickup support system and the uncertainty of the servo response.Wireless remote control is included."
-                     },
-        "category":  "Source",
-        "brandId":  "roksan",
-        "image_url":  "https://audio-database.com/rok-dp1.JPG",
-        "original_price":  "¥400000",
-        "release_year":  "1992",
-        "verified":  true
+        "id": "roksan-rok-dp",
+        "name": "ROK-DP",
+        "url": "https://audio-database.com/ROKSAN/player/rok-dp-e.html",
+        "sub_category": "Player",
+        "sections": {
+            "specifications": "Type: CD Transport | Digital output: Coaxial : 1systemOptical (ST Link) : 1system | Attachment mechanism: Program memoryTrack No SearchSpeed searchRepeatRemote control | Pwer: 100VAC, 50Hz/60Hz | External dimensions: Width 451x Height 129x Depth 359mmLid Open : Height 256mm | Weight: 6.5kg | Attachment: Remote control",
+            "title": "ROKSAN ROK-DP",
+            "overview": "CD transport with top-loading mechanism.By adopting a separate configuration without a D/A converter, we not only prevent digital / analog signal interference for a reasonable upgrade of the D/A converter.In the same way as the \"Xerces\" turntable system developed by ROKSAN, we are conducting a rigorous analysis.From this analysis, we discovered a critical lack of signal reading accuracy in the CD player, and improved the ambiguity of the mechanical accuracy of the laser pickup support system and the uncertainty of the servo response.Wireless remote control is included."
+        },
+        "category": "Source",
+        "brandId": "roksan",
+        "image_url": "https://audio-database.com/rok-dp1.JPG",
+        "original_price": "¥400000",
+        "release_year": "1992",
+        "verified": true
     },
     {
-        "id":  "roksan-rok-da1",
-        "name":  "ROK-DA1",
-        "url":  "https://audio-database.com/ROKSAN/etc/rok-da1-e.html",
-        "sub_category":  "",
-        "sections":  {
-                         "specifications":  "Type: D/A converter | Input: Coaxial digital : 1 system | Output: Analog : stereo1 system | Sampling frequency: 32 kHz, 44.1 kHz, 48 kHz (automatic) | Dynamic range: 97dB | Signal-to-noise ratio: 126dB | S / (N + D) ratio: 94dB | Phase deviation: 0.5 degrees | Channel separation: 100 dB or more | DC Offset: Within 1 mv | Rated output: 2.0Vrms | Pwer: 100 VAC, 50Hz/60Hz | Power consumption: 10W max. | External dimensions: Width 215x Height 80x Depth 325 mm | Weight: 3kg | Sold Separately: External Power Supply Unit ROK-DS1 ( 280,000)",
-                         "title":  "ROKSAN ROK-DA1",
-                         "overview":  "D/A converter unit exclusively for 75   coaxial digital input developed with CD Transport ROK-DP1.The signal board is fixed directly inside the rear panel to guide the input signal to the circuit at the shortest distance and to send it out at the shortest distance.In addition, in order to avoid degradation of sound quality due to wiring and switch contact, etc., input is one coaxial system and output is one analog system only.The power supply of the toroidal transformer is mounted on the part of the under chassis, and the position where the interference with the signal system is minimized is selected and fixed. Moreover, the digital part and the analog part are separated to suppress mutual interference.The D/A converter / A converter is a 1-bit type of 64 x oversampling delta-sigma system manufactured by Crystal Semiconductors, Inc. of the United States. The power and ground patterns of the digital and analog sections are completely independent of each other, reducing interference between digital and analog circuits through the power and ground lines.The digital circuit is equipped with an 8 x oversampling digital filter.In addition to 44.1 kHz sampling frequency, 48 kHz and 32 kHz signals are also available.The ROK-DA1 signal board can be easily replaced to accommodate future upgrades.As a separately sold option, there was an external power supply unit to further enhance the sound quality of ROK-DA1."
-                     },
-        "category":  "ETC",
-        "brandId":  "roksan",
-        "image_url":  "https://audio-database.com/rok-da1.JPG",
-        "original_price":  "¥200000",
-        "release_year":  "1992",
-        "verified":  true
+        "id": "roksan-rok-da1",
+        "name": "ROK-DA1",
+        "url": "https://audio-database.com/ROKSAN/etc/rok-da1-e.html",
+        "sub_category": "",
+        "sections": {
+            "specifications": "Type: D/A converter | Input: Coaxial digital : 1system | Output: Analog : stereo1system | Sampling frequency: 32kHz, 44.1kHz, 48kHz (automatic) | Dynamic range: 97dB | Signal-to-noise ratio: 126dB | S / (N + D) ratio: 94dB | Phase deviation: 0.5degrees | Channel separation: 100dB or more | DC Offset: Within 1mv | Rated output: 2.0Vrms | Pwer: 100VAC, 50Hz/60Hz | Power consumption: 10W max. | External dimensions: Width 215x Height 80x Depth 325mm | Weight: 3kg | Sold Separately: External Power Supply Unit ROK-DS1( 280,000)",
+            "title": "ROKSAN ROK-DA1",
+            "overview": "D/A converter unit exclusively for 75  coaxial digital input developed with CD Transport ROK-DP1.The signal board is fixed directly inside the rear panel to guide the input signal to the circuit at the shortest distance and to send it out at the shortest distance.In addition, in order to avoid degradation of sound quality due to wiring and switch contact, etc., input is one coaxial system and output is one analog system only.The power supply of the toroidal transformer is mounted on the part of the under chassis, and the position where the interference with the signal system is minimized is selected and fixed. Moreover, the digital part and the analog part are separated to suppress mutual interference.The D/A converter / A converter is a 1-bit type of 64x oversampling delta-sigma system manufactured by Crystal Semiconductors, Inc. of the United States. The power and ground patterns of the digital and analog sections are completely independent of each other, reducing interference between digital and analog circuits through the power and ground lines.The digital circuit is equipped with an 8x oversampling digital filter.In addition to 44.1kHz sampling frequency, 48kHz and 32kHz signals are also available.The ROK-DA1signal board can be easily replaced to accommodate future upgrades.As a separately sold option, there was an external power supply unit to further enhance the sound quality of ROK-DA1."
+        },
+        "category": "ETC",
+        "brandId": "roksan",
+        "image_url": "https://audio-database.com/rok-da1.JPG",
+        "original_price": "¥200000",
+        "release_year": "1992",
+        "verified": true
     },
     {
-        "id":  "ror-e3",
-        "name":  "E3",
-        "url":  "https://audio-database.com/ROR/speaker/e3-e.html",
-        "sub_category":  "",
-        "sections":  {
-                         "specifications":  "Method: 1-Way, 1-Speaker, Airtight Type, Bookshelf Type | Units Used: For all bands : 12 cm cone type | Frequency characteristic: EQ in : 85 Hz to 16 kHzEQ out : 95 Hz to 13 kHz | Efficiency: EQ in:89.5dBEQ out:91dB | Input: EQ in : 25W continuous, 250W peakEQ out : 15W continuous, 150W peak | Nominal impedance: 8 | External dimensions: Width 165x Height 165x Depth 135 mm | Weight: 1.9kg",
-                         "title":  "ROR E3",
-                         "overview":  "A mini-monitor speaker system developed for monitors.The unit is equipped with a 12 cm cone type unit.The cabinet is made from carefully selected oak trees grown in North Carolina.In addition, the cabinet is assembled using a traditional Japanese architectural method called \"Sane-tsugi,\" and without using screws or nails, it is assembled tightly by applying pressure.Also, thick foam plastic is cut into squares for the net.The input terminal is equipped with an EQ terminal. With two positive sides of the input terminal, you can use it with or without the equalizer.By removing the equalizer, which is adjusted so that the playback frequency response is as flat as possible with a sound music balance, it becomes a kind of ambience control and is designed to increase the efficiency by 4 dB in the mid-range, thereby achieving more precise control of the response."
-                     },
-        "category":  "SPEAKER",
-        "brandId":  "ror",
-        "image_url":  "https://audio-database.com/e3.JPG",
-        "original_price":  "¥57000",
-        "release_year":  "1982",
-        "verified":  true
+        "id": "ror-e3",
+        "name": "E3",
+        "url": "https://audio-database.com/ROR/speaker/e3-e.html",
+        "sub_category": "",
+        "sections": {
+            "specifications": "Method: 1-Way, 1-Speaker, Airtight Type, Bookshelf Type | Units Used: For all bands : 12cm cone type | Frequency characteristic: EQ in : 85Hz to 16kHzEQ out : 95Hz to 13kHz | Efficiency: EQ in:89.5dBEQ out:91dB | Input: EQ in : 25W continuous, 250W peakEQ out : 15W continuous, 150W peak | Nominal impedance: 8| External dimensions: Width 165x Height 165x Depth 135mm | Weight: 1.9kg",
+            "title": "ROR E3",
+            "overview": "A mini-monitor speaker system developed for monitors.The unit is equipped with a 12cm cone type unit.The cabinet is made from carefully selected oak trees grown in North Carolina.In addition, the cabinet is assembled using a traditional Japanese architectural method called \"Sane-tsugi,\" and without using screws or nails, it is assembled tightly by applying pressure.Also, thick foam plastic is cut into squares for the net.The input terminal is equipped with an EQ terminal. With two positive sides of the input terminal, you can use it with or without the equalizer.By removing the equalizer, which is adjusted so that the playback frequency response is as flat as possible with a sound music balance, it becomes a kind of ambience control and is designed to increase the efficiency by 4dB in the mid-range, thereby achieving more precise control of the response."
+        },
+        "category": "SPEAKER",
+        "brandId": "ror",
+        "image_url": "https://audio-database.com/e3.JPG",
+        "original_price": "¥57000",
+        "release_year": "1982",
+        "verified": true
     },
     {
-        "id":  "rotel-rcd-02",
-        "name":  "RCD-02",
-        "url":  "https://audio-database.com/ROTEL/player/rcd-02-e.html",
-        "sub_category":  "Player",
-        "sections":  {
-                         "specifications":  "Type: CD Player | Total harmonic distortion factor: 0.0045%(1kHz) | Cross modulation distortion factor: 0.0045%(1kHz) | Frequency characteristic: 20 Hz to 20 kHz 0.5 dB | Channel balance: 0.5 dB | Phase linearity: 0.5 | Channel separation: 98 dB or Less (1 kHz) | Signal-to-noise ratio: 100 dB or more | Dynamic range: 96 dB or more | D/A converter: 18-bit, multi-level ?? DAC | Digital filter: 8 x Oversampling / HDCD | Wow and flutter: Quartz crystal accuracy | Output impedance: 100 | Digital output: 0.5Vp-p | Load impedance: 75 | Power supply voltage: 100 VAC, 50Hz/60Hz | Power consumption: 20W | External dimensions: W 468x H 73x D 313 mm | Weight: 5kg | Attachment: Wireless Remote Control",
-                         "title":  "ROTEL RCD-02",
-                         "overview":  "A CD player for HDCD.Wireless remote control is included."
-                     },
-        "category":  "Source",
-        "brandId":  "rotel",
-        "image_url":  "https://audio-database.com/rcd-02.JPG",
-        "original_price":  "¥79800",
-        "release_year":  "2004",
-        "verified":  true
+        "id": "rotel-rcd-02",
+        "name": "RCD-02",
+        "url": "https://audio-database.com/ROTEL/player/rcd-02-e.html",
+        "sub_category": "Player",
+        "sections": {
+            "specifications": "Type: CD Player | Total harmonic distortion factor: 0.0045%(1kHz) | Cross modulation distortion factor: 0.0045%(1kHz) | Frequency characteristic: 20Hz to 20kHz 0.5dB | Channel balance: 0.5dB | Phase linearity: 0.5| Channel separation: 98dB or Less (1kHz) | Signal-to-noise ratio: 100dB or more | Dynamic range: 96dB or more | D/A converter: 18-bit, multi-level ?? DAC | Digital filter: 8x Oversampling / HDCD | Wow and flutter: Quartz crystal accuracy | Output impedance: 100| Digital output: 0.5Vp-p | Load impedance: 75| Power supply voltage: 100VAC, 50Hz/60Hz | Power consumption: 20W | External dimensions: W 468x H 73x D 313mm | Weight: 5kg | Attachment: Wireless Remote Control",
+            "title": "ROTEL RCD-02",
+            "overview": "A CD player for HDCD.Wireless remote control is included."
+        },
+        "category": "Source",
+        "brandId": "rotel",
+        "image_url": "https://audio-database.com/rcd-02.JPG",
+        "original_price": "¥79800",
+        "release_year": "2004",
+        "verified": true
     },
     {
-        "id":  "rotel-rcd951",
-        "name":  "RCD951",
-        "url":  "https://audio-database.com/ROTEL/player/rcd951-e.html",
-        "sub_category":  "Player",
-        "sections":  {
-                         "specifications":  "Type: CD Player | Signal-to-noise ratio: 100dB | Dynamic range: 90dB | Output Level / Impedance: 2V/100 | Amplitude linearity: 0.5 dB | Channel balance: 0.5 dB | Channel separation: 100dB(1kHz) | Total harmonic distortion factor: 0.0025% | Power consumption: 20W | External dimensions: W 440x H 72x D 316 mm | Weight: 4.3kg | Attachment: Wireless Remote Control",
-                         "title":  "ROTEL RCD951",
-                         "overview":  "A CD player for HDCD.Wireless remote control is included."
-                     },
-        "category":  "Source",
-        "brandId":  "rotel",
-        "image_url":  "https://audio-database.com/rcd951.JPG",
-        "original_price":  "¥68000",
-        "release_year":  "1990",
-        "verified":  true
+        "id": "rotel-rcd951",
+        "name": "RCD951",
+        "url": "https://audio-database.com/ROTEL/player/rcd951-e.html",
+        "sub_category": "Player",
+        "sections": {
+            "specifications": "Type: CD Player | Signal-to-noise ratio: 100dB | Dynamic range: 90dB | Output Level / Impedance: 2V/100| Amplitude linearity: 0.5dB | Channel balance: 0.5dB | Channel separation: 100dB(1kHz) | Total harmonic distortion factor: 0.0025% | Power consumption: 20W | External dimensions: W 440x H 72x D 316mm | Weight: 4.3kg | Attachment: Wireless Remote Control",
+            "title": "ROTEL RCD951",
+            "overview": "A CD player for HDCD.Wireless remote control is included."
+        },
+        "category": "Source",
+        "brandId": "rotel",
+        "image_url": "https://audio-database.com/rcd951.JPG",
+        "original_price": "¥68000",
+        "release_year": "1990",
+        "verified": true
     },
     {
-        "id":  "rotel-rcd971",
-        "name":  "RCD971",
-        "url":  "https://audio-database.com/ROTEL/player/rcd971-e.html",
-        "sub_category":  "Player",
-        "sections":  {
-                         "specifications":  "Type: CD Player | Signal-to-noise ratio: 107dB | Dynamic range: 100dB | Output Level / Impedance: 2V/100 | Amplitude linearity: 0.5 dB | Channel balance: 0.5 dB | Channel separation: 110dB(1kHz) | Total harmonic distortion factor: 0.0035% | Power consumption: 20W | External dimensions: W 440x H 72x D 316 mm | Weight: 5.4kg | Attachment: Wireless Remote Control",
-                         "title":  "ROTEL RCD971",
-                         "overview":  "A CD player for HDCD.Wireless remote control is included."
-                     },
-        "category":  "Source",
-        "brandId":  "rotel",
-        "image_url":  "https://audio-database.com/rcd971.JPG",
-        "original_price":  "¥98000",
-        "release_year":  "1990",
-        "verified":  true
+        "id": "rotel-rcd971",
+        "name": "RCD971",
+        "url": "https://audio-database.com/ROTEL/player/rcd971-e.html",
+        "sub_category": "Player",
+        "sections": {
+            "specifications": "Type: CD Player | Signal-to-noise ratio: 107dB | Dynamic range: 100dB | Output Level / Impedance: 2V/100| Amplitude linearity: 0.5dB | Channel balance: 0.5dB | Channel separation: 110dB(1kHz) | Total harmonic distortion factor: 0.0035% | Power consumption: 20W | External dimensions: W 440x H 72x D 316mm | Weight: 5.4kg | Attachment: Wireless Remote Control",
+            "title": "ROTEL RCD971",
+            "overview": "A CD player for HDCD.Wireless remote control is included."
+        },
+        "category": "Source",
+        "brandId": "rotel",
+        "image_url": "https://audio-database.com/rcd971.JPG",
+        "original_price": "¥98000",
+        "release_year": "1990",
+        "verified": true
     },
     {
-        "id":  "rotel-rcd991",
-        "name":  "RCD991",
-        "url":  "https://audio-database.com/ROTEL/player/rcd991-e.html",
-        "sub_category":  "Player",
-        "sections":  {
-                         "specifications":  "Type: CD Player | Signal-to-noise ratio: 115dB | Dynamic range: 100dB | Output Level / Impedance: 2V/120 | Amplitude linearity: 0.5 dB | Channel balance: 0.5 dB | Channel separation: 110dB(1kHz) | Total harmonic distortion factor: 0.0035% | Power consumption: 20W | External dimensions: Width 440x Height 122x Depth 363 mm | Weight: 7.7kg | Attachment: Wireless Remote Control",
-                         "title":  "ROTEL RCD991",
-                         "overview":  "A CD player for HDCD.Wireless remote control is included."
-                     },
-        "category":  "Source",
-        "brandId":  "rotel",
-        "image_url":  "https://audio-database.com/rcd991.JPG",
-        "original_price":  "¥148000",
-        "release_year":  "1990",
-        "verified":  true
+        "id": "rotel-rcd991",
+        "name": "RCD991",
+        "url": "https://audio-database.com/ROTEL/player/rcd991-e.html",
+        "sub_category": "Player",
+        "sections": {
+            "specifications": "Type: CD Player | Signal-to-noise ratio: 115dB | Dynamic range: 100dB | Output Level / Impedance: 2V/120| Amplitude linearity: 0.5dB | Channel balance: 0.5dB | Channel separation: 110dB(1kHz) | Total harmonic distortion factor: 0.0035% | Power consumption: 20W | External dimensions: Width 440x Height 122x Depth 363mm | Weight: 7.7kg | Attachment: Wireless Remote Control",
+            "title": "ROTEL RCD991",
+            "overview": "A CD player for HDCD.Wireless remote control is included."
+        },
+        "category": "Source",
+        "brandId": "rotel",
+        "image_url": "https://audio-database.com/rcd991.JPG",
+        "original_price": "¥148000",
+        "release_year": "1990",
+        "verified": true
     },
     {
-        "id":  "rotel-rcd1072",
-        "name":  "RCD1072",
-        "url":  "https://audio-database.com/ROTEL/player/rcd1072-e.html",
-        "sub_category":  "Player",
-        "sections":  {
-                         "specifications":  "Type: CD Player | Total harmonic distortion factor and noise: 0.0045%(1kHz) | Channel balance: 0.5 dB | Channel separation: 98 dB or Less (1 kHz) | Signal-to-noise ratio: 100 dB or more | Dynamic range: 96 dB or more | Output impedance: 100 | Power consumption: 20W | External dimensions: Width 432x Height 93x Depth 337 mm | Weight: 5.8kg | Attachment: Wireless Remote Control",
-                         "title":  "ROTEL RCD1072",
-                         "overview":  "A CD player for HDCD.Wireless remote control is included."
-                     },
-        "category":  "Source",
-        "brandId":  "rotel",
-        "image_url":  "https://audio-database.com/rcd1072.JPG",
-        "original_price":  "¥128000",
-        "release_year":  "2003",
-        "verified":  true
+        "id": "rotel-rcd1072",
+        "name": "RCD1072",
+        "url": "https://audio-database.com/ROTEL/player/rcd1072-e.html",
+        "sub_category": "Player",
+        "sections": {
+            "specifications": "Type: CD Player | Total harmonic distortion factor and noise: 0.0045%(1kHz) | Channel balance: 0.5dB | Channel separation: 98dB or Less (1kHz) | Signal-to-noise ratio: 100dB or more | Dynamic range: 96dB or more | Output impedance: 100| Power consumption: 20W | External dimensions: Width 432x Height 93x Depth 337mm | Weight: 5.8kg | Attachment: Wireless Remote Control",
+            "title": "ROTEL RCD1072",
+            "overview": "A CD player for HDCD.Wireless remote control is included."
+        },
+        "category": "Source",
+        "brandId": "rotel",
+        "image_url": "https://audio-database.com/rcd1072.JPG",
+        "original_price": "¥128000",
+        "release_year": "2003",
+        "verified": true
     },
     {
-        "id":  "rotel-rd-2200",
-        "name":  "RD-2200",
-        "url":  "https://audio-database.com/ROTEL/player/rd-2200-e.html",
-        "sub_category":  "Player",
-        "sections":  {
-                         "specifications":  "Type: Cassette deck | Heads: Recording : SC HeadErasing : double-gap ferrite cores | Wow and flutter: 0.05%(WRMS) | Frequency Response (MPX Off): Normal / LH Tape : 30 Hz ~ 17 kHz 3 dBCrO2 / Ferrichrome Tape : 30 Hz ~ 19 kHz 3 dB | Signal-to-noise ratio(Ferrichrome tape): Dolby in : 64 dB (1 kHz, 0 VU)Dolby out : 56 dB (1 kHz, 0 VU) | Input Sensitivity / Impedance: Mic : 0.4mV/20k Line (RCA) : 140mV/50k Line (DIN) : 10mV/10k | Output level: Line(RCA/DIN):980mV | Motor: EG / DC motors | Fast-forward and rewind time: 90 seconds (C-60) | External dimensions: Width 482x Height 150x Depth 260 mm | Weight: 9kg",
-                         "title":  "ROTEL RD-2200",
-                         "overview":  "This is the first cassette deck to appear in Japan as an authentic model of ROTEL.Newly developed SC (Sendust Core) head is used for the head. Sendust alloys are made by adding silicon and aluminum to pure iron, and have excellent magnetic properties and mechanical strength.LED bar chart It is equipped with a peak indicator and uses LED for peak display. Thirteen LEDs are used for each left and right channel for digital display of -21dB to + 6 dB.Queue / Review feature. If you press Fast forward or Rewind while a tape is playing, the tape is fast forward or rewind during that time, and playback continues from the point you release your finger.Built-in memory function.If you press the memory switch and set the tape counter to 000 at your preference during recording or playback, the tape will automatically stop at 999 when rewinding.Equipped with the REC MUTE function.It is equipped with a tape selector which can switch the bias and equalizer in 3 levels independently.In addition, it is equipped with a bias adjustment function, and further fine adjustment can be made from 80% to 120% by normal position of bias.Equipped with MPX filter. In the ON position, 19 kHz pilot signal and 38 kHz carrier signal can be removed.It has a built-in Dolby circuit to reduce the hissing peculiar to tape. The RD-2200 uses Dolby IC to prevent aging.Uses a full auto-stop mechanism. When recording / playback / fast-forwarding / rewind, the tape end is detected at the end of the tape and the auto-stop functions to stop the tape running.By adopting the flywheel dump system, smooth operation of the cassette holder is realized.Equipped with an indicator off switch.Equipped with headphone port with level control."
-                     },
-        "category":  "Source",
-        "brandId":  "rotel",
-        "image_url":  "https://audio-database.com/rd-2200.JPG",
-        "original_price":  "¥59800",
-        "release_year":  "1970",
-        "verified":  true
+        "id": "rotel-rd-2200",
+        "name": "RD-2200",
+        "url": "https://audio-database.com/ROTEL/player/rd-2200-e.html",
+        "sub_category": "Player",
+        "sections": {
+            "specifications": "Type: Cassette deck | Heads: Recording : SC HeadErasing : double-gap ferrite cores | Wow and flutter: 0.05%(WRMS) | Frequency Response (MPX Off): Normal / LH Tape : 30Hz ~ 17kHz 3dBCrO2/ Ferrichrome Tape : 30Hz ~ 19kHz 3dB | Signal-to-noise ratio(Ferrichrome tape): Dolby in : 64dB (1kHz, 0VU)Dolby out : 56dB (1kHz, 0VU) | Input Sensitivity / Impedance: Mic : 0.4mV/20k Line (RCA) : 140mV/50k Line (DIN) : 10mV/10k | Output level: Line(RCA/DIN):980mV | Motor: EG / DC motors | Fast-forward and rewind time: 90seconds (C-60) | External dimensions: Width 482x Height 150x Depth 260mm | Weight: 9kg",
+            "title": "ROTEL RD-2200",
+            "overview": "This is the first cassette deck to appear in Japan as an authentic model of ROTEL.Newly developed SC (Sendust Core) head is used for the head. Sendust alloys are made by adding silicon and aluminum to pure iron, and have excellent magnetic properties and mechanical strength.LED bar chart It is equipped with a peak indicator and uses LED for peak display. Thirteen LEDs are used for each left and right channel for digital display of -21dB to + 6dB.Queue / Review feature. If you press Fast forward or Rewind while a tape is playing, the tape is fast forward or rewind during that time, and playback continues from the point you release your finger.Built-in memory function.If you press the memory switch and set the tape counter to 000at your preference during recording or playback, the tape will automatically stop at 999when rewinding.Equipped with the REC MUTE function.It is equipped with a tape selector which can switch the bias and equalizer in 3levels independently.In addition, it is equipped with a bias adjustment function, and further fine adjustment can be made from 80% to 120% by normal position of bias.Equipped with MPX filter. In the ON position, 19kHz pilot signal and 38kHz carrier signal can be removed.It has a built-in Dolby circuit to reduce the hissing peculiar to tape. The RD-2200uses Dolby IC to prevent aging.Uses a full auto-stop mechanism. When recording / playback / fast-forwarding / rewind, the tape end is detected at the end of the tape and the auto-stop functions to stop the tape running.By adopting the flywheel dump system, smooth operation of the cassette holder is realized.Equipped with an indicator off switch.Equipped with headphone port with level control."
+        },
+        "category": "Source",
+        "brandId": "rotel",
+        "image_url": "https://audio-database.com/rd-2200.JPG",
+        "original_price": "¥59800",
+        "release_year": "1970",
+        "verified": true
     },
     {
-        "id":  "rotel-rp-1000",
-        "name":  "RP-1000",
-        "url":  "https://audio-database.com/ROTEL/player/rp-1000-e.html",
-        "sub_category":  "Player",
-        "sections":  {
-                         "specifications":  "Type: MM Type Cartridge, RC-1000 | Drive system: Belt drive system | Motor type: 4-pole synchronous type | Number of revolutions: 33 1/3, 45 rpm | Turntable: 30 cm zinc die-cast, 1.3 kg | Uneven rotation: Not more than 0.1% | S/N: 45 dB or more | Total Length: 300mm | Effective length: 210mm | Overhang: 10mm | Usable cartridge dead weight: 4g ~ 18g | Possible range of needle pressure: 0 ~ 4g (0.5g step) | Frequency characteristic: 20 Hz to 20 kHz | Channel separation: 30dB(1kHz) | Output voltage: 4 mv (1 khz, 50cm/sec) | Load resistance: 50k ~ 100k | Needle tip: 0.7 mil diamond | Exchange needle: MD-6 | Compliance: 12x10-6cm/dyne | Needle pressure: 2g ~ 4g, Optimum Needle Pressure 3.3g | Weight: 4.5kg | Power supply voltage: 100 VAC, 50Hz/60Hz (Capstan Replacement) | Power consumption: 10VA | External dimensions: Width 468x Height 200x Depth 348 mm",
-                         "title":  "ROTEL RP-1000",
-                         "overview":  "A record player that pursues high performance at low cost.A 4-pole synchronous motor is used for the drive part.An S-shaped tone arm is used for the tone arm. In addition, an oil dump type arm lifter is mounted.A high-compliance type MM cartridge is used.Equipped with auto-return and auto-cut mechanism."
-                     },
-        "category":  "Source",
-        "brandId":  "rotel",
-        "image_url":  "https://audio-database.com/rp-1000.JPG",
-        "original_price":  "¥24500",
-        "release_year":  "1973",
-        "verified":  true
+        "id": "rotel-rp-1000",
+        "name": "RP-1000",
+        "url": "https://audio-database.com/ROTEL/player/rp-1000-e.html",
+        "sub_category": "Player",
+        "sections": {
+            "specifications": "Type: MM Type Cartridge, RC-1000| Drive system: Belt drive system | Motor type: 4-pole synchronous type | Number of revolutions: 331/3, 45rpm | Turntable: 30cm zinc die-cast, 1.3kg | Uneven rotation: Not more than 0.1% | S/N: 45dB or more | Total Length: 300mm | Effective length: 210mm | Overhang: 10mm | Usable cartridge dead weight: 4g ~ 18g | Possible range of needle pressure: 0~ 4g (0.5g step) | Frequency characteristic: 20Hz to 20kHz | Channel separation: 30dB(1kHz) | Output voltage: 4mv (1khz, 50cm/sec) | Load resistance: 50k ~ 100k | Needle tip: 0.7mil diamond | Exchange needle: MD-6| Compliance: 12x10-6cm/dyne | Needle pressure: 2g ~ 4g, Optimum Needle Pressure 3.3g | Weight: 4.5kg | Power supply voltage: 100VAC, 50Hz/60Hz (Capstan Replacement) | Power consumption: 10VA | External dimensions: Width 468x Height 200x Depth 348mm",
+            "title": "ROTEL RP-1000",
+            "overview": "A record player that pursues high performance at low cost.A 4-pole synchronous motor is used for the drive part.An S-shaped tone arm is used for the tone arm. In addition, an oil dump type arm lifter is mounted.A high-compliance type MM cartridge is used.Equipped with auto-return and auto-cut mechanism."
+        },
+        "category": "Source",
+        "brandId": "rotel",
+        "image_url": "https://audio-database.com/rp-1000.JPG",
+        "original_price": "¥24500",
+        "release_year": "1973",
+        "verified": true
     },
     {
-        "id":  "rotel-rq970bx",
-        "name":  "RQ970BX",
-        "url":  "https://audio-database.com/ROTEL/etc/rq970bx-e.html",
-        "sub_category":  "",
-        "sections":  {
-                         "specifications":  "Type: Phono equalizer amplifier | Input Sensitivity / Impedance: MM : 2.5mV/47k MC : 210mV/100 | Phono Overload: MM:160mVMC:16mV | S/N ratio (IHF-A network): MM:75dBMC:70dB | Frequency characteristic: 20 Hz to 20 kHz 1 dB | Power consumption: 10W | External dimensions: Width 440x Height 72x Depth 181 mm | Weight: 3.1kg",
-                         "title":  "ROTEL RQ970BX",
-                         "overview":  ""
-                     },
-        "category":  "ETC",
-        "brandId":  "rotel",
-        "image_url":  "https://audio-database.com/rq970bx.JPG",
-        "original_price":  "¥45000",
-        "release_year":  "2003",
-        "verified":  true
+        "id": "rotel-rq970bx",
+        "name": "RQ970BX",
+        "url": "https://audio-database.com/ROTEL/etc/rq970bx-e.html",
+        "sub_category": "",
+        "sections": {
+            "specifications": "Type: Phono equalizer amplifier | Input Sensitivity / Impedance: MM : 2.5mV/47k MC : 210mV/100| Phono Overload: MM:160mVMC:16mV | S/N ratio (IHF-A network): MM:75dBMC:70dB | Frequency characteristic: 20Hz to 20kHz 1dB | Power consumption: 10W | External dimensions: Width 440x Height 72x Depth 181mm | Weight: 3.1kg",
+            "title": "ROTEL RQ970BX",
+            "overview": ""
+        },
+        "category": "ETC",
+        "brandId": "rotel",
+        "image_url": "https://audio-database.com/rq970bx.JPG",
+        "original_price": "¥45000",
+        "release_year": "2003",
+        "verified": true
     },
     {
-        "id":  "rotel-rhc10",
-        "name":  "RHC10",
-        "url":  "https://audio-database.com/ROTEL/etc/rhc10-e.html",
-        "sub_category":  "",
-        "sections":  {
-                         "specifications":  "Type: Passive controller | Input (1-5) impedance: 10k | Main out impedance: From Source | Crosstalk: 80 dB (20 Hz to 20 kHz) | Channel separation: 75 dB (20 Hz to 20 kHz) | Input terminal: Line 5 (unbalanced) | Output terminal: Two systems (unbalanced) : Rec out, Main out | External dimensions: Width 470x Height 76x Depth 332 mm | Weight: 5.0kg",
-                         "title":  "ROTEL RHC10",
-                         "overview":  ""
-                     },
-        "category":  "ETC",
-        "brandId":  "rotel",
-        "image_url":  "https://audio-database.com/rhc10.JPG",
-        "original_price":  "¥200000",
-        "release_year":  "1990",
-        "verified":  true
+        "id": "rotel-rhc10",
+        "name": "RHC10",
+        "url": "https://audio-database.com/ROTEL/etc/rhc10-e.html",
+        "sub_category": "",
+        "sections": {
+            "specifications": "Type: Passive controller | Input (1-5) impedance: 10k | Main out impedance: From Source | Crosstalk: 80dB (20Hz to 20kHz) | Channel separation: 75dB (20Hz to 20kHz) | Input terminal: Line 5(unbalanced) | Output terminal: Two systems (unbalanced) : Rec out, Main out | External dimensions: Width 470x Height 76x Depth 332mm | Weight: 5.0kg",
+            "title": "ROTEL RHC10",
+            "overview": ""
+        },
+        "category": "ETC",
+        "brandId": "rotel",
+        "image_url": "https://audio-database.com/rhc10.JPG",
+        "original_price": "¥200000",
+        "release_year": "1990",
+        "verified": true
     },
     {
-        "id":  "rotel-re-2000",
-        "name":  "RE-2000",
-        "url":  "https://audio-database.com/ROTEL/etc/re-2000-e.html",
-        "sub_category":  "",
-        "sections":  {
-                         "specifications":  "Type: Octave equalizer | Channel: 2 channels (Left, Right) | Band: 10 Band / ch | Band control characteristic: 12 dB | Center frequency: 32, 63, 125, 250, 500, 1k, 2k, 4k, 8k, 16 kHz | Input Sensitivity / Impedance: 0.775V/56k | Rated Output / Impedance: 0.775V/600 | S/N ratio (IHF-A network): 100dB | Residual noise: 0.08mV | Frequency characteristic: 10 Hz to 100 kHz + 0 -1dB | Harmonic distortion factor: 0.005% | External dimensions: Width 482x Height 143x Depth 328 mm | Weight: 6.3kg",
-                         "title":  "ROTEL RE-2000",
-                         "overview":  "A stereo octave equalizer that enables fine sound field improvement and range correction.The equalizer circuit uses a semiconductor resonant circuit (ILAR) that consists of transistors, capacitors, and resistors. This reduces the external influence compared with a circuit using a coil, and prevents S/N deterioration due to electromagnetic induction hum, etc.The RE-2000 uses an FET in the first stage to eliminate the input coupling capacitor and uses a metallized film capacitor for the output coupling capacitor to improve sound quality.The power supply circuit is composed of a current limiter circuit and an AMP-type constant voltage circuit to improve the ripple suppression ratio and to lower the source impedance, thereby reducing distortion and crosstalk.It is divided into 10 bands independently on the left and right, and can be adjusted within   12 dB by sliding volume.Two tape decks can be connected, and 1 ? 2/2 ? 1 can be dubbed mutually by switching.The EQ can be used in either playback, recording or dubbing mode. The dubbing switch and monitor switch are independent, so both signals can be monitored alternately by operating the switch during dubbing.Equipped with an equalizer selector switch.In the Normal position, the equalizer is applied only for playback. In the Bypass position, the input / output terminals are connected directly and the equalizer circuit jumps. In the EQ REC position, the equalizer is applied for both dubbing and Source ? recording.* Direct connection to a power amplifier without volume is not recommended."
-                     },
-        "category":  "ETC",
-        "brandId":  "rotel",
-        "image_url":  "https://audio-database.com/re-2000.JPG",
-        "original_price":  "¥54800",
-        "release_year":  "2000",
-        "verified":  true
+        "id": "rotel-re-2000",
+        "name": "RE-2000",
+        "url": "https://audio-database.com/ROTEL/etc/re-2000-e.html",
+        "sub_category": "",
+        "sections": {
+            "specifications": "Type: Octave equalizer | Channel: 2channels (Left, Right) | Band: 10Band / ch | Band control characteristic: 12dB | Center frequency: 32, 63, 125, 250, 500, 1k, 2k, 4k, 8k, 16kHz | Input Sensitivity / Impedance: 0.775V/56k | Rated Output / Impedance: 0.775V/600| S/N ratio (IHF-A network): 100dB | Residual noise: 0.08mV | Frequency characteristic: 10Hz to 100kHz + 0-1dB | Harmonic distortion factor: 0.005% | External dimensions: Width 482x Height 143x Depth 328mm | Weight: 6.3kg",
+            "title": "ROTEL RE-2000",
+            "overview": "A stereo octave equalizer that enables fine sound field improvement and range correction.The equalizer circuit uses a semiconductor resonant circuit (ILAR) that consists of transistors, capacitors, and resistors. This reduces the external influence compared with a circuit using a coil, and prevents S/N deterioration due to electromagnetic induction hum, etc.The RE-2000uses an FET in the first stage to eliminate the input coupling capacitor and uses a metallized film capacitor for the output coupling capacitor to improve sound quality.The power supply circuit is composed of a current limiter circuit and an AMP-type constant voltage circuit to improve the ripple suppression ratio and to lower the source impedance, thereby reducing distortion and crosstalk.It is divided into 10bands independently on the left and right, and can be adjusted within   12dB by sliding volume.Two tape decks can be connected, and 1? 2/2? 1can be dubbed mutually by switching.The EQ can be used in either playback, recording or dubbing mode. The dubbing switch and monitor switch are independent, so both signals can be monitored alternately by operating the switch during dubbing.Equipped with an equalizer selector switch.In the Normal position, the equalizer is applied only for playback. In the Bypass position, the input / output terminals are connected directly and the equalizer circuit jumps. In the EQ REC position, the equalizer is applied for both dubbing and Source ? recording.* Direct connection to a power amplifier without volume is not recommended."
+        },
+        "category": "ETC",
+        "brandId": "rotel",
+        "image_url": "https://audio-database.com/re-2000.JPG",
+        "original_price": "¥54800",
+        "release_year": "2000",
+        "verified": true
     },
     {
-        "id":  "rotel-rh-630",
-        "name":  "RH-630",
-        "url":  "https://audio-database.com/ROTEL/etc/rh-630-e.html",
-        "sub_category":  "",
-        "sections":  {
-                         "specifications":  "Type: Stereo headphone | Allowable input: 0.5W | Input impedance: 8 ~ 16 | Frequency characteristic: 50 Hz to 18 kHz | Coil Cord Total Length: 3m | Weight: 500g",
-                         "title":  "ROTEL RH-630",
-                         "overview":  "Stereo headphones with a Hi-Fi drive unit.Uses special synthetic leather ear flaps and coil cords."
-                     },
-        "category":  "ETC",
-        "brandId":  "rotel",
-        "image_url":  "https://audio-database.com/rh-630.JPG",
-        "original_price":  "¥2900",
-        "release_year":  "1973",
-        "verified":  true
+        "id": "rotel-rh-630",
+        "name": "RH-630",
+        "url": "https://audio-database.com/ROTEL/etc/rh-630-e.html",
+        "sub_category": "",
+        "sections": {
+            "specifications": "Type: Stereo headphone | Allowable input: 0.5W | Input impedance: 8~ 16| Frequency characteristic: 50Hz to 18kHz | Coil Cord Total Length: 3m | Weight: 500g",
+            "title": "ROTEL RH-630",
+            "overview": "Stereo headphones with a Hi-Fi drive unit.Uses special synthetic leather ear flaps and coil cords."
+        },
+        "category": "ETC",
+        "brandId": "rotel",
+        "image_url": "https://audio-database.com/rh-630.JPG",
+        "original_price": "¥2900",
+        "release_year": "1973",
+        "verified": true
     },
     {
-        "id":  "rotel-rh-700",
-        "name":  "RH-700",
-        "url":  "https://audio-database.com/ROTEL/etc/rh-700-e.html",
-        "sub_category":  "",
-        "sections":  {
-                         "specifications":  "Type: Stereo headphone | Allowable input: 0.5W | Input impedance: 8 ~ 16 | Frequency characteristic: 40 Hz to 20 kHz | Coil Cord Total Length: 4.5m | Weight: 800g",
-                         "title":  "ROTEL RH-700",
-                         "overview":  "Stereo headphones with a Hi-Fi drive unit.Uses special synthetic leather ear flaps and coil cords."
-                     },
-        "category":  "ETC",
-        "brandId":  "rotel",
-        "image_url":  "https://audio-database.com/rh-700.JPG",
-        "original_price":  "¥4800",
-        "release_year":  "1973",
-        "verified":  true
+        "id": "rotel-rh-700",
+        "name": "RH-700",
+        "url": "https://audio-database.com/ROTEL/etc/rh-700-e.html",
+        "sub_category": "",
+        "sections": {
+            "specifications": "Type: Stereo headphone | Allowable input: 0.5W | Input impedance: 8~ 16| Frequency characteristic: 40Hz to 20kHz | Coil Cord Total Length: 4.5m | Weight: 800g",
+            "title": "ROTEL RH-700",
+            "overview": "Stereo headphones with a Hi-Fi drive unit.Uses special synthetic leather ear flaps and coil cords."
+        },
+        "category": "ETC",
+        "brandId": "rotel",
+        "image_url": "https://audio-database.com/rh-700.JPG",
+        "original_price": "¥4800",
+        "release_year": "1973",
+        "verified": true
     },
     {
-        "id":  "rotel-rt-222",
-        "name":  "RT-222",
-        "url":  "https://audio-database.com/ROTEL/tuner/rt-222-e.html",
-        "sub_category":  "Tuner",
-        "sections":  {
-                         "specifications":  "Type: FM/AM Tuner | Antenna impedance: 300 equilibrium75 unbalance | Sensitivity (IHF): 3 ? V | Signal-to-noise ratio: 50dB | Image interference ratio: 50dB(1MHz) | Capture ratio: 5dB | Selectivity (IHF): 30dB | Separation: 35dB(1kHz) | Output voltage: 300mV | Sensitivity: 25 ? V (S/N = 20 db) | Selectivity: 28dB | Semiconductor used: Transistor : 12Diode : 16 pcs | External dimensions: Width 320x Height 110x Depth 210 mm | Weight: 2.5kg",
-                         "title":  "ROTEL RT-222",
-                         "overview":  "Compact size FM/AM tuner.A precision 3-row varicon is adopted for the FM front end part.Uses IF3-stage amplification.Equipped with SCA filter."
-                     },
-        "category":  "Source",
-        "brandId":  "rotel",
-        "image_url":  "https://audio-database.com/rt-222.JPG",
-        "original_price":  "¥19500",
-        "release_year":  "1973",
-        "verified":  true
+        "id": "rotel-rt-222",
+        "name": "RT-222",
+        "url": "https://audio-database.com/ROTEL/tuner/rt-222-e.html",
+        "sub_category": "Tuner",
+        "sections": {
+            "specifications": "Type: FM/AM Tuner | Antenna impedance: 300equilibrium75unbalance | Sensitivity (IHF): 3? V | Signal-to-noise ratio: 50dB | Image interference ratio: 50dB(1MHz) | Capture ratio: 5dB | Selectivity (IHF): 30dB | Separation: 35dB(1kHz) | Output voltage: 300mV | Sensitivity: 25? V (S/N = 20db) | Selectivity: 28dB | Semiconductor used: Transistor : 12Diode : 16pcs | External dimensions: Width 320x Height 110x Depth 210mm | Weight: 2.5kg",
+            "title": "ROTEL RT-222",
+            "overview": "Compact size FM/AM tuner.A precision 3-row varicon is adopted for the FM front end part.Uses IF3-stage amplification.Equipped with SCA filter."
+        },
+        "category": "Source",
+        "brandId": "rotel",
+        "image_url": "https://audio-database.com/rt-222.JPG",
+        "original_price": "¥19500",
+        "release_year": "1973",
+        "verified": true
     },
     {
-        "id":  "rotel-rt-322",
-        "name":  "RT-322",
-        "url":  "https://audio-database.com/ROTEL/tuner/rt-322-e.html",
-        "sub_category":  "Tuner",
-        "sections":  {
-                         "specifications":  "Type: FM/AM Tuner | Antenna impedance: 300 equilibrium75 unbalance | Sensitivity (IHF): 2.2 ? V | Distortion Factor (400 Hz, 100% modulation): mono:0.5%stereo:1% | Signal-to-noise ratio: 50dB | Image interference ratio: 50dB(1MHz) | Spurious response: 80dB | Intermediate frequency interference ratio: 50dB(1MHz) | Capture ratio: 3dB | Selectivity: 45dB | Separation: 35dB(1kHz) | SCA suppression ratio: 60dB | AM suppression ratio: 40dB | Sensitivity: 25 ? V (S/N = 20 db) | Semiconductor used: Transistor : 19FET : 1Diode : 10 pcs | External dimensions: Width 350x Height 110x Depth 255 mm | Weight: 3.9kg",
-                         "title":  "ROTEL RT-322",
-                         "overview":  "FM/AM tuner with low-noise FET in FM front-endUses an IF4-stage amplifier circuit."
-                     },
-        "category":  "Source",
-        "brandId":  "rotel",
-        "image_url":  "https://audio-database.com/rt-322.JPG",
-        "original_price":  "¥27500",
-        "release_year":  "1973",
-        "verified":  true
+        "id": "rotel-rt-322",
+        "name": "RT-322",
+        "url": "https://audio-database.com/ROTEL/tuner/rt-322-e.html",
+        "sub_category": "Tuner",
+        "sections": {
+            "specifications": "Type: FM/AM Tuner | Antenna impedance: 300equilibrium75unbalance | Sensitivity (IHF): 2.2? V | Distortion Factor (400Hz, 100% modulation): mono:0.5%stereo:1% | Signal-to-noise ratio: 50dB | Image interference ratio: 50dB(1MHz) | Spurious response: 80dB | Intermediate frequency interference ratio: 50dB(1MHz) | Capture ratio: 3dB | Selectivity: 45dB | Separation: 35dB(1kHz) | SCA suppression ratio: 60dB | AM suppression ratio: 40dB | Sensitivity: 25? V (S/N = 20db) | Semiconductor used: Transistor : 19FET : 1Diode : 10pcs | External dimensions: Width 350x Height 110x Depth 255mm | Weight: 3.9kg",
+            "title": "ROTEL RT-322",
+            "overview": "FM/AM tuner with low-noise FET in FM front-endUses an IF4-stage amplifier circuit."
+        },
+        "category": "Source",
+        "brandId": "rotel",
+        "image_url": "https://audio-database.com/rt-322.JPG",
+        "original_price": "¥27500",
+        "release_year": "1973",
+        "verified": true
     },
     {
-        "id":  "rotel-rt-325",
-        "name":  "RT-325",
-        "url":  "https://audio-database.com/ROTEL/tuner/rt-325-e.html",
-        "sub_category":  "Tuner",
-        "sections":  {
-                         "specifications":  "Type: FM/AM Tuner | Receiving frequency: 535 kHz to 1,605 kHz | Antenna impedance: 300 equilibrium75 unbalance | Sensitivity (IHF): 2.2 ? V | Total harmonic distortion factor(400 Hz, 100% modulation): mono:0.5%stereo:1% | Signal-to-noise ratio: 50dB | Image interference ratio: 60dB | Spurious response: 80dB | Intermediate frequency interference ratio: 50dB(1MHz) | Capture ratio: 3dB | Selectivity: 45dB | Separation: 35dB(1kHz) | SCA suppression ratio: 60dB | Subcarrier suppression: 40dB | Stereo mono auto level: 50dB | Audio output: 1.5V | De-emphasis: 50 ? s | Practical sensitivity: 25 ? V (S/N = 20 db) | Image ratio: 50dB(1MHz) | Semiconductor used: Transistor : 19FET : 1Diode : 10 pcs | Power supply voltage: AC100V/120V/200V/240V, 50Hz/60Hz | Power consumption: 12VA | External dimensions: Width 358x Height 120x Depth 235 mm | Weight: 3.9kg",
-                         "title":  "ROTEL RT-325",
-                         "overview":  "An FM/AM tuner with high sensitivity and stability designed by skillful circuit technology.High sensitivity and excellent interference rejection capability are obtained by the use of the front end which combines a precision triple varicon and low-noise FET.It also uses a 4-stage amplified IF circuit.Equipped with an FM mono / stereo automatic switching circuit. When FM broadcasting changes from mono to stereo, an electronic switch automatically operates to enable stereo reception.Equipped with a tuning meter.It is equipped with a muting switch to suppress inter-station noise during FM broadcast channel selection."
-                     },
-        "category":  "Source",
-        "brandId":  "rotel",
-        "image_url":  "https://audio-database.com/rt-325.JPG",
-        "original_price":  "¥27900",
-        "release_year":  "1970",
-        "verified":  true
+        "id": "rotel-rt-325",
+        "name": "RT-325",
+        "url": "https://audio-database.com/ROTEL/tuner/rt-325-e.html",
+        "sub_category": "Tuner",
+        "sections": {
+            "specifications": "Type: FM/AM Tuner | Receiving frequency: 535kHz to 1,605kHz | Antenna impedance: 300equilibrium75unbalance | Sensitivity (IHF): 2.2? V | Total harmonic distortion factor(400Hz, 100% modulation): mono:0.5%stereo:1% | Signal-to-noise ratio: 50dB | Image interference ratio: 60dB | Spurious response: 80dB | Intermediate frequency interference ratio: 50dB(1MHz) | Capture ratio: 3dB | Selectivity: 45dB | Separation: 35dB(1kHz) | SCA suppression ratio: 60dB | Subcarrier suppression: 40dB | Stereo mono auto level: 50dB | Audio output: 1.5V | De-emphasis: 50? s | Practical sensitivity: 25? V (S/N = 20db) | Image ratio: 50dB(1MHz) | Semiconductor used: Transistor : 19FET : 1Diode : 10pcs | Power supply voltage: AC100V/120V/200V/240V, 50Hz/60Hz | Power consumption: 12VA | External dimensions: Width 358x Height 120x Depth 235mm | Weight: 3.9kg",
+            "title": "ROTEL RT-325",
+            "overview": "An FM/AM tuner with high sensitivity and stability designed by skillful circuit technology.High sensitivity and excellent interference rejection capability are obtained by the use of the front end which combines a precision triple varicon and low-noise FET.It also uses a 4-stage amplified IF circuit.Equipped with an FM mono / stereo automatic switching circuit. When FM broadcasting changes from mono to stereo, an electronic switch automatically operates to enable stereo reception.Equipped with a tuning meter.It is equipped with a muting switch to suppress inter-station noise during FM broadcast channel selection."
+        },
+        "category": "Source",
+        "brandId": "rotel",
+        "image_url": "https://audio-database.com/rt-325.JPG",
+        "original_price": "¥27900",
+        "release_year": "1970",
+        "verified": true
     },
     {
-        "id":  "rotel-rt-622",
-        "name":  "RT-622",
-        "url":  "https://audio-database.com/ROTEL/tuner/rt-622-e.html",
-        "sub_category":  "Tuner",
-        "sections":  {
-                         "specifications":  "Type: FM/AM Tuner | Antenna impedance: 300 equilibrium75 unbalance | Sensitivity (IHF): 1.7 ? V | Harmonic distortion factor: Not more than 0.5% | Signal-to-noise ratio: 50dB | Image interference ratio: 50dB(1MHz) | Spurious response: 100dB | Intermediate frequency interference ratio: 70dB(1MHz) | Capture ratio: 1.0dB | Selectivity: 30dB | Separation: 40dB(1kHz) | SCA suppression ratio: 60dB | AM suppression ratio: 50dB | Sensitivity: 20 ? V (S/N = 20 dB) | Semiconductor used: Transistor : 25FET : 1IC : 3Diode : 14 pcsCeramic Filter : 5 Pieces | Power consumption: 20VA | External dimensions: Width 420x Height 140x Depth 240 mm | Weight: 5kg",
-                         "title":  "ROTEL RT-622",
-                         "overview":  "FM/AM tuners incorporating the latest circuit technologies such as ICs.The FM front-end uses a low-noise FET and used for the FM front end.IC circuit technology is used for the IF stage and MPX stage.Uses a ceramic filter.Equipped with muting and MPX filter.2 Equipped with a tuning indicating meter.Equipped with two output terminals."
-                     },
-        "category":  "Source",
-        "brandId":  "rotel",
-        "image_url":  "https://audio-database.com/rt-622.JPG",
-        "original_price":  "¥49000",
-        "release_year":  "1973",
-        "verified":  true
+        "id": "rotel-rt-622",
+        "name": "RT-622",
+        "url": "https://audio-database.com/ROTEL/tuner/rt-622-e.html",
+        "sub_category": "Tuner",
+        "sections": {
+            "specifications": "Type: FM/AM Tuner | Antenna impedance: 300equilibrium75unbalance | Sensitivity (IHF): 1.7? V | Harmonic distortion factor: Not more than 0.5% | Signal-to-noise ratio: 50dB | Image interference ratio: 50dB(1MHz) | Spurious response: 100dB | Intermediate frequency interference ratio: 70dB(1MHz) | Capture ratio: 1.0dB | Selectivity: 30dB | Separation: 40dB(1kHz) | SCA suppression ratio: 60dB | AM suppression ratio: 50dB | Sensitivity: 20? V (S/N = 20dB) | Semiconductor used: Transistor : 25FET : 1IC : 3Diode : 14pcsCeramic Filter : 5Pieces | Power consumption: 20VA | External dimensions: Width 420x Height 140x Depth 240mm | Weight: 5kg",
+            "title": "ROTEL RT-622",
+            "overview": "FM/AM tuners incorporating the latest circuit technologies such as ICs.The FM front-end uses a low-noise FET and used for the FM front end.IC circuit technology is used for the IF stage and MPX stage.Uses a ceramic filter.Equipped with muting and MPX filter.2Equipped with a tuning indicating meter.Equipped with two output terminals."
+        },
+        "category": "Source",
+        "brandId": "rotel",
+        "image_url": "https://audio-database.com/rt-622.JPG",
+        "original_price": "¥49000",
+        "release_year": "1973",
+        "verified": true
     },
     {
-        "id":  "rotel-rt-1220",
-        "name":  "RT-1220",
-        "url":  "https://audio-database.com/ROTEL/tuner/rt-1220-e.html",
-        "sub_category":  "Tuner",
-        "sections":  {
-                         "specifications":  "Type: FM/AM Tuner | Antenna impedance: 300 equilibrium75 unbalance | Sensitivity (IHF): 1.5 ? V | Harmonic distortion factor: Not more than 0.5% | Signal-to-noise ratio: 50dB | Image interference ratio: 75dB(1MHz) | Spurious response: 110dB | Intermediate frequency interference ratio: 75dB(1MHz) | Capture ratio: 1.0dB | Selectivity: 40dB | Separation: 40dB(1kHz) | SCA suppression ratio: 60dB | AM suppression ratio: 52dB | Sensitivity: 15 ? V (S/N = 20 db) | Semiconductor used: Transistor : 31FET : 3IC : 3Diode : 19 unitsCeramic Filter : 4 Pieces | Power consumption: 30VA | External dimensions: Width 420x Height 140x Depth 304 mm | Weight: 8kg",
-                         "title":  "ROTEL RT-1220",
-                         "overview":  "FM/AM tuner which adopted newly developed MOS FET and 5 series varicon.Ceramic filter is used for IF stage, and IC is used for IF stage and MPX circuit.Equipped with de-emphasis and muting sensitivity switching.Equipped with two output circuits and headphone jacks."
-                     },
-        "category":  "Source",
-        "brandId":  "rotel",
-        "image_url":  "https://audio-database.com/rt-1220.JPG",
-        "original_price":  "¥59000",
-        "release_year":  "1973",
-        "verified":  true
+        "id": "rotel-rt-1220",
+        "name": "RT-1220",
+        "url": "https://audio-database.com/ROTEL/tuner/rt-1220-e.html",
+        "sub_category": "Tuner",
+        "sections": {
+            "specifications": "Type: FM/AM Tuner | Antenna impedance: 300equilibrium75unbalance | Sensitivity (IHF): 1.5? V | Harmonic distortion factor: Not more than 0.5% | Signal-to-noise ratio: 50dB | Image interference ratio: 75dB(1MHz) | Spurious response: 110dB | Intermediate frequency interference ratio: 75dB(1MHz) | Capture ratio: 1.0dB | Selectivity: 40dB | Separation: 40dB(1kHz) | SCA suppression ratio: 60dB | AM suppression ratio: 52dB | Sensitivity: 15? V (S/N = 20db) | Semiconductor used: Transistor : 31FET : 3IC : 3Diode : 19unitsCeramic Filter : 4Pieces | Power consumption: 30VA | External dimensions: Width 420x Height 140x Depth 304mm | Weight: 8kg",
+            "title": "ROTEL RT-1220",
+            "overview": "FM/AM tuner which adopted newly developed MOS FET and 5series varicon.Ceramic filter is used for IF stage, and IC is used for IF stage and MPX circuit.Equipped with de-emphasis and muting sensitivity switching.Equipped with two output circuits and headphone jacks."
+        },
+        "category": "Source",
+        "brandId": "rotel",
+        "image_url": "https://audio-database.com/rt-1220.JPG",
+        "original_price": "¥59000",
+        "release_year": "1973",
+        "verified": true
     },
     {
-        "id":  "rotel-rt-2000",
-        "name":  "RT-2000",
-        "url":  "https://audio-database.com/ROTEL/tuner/rt-2000-e.html",
-        "sub_category":  "Tuner",
-        "sections":  {
-                         "specifications":  "Type: FM/AM Tuner | Sensitivity (IHF): 200 ? V/m | Signal-to-noise ratio (IHF): mono:80dBstereo:75dB | Harmonic distortion factor: mono wide:0.05%narrow:0.15% stereo wide:0.07%narrow:0.2% | mono: wide:0.05%narrow:0.15% | stereo: wide:0.07%narrow:0.2% | Capture ratio: 1dB | Effective selectivity (IHF): narrow:80dB | Frequency characteristic: 30 Hz to 15 kHz 0.2 dB | Stereo separation: 45dB(1kHz) | Image interference ratio: 50dB | IF interference ratio: 100dB | AM suppression ratio: 60dB | Muting: 5 ? V | Signal-to-noise ratio: 55dB | Selectivity: 40dB | External dimensions: Width 482x Height 143x Depth 328 mm | Weight: 7.5kg",
-                         "title":  "ROTEL RT-2000",
-                         "overview":  "FM/AM tuner using quartz lock system.Quartz lock system with crystal oscillator is adopted.The quartz-locked system constantly compares the accurate 10.7 MHz produced by the crystal oscillator with the intermediate-frequency amplified (IF) 10.7 MHz. When a difference occurs, the phase comparator produces a plus / minus difference signal, and a low-pass filter controls the local oscillator. Quartz is insensitive to changes in humidity or temperature, so the oscillation frequency remains locked, eliminating post-tuning drift.In addition, a touch lock-off system is adopted, and the lock is released while the tuning knob is touched, and the quartz lock works the moment the hand is released.The front-end section uses a frequency linear precision five series varicon, and the RT-2000 uses a single dual-gate MOS FET.The bandwidth of the IF section can be switched in two stages, and conditions can be set according to reception conditions.By selecting NARROW when radio wave conditions are poor, high selectivity characteristics can be obtained.The MPX section is equipped with a carrier canceler circuit that cuts the pilot signal (19 kHz). The LC block filter and PLL IC, which take care of the attenuation of the sub-carrier signal (38 kHz), ensure a wide range by suppressing the high-frequency degradation.Equipped with multipath detection function.For RT-2000, the indicator of the tuning meter is displayed.It is equipped with a high-blend switch that demonstrates power in weak electric field reception.The AM tuner uses a 16-pin dual in-line IC pack circuit."
-                     },
-        "category":  "Source",
-        "brandId":  "rotel",
-        "image_url":  "https://audio-database.com/rt-2000.JPG",
-        "original_price":  "¥60000",
-        "release_year":  "2000",
-        "verified":  true
+        "id": "rotel-rt-2000",
+        "name": "RT-2000",
+        "url": "https://audio-database.com/ROTEL/tuner/rt-2000-e.html",
+        "sub_category": "Tuner",
+        "sections": {
+            "specifications": "Type: FM/AM Tuner | Sensitivity (IHF): 200? V/m | Signal-to-noise ratio (IHF): mono:80dBstereo:75dB | Harmonic distortion factor: mono wide:0.05%narrow:0.15% stereo wide:0.07%narrow:0.2% | mono: wide:0.05%narrow:0.15% | stereo: wide:0.07%narrow:0.2% | Capture ratio: 1dB | Effective selectivity (IHF): narrow:80dB | Frequency characteristic: 30Hz to 15kHz 0.2dB | Stereo separation: 45dB(1kHz) | Image interference ratio: 50dB | IF interference ratio: 100dB | AM suppression ratio: 60dB | Muting: 5? V | Signal-to-noise ratio: 55dB | Selectivity: 40dB | External dimensions: Width 482x Height 143x Depth 328mm | Weight: 7.5kg",
+            "title": "ROTEL RT-2000",
+            "overview": "FM/AM tuner using quartz lock system.Quartz lock system with crystal oscillator is adopted.The quartz-locked system constantly compares the accurate 10.7MHz produced by the crystal oscillator with the intermediate-frequency amplified (IF) 10.7MHz. When a difference occurs, the phase comparator produces a plus / minus difference signal, and a low-pass filter controls the local oscillator. Quartz is insensitive to changes in humidity or temperature, so the oscillation frequency remains locked, eliminating post-tuning drift.In addition, a touch lock-off system is adopted, and the lock is released while the tuning knob is touched, and the quartz lock works the moment the hand is released.The front-end section uses a frequency linear precision five series varicon, and the RT-2000uses a single dual-gate MOS FET.The bandwidth of the IF section can be switched in two stages, and conditions can be set according to reception conditions.By selecting NARROW when radio wave conditions are poor, high selectivity characteristics can be obtained.The MPX section is equipped with a carrier canceler circuit that cuts the pilot signal (19kHz). The LC block filter and PLL IC, which take care of the attenuation of the sub-carrier signal (38kHz), ensure a wide range by suppressing the high-frequency degradation.Equipped with multipath detection function.For RT-2000, the indicator of the tuning meter is displayed.It is equipped with a high-blend switch that demonstrates power in weak electric field reception.The AM tuner uses a 16-pin dual in-line IC pack circuit."
+        },
+        "category": "Source",
+        "brandId": "rotel",
+        "image_url": "https://audio-database.com/rt-2000.JPG",
+        "original_price": "¥60000",
+        "release_year": "2000",
+        "verified": true
     },
     {
-        "id":  "rotel-rt-2100",
-        "name":  "RT-2100",
-        "url":  "https://audio-database.com/ROTEL/tuner/rt-2100-e.html",
-        "sub_category":  "Tuner",
-        "sections":  {
-                         "specifications":  "Type: FM stereo tuner | Sensitivity (IHF): Mono : 9.3dBf/1.6 ? V (S/N 26 dB)Stereo : 36dBf/35 ? V (S/N 50 dB) | Signal-to-noise ratio (IHF): mono:80dBstereo:75dB | Harmonic distortion factor: mono wide:0.05%narrow:0.15% stereo wide:0.07%narrow:0.2% | mono: wide:0.05%narrow:0.15% | stereo: wide:0.07%narrow:0.2% | Capture ratio: 1dB | Effective selectivity (IHF): narrow:80dB | Frequency characteristic: 30 Hz to 15 kHz 0.2 dB | Stereo separation: 47dB(1kHz) | Image interference ratio: 115dB | IF interference ratio: 115dB | AM suppression ratio: 65dB | Muting: 5 ? V | External dimensions: Width 482x Height 143x Depth 328 mm | Weight: 7.5kg",
-                         "title":  "ROTEL RT-2100",
-                         "overview":  "FM stereo tuner using quartz lock system.Quartz lock system with crystal oscillator is adopted.The quartz-locked system constantly compares the accurate 10.7 MHz produced by the crystal oscillator with the intermediate-frequency amplified (IF) 10.7 MHz. When a difference occurs, the phase comparator produces a plus / minus difference signal, and a low-pass filter controls the local oscillator. Quartz is insensitive to changes in humidity or temperature, so the oscillation frequency remains locked, eliminating post-tuning drift.In addition, a touch lock-off system is adopted, and the lock is released while the tuning knob is touched, and the quartz lock works the moment the hand is released.Uses a tuning method with an LED indicator.When the tuning knob is touched, the induced voltage is detected and the quartz lock is released. At this time, the local frequency changes linearly. When the dial indicator comes close to the desired radio wave (  100 kHz), the side indicator lights. When the indicator comes close to the desired radio wave, the green LED in the center lights. This indicates full synchronization. When the indicator comes close to the desired radio wave, the LED in the quartz lock indicator glows green, indicating that the lock has been achieved. When the knob is released, the LED in the quartz lock indicator lights green.The front end section uses a frequency linear type precision 5-row varicon.The RT the RT-2100 uses three dual-gate MOS FETs for high sensitivity and excellent interference rejection.The bandwidth of the IF section can be switched in two stages, and conditions can be set according to reception conditions.By selecting NARROW when radio wave conditions are poor, high selectivity characteristics can be obtained.The MPX section is equipped with a carrier canceler circuit that cuts the pilot signal (19 kHz). The LC block filter and PLL IC, which take care of the attenuation of the sub-carrier signal (38 kHz), ensure a wide range by suppressing the high-frequency degradation.Equipped with tape deck and level check function.When the REC CHECK switch is turned on, a dial tone of 400 Hz will be output. During an air check, the deck level will be set to reference (0 dB).Equipped with multipath detection function.For RT-2100, the signal indicator shows the degree of multipath.It is equipped with a high-blend switch that demonstrates power in weak electric field reception."
-                     },
-        "category":  "Source",
-        "brandId":  "rotel",
-        "image_url":  "https://audio-database.com/rt-2100.JPG",
-        "original_price":  "¥98000",
-        "release_year":  "1970",
-        "verified":  true
+        "id": "rotel-rt-2100",
+        "name": "RT-2100",
+        "url": "https://audio-database.com/ROTEL/tuner/rt-2100-e.html",
+        "sub_category": "Tuner",
+        "sections": {
+            "specifications": "Type: FM stereo tuner | Sensitivity (IHF): Mono : 9.3dBf/1.6? V (S/N 26dB)Stereo : 36dBf/35? V (S/N 50dB) | Signal-to-noise ratio (IHF): mono:80dBstereo:75dB | Harmonic distortion factor: mono wide:0.05%narrow:0.15% stereo wide:0.07%narrow:0.2% | mono: wide:0.05%narrow:0.15% | stereo: wide:0.07%narrow:0.2% | Capture ratio: 1dB | Effective selectivity (IHF): narrow:80dB | Frequency characteristic: 30Hz to 15kHz 0.2dB | Stereo separation: 47dB(1kHz) | Image interference ratio: 115dB | IF interference ratio: 115dB | AM suppression ratio: 65dB | Muting: 5? V | External dimensions: Width 482x Height 143x Depth 328mm | Weight: 7.5kg",
+            "title": "ROTEL RT-2100",
+            "overview": "FM stereo tuner using quartz lock system.Quartz lock system with crystal oscillator is adopted.The quartz-locked system constantly compares the accurate 10.7MHz produced by the crystal oscillator with the intermediate-frequency amplified (IF) 10.7MHz. When a difference occurs, the phase comparator produces a plus / minus difference signal, and a low-pass filter controls the local oscillator. Quartz is insensitive to changes in humidity or temperature, so the oscillation frequency remains locked, eliminating post-tuning drift.In addition, a touch lock-off system is adopted, and the lock is released while the tuning knob is touched, and the quartz lock works the moment the hand is released.Uses a tuning method with an LED indicator.When the tuning knob is touched, the induced voltage is detected and the quartz lock is released. At this time, the local frequency changes linearly. When the dial indicator comes close to the desired radio wave (  100kHz), the side indicator lights. When the indicator comes close to the desired radio wave, the green LED in the center lights. This indicates full synchronization. When the indicator comes close to the desired radio wave, the LED in the quartz lock indicator glows green, indicating that the lock has been achieved. When the knob is released, the LED in the quartz lock indicator lights green.The front end section uses a frequency linear type precision 5-row varicon.The RT the RT-2100uses three dual-gate MOS FETs for high sensitivity and excellent interference rejection.The bandwidth of the IF section can be switched in two stages, and conditions can be set according to reception conditions.By selecting NARROW when radio wave conditions are poor, high selectivity characteristics can be obtained.The MPX section is equipped with a carrier canceler circuit that cuts the pilot signal (19kHz). The LC block filter and PLL IC, which take care of the attenuation of the sub-carrier signal (38kHz), ensure a wide range by suppressing the high-frequency degradation.Equipped with tape deck and level check function.When the REC CHECK switch is turned on, a dial tone of 400Hz will be output. During an air check, the deck level will be set to reference (0dB).Equipped with multipath detection function.For RT-2100, the signal indicator shows the degree of multipath.It is equipped with a high-blend switch that demonstrates power in weak electric field reception."
+        },
+        "category": "Source",
+        "brandId": "rotel",
+        "image_url": "https://audio-database.com/rt-2100.JPG",
+        "original_price": "¥98000",
+        "release_year": "1970",
+        "verified": true
     },
     {
-        "id":  "rotel-rs-601",
-        "name":  "RS-601",
-        "url":  "https://audio-database.com/ROTEL/speaker/rs-601-e.html",
-        "sub_category":  "",
-        "sections":  {
-                         "specifications":  "Method: 1-way, 1-speaker, bookshelf type | Units Used: For all bands : 16 cm cone type | Allowable input: 10W | Input impedance: 8 | Frequency characteristic: 70 Hz to 19 kHz | Output sound pressure level: 91dB | External dimensions: Width 250x Height 350x Depth 175 mm | Weight: 2.7kg",
-                         "title":  "ROTEL RS-601",
-                         "overview":  "This speaker system is based on the theme of high-fidelity reproduction and has been created through repeated hard listening tests.The unit uses a 16 cm full range speaker.Uses a 75 mm ring type magnet for the magnetic circuit.It has a walnut finish."
-                     },
-        "category":  "SPEAKER",
-        "brandId":  "rotel",
-        "image_url":  "https://audio-database.com/rs-601.JPG",
-        "original_price":  "¥4800",
-        "release_year":  "1973",
-        "verified":  true
+        "id": "rotel-rs-601",
+        "name": "RS-601",
+        "url": "https://audio-database.com/ROTEL/speaker/rs-601-e.html",
+        "sub_category": "",
+        "sections": {
+            "specifications": "Method: 1-way, 1-speaker, bookshelf type | Units Used: For all bands : 16cm cone type | Allowable input: 10W | Input impedance: 8| Frequency characteristic: 70Hz to 19kHz | Output sound pressure level: 91dB | External dimensions: Width 250x Height 350x Depth 175mm | Weight: 2.7kg",
+            "title": "ROTEL RS-601",
+            "overview": "This speaker system is based on the theme of high-fidelity reproduction and has been created through repeated hard listening tests.The unit uses a 16cm full range speaker.Uses a 75mm ring type magnet for the magnetic circuit.It has a walnut finish."
+        },
+        "category": "SPEAKER",
+        "brandId": "rotel",
+        "image_url": "https://audio-database.com/rs-601.JPG",
+        "original_price": "¥4800",
+        "release_year": "1973",
+        "verified": true
     },
     {
-        "id":  "rotel-rs-801",
-        "name":  "RS-801",
-        "url":  "https://audio-database.com/ROTEL/speaker/rs-801-e.html",
-        "sub_category":  "",
-        "sections":  {
-                         "specifications":  "Method: 2-way / 2-speaker / bookshelf type | Units Used: For low band : 20 cm cone typeFor high range : 9 cm cone type | Allowable input: 20W | Input impedance: 8 | Frequency characteristic: 70 Hz to 20 kHz | Output sound pressure level: 92dB | Crossover frequency: 5kHz | External dimensions: Width 280x Height 430x Depth 150 mm | Weight: 3.3kg",
-                         "title":  "ROTEL RS-801",
-                         "overview":  "This speaker system is based on the theme of high-fidelity reproduction and has been created through repeated hard listening tests.A roll-edge 20 cm cone type woofer is installed in the low range.A 9 cm cone type tweeter is installed in the high range.The enclosure has a walnut finish."
-                     },
-        "category":  "SPEAKER",
-        "brandId":  "rotel",
-        "image_url":  "https://audio-database.com/rs-801.JPG",
-        "original_price":  "¥6500",
-        "release_year":  "1973",
-        "verified":  true
+        "id": "rotel-rs-801",
+        "name": "RS-801",
+        "url": "https://audio-database.com/ROTEL/speaker/rs-801-e.html",
+        "sub_category": "",
+        "sections": {
+            "specifications": "Method: 2-way / 2-speaker / bookshelf type | Units Used: For low band : 20cm cone typeFor high range : 9cm cone type | Allowable input: 20W | Input impedance: 8| Frequency characteristic: 70Hz to 20kHz | Output sound pressure level: 92dB | Crossover frequency: 5kHz | External dimensions: Width 280x Height 430x Depth 150mm | Weight: 3.3kg",
+            "title": "ROTEL RS-801",
+            "overview": "This speaker system is based on the theme of high-fidelity reproduction and has been created through repeated hard listening tests.A roll-edge 20cm cone type woofer is installed in the low range.A 9cm cone type tweeter is installed in the high range.The enclosure has a walnut finish."
+        },
+        "category": "SPEAKER",
+        "brandId": "rotel",
+        "image_url": "https://audio-database.com/rs-801.JPG",
+        "original_price": "¥6500",
+        "release_year": "1973",
+        "verified": true
     },
     {
-        "id":  "rotel-rs-883",
-        "name":  "RS-883",
-        "url":  "https://audio-database.com/ROTEL/speaker/rs-883-e.html",
-        "sub_category":  "",
-        "sections":  {
-                         "specifications":  "Method: 2-way / 3-speaker / bookshelf type | Units Used: For low band : 20 cm cone x2For high range : 9 cm cone type | Allowable input: 30W | Input impedance: 8 | Frequency characteristic: 50 Hz to 20 kHz | Output sound pressure level: 98dB | Crossover frequency: 5 kHz, 6dB/oct. | External dimensions: Width 330x Height 560x Depth 200 mm | Weight: 6.7kg",
-                         "title":  "ROTEL RS-883",
-                         "overview":  "This speaker system is based on the theme of high-fidelity reproduction and has been created through repeated hard listening tests.Two roll-edge 20 cm cone type woofers are installed in the lower range.A 9 cm cone type tweeter is installed in the high range.The enclosure has a walnut finish."
-                     },
-        "category":  "SPEAKER",
-        "brandId":  "rotel",
-        "image_url":  "https://audio-database.com/rs-883.JPG",
-        "original_price":  "¥11500",
-        "release_year":  "1973",
-        "verified":  true
+        "id": "rotel-rs-883",
+        "name": "RS-883",
+        "url": "https://audio-database.com/ROTEL/speaker/rs-883-e.html",
+        "sub_category": "",
+        "sections": {
+            "specifications": "Method: 2-way / 3-speaker / bookshelf type | Units Used: For low band : 20cm cone x2For high range : 9cm cone type | Allowable input: 30W | Input impedance: 8| Frequency characteristic: 50Hz to 20kHz | Output sound pressure level: 98dB | Crossover frequency: 5kHz, 6dB/oct. | External dimensions: Width 330x Height 560x Depth 200mm | Weight: 6.7kg",
+            "title": "ROTEL RS-883",
+            "overview": "This speaker system is based on the theme of high-fidelity reproduction and has been created through repeated hard listening tests.Two roll-edge 20cm cone type woofers are installed in the lower range.A 9cm cone type tweeter is installed in the high range.The enclosure has a walnut finish."
+        },
+        "category": "SPEAKER",
+        "brandId": "rotel",
+        "image_url": "https://audio-database.com/rs-883.JPG",
+        "original_price": "¥11500",
+        "release_year": "1973",
+        "verified": true
     },
     {
-        "id":  "rotel-rs-905",
-        "name":  "RS-905",
-        "url":  "https://audio-database.com/ROTEL/speaker/rs-905-e.html",
-        "sub_category":  "",
-        "sections":  {
-                         "specifications":  "Method: 2-way / 2-speaker / bookshelf type | Units Used: For low band : 25 cm cone typeFor high range : 9 cm cone type | Allowable input: 40W | Input impedance: 8 | Frequency characteristic: 40 Hz to 20 kHz | Output sound pressure level: 96dB | Crossover frequency: 2.5 kHz, 6dB/oct. | External dimensions: Width 350x Height 550x Depth 270 mm | Weight: 12kg",
-                         "title":  "ROTEL RS-905",
-                         "overview":  "This speaker system is based on the theme of high-fidelity reproduction and has been created through repeated hard listening tests.A 25 cm cone type woofer of roll edge type is installed in the low range.A 9 cm cone type tweeter is installed in the high range.The enclosure has a walnut finish."
-                     },
-        "category":  "SPEAKER",
-        "brandId":  "rotel",
-        "image_url":  "https://audio-database.com/rs-905.JPG",
-        "original_price":  "¥19500",
-        "release_year":  "1973",
-        "verified":  true
+        "id": "rotel-rs-905",
+        "name": "RS-905",
+        "url": "https://audio-database.com/ROTEL/speaker/rs-905-e.html",
+        "sub_category": "",
+        "sections": {
+            "specifications": "Method: 2-way / 2-speaker / bookshelf type | Units Used: For low band : 25cm cone typeFor high range : 9cm cone type | Allowable input: 40W | Input impedance: 8| Frequency characteristic: 40Hz to 20kHz | Output sound pressure level: 96dB | Crossover frequency: 2.5kHz, 6dB/oct. | External dimensions: Width 350x Height 550x Depth 270mm | Weight: 12kg",
+            "title": "ROTEL RS-905",
+            "overview": "This speaker system is based on the theme of high-fidelity reproduction and has been created through repeated hard listening tests.A 25cm cone type woofer of roll edge type is installed in the low range.A 9cm cone type tweeter is installed in the high range.The enclosure has a walnut finish."
+        },
+        "category": "SPEAKER",
+        "brandId": "rotel",
+        "image_url": "https://audio-database.com/rs-905.JPG",
+        "original_price": "¥19500",
+        "release_year": "1973",
+        "verified": true
     }
 ]

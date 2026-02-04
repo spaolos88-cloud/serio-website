@@ -1,14 +1,16 @@
-﻿{
-    "url":  "https://audio-database.com/ROR/speaker/e3-e.html",
-    "name":  "E3",
-    "id":  "ror-e3",
-    "original_price":  "¥57000",
-    "category":  "SPEAKER",
-    "description":  "\"A mini-monitor speaker system developed for monitors.The unit is equipped with a 12 cm cone type unit.The cabinet is made from carefully selected oak trees grown in North Carolina.In addition, the cabinet is assembled using a traditional Japanese architectural method called \"\"Sane-tsugi,\"\" and without using screws or nails, it is assembled tightly by applying pressure.Also, thick foam plastic is cut into squares for the net.The input terminal is equipped with an EQ terminal. With two positive sides of the input terminal, you can use it with or without the equalizer.By removing the equalizer, which is adjusted so that the playback frequency response is as flat as possible with a sound music balance, it becomes a kind of ambience control and is designed to increase the efficiency by 4 dB in the mid-range, thereby achieving more precise control of the response.\"",
-    "sub_category":  "",
-    "brandId":  "ror",
-    "specifications":  "\"Method: 1-Way, 1-Speaker, Airtight Type, Bookshelf Type | Units Used: For all bands : 12 cm cone type | Frequency characteristic: EQ in : 85 Hz to 16 kHzEQ out : 95 Hz to 13 kHz | Efficiency: EQ in:89.5dBEQ out:91dB | Input: EQ in : 25W continuous, 250W peakEQ out : 15W continuous, 150W peak | Nominal impedance: 8 � | External dimensions: Width 165x Height 165x Depth 135 mm | Weight: 1.9kg\"",
-    "release_year":  "1982",
-    "verified":  true,
-    "image_url":  "https://audio-database.com/ROR/speaker/e3.JPG"
-}
+[
+    {
+        "url": "https://audio-database.com/ROR/speaker/e3-e.html",
+        "name": "E3",
+        "id": "ror-e3",
+        "original_price": "¥57000",
+        "category": "SPEAKER",
+        "description": "## Description\n\n\"A mini-monitor speaker system developed for monitors.The unit is equipped with a 12cm cone type unit.The cabinet is made from carefully selected oak trees grown in North Carolina.In addition, the cabinet is assembled using a traditional Japanese architectural method called \"\"Sane-tsugi,\"\" and without using screws or nails, it is assembled tightly by applying pressure.Also, thick foam plastic is cut into squares for the net.The input terminal is equipped with an EQ terminal. With two positive sides of the input terminal, you can use it with or without the equalizer.By removing the equalizer, which is adjusted so that the playback frequency response is as flat as possible with a sound music balance, it becomes a kind of ambience control and is designed to increase the efficiency by 4dB in the mid-range, thereby achieving more precise control of the response.\"",
+        "sub_category": "",
+        "brandId": "ror",
+        "specifications": "\"Method: 1-Way, 1-Speaker, Airtight Type, Bookshelf Type | Units Used: For all bands : 12cm cone type | Frequency characteristic: EQ in : 85Hz to 16kHzEQ out : 95Hz to 13kHz | Efficiency: EQ in:89.5dBEQ out:91dB | Input: EQ in : 25W continuous, 250W peakEQ out : 15W continuous, 150W peak | Nominal impedance: 8� | External dimensions: Width 165x Height 165x Depth 135mm | Weight: 1.9kg\"",
+        "release_year": "1982",
+        "verified": true,
+        "image_url": "https://audio-database.com/ROR/speaker/e3.JPG"
+    }
+]

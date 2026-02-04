@@ -1,1 +1,16 @@
-﻿{"url":"","name":"https://audio-database.com/Accuphase-kensonic/etc/B-6-e.html","id":"characteristics-of-each-power-amplifier-bridge-connection-https:--audio-databasecom-accuphase-kensonic-etc-b-6-ehtml","original_price":"","category":"General","description":"","sub_category":"","brandId":"characteristics-of-each-power-amplifier-bridge-connection","specifications":"","release_year":"","verified":false,"image_url":""}
+[
+    {
+        "url": "https://audio-database.com/Accuphase-kensonic/etc/B-6-e.html",
+        "name": "B-6",
+        "id": "characteristics-of-each-power-amplifier-bridge-connection-https:--audio-databasecom-accuphase-kensonic-etc-b-6-ehtml",
+        "original_price": "¥25000",
+        "category": "General",
+        "description": "Audio Database Accuphase B-6 ¥ 25,000 (released in 1978) Commentary A power bridge network developed exclusively for M-60, P-300S, and P-300. An operational amplifier (IC) with particularly excellent high-frequency characteristics and S/N is used for the buffer and phase inversion circuit. This eliminates the need for phase correction in a wide range and suppresses sound quality degradation. In addition to making the NF loop DC, the condenser is removed for both input and output, and the coloration is removed. There is a caveat to this bridge network. Since it is designed exclusively for M-60, P-300S and P-300, it cannot be used for other products even if it is an Accuphase product. It may generate large distortion or induce oscillation before the maximum output. The speaker impedance should be 8 Ω or more. If the impedance drops at a specific frequency, a point of 5 Ω or less may cause distortion near the maximum output. Therefore, it is recommended to check the impedance characteristics of the speaker beforehand. Model Rating Type Power bridge network Gain 0dB Maximum power output 5.0V Harmonic distortion factor 0.01% (20 Hz ~ 20 kHz at 5.0 V Output) Frequency characteristic 20 Hz ~ 20 kHz + 0 -0.2 dB DC ~ 600 khz + 0 -1.0 db Input impedance 100k Ω Output impedance 100 Ω S/N 110 dB at IFF-A, 20 Hz to 20 kHz, output 2.0 V Power supply voltage 100 VAC, 50Hz/60Hz Power consumption 4W External dimensions Width 184x Height 77x Depth 197 mm Weight 2.0kg Characteristics of each power amplifier bridge connection Item M-60 P-300S P-300 Rated Output (20 Hz ~ 20 kHz, 8 Ω Load) 1,000W/ch 450W/ch 450W/ch Harmonic distortion factor (20 Hz ~ 20 kHz, 8 Ω load) At rated output : -3dB output : 0.03% 0.01% 0.03% 0.01% 0.1% 0.05% Damping factor (40 Hz, 8 Ω load) 60 30 30 Gain (for normal use) +6dB +6dB +6dB S/N (input short, IFF-A) 112dB 112dB 105dB Power consumption No input : 8 Ω load at rated output : 130W/ch 1,600W/ch 100W/ch 800W/ch 100W/ch 800W/ch",
+        "sub_category": "",
+        "brandId": "characteristics-of-each-power-amplifier-bridge-connection",
+        "specifications": "Type Power bridge network Gain 0dB Maximum power output 5.0V Harmonic distortion factor 0.01% (20 Hz ~ 20 kHz at 5.0 V Output) Frequency characteristic 20 Hz ~ 20 kHz + 0 -0.2 dB DC ~ 600 khz + 0 -1.0 db Input impedance 100k Ω Output impedance 100 Ω S/N 110 dB at IFF-A, 20 Hz to 20 kHz, output 2.0 V Power supply voltage 100 VAC, 50Hz/60Hz Power consumption 4W External dimensions Width 184x Height 77x Depth 197 mm | Weight 2.0kg",
+        "release_year": "1978",
+        "verified": true,
+        "image_url": "https://audio-database.com/b-6.JPG"
+    }
+]

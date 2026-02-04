@@ -1,15 +1,16 @@
-﻿{
-    "url":  "https://audio-database.com/NAIMAUDIO/amp/nait2-e.html",
-    "name":  "NAIM",
-    "id":  "naimaudio-naim",
-    "original_price":  "¥140000",
-    "category":  "Amplifiers",
-    "description":  "\"Compact pre-main amplifier.There were two types of NAIT2, CD type and MM type.The control section is equipped with an input selector, volume, balance control, tape monitor switching and power switch, making the signal circuit simple and straight.It is designed with an emphasis on power supply capacity. In this method, the power supply voltage is kept low, and instead of disclosing the rated output, the high-capacity circuit of the toroidal transformer quickly responds to the peak current, thereby increasing the speaker drive capacity.An optional pre-out expansion kit is available to upgrade your system with the more powerful NAP90 or NAP140 power amplier. This option bypasses the internal power amplier for better sound quality.\"",
-    "sub_category":  "",
-    "brandId":  "naimaudio",
-    "specifications":  "\"Type: CD Type | Input Sensitivity / Impedance: CD : 200mV/47k � (RCA)Tuner, Aux, Tape : 75mV/47k � (DIN) | Output Level / Impedance: Rec out : 75mV/1k � | Pwer: 100 VAC, 50Hz/60Hz | External dimensions: Width 205x Height 76x Depth 276 mm | Weight: 3.7kg | Attachment: Solder type banana plugOne Tape CableTwo aux cables | Remarks: With Tape Monitor Circuit | Options: High Grade Aux Cable 2P5D (1.2m, 5PDIN-RCA, ¥6,500)High-grade Tape Cable 4P5D (1.2m, 5PDIN-RCA, ¥8,500)High-grade interconnect cable for third party power amplifiers 2P4D (1.2m, 4PDIN-RCA, ¥6,500)Pre-out Extension Kit (¥3,000)\"",
-    "release_year":  "1988",
-    "verified":  true,
-    "image_url":  "https://audio-database.com/NAIMAUDIO/amp/nait2.JPG"
-}
-
+[
+    {
+        "url": "https://audio-database.com/NAIMAUDIO/amp/nait2-e.html",
+        "name": "NAIM",
+        "id": "naimaudio-naim",
+        "original_price": "¥140000",
+        "category": "Amplifiers",
+        "description": "## Description\n\n\"Compact pre-main amplifier.There were two types of NAIT2, CD type and MM type.The control section is equipped with an input selector, volume, balance control, tape monitor switching and power switch, making the signal circuit simple and straight.It is designed with an emphasis on power supply capacity. In this method, the power supply voltage is kept low, and instead of disclosing the rated output, the high-capacity circuit of the toroidal transformer quickly responds to the peak current, thereby increasing the speaker drive capacity.An optional pre-out expansion kit is available to upgrade your system with the more powerful NAP90or NAP140power amplier. This option bypasses the internal power amplier for better sound quality.\"",
+        "sub_category": "",
+        "brandId": "naimaudio",
+        "specifications": "\"Type: CD Type | Input Sensitivity / Impedance: CD : 200mV/47k � (RCA)Tuner, Aux, Tape : 75mV/47k � (DIN) | Output Level / Impedance: Rec out : 75mV/1k � | Pwer: 100VAC, 50Hz/60Hz | External dimensions: Width 205x Height 76x Depth 276mm | Weight: 3.7kg | Attachment: Solder type banana plugOne Tape CableTwo aux cables | Remarks: With Tape Monitor Circuit | Options: High Grade Aux Cable 2P5D (1.2m, 5PDIN-RCA, ¥6,500)High-grade Tape Cable 4P5D (1.2m, 5PDIN-RCA, ¥8,500)High-grade interconnect cable for third party power amplifiers 2P4D (1.2m, 4PDIN-RCA, ¥6,500)Pre-out Extension Kit (¥3,000)\"",
+        "release_year": "1988",
+        "verified": true,
+        "image_url": "https://audio-database.com/NAIMAUDIO/amp/nait2.JPG"
+    }
+]

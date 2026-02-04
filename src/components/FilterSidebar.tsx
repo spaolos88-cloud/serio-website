@@ -22,6 +22,13 @@ interface FilterSidebarProps {
     availableTags?: string[];
     totalResults: number;
     filteredResults: number;
+    healthStats?: {
+        gold: number;
+        silver: number;
+        bronze: number;
+        images: number;
+        total: number;
+    };
 }
 
 const PERFORMANCE_CLASSES = [
@@ -63,7 +70,8 @@ export default function FilterSidebar({
     availableCategories,
     availableTags = [],
     totalResults,
-    filteredResults
+    filteredResults,
+    healthStats
 }: FilterSidebarProps) {
     const [expandedSections, setExpandedSections] = useState<Record<string, boolean>>({
         performanceClass: true,
@@ -163,6 +171,41 @@ export default function FilterSidebar({
                     <Power className="w-3 h-3" />
                     Global Reset
                 </button>
+                {/* Health Module */}
+                {healthStats && healthStats.total > 0 && (
+                    <div className="mb-4 pt-4 border-t border-[#222]">
+                        <div className="flex items-center justify-between mb-2 px-1">
+                            <span className="text-[10px] font-mono font-bold text-custom-gold tracking-widest uppercase">
+                                System Integrity
+                            </span>
+                            <span className="text-[9px] font-mono text-textDim">
+                                {Math.round((healthStats.gold + healthStats.silver) / healthStats.total * 100)}% OPTIMAL
+                            </span>
+                        </div>
+
+                        {/* Quality Spectrum Bar */}
+                        <div className="h-1.5 w-full bg-[#111] rounded-full overflow-hidden flex mb-2">
+                            <div style={{ width: `${healthStats.gold / healthStats.total * 100}%` }} className="h-full bg-custom-gold shadow-[0_0_5px_rgba(255,215,0,0.5)]" />
+                            <div style={{ width: `${healthStats.silver / healthStats.total * 100}%` }} className="h-full bg-cyan shadow-[0_0_5px_rgba(0,240,255,0.5)]" />
+                            <div style={{ width: `${healthStats.bronze / healthStats.total * 100}%` }} className="h-full bg-[#333]" />
+                        </div>
+
+                        <div className="grid grid-cols-2 gap-2 px-1">
+                            <div className="flex items-center gap-1.5">
+                                <div className="w-1.5 h-1.5 rounded-full bg-custom-gold" />
+                                <span className="text-[9px] text-textDim font-mono">GOLD: {healthStats.gold}</span>
+                            </div>
+                            <div className="flex items-center gap-1.5">
+                                <div className="w-1.5 h-1.5 rounded-full bg-cyan" />
+                                <span className="text-[9px] text-textDim font-mono">SILVER: {healthStats.silver}</span>
+                            </div>
+                            <div className="flex items-center gap-1.5">
+                                <div className="w-1.5 h-1.5 rounded-full bg-purple-500" />
+                                <span className="text-[9px] text-textDim font-mono">IMG: {Math.round(healthStats.images / healthStats.total * 100)}%</span>
+                            </div>
+                        </div>
+                    </div>
+                )}
             </div>
 
             {/* Filter Modules */}

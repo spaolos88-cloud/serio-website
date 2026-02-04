@@ -1,1 +1,16 @@
-﻿{"url":"","name":"https://audio-database.com/AUDIO-TECHNICA/etc/headshell.html","id":"head-shell-using-magnesium-alloy-body-weight-10-0g-https:--audio-databasecom-audio-technica-etc-headshellhtml","original_price":"","category":"General","description":"","sub_category":"","brandId":"head-shell-using-magnesium-alloy-body-weight-10-0g","specifications":"","release_year":"","verified":false,"image_url":""}
+[
+    {
+        "url": "https://audio-database.com/AUDIO-TECHNICA/etc/headshell.html",
+        "name": "headshell",
+        "id": "head-shell-using-magnesium-alloy-body-weight-10-0g-https:--audio-databasecom-audio-technica-etc-headshellhtml",
+        "original_price": "¥5200",
+        "category": "General",
+        "description": "Audio Database Head shell AT-LH13/OCC ¥ 5,200 (around 1993) Lightweight head shell made of technihard material. PCOCC lead wire is used. Weight : 13.0g AT-LH15/OCC ¥ 5,500 (around 1993) Standard type head shell made of technihard material. PCOCC lead wire is used. Weight : 15.0g AT-LH18/OCC ¥ 5,800 (around 1993) Head shell made of technihard material and stainless steel. PCOCC lead wire is used. Weight : 18.0g AT-LT13a ¥ 1,800 (around 1993) Head shell using aluminum die-cast body. Weight : 12.8g AT-MS11 ¥ 2,500 (around 1993) Head shell made of magnesium alloy. Right and left tilt correction and overhang adjustment are possible. Weight : 10.6g MG10 ¥ 2,200 (around 1993) Head shell using magnesium alloy body. Weight : 10.0g",
+        "sub_category": "",
+        "brandId": "head-shell-using-magnesium-alloy-body-weight-10-0g",
+        "specifications": "",
+        "release_year": "1993",
+        "verified": true,
+        "image_url": "https://audio-database.com/at-lh13-occ.jpg"
+    }
+]

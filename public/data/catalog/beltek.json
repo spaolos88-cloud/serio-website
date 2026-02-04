@@ -1,14 +1,16 @@
-﻿{
-    "url":  "https://audio-database.com/BELTEK/player/m1130.html",
-    "name":  "M1130",
-    "id":  "beltek-m1130",
-    "original_price":  "¥42800",
-    "category":  "Source",
-    "description":  "\"Stereo cassette deck equipped with autoloading mechanism.An autoloading mechanism using unique technology is adopted for the mechanism.In this mechanism, when a cassette is inserted, it automatically lowers to set the tape on the head, and when the eject button is pressed to eject the cassette, it pops out.Ferrite head is used for the head.The amplifier section uses a low-noise circuit using PNP transistors.Equipped with a tape selector, it can be used with a bias / equalizer suitable for chrome, LH, and regular tapes.It is equipped with a switch for switching between line input and microphone input during recording to improve the dynamic range and SN ratio.By using an electromagnetic plunger, microswitch, relay, etc. for the operation button, smooth switching of operation is realized.Equipped with an automatic stopping device, the head and pinch roller are automatically separated from the tape when the tape is finished winding, preventing excessive load on the drive mechanism and motor.Equipped with a pose lock mechanism that allows instantaneous movement during recording.Equipped with a memory counter.Equipped with left and right separate type level meters.Uses double volume knob for easy adjustment of left and right channels.Remove the escalator of the cassette insertion part and press the illumination lamp switch to illuminate the head part and you can clean the head.Equipped with an illuminated tape run display that shows the running state of the tape.\"",
-    "sub_category":  "Player",
-    "brandId":  "beltek",
-    "specifications":  "\"Type: Cassette deck | Track format: 4-track 2-channel stereo / monaural system | Mechanism form: 1-motor belt drive systemHi-Fi mechanism | Tape speed: 4.8cm/sec. | Head Used: Recording : ferrite headErasing : ferrite heads | Amplifier section: Solid state | Wow and flutter: 0.15%WRMS | Frequency characteristic: 20 Hz ~ 15 kHz (Chrome Tape) | S/N: 50 dB or More (Chrome Tape) | Separation: Track to track : 40 dB or more | Attachment mechanism: Memory counterInput SelectorTape Selector (Chrome / Regular / Low Noise)Illumination lamp SWHeadphone jackRead-write level meterRecording level volumePlayback level volume3-digit tape counterDIN connectorMicrophone jack | Semiconductor used: Transistor : 24Diode : 16 pcs | Pwer: 100 VAC ~ 110 V, 50 Hz ~ 60 Hz | Power consumption: 30W | External dimensions: Width 400x Height 147x Depth 320 mm | Weight: 10kg\"",
-    "release_year":  "1970",
-    "verified":  true,
-    "image_url":  "https://audio-database.com/BELTEK/player/m1130.jpg"
-}
+[
+    {
+        "url": "https://audio-database.com/BELTEK/player/m1130.html",
+        "name": "M1130",
+        "id": "beltek-m1130",
+        "original_price": "¥42800",
+        "category": "Source",
+        "description": "## Description\n\n\"Stereo cassette deck equipped with autoloading mechanism.An autoloading mechanism using unique technology is adopted for the mechanism.In this mechanism, when a cassette is inserted, it automatically lowers to set the tape on the head, and when the eject button is pressed to eject the cassette, it pops out.Ferrite head is used for the head.The amplifier section uses a low-noise circuit using PNP transistors.Equipped with a tape selector, it can be used with a bias / equalizer suitable for chrome, LH, and regular tapes.It is equipped with a switch for switching between line input and microphone input during recording to improve the dynamic range and SN ratio.By using an electromagnetic plunger, microswitch, relay, etc. for the operation button, smooth switching of operation is realized.Equipped with an automatic stopping device, the head and pinch roller are automatically separated from the tape when the tape is finished winding, preventing excessive load on the drive mechanism and motor.Equipped with a pose lock mechanism that allows instantaneous movement during recording.Equipped with a memory counter.Equipped with left and right separate type level meters.Uses double volume knob for easy adjustment of left and right channels.Remove the escalator of the cassette insertion part and press the illumination lamp switch to illuminate the head part and you can clean the head.Equipped with an illuminated tape run display that shows the running state of the tape.\"",
+        "sub_category": "Player",
+        "brandId": "beltek",
+        "specifications": "\"Type: Cassette deck | Track format: 4-track 2-channel stereo / monaural system | Mechanism form: 1-motor belt drive systemHi-Fi mechanism | Tape speed: 4.8cm/sec. | Head Used: Recording : ferrite headErasing : ferrite heads | Amplifier section: Solid state | Wow and flutter: 0.15%WRMS | Frequency characteristic: 20Hz ~ 15kHz (Chrome Tape) | S/N: 50dB or More (Chrome Tape) | Separation: Track to track : 40dB or more | Attachment mechanism: Memory counterInput SelectorTape Selector (Chrome / Regular / Low Noise)Illumination lamp SWHeadphone jackRead-write level meterRecording level volumePlayback level volume3-digit tape counterDIN connectorMicrophone jack | Semiconductor used: Transistor : 24Diode : 16pcs | Pwer: 100VAC ~ 110V, 50Hz ~ 60Hz | Power consumption: 30W | External dimensions: Width 400x Height 147x Depth 320mm | Weight: 10kg\"",
+        "release_year": "1970",
+        "verified": true,
+        "image_url": "https://audio-database.com/BELTEK/player/m1130.jpg"
+    }
+]

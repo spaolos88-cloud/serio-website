@@ -205,19 +205,37 @@ const ArchivePage = () => {
     const groupedModels = useMemo(() => {
         const groups: Record<string, Record<string, SearchModel[]>> = {};
 
+        // Helper to extract series
+        const getSeries = (model: SearchModel): string => {
+            const name = model.name.trim();
+
+            // Pattern 1: Letter prefix with hyphen (e.g., DS-77EX -> DS Series)
+            const prefixMatch = name.match(/^([A-Za-z]+)-/);
+            if (prefixMatch) {
+                return `${prefixMatch[1].toUpperCase()} Series`;
+            }
+
+            // Pattern 2: Series at end (e.g., "L100 Classic" -> L Series? No, usually first part matters)
+
+            // Fallback: Use sub-category if available, otherwise General
+            return model.sub_category || 'General';
+        };
+
         filteredModels.forEach(model => {
             const cat = model.category || 'UNCATEGORIZED';
-            const sub = model.sub_category || 'General';
+            const series = getSeries(model);
 
             if (!groups[cat]) groups[cat] = {};
-            if (!groups[cat][sub]) groups[cat][sub] = [];
+            if (!groups[cat][series]) groups[cat][series] = [];
 
-            groups[cat][sub].push(model);
+            groups[cat][series].push(model);
         });
 
+        // Sort Groups and Sub-groups (Series)
         const sortedGroups: Record<string, Record<string, SearchModel[]>> = {};
         Object.keys(groups).sort().forEach(key => {
             const sortedSub: Record<string, SearchModel[]> = {};
+            // Sort series alphabetically
             Object.keys(groups[key]).sort().forEach(subKey => {
                 sortedSub[subKey] = groups[key][subKey];
             });
@@ -311,6 +329,27 @@ const ArchivePage = () => {
         }));
     };
 
+    // Data Health Analysis for Current View
+    const healthStats = useMemo(() => {
+        const total = filteredModels.length;
+        if (total === 0) return { gold: 0, silver: 0, bronze: 0, images: 0, total: 0 };
+
+        let gold = 0, silver = 0, images = 0;
+        filteredModels.forEach(m => {
+            // Gold: Legend class or Score > 85
+            if ((m.score && m.score >= 85) || m.class === 'LEGEND') gold++;
+            // Silver: Class S, A or Score > 60
+            else if ((m.score && m.score >= 60) || m.class === 'S' || m.class === 'A') silver++;
+
+            if (m.image_url) images++;
+        });
+
+        // Bronze is remainder
+        const bronze = total - gold - silver;
+
+        return { gold, silver, bronze, images, total };
+    }, [filteredModels]);
+
     return (
         <div className="flex h-[calc(100vh-64px)]">
             {/* Filter Sidebar */}
@@ -322,6 +361,7 @@ const ArchivePage = () => {
                     availableTags={availableTags}
                     totalResults={db.length}
                     filteredResults={filteredModels.length}
+                    healthStats={healthStats}
                 />
             </div>
 
@@ -397,7 +437,7 @@ const ArchivePage = () => {
                     ) : (
                         <div className="space-y-8 animate-in slide-in-from-bottom-4 duration-700">
                             {Object.entries(groupedModels as any).map(([category, subGroups]: [string, any]) => {
-                                const isExpanded = expandedCategories[category] !== false; // Default to expanded for results
+                                const isExpanded = !!expandedCategories[category]; // Default to collapsed
                                 const totalItemsInCategory = Object.values(subGroups as any).reduce((acc: number, curr: any) => acc + curr.length, 0);
 
                                 return (
@@ -417,131 +457,145 @@ const ArchivePage = () => {
                                         </button>
 
                                         {isExpanded && (
-                                            <div className="space-y-8">
+                                            <div className="space-y-4 pt-4">
                                                 {Object.entries(subGroups as any).map((entry: any) => {
                                                     const [subCategory, models] = entry as [string, SearchModel[]];
                                                     const subKey = `${category}|${subCategory}`;
+                                                    const isSubExpanded = !!expandedSubCategories[subKey]; // Default to collapsed
                                                     const visibleCount = visibleCounts[subKey] || 12;
                                                     const visibleModels = models.slice(0, visibleCount);
                                                     const hasMore = models.length > visibleCount;
 
                                                     return (
                                                         <div key={subCategory} className="space-y-4">
-                                                            {/* Sub-Category Header */}
-                                                            <div className="flex items-center gap-3 border-b border-white/5 pb-2 w-fit pr-8">
-                                                                <span className="text-sm font-mono text-cyan tracking-widest uppercase">
+                                                            {/* Sub-Category/Series Header (Collapsible) */}
+                                                            <button
+                                                                onClick={() => toggleSubCategory(category, subCategory)}
+                                                                className="flex items-center gap-3 w-full group/sub hover:bg-white/5 p-2 rounded transition-colors -ml-2"
+                                                            >
+                                                                <div className={`p-1 rounded bg-white/5 transition-transform duration-200 ${isSubExpanded ? 'rotate-90' : ''}`}>
+                                                                    <ChevronRight className="w-4 h-4 text-cyan" />
+                                                                </div>
+                                                                <div className="flex items-center gap-3">
+                                                                    <span className="text-sm font-mono text-cyan tracking-widest uppercase font-bold">
                                                                     // {subCategory}
-                                                                </span>
-                                                                <span className="text-[10px] text-textDim font-mono opacity-50">
-                                                                    {models.length} UNITS
-                                                                </span>
-                                                            </div>
-
-                                                            {displayStyle === 'GRID' ? (
-                                                                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-4">
-                                                                    {visibleModels.map((model: SearchModel) => (
-                                                                        <Link
-                                                                            key={model.id}
-                                                                            to={`/product/${model.id}`}
-                                                                            className="block h-full transition-transform hover:-translate-y-1 duration-300"
-                                                                        >
-                                                                            <ProductCard
-                                                                                product={model}
-                                                                                onCompare={(e) => {
-                                                                                    e.preventDefault();
-                                                                                    toggleModel(model.id);
-                                                                                }}
-                                                                            />
-                                                                        </Link>
-                                                                    ))}
+                                                                    </span>
+                                                                    <span className="text-[10px] text-textDim font-mono opacity-50 bg-black/40 px-2 py-0.5 rounded border border-white/5">
+                                                                        {models.length} UNITS
+                                                                    </span>
                                                                 </div>
-                                                            ) : (
-                                                                <div className="space-y-px overflow-hidden rounded-lg border border-white/5">
-                                                                    {/* Table Header */}
-                                                                    <div className="grid grid-cols-[1fr_80px_80px_100px_100px] gap-4 p-4 bg-white/5 border-b border-white/10 text-[10px] font-mono text-textDim uppercase tracking-widest font-bold items-center">
-                                                                        <div>Model Identity</div>
-                                                                        <div>Signal</div>
-                                                                        <div className="text-center">Year</div>
-                                                                        <div className="text-center">Class</div>
-                                                                        <div className="text-right pr-4">Actions</div>
-                                                                    </div>
+                                                                <div className="h-px flex-1 bg-white/5 group-hover/sub:bg-cyan/20 transition-colors"></div>
+                                                            </button>
 
-                                                                    {visibleModels.map((model: SearchModel) => (
-                                                                        <div
-                                                                            key={model.id}
-                                                                            className="grid grid-cols-[1fr_80px_80px_100px_100px] gap-4 p-3 bg-black/20 border-b border-white/5 hover:bg-white/5 transition-all items-center group/row"
-                                                                        >
-                                                                            <Link
-                                                                                to={`/product/${model.id}`}
-                                                                                className="flex flex-col min-w-0"
-                                                                            >
-                                                                                <span className="text-[9px] font-mono text-custom-gold/60 uppercase tracking-tighter truncate opacity-70 group-hover/row:opacity-100 transition-opacity">
-                                                                                    {model.brandId} // {model.category}
-                                                                                </span>
-                                                                                <div className="flex items-center gap-2">
-                                                                                    <span className="text-sm font-bold text-white group-hover/row:text-custom-gold transition-colors truncate font-display tracking-wide">
-                                                                                        {model.name}
-                                                                                    </span>
-                                                                                </div>
-                                                                            </Link>
-
-                                                                            <div className="opacity-70 group-hover/row:opacity-100 transition-opacity bg-black/20 p-1 rounded">
-                                                                                {(() => {
-                                                                                    const { signals } = getPrimarySignal(model);
-                                                                                    return <SignalSpectrum signals={signals} />;
-                                                                                })()}
-                                                                            </div>
-
-                                                                            <div className="text-center font-mono text-xs text-textDim group-hover/row:text-white transition-colors">
-                                                                                {model.release_year || '----'}
-                                                                            </div>
-
-                                                                            <div className="flex justify-center">
-                                                                                {model.class ? (
-                                                                                    <span className={`px-2.5 py-1 rounded-sm text-[10px] font-bold font-mono tracking-tighter shadow-sm border ${model.class === 'LEGEND' ? 'bg-amber-500/10 text-amber-500 border-amber-500/20 shadow-[0_0_10px_rgba(245,158,11,0.1)]' :
-                                                                                        model.class === 'S' ? 'bg-purple-500/10 text-purple-500 border-purple-500/20 shadow-[0_0_10px_rgba(168,85,247,0.1)]' :
-                                                                                            model.class === 'A' ? 'bg-cyan/10 text-cyan border-cyan/20' :
-                                                                                                'bg-textDim/5 text-textDim border-white/10'
-                                                                                        }`}>
-                                                                                        {model.class}
-                                                                                    </span>
-                                                                                ) : (
-                                                                                    <span className="text-[10px] font-mono text-textDim/30">N/A</span>
-                                                                                )}
-                                                                            </div>
-
-                                                                            <div className="flex justify-end pr-2 gap-2">
+                                                            {isSubExpanded && (
+                                                                <div className="animate-in slide-in-from-top-2 duration-300 pl-4 border-l border-white/5 ml-2">
+                                                                    {displayStyle === 'GRID' ? (
+                                                                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-4">
+                                                                            {visibleModels.map((model: SearchModel) => (
                                                                                 <Link
+                                                                                    key={model.id}
                                                                                     to={`/product/${model.id}`}
-                                                                                    className="p-2 text-textDim hover:text-white transition-colors"
-                                                                                    title="View Data"
+                                                                                    className="block h-full transition-transform hover:-translate-y-1 duration-300"
                                                                                 >
-                                                                                    <Image className="w-4 h-4" />
+                                                                                    <ProductCard
+                                                                                        product={model}
+                                                                                        onCompare={(e) => {
+                                                                                            e.preventDefault();
+                                                                                            toggleModel(model.id);
+                                                                                        }}
+                                                                                    />
                                                                                 </Link>
-                                                                                <button
-                                                                                    onClick={() => toggleModel(model.id)}
-                                                                                    className={`p-2 rounded-md transition-all ${isInComparison(model.id)
-                                                                                        ? 'text-custom-gold scale-110'
-                                                                                        : 'text-textDim hover:text-white'
-                                                                                        }`}
-                                                                                    title={isInComparison(model.id) ? "In Comparison" : "Add to Comparison"}
-                                                                                >
-                                                                                    {isInComparison(model.id) ? <Check className="w-4 h-4" /> : <Plus className="w-4 h-4" />}
-                                                                                </button>
-                                                                            </div>
+                                                                            ))}
                                                                         </div>
-                                                                    ))}
-                                                                </div>
-                                                            )}
+                                                                    ) : (
+                                                                        <div className="space-y-px overflow-hidden rounded-lg border border-white/5">
+                                                                            {/* Table Header */}
+                                                                            <div className="grid grid-cols-[1fr_80px_80px_100px_100px] gap-4 p-4 bg-white/5 border-b border-white/10 text-[10px] font-mono text-textDim uppercase tracking-widest font-bold items-center">
+                                                                                <div>Model Identity</div>
+                                                                                <div>Signal</div>
+                                                                                <div className="text-center">Year</div>
+                                                                                <div className="text-center">Class</div>
+                                                                                <div className="text-right pr-4">Actions</div>
+                                                                            </div>
 
-                                                            {hasMore && (
-                                                                <button
-                                                                    onClick={() => handleLoadMore(subKey)}
-                                                                    className="w-full py-4 bg-white/5 border border-white/10 text-cyan hover:bg-cyan/10 hover:border-cyan/30 transition-all font-mono text-xs tracking-widest uppercase flex items-center justify-center gap-2 group/btn"
-                                                                >
-                                                                    <span>Initialize Sector {Math.floor(visibleCount / 12) + 1}</span>
-                                                                    <div className="w-1.5 h-1.5 bg-cyan opacity-50 group-hover/btn:opacity-100 transition-opacity animate-pulse"></div>
-                                                                </button>
+                                                                            {visibleModels.map((model: SearchModel) => (
+                                                                                <div
+                                                                                    key={model.id}
+                                                                                    className="grid grid-cols-[1fr_80px_80px_100px_100px] gap-4 p-3 bg-black/20 border-b border-white/5 hover:bg-white/5 transition-all items-center group/row"
+                                                                                >
+                                                                                    <Link
+                                                                                        to={`/product/${model.id}`}
+                                                                                        className="flex flex-col min-w-0"
+                                                                                    >
+                                                                                        <span className="text-[9px] font-mono text-custom-gold/60 uppercase tracking-tighter truncate opacity-70 group-hover/row:opacity-100 transition-opacity">
+                                                                                            {model.brandId} // {model.category}
+                                                                                        </span>
+                                                                                        <div className="flex items-center gap-2">
+                                                                                            <span className="text-sm font-bold text-white group-hover/row:text-custom-gold transition-colors truncate font-display tracking-wide">
+                                                                                                {model.name}
+                                                                                            </span>
+                                                                                        </div>
+                                                                                    </Link>
+
+                                                                                    <div className="opacity-70 group-hover/row:opacity-100 transition-opacity bg-black/20 p-1 rounded">
+                                                                                        {(() => {
+                                                                                            const { signals } = getPrimarySignal(model);
+                                                                                            return <SignalSpectrum signals={signals} />;
+                                                                                        })()}
+                                                                                    </div>
+
+                                                                                    <div className="text-center font-mono text-xs text-textDim group-hover/row:text-white transition-colors">
+                                                                                        {model.release_year || '----'}
+                                                                                    </div>
+
+                                                                                    <div className="flex justify-center">
+                                                                                        {model.class ? (
+                                                                                            <span className={`px-2.5 py-1 rounded-sm text-[10px] font-bold font-mono tracking-tighter shadow-sm border ${model.class === 'LEGEND' ? 'bg-amber-500/10 text-amber-500 border-amber-500/20 shadow-[0_0_10px_rgba(245,158,11,0.1)]' :
+                                                                                                model.class === 'S' ? 'bg-purple-500/10 text-purple-500 border-purple-500/20 shadow-[0_0_10px_rgba(168,85,247,0.1)]' :
+                                                                                                    model.class === 'A' ? 'bg-cyan/10 text-cyan border-cyan/20' :
+                                                                                                        'bg-textDim/5 text-textDim border-white/10'
+                                                                                                }`}>
+                                                                                                {model.class}
+                                                                                            </span>
+                                                                                        ) : (
+                                                                                            <span className="text-[10px] font-mono text-textDim/30">N/A</span>
+                                                                                        )}
+                                                                                    </div>
+
+                                                                                    <div className="flex justify-end pr-2 gap-2">
+                                                                                        <Link
+                                                                                            to={`/product/${model.id}`}
+                                                                                            className="p-2 text-textDim hover:text-white transition-colors"
+                                                                                            title="View Data"
+                                                                                        >
+                                                                                            <Image className="w-4 h-4" />
+                                                                                        </Link>
+                                                                                        <button
+                                                                                            onClick={() => toggleModel(model.id)}
+                                                                                            className={`p-2 rounded-md transition-all ${isInComparison(model.id)
+                                                                                                ? 'text-custom-gold scale-110'
+                                                                                                : 'text-textDim hover:text-white'
+                                                                                                }`}
+                                                                                            title={isInComparison(model.id) ? "In Comparison" : "Add to Comparison"}
+                                                                                        >
+                                                                                            {isInComparison(model.id) ? <Check className="w-4 h-4" /> : <Plus className="w-4 h-4" />}
+                                                                                        </button>
+                                                                                    </div>
+                                                                                </div>
+                                                                            ))}
+                                                                        </div>
+                                                                    )}
+
+                                                                    {hasMore && (
+                                                                        <button
+                                                                            onClick={() => handleLoadMore(subKey)}
+                                                                            className="w-full py-4 bg-white/5 border border-white/10 text-cyan hover:bg-cyan/10 hover:border-cyan/30 transition-all font-mono text-xs tracking-widest uppercase flex items-center justify-center gap-2 group/btn"
+                                                                        >
+                                                                            <span>Initialize Sector {Math.floor(visibleCount / 12) + 1}</span>
+                                                                            <div className="w-1.5 h-1.5 bg-cyan opacity-50 group-hover/btn:opacity-100 transition-opacity animate-pulse"></div>
+                                                                        </button>
+                                                                    )}
+                                                                </div>
                                                             )}
                                                         </div>
                                                     );
