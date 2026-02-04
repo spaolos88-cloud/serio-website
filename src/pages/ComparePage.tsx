@@ -810,7 +810,13 @@ const ComparePage = () => {
                                                     <div className="flex items-center gap-1">
                                                         <div className="w-[3px] h-[3px] rounded-full bg-white/20"></div>
                                                         <div className="text-[9px] font-mono text-cyan/70 font-bold italic">
-                                                            GRADE {(analysisResults[item.id]?.match || 0) > 90 ? 'S' : (analysisResults[item.id]?.match || 0) > 80 ? 'A' : 'B'}
+                                                            GRADE {
+                                                                analysisResults[item.id]?.classAssignment || (
+                                                                    (analysisResults[item.id]?.match || 0) > 9.6 || (analysisResults[item.id]?.match || 0) > 96 ? 'LEGEND' :
+                                                                        (analysisResults[item.id]?.match || 0) > 8.9 || (analysisResults[item.id]?.match || 0) > 89 ? 'S' :
+                                                                            (analysisResults[item.id]?.match || 0) > 7.9 || (analysisResults[item.id]?.match || 0) > 79 ? 'A' : 'B'
+                                                                )
+                                                            }
                                                         </div>
                                                     </div>
                                                 )}
@@ -864,7 +870,9 @@ const ComparePage = () => {
 
                                                     <div className="flex items-center gap-2 justify-between border-b border-cyan/20 pb-2 mb-2">
                                                         <div className="flex items-center gap-2">
-                                                            <span className="text-2xl font-bold text-cyan text-shadow-glow">{result.match}%</span>
+                                                            <span className="text-2xl font-bold text-cyan text-shadow-glow">
+                                                                {((result.match || 0) <= 10 ? (result.match * 10) : result.match).toFixed(1)}%
+                                                            </span>
                                                             <span className="text-[9px] uppercase tracking-widest text-cyan/70">Probability</span>
                                                         </div>
                                                         <FrequencyCurve tags={result.keywords} preference={listenerPreference} />
