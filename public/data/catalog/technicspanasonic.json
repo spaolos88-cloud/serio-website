@@ -6274,7 +6274,19 @@
     {
         "url": "",
         "name": "Technics",
-        "id": "technicspanasonic-technics",
+        "id": "technicspanasonic-sb-7000",
+        "technical_intel": {
+            "graph_descriptions": [
+                "Phase Alignment: Exhibits a linear phase baseline across the spectrum, achieved through physical driver offset for time-alignment.",
+                "Frequency Response: Strong low-end presence down to 30Hz from the oversized 35cm woofer, balanced with a smooth transition in the upper-mid range."
+            ],
+            "engineering_insights": [
+                "Linear Phase: Physical shifting of the three drivers on the baffle ensures that all frequencies reach the listener simultaneously.",
+                "Woofer: Large-format 35cm cone provides high-efficiency output with low distortion.",
+                "Cabinet: Staggered stepped-baffle design is a hallmark of Technics' acoustic engineering in the late 70s."
+            ],
+            "visual_analysis": "The iconic 'Linear Phase' layout is clearly visible, with the woofer in a dedicated lower enclosure and the mid/tweeter staggered to optimize the time domain."
+        },
         "original_price": "¥90",
         "category": "General",
         "description": "## Description\n\n\"\\ SB-7000: ¥90,000(1unit, around 1977)SB-7000W : ¥100,000(1unit, around 1977)SB-7000MP : ¥100,000(1unit, around 1977)",

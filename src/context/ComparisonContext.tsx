@@ -6,8 +6,12 @@ interface ComparisonContextType {
     selectedModels: string[];
     listenerPreference: 'MUSICAL' | 'ANALYTICAL' | 'BALANCED' | null;
     diagnosticResult: DiagnosticResult | null;
+    aiProvider: 'GEMINI' | 'OPENAI' | 'SIMULATED' | 'LOCAL_API';
+    apiKey: string;
     setListenerPreference: (pref: 'MUSICAL' | 'ANALYTICAL' | 'BALANCED' | null) => void;
     setDiagnosticResult: (result: DiagnosticResult | null) => void;
+    setAiProvider: (provider: 'GEMINI' | 'OPENAI' | 'SIMULATED' | 'LOCAL_API') => void;
+    setApiKey: (key: string) => void;
     addModel: (id: string) => void;
     removeModel: (id: string) => void;
     toggleModel: (id: string) => void;
@@ -45,6 +49,16 @@ export const ComparisonProvider: React.FC<ComparisonProviderProps> = ({ children
         return saved ? JSON.parse(saved) : null;
     });
 
+    const [aiProvider, setAiProvider] = useState<'GEMINI' | 'OPENAI' | 'SIMULATED' | 'LOCAL_API'>(() => {
+        const saved = localStorage.getItem('sonic_lab_ai_provider');
+        if (saved) return saved as any;
+        return import.meta.env.VITE_OPENAI_API_KEY ? 'OPENAI' : 'SIMULATED';
+    });
+
+    const [apiKey, setApiKey] = useState(() => {
+        return localStorage.getItem('serio_api_key') || import.meta.env.VITE_OPENAI_API_KEY || '';
+    });
+
     useEffect(() => {
         localStorage.setItem('sonic_lab_comparison', JSON.stringify(selectedModels));
     }, [selectedModels]);
@@ -64,6 +78,14 @@ export const ComparisonProvider: React.FC<ComparisonProviderProps> = ({ children
             localStorage.removeItem('sonic_lab_diagnostic_result');
         }
     }, [diagnosticResult]);
+
+    useEffect(() => {
+        localStorage.setItem('sonic_lab_ai_provider', aiProvider);
+    }, [aiProvider]);
+
+    useEffect(() => {
+        localStorage.setItem('serio_api_key', apiKey);
+    }, [apiKey]);
 
     const addModel = (id: string) => {
         if (selectedModels.length >= 4) {
@@ -100,8 +122,12 @@ export const ComparisonProvider: React.FC<ComparisonProviderProps> = ({ children
             selectedModels,
             listenerPreference,
             diagnosticResult,
+            aiProvider,
+            apiKey,
             setListenerPreference,
             setDiagnosticResult,
+            setAiProvider,
+            setApiKey,
             addModel,
             removeModel,
             toggleModel,

@@ -1,14 +1,12 @@
 import { useEffect, useState } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 import { useParams, useNavigate } from 'react-router-dom';
 import {
-    ArrowLeft, ShieldCheck, Activity, AlertTriangle, Layers,
-    Search as SearchIcon, Maximize2,
-    Check, Plus, BrainCircuit, Key, Settings, Zap,
-    Fingerprint, ShieldAlert
+    ArrowLeft, ShieldCheck, Activity, BrainCircuit, Zap,
+    Fingerprint, Database, Search as SearchIcon, Plus, Maximize2, Settings
 } from 'lucide-react';
 import { useComparison } from '../context/ComparisonContext';
-import { fetchGeminiAnalysis, fetchOpenAIAnalysis } from '../services/serioAI';
-import { EngineeringNotes } from '../components/EngineeringNotes';
+import { fetchGeminiAnalysis, fetchOpenAIAnalysis, type AnalysisResult } from '../services/serioAI';
 import { SonicSignalSync } from '../components/ui/SonicSignalSync';
 import { SonicLens } from '../components/ui/SonicLens';
 import { SystemLineage } from '../components/SystemLineage';
@@ -42,23 +40,47 @@ interface ModelDetail {
     engineering_notes?: string;
 }
 
+const SealOfApproval = ({ score }: { score: number }) => (
+    <motion.div
+        initial={{ opacity: 0, scale: 0.5, rotate: -20 }}
+        animate={{ opacity: 1, scale: 1, rotate: 0 }}
+        className="absolute -top-6 -right-6 z-50 pointer-events-none"
+    >
+        <div className="relative w-28 h-28 flex items-center justify-center">
+            {/* Outer Glow */}
+            <div className="absolute inset-0 bg-custom-gold/20 rounded-full blur-xl animate-pulse"></div>
+
+            {/* Seal background with CSS star shape or simple circles */}
+            <div className="absolute inset-0 border-2 border-dashed border-custom-gold/30 rounded-full animate-spin-slow"></div>
+            <div className="w-20 h-20 bg-bg border-4 border-custom-gold rounded-full flex flex-col items-center justify-center shadow-[0_0_20px_rgba(255,215,0,0.3)]">
+                <ShieldCheck className="w-8 h-8 text-custom-gold mb-1" />
+                <span className="text-[7px] font-mono text-custom-gold font-black uppercase tracking-tighter leading-none text-center">
+                    SONIC LAB<br />CERTIFIED
+                </span>
+            </div>
+
+            {/* Score Badge */}
+            <div className="absolute bottom-2 right-2 bg-custom-gold text-bg font-mono font-black text-[10px] px-1.5 py-0.5 rounded-none shadow-lg">
+                {score.toFixed(1)}
+            </div>
+        </div>
+    </motion.div>
+);
+
 const ProductDetail = () => {
     const { id } = useParams();
     const navigate = useNavigate();
     const [model, setModel] = useState<ModelDetail | null>(null);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState<string | null>(null);
-    const { toggleModel, isInComparison, selectedModels, listenerPreference, diagnosticResult } = useComparison();
+    const { toggleModel, isInComparison, listenerPreference, diagnosticResult, aiProvider, setAiProvider, apiKey, setApiKey } = useComparison();
 
     const [showCompareModal, setShowCompareModal] = useState(false);
 
     // AI Audit State
     const [auditing, setAuditing] = useState(false);
-    const [auditResult, setAuditResult] = useState<any | null>(null);
-    const [aiProvider, setAiProvider] = useState<'GEMINI' | 'OPENAI' | 'SIMULATED'>(
-        import.meta.env.VITE_OPENAI_API_KEY ? 'OPENAI' : 'SIMULATED'
-    );
-    const [apiKey, setApiKey] = useState(import.meta.env.VITE_OPENAI_API_KEY || '');
+    const [auditResult, setAuditResult] = useState<AnalysisResult | null>(null);
+    const [auditError, setAuditError] = useState<string | null>(null);
     const [showAiSettings, setShowAiSettings] = useState(false);
     const [auditStep, setAuditStep] = useState(0);
 
@@ -144,11 +166,18 @@ const ProductDetail = () => {
             return () => clearInterval(interval);
         }
     }, [auditing, auditSteps.length]);
-
     const handleAudit = async () => {
         if (!model) return;
+
+        if (aiProvider !== 'SIMULATED' && !apiKey) {
+            setAuditError("API KEY MISSING: Uplink cannot be established.");
+            setShowAiSettings(true);
+            return;
+        }
+
         setAuditing(true);
         setAuditResult(null);
+        setAuditError(null);
 
         try {
             const aiProducts = [{
@@ -157,12 +186,25 @@ const ProductDetail = () => {
                 technical_intel: model.technical_intel || {}
             } as any];
 
-            if (aiProvider === 'GEMINI' && apiKey) {
-                const results = await fetchGeminiAnalysis(apiKey, aiProducts, listenerPreference || 'BALANCED', diagnosticResult);
+            let results: Record<string, AnalysisResult> | null = null;
+
+            // Determine Preference Strategy
+            // Use user preference if set, otherwise default to BALANCED
+            const targetPref = listenerPreference || 'BALANCED';
+
+            if (aiProvider === 'GEMINI') {
+                results = await fetchGeminiAnalysis(apiKey, aiProducts, targetPref, diagnosticResult);
+            } else if (aiProvider === 'OPENAI') {
+                results = await fetchOpenAIAnalysis(apiKey, aiProducts, targetPref, diagnosticResult);
+            } else if (aiProvider === 'LOCAL_API') {
+                const { fetchLocalAnalysis } = await import('../services/serioAI');
+                results = await fetchLocalAnalysis(aiProducts, targetPref, diagnosticResult);
+            }
+
+            if (results && results[model.id]) {
                 setAuditResult(results[model.id]);
-            } else if (aiProvider === 'OPENAI' && apiKey) {
-                const results = await fetchOpenAIAnalysis(apiKey, aiProducts, listenerPreference || 'BALANCED', diagnosticResult);
-                setAuditResult(results[model.id]);
+            } else if (aiProvider !== 'SIMULATED') {
+                throw new Error("UPLINK SUCCESSFUL BUT NODE IDENTIFICATION FAILED");
             } else {
                 // SIMULATED / FALLBACK
                 await new Promise(r => setTimeout(r, 2000));
@@ -173,9 +215,68 @@ const ProductDetail = () => {
                 if (text.includes("beryllium") || text.includes("boron")) score += 10;
                 if (text.includes("ribbon") || text.includes("dome")) score += 5;
 
+                // Lab-Grade Pillar Simulation
+                const isMonitor = text.includes("monitor") || text.includes("studio") || text.includes("beryllium");
+
                 setAuditResult({
                     match: Math.min(score, 99),
-                    verdict: `Analytical audit suggests ${model.name} is a high-performance transducer with characteristic driver integration.`,
+                    verdict: isMonitor ? "Truth Monitor vs Truth Stabilizer: Reference Compliance Tool." : "Naturalism Anchor: Emotional Continuity Reference.",
+                    keywords: ["SIMULATED", "LAB-GRADE", model.tags?.[0] || 'HI-FI'],
+                    // 10-Point Lab Grades
+                    labGrades: {
+                        musical: {
+                            score: isMonitor ? 3.5 : 9.0, // Capped < 6.0 due to Fatigue
+                            pillars: {
+                                decay: isMonitor ? 0.5 : 1.8,
+                                coherence: isMonitor ? 1.2 : 1.9,
+                                flow: isMonitor ? 0.4 : 1.8,
+                                fatigue: isMonitor ? 0.2 : 1.9, // Severe Fatigue Risk
+                                lowSpl: isMonitor ? 1.5 : 1.6
+                            },
+                            justification: isMonitor
+                                ? "CRITICAL FATIGUE RISK. Decay is too short. Notes stop correctly but emotionally early. Long sessions trigger analysis mode instead of immersion."
+                                : "Natural decay and sustain—notes leave properly. Midrange density feels human, not skeletal. Long sessions feel effortless."
+                        },
+                        analytical: {
+                            score: isMonitor ? 9.8 : 6.5,
+                            pillars: {
+                                resolution: isMonitor ? 2.0 : 1.5,
+                                transients: isMonitor ? 2.0 : 1.2,
+                                separation: isMonitor ? 2.0 : 1.3,
+                                tonality: isMonitor ? 1.9 : 1.4,
+                                consistency: isMonitor ? 1.9 : 1.4
+                            },
+                            justification: isMonitor
+                                ? "Micro-detail is quiet, real, and unforced. Separation is textbook—no masking. Reveals recording flaws instantly. No forgiveness."
+                                : "Resolution is good, not forensic. Imaging is stable but not razor-cut. Slight forgiveness masks low-level recording sins."
+                        },
+                        balanced: {
+                            score: isMonitor ? 6.0 : 9.2, // Instability Cap
+                            pillars: {
+                                scrutiny: isMonitor ? 1.0 : 1.8,
+                                detailTolerance: isMonitor ? 1.0 : 1.9,
+                                splStability: isMonitor ? 1.8 : 1.8,
+                                forgiveness: isMonitor ? 0.5 : 1.7,
+                                identityStability: isMonitor ? 1.7 : 1.8
+                            },
+                            justification: isMonitor
+                                ? "Analytical side is flawless. Musical side depends heavily on upstream warmth. Without careful design, it tips into fatigue."
+                                : "Stable tonal balance across SPL. Works for both focused listening and background immersion. Minimal need for tweaking."
+                        }
+                    },
+                    inherentIdentity: isMonitor ? 'ANALYTICAL' : 'MUSICAL',
+                    targetMarket: isMonitor ? 'PROFESSIONAL' : 'AUDIOPHILE',
+                    role: isMonitor ? "Studio reference / error detector" : "Full-range home reference / stability anchor",
+                    designIntent: isMonitor ? "Reveal everything, tolerate nothing" : "Preserve realism over time",
+                    corporateKPI: isMonitor ? "Compliance auditor" : "Operations management",
+                    whereItShines: [
+                        isMonitor ? "Analytical listening" : "Musical or balanced listening",
+                        "Midfield setups"
+                    ],
+                    whereItCanFail: [
+                        isMonitor ? "Long, relaxed listening" : "Hyper-analytical tasks",
+                        "Underpowered amplifiers"
+                    ],
                     technicalHighlights: ["Driver Phase Alignment", "Beryllium/Titanium Material Signature", "Cabinet Resonance Management"],
                     frequencyAnalysis: "Measured response indicates a linear profile with specific excitement in the upper air frequencies.",
                     engineeringInsights: "Advanced topology detected in the crossover network using high-purity components.",
@@ -197,14 +298,13 @@ const ProductDetail = () => {
                     }
                 });
             }
-        } catch (e) {
+        } catch (e: any) {
             console.error("Audit Failed", e);
+            setAuditError(`UPLINK FAILED: ${e.message || 'Unknown protocol error'}`);
         } finally {
             setAuditing(false);
         }
     };
-
-
 
     const handleToggleCompare = () => {
         if (!model) return;
@@ -318,6 +418,13 @@ const ProductDetail = () => {
                     {/* Main Image Viewport */}
                     <div className="relative aspect-square bg-[#050505] rounded-sm overflow-hidden border border-white/10 shadow-2xl group">
 
+                        {/* Seal of Approval if high score */}
+                        <AnimatePresence>
+                            {(model.serio_taxonomy?.absolute_score && model.serio_taxonomy.absolute_score >= 9.5) || (auditResult?.match && auditResult.match >= 95) ? (
+                                <SealOfApproval score={auditResult?.match ? auditResult.match / 10 : (model.serio_taxonomy?.absolute_score || 0)} />
+                            ) : null}
+                        </AnimatePresence>
+
                         {/* Technical Overlays - Viewfinder Style */}
                         <div className="absolute top-4 left-4 w-4 h-4 border-t border-l border-custom-gold/50 z-20 transition-all duration-500 group-hover:w-8 group-hover:h-8"></div>
                         <div className="absolute top-4 right-4 w-4 h-4 border-t border-r border-custom-gold/50 z-20 transition-all duration-500 group-hover:w-8 group-hover:h-8"></div>
@@ -409,27 +516,49 @@ const ProductDetail = () => {
 
                     {/* AI Product Audit Selection Card */}
                     <div className="bg-[#0f0f0f] border border-white/5 rounded-sm overflow-hidden p-6 relative group transition-all duration-500 hover:border-cyan/30">
-                        <div className="flex items-center gap-3 mb-6">
-                            <div className="w-10 h-10 rounded-sm bg-cyan/5 border border-cyan/20 flex items-center justify-center text-cyan group-hover:bg-cyan/10 group-hover:shadow-[0_0_15px_rgba(34,211,238,0.2)] transition-all duration-500">
-                                <Zap className="w-5 h-5" />
+                        <div className="flex items-center justify-between mb-6">
+                            <div className="flex items-center gap-3">
+                                <div className="w-10 h-10 rounded-sm bg-cyan/5 border border-cyan/20 flex items-center justify-center text-cyan group-hover:bg-cyan/10 group-hover:shadow-[0_0_15px_rgba(34,211,238,0.2)] transition-all duration-500">
+                                    <Zap className="w-5 h-5" />
+                                </div>
+                                <div>
+                                    <h3 className="font-display font-bold text-white text-lg tracking-wide">Engineering Audit</h3>
+                                    <p className="text-[9px] font-mono text-cyan/50 uppercase tracking-widest">Sonic Lab Diagnostic Tool v2.1</p>
+                                </div>
                             </div>
-                            <div>
-                                <h3 className="font-display font-bold text-white text-lg tracking-wide">Engineering Audit</h3>
-                                <p className="text-[9px] font-mono text-cyan/50 uppercase tracking-widest">Sonic Lab Diagnostic Tool v2.1</p>
-                            </div>
+                            <button
+                                onClick={() => setShowAiSettings(true)}
+                                className="p-2 text-textDim hover:text-cyan transition-colors"
+                                title="AI Configuration"
+                            >
+                                <Settings className="w-4 h-4" />
+                            </button>
                         </div>
 
                         {!auditResult && !auditing ? (
-                            <button
-                                onClick={handleAudit}
-                                className="w-full py-4 bg-cyan/5 hover:bg-cyan/10 border border-cyan/20 text-cyan font-mono text-sm tracking-[0.2em] uppercase transition-all rounded-sm flex items-center justify-center gap-3 hover:border-cyan/50 hover:shadow-[0_0_20px_rgba(34,211,238,0.1)] relative overflow-hidden"
-                            >
-                                <span className="relative z-10 flex items-center gap-2">
-                                    <Activity className="w-4 h-4 animate-pulse" />
-                                    Initialize Sequence
-                                </span>
-                                <div className="absolute inset-0 bg-transparent hover:bg-cyan/5 transition-colors"></div>
-                            </button>
+                            <div className="space-y-4">
+                                <button
+                                    onClick={handleAudit}
+                                    className={`w-full py-4 font-mono text-sm tracking-[0.2em] uppercase transition-all rounded-sm flex items-center justify-center gap-3 relative overflow-hidden ${aiProvider !== 'SIMULATED' && !apiKey
+                                        ? 'bg-amber-500/10 border border-amber-500/30 text-amber-500 hover:bg-amber-500/20'
+                                        : 'bg-cyan/5 hover:bg-cyan/10 border border-cyan/20 text-cyan hover:border-cyan/50 hover:shadow-[0_0_20px_rgba(34,211,238,0.1)]'
+                                        }`}
+                                >
+                                    <span className="relative z-10 flex items-center gap-2">
+                                        <Activity className="w-4 h-4 animate-pulse" />
+                                        {aiProvider !== 'SIMULATED' && !apiKey ? 'Configuration Required' : 'Initialize Sequence'}
+                                    </span>
+                                </button>
+                                {auditError && (
+                                    <div className="p-3 bg-red-500/10 border border-red-500/30 rounded-sm flex items-start gap-2 animate-in slide-in-from-top-1 duration-300">
+                                        <ShieldAlert className="w-3.5 h-3.5 text-red-500 mt-0.5 shrink-0" />
+                                        <div className="flex flex-col">
+                                            <span className="text-[9px] font-bold text-red-500 uppercase tracking-widest">Terminal Error</span>
+                                            <span className="text-[10px] text-red-400 font-mono leading-tight">{auditError}</span>
+                                        </div>
+                                    </div>
+                                )}
+                            </div>
                         ) : auditing ? (
                             <div className="space-y-4">
                                 <div className="flex flex-col items-center justify-center py-8">
@@ -492,9 +621,169 @@ const ProductDetail = () => {
                                     </div>
                                 </div>
 
-                                <p className="text-sm text-textDim font-sans italic leading-relaxed mb-6 border-l-2 border-white/5 pl-4">
-                                    "{auditResult.verdict}"
-                                </p>
+                                {/* BEHAVIORAL MISMATCH ALERT */}
+                                {((auditResult.inherentIdentity === 'ANALYTICAL' && listenerPreference === 'MUSICAL') ||
+                                    (auditResult.inherentIdentity === 'MUSICAL' && listenerPreference === 'ANALYTICAL')) && (
+                                        <div className="mb-6 p-3 bg-red-500/10 border border-red-500/30 rounded-sm animate-pulse">
+                                            <div className="flex items-center gap-2 mb-2">
+                                                <Zap className="w-4 h-4 text-red-500" />
+                                                <span className="text-[10px] font-mono text-red-500 uppercase tracking-widest font-bold">Protocol Violation Detected</span>
+                                            </div>
+                                            <p className="text-[11px] text-red-400 font-mono leading-tight mb-2">
+                                                {auditResult.inherentIdentity === 'ANALYTICAL'
+                                                    ? "WARNING: Analytical Source in Musical Protocol. High fatigue risk detected. Material stiffness exceeds organic flow parameters."
+                                                    : "WARNING: Organic Source in Analytical Protocol. Resolution compromised. Transient speed insufficient for monitoring duties."}
+                                            </p>
+                                            <div className="flex flex-wrap gap-1">
+                                                {(auditResult.inherentIdentity === 'ANALYTICAL'
+                                                    ? ['FATIGUE_RISK', 'DRY_TEXTURE', 'COHERENCE_BREAK']
+                                                    : ['RESOLUTION_BLUR', 'TRANSIENT_LAG', 'MASKING']
+                                                ).map(t => (
+                                                    <span key={t} className="text-[9px] font-mono bg-red-500/20 text-red-400 px-1.5 py-0.5">{t}</span>
+                                                ))}
+                                            </div>
+                                        </div>
+                                    )}
+
+                                {/* BEHAVIORAL MISMATCH ALERT */}
+                                {((auditResult.inherentIdentity === 'ANALYTICAL' && listenerPreference === 'MUSICAL') ||
+                                    (auditResult.inherentIdentity === 'MUSICAL' && listenerPreference === 'ANALYTICAL')) && (
+                                        <div className="mb-6 p-3 bg-red-500/10 border border-red-500/30 rounded-sm animate-pulse">
+                                            <div className="flex items-center gap-2 mb-2">
+                                                <Zap className="w-4 h-4 text-red-500" />
+                                                <span className="text-[10px] font-mono text-red-500 uppercase tracking-widest font-bold">Protocol Violation Detected</span>
+                                            </div>
+                                            <p className="text-[11px] text-red-400 font-mono leading-tight mb-2">
+                                                {auditResult.inherentIdentity === 'ANALYTICAL'
+                                                    ? "WARNING: Analytical Source in Musical Protocol. High fatigue risk detected. Material stiffness exceeds organic flow parameters."
+                                                    : "WARNING: Organic Source in Analytical Protocol. Resolution compromised. Transient speed insufficient for monitoring duties."}
+                                            </p>
+                                            <div className="flex flex-wrap gap-1">
+                                                {(auditResult.inherentIdentity === 'ANALYTICAL'
+                                                    ? ['FATIGUE_RISK', 'DRY_TEXTURE', 'COHERENCE_BREAK']
+                                                    : ['RESOLUTION_BLUR', 'TRANSIENT_LAG', 'MASKING']
+                                                ).map(t => (
+                                                    <span key={t} className="text-[9px] font-mono bg-red-500/20 text-red-400 px-1.5 py-0.5">{t}</span>
+                                                ))}
+                                            </div>
+                                        </div>
+                                    )}
+
+                                {auditResult.labGrades && (
+                                    <div className="mb-8 overflow-hidden rounded-sm border border-white/10 bg-white/5">
+                                        <div className="bg-white/5 px-4 py-2 border-b border-white/10 flex items-center justify-between">
+                                            <span className="text-[10px] font-mono text-white/50 uppercase tracking-[0.2em]">LABORATORY ANALYSIS — BOARDROOM SUMMARY</span>
+                                            <span className="text-[9px] font-mono text-cyan/70 uppercase tracking-widest">Protocol: RIGOROUS</span>
+                                        </div>
+                                        <table className="w-full text-left border-collapse">
+                                            <thead>
+                                                <tr className="border-b border-white/5">
+                                                    <th className="p-4 text-[9px] font-mono text-textDim uppercase tracking-widest">Category</th>
+                                                    <th className="p-4 text-[9px] font-mono text-textDim uppercase tracking-widest text-center">Score</th>
+                                                    <th className="p-4 text-[9px] font-mono text-textDim uppercase tracking-widest">Executive Justification</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody className="divide-y divide-white/5">
+                                                {/* Musical Row */}
+                                                <tr className="hover:bg-white/[0.02] transition-colors group/row">
+                                                    <td className="p-4">
+                                                        <span className="text-xs font-display font-bold text-white uppercase tracking-wider block">Musical</span>
+                                                        <span className="text-[9px] font-mono text-textDim uppercase tracking-tighter">Emotional Continuity</span>
+                                                    </td>
+                                                    <td className="p-4 text-center">
+                                                        <span className={`text-lg font-mono font-black ${auditResult.labGrades.musical.score >= 8 ? 'text-green-500' : auditResult.labGrades.musical.score >= 6 ? 'text-cyan' : 'text-amber-500'}`}>
+                                                            {auditResult.labGrades.musical.score.toFixed(1)}
+                                                        </span>
+                                                        <span className="text-[10px] text-textDim font-mono">/10</span>
+                                                    </td>
+                                                    <td className="p-4">
+                                                        <p className="text-[11px] text-textDim leading-relaxed font-sans italic">
+                                                            {auditResult.labGrades.musical.justification}
+                                                        </p>
+                                                        <div className="mt-2 flex flex-wrap gap-1 opacity-40 group-hover/row:opacity-100 transition-opacity">
+                                                            {Object.entries(auditResult.labGrades.musical.pillars).map(([pillar, val]) => (
+                                                                <span key={pillar} className="text-[8px] font-mono bg-white/5 px-1.5 py-0.5 rounded-sm border border-white/5 text-textDim uppercase">
+                                                                    {pillar}: {val}
+                                                                </span>
+                                                            ))}
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                {/* Analytical Row */}
+                                                <tr className="hover:bg-white/[0.02] transition-colors group/row">
+                                                    <td className="p-4">
+                                                        <span className="text-xs font-display font-bold text-white uppercase tracking-wider block">Analytical</span>
+                                                        <span className="text-[9px] font-mono text-textDim uppercase tracking-tighter">Information Integrity</span>
+                                                    </td>
+                                                    <td className="p-4 text-center">
+                                                        <span className={`text-lg font-mono font-black ${auditResult.labGrades.analytical.score >= 8 ? 'text-green-500' : auditResult.labGrades.analytical.score >= 6 ? 'text-cyan' : 'text-amber-500'}`}>
+                                                            {auditResult.labGrades.analytical.score.toFixed(1)}
+                                                        </span>
+                                                        <span className="text-[10px] text-textDim font-mono">/10</span>
+                                                    </td>
+                                                    <td className="p-4">
+                                                        <p className="text-[11px] text-textDim leading-relaxed font-sans italic">
+                                                            {auditResult.labGrades.analytical.justification}
+                                                        </p>
+                                                        <div className="mt-2 flex flex-wrap gap-1 opacity-40 group-hover/row:opacity-100 transition-opacity">
+                                                            {Object.entries(auditResult.labGrades.analytical.pillars).map(([pillar, val]) => (
+                                                                <span key={pillar} className="text-[8px] font-mono bg-white/5 px-1.5 py-0.5 rounded-sm border border-white/5 text-textDim uppercase">
+                                                                    {pillar}: {val}
+                                                                </span>
+                                                            ))}
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                {/* Balanced Row */}
+                                                <tr className="hover:bg-white/[0.02] transition-colors group/row">
+                                                    <td className="p-4">
+                                                        <span className="text-xs font-display font-bold text-white uppercase tracking-wider block">Balanced</span>
+                                                        <span className="text-[9px] font-mono text-textDim uppercase tracking-tighter">System Stability</span>
+                                                    </td>
+                                                    <td className="p-4 text-center">
+                                                        <span className={`text-lg font-mono font-black ${auditResult.labGrades.balanced.score >= 8 ? 'text-green-500' : auditResult.labGrades.balanced.score >= 6 ? 'text-cyan' : 'text-amber-500'}`}>
+                                                            {auditResult.labGrades.balanced.score.toFixed(1)}
+                                                        </span>
+                                                        <span className="text-[10px] text-textDim font-mono">/10</span>
+                                                    </td>
+                                                    <td className="p-4">
+                                                        <p className="text-[11px] text-textDim leading-relaxed font-sans italic">
+                                                            {auditResult.labGrades.balanced.justification}
+                                                        </p>
+                                                        <div className="mt-2 flex flex-wrap gap-1 opacity-40 group-hover/row:opacity-100 transition-opacity">
+                                                            {Object.entries(auditResult.labGrades.balanced.pillars).map(([pillar, val]) => (
+                                                                <span key={pillar} className="text-[8px] font-mono bg-white/5 px-1.5 py-0.5 rounded-sm border border-white/5 text-textDim uppercase">
+                                                                    {pillar}: {val}
+                                                                </span>
+                                                            ))}
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                )}
+
+                                {/* Identity & Market Badges */}
+                                <div className="flex flex-wrap gap-2 mb-8">
+                                    {auditResult.inherentIdentity && (
+                                        <div className={`px-3 py-1.5 rounded-sm border font-mono text-[10px] tracking-widest flex items-center gap-2 ${auditResult.inherentIdentity === 'ANALYTICAL'
+                                            ? 'bg-cyan/10 border-cyan/30 text-cyan'
+                                            : auditResult.inherentIdentity === 'MUSICAL'
+                                                ? 'bg-custom-gold/10 border-custom-gold/30 text-custom-gold'
+                                                : 'bg-white/5 border-white/10 text-white/50'
+                                            }`}>
+                                            <Activity className="w-3 h-3" />
+                                            {auditResult.inherentIdentity} IDENTITY
+                                        </div>
+                                    )}
+                                    {auditResult.targetMarket && (
+                                        <div className="px-3 py-1.5 bg-white/5 border border-white/10 rounded-sm font-mono text-[10px] text-textDim tracking-widest flex items-center gap-2">
+                                            <Database className="w-3 h-3" />
+                                            {auditResult.targetMarket} SECTOR
+                                        </div>
+                                    )}
+                                </div>
 
                                 {/* Stacked Layout for Left Column Width */}
                                 <div className="flex flex-col gap-8">
@@ -523,6 +812,15 @@ const ProductDetail = () => {
                                         </div>
                                     </div>
 
+                                    {auditResult.engineeringInsights && (
+                                        <div className="bg-white/5 p-4 border-l-2 border-custom-gold/50 rounded-sm">
+                                            <span className="text-[10px] font-mono text-custom-gold/70 border-b border-custom-gold/10 block pb-1 uppercase tracking-widest mb-3">Engineering Insight</span>
+                                            <p className="text-xs text-textDim leading-relaxed italic">
+                                                {auditResult.engineeringInsights}
+                                            </p>
+                                        </div>
+                                    )}
+
                                     <div className="bg-black/20 p-4 border border-white/5 rounded-sm">
                                         <span className="text-[10px] font-mono text-cyan/70 border-b border-cyan/10 block pb-1 uppercase tracking-widest mb-4">Signal Sync Map</span>
                                         {auditResult.signalMatch ? (
@@ -533,12 +831,44 @@ const ProductDetail = () => {
                                             </div>
                                         )}
                                     </div>
+
+                                    {/* Where it Shines / Fails */}
+                                    {(auditResult.whereItShines || auditResult.whereItCanFail) && (
+                                        <div className="grid grid-cols-2 gap-4">
+                                            <div className="space-y-3">
+                                                <span className="text-[10px] font-mono text-green-500/70 border-b border-green-500/10 block pb-1 uppercase tracking-widest">Where it Shines</span>
+                                                <ul className="space-y-2">
+                                                    {auditResult.whereItShines?.map((s, i) => (
+                                                        <li key={i} className="text-[10px] text-textDim flex items-start gap-2">
+                                                            <Check className="w-3 h-3 text-green-500/50 mt-0.5" />
+                                                            {s}
+                                                        </li>
+                                                    ))}
+                                                </ul>
+                                            </div>
+                                            <div className="space-y-3">
+                                                <span className="text-[10px] font-mono text-red-500/70 border-b border-red-500/10 block pb-1 uppercase tracking-widest">Where it Fails</span>
+                                                <ul className="space-y-2">
+                                                    {auditResult.whereItCanFail?.map((f, i) => (
+                                                        <li key={i} className="text-[10px] text-textDim flex items-start gap-2">
+                                                            <AlertTriangle className="w-3 h-3 text-red-500/50 mt-0.5" />
+                                                            {f}
+                                                        </li>
+                                                    ))}
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    )}
                                 </div>
 
                                 <div className="mt-8 pt-4 border-t border-white/5 flex items-center justify-between">
                                     <div className="flex flex-col">
                                         <span className="text-[9px] font-mono text-textDim uppercase">Ideal Recommended For:</span>
-                                        <span className="text-xs font-display text-custom-gold tracking-wide">{auditResult.recommendedFor}</span>
+                                        <span className="text-xs font-display text-custom-gold tracking-wide">
+                                            {(!auditResult.recommendedFor || auditResult.recommendedFor === '...' || auditResult.recommendedFor.length < 3)
+                                                ? "Pending Classification..."
+                                                : auditResult.recommendedFor}
+                                        </span>
                                     </div>
                                     <div className="px-3 py-1 bg-white/5 border border-white/10 rounded font-mono text-[10px] text-custom-gold">
                                         {auditResult.classAssignment}

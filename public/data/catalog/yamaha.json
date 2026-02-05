@@ -6815,7 +6815,19 @@
         "specifications": "\"Method: 3-Way, 3-Speaker, Airtight Type, Bookshelf Type | Units Used: Low Band: 30cm Cone (JA-3058A), Mid Range: 8.8cm Beryllium Dome (JA-0801), High Range: 3.0cm Beryllium Dome (JA-0513) | Frequency Response: 40Hz - 20kHz | Crossover Frequencies: 500Hz, 6kHz (12dB/oct) | Impedance: 8 | Sensitivity: 90dB/W/m | Rated Input: 50W | Max Input: 100W | Dimensions: Width 375x Height 675x Depth 326mm | Weight: 31kg\"",
         "release_year": "1974",
         "verified": true,
-        "image_url": "https://audio-database.com/YAMAHA/speaker/ns-1000m.jpg"
+        "image_url": "https://audio-database.com/YAMAHA/speaker/ns-1000m.jpg",
+        "technical_intel": {
+            "graph_descriptions": [
+                "Frequency Response: Delivers an exceptionally flat studio monitor response from 40Hz to 20kHz, with a unique transparency in the 500Hz-6kHz midrange due to Beryllium integration.",
+                "Crossover Synergy: Phase-accurate transitions at 500Hz and 6kHz ensure a seamless handoff between the Beryllium dome skoker and tweeter."
+            ],
+            "engineering_insights": [
+                "Midrange: JA-0801 8.8cm Beryllium Dome utilizes vacuum-deposition technology for ultra-low mass and high rigidity, a legendary benchmark in transparency.",
+                "Woofer: JA-3058A 30cm cone with corrugated paper and 156mm ferrite magnet, providing tight, airtight bass control.",
+                "Tweeter: JA-0513 3.0cm Beryllium Dome extends high-frequency resolution with minimal resonance."
+            ],
+            "visual_analysis": "The internal airtight bookshelf design minimizes cabinet coloration, favoring high-purity signal reproduction suitable for national broadcasting standards."
+        }
     },
     {
         "url": "",

@@ -32,10 +32,10 @@ interface FilterSidebarProps {
 }
 
 const PERFORMANCE_CLASSES = [
-    { id: 'CLASS_S', label: 'CLASS S', color: 'text-purple bg-purple/10 border-purple/30', dot: 'bg-purple' },
-    { id: 'CLASS_A', label: 'CLASS A', color: 'text-cyan bg-cyan/10 border-cyan/30', dot: 'bg-cyan' },
-    { id: 'CLASS_B', label: 'CLASS B', color: 'text-green-400 bg-green-400/10 border-green-400/30', dot: 'bg-green-400' },
-    { id: 'CLASS_LEGEND', label: 'LEGEND', color: 'text-custom-gold bg-custom-gold/10 border-custom-gold/30', dot: 'bg-custom-gold' },
+    { id: 'S', label: 'CLASS S', color: 'text-purple bg-purple/10 border-purple/30', dot: 'bg-purple' },
+    { id: 'A', label: 'CLASS A', color: 'text-cyan bg-cyan/10 border-cyan/30', dot: 'bg-cyan' },
+    { id: 'B', label: 'CLASS B', color: 'text-green-400 bg-green-400/10 border-green-400/30', dot: 'bg-green-400' },
+    { id: 'LEGEND', label: 'LEGEND', color: 'text-custom-gold bg-custom-gold/10 border-custom-gold/30', dot: 'bg-custom-gold' },
     { id: 'NOT_DOCUMENTED', label: 'UNDOCUMENTED', color: 'text-textDim bg-white/5 border-white/10', dot: 'bg-textDim' },
 ];
 
@@ -134,7 +134,7 @@ export default function FilterSidebar({
                     <div className="flex items-center gap-2 px-2 py-1 bg-black rounded text-[10px] font-mono border border-white/5">
                         <span className="text-textDim">MATCH:</span>
                         <span className={`font-bold ${filteredResults > 0 ? 'text-custom-gold' : 'text-red-500'}`}>
-                            {filteredResults}
+                            {filteredResults} <span className="text-textDim text-[0.8em]">/ {totalResults}</span>
                         </span>
                     </div>
                 </div>

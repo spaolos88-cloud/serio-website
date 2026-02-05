@@ -12308,16 +12308,28 @@
     {
         "url": "https://audio-database.com/PIONEER-EXCLUSIVE/speaker/model2404Ω.html",
         "name": "Exclusive",
-        "id": "pioneer-exclusive-exclusive",
+        "id": "pioneer-exclusive-model2404",
         "original_price": "¥1100000Ω",
         "category": "SPEAKER",
         "description": "## Description\n\n\"Based on the results and data of the model2402Ω, this studio monitor speaker system was developed by putting in the latest TAD systemization technology cultivated in the development of the model2251Ω.\n\nWOOFER\nTAD TL-1601Ωc which is 40Ωcm cone type woofer is mounted in the low range. The TL-1601Ωc uses a special casting process to integrally mold the yoke, plate, and frame, which were previously separate parts. In addition, the center pole is screwed to the yoke to increase the rigidity of the unit. The magnetic circuit uses an Alnico magnet to suppress second harmonic distortion and achieve a strong magnetic flux density. In addition, by applying a special aging process to the diaphragm, a tough and durable cone has been realized. The high-frequency band is equipped with a unit that combines a driver TAD TD 4003Ωand a horn TAD TH 4003Ω. The TD 4003Ωis a newly designed compression driver equipped with an aluminum annular slit on a phasing plug to prevent phase disturbance of sound waves. The vibration system uses a lightweight and highly rigid 10Ωcm beryllium diaphragm, and the magnetic circuit uses a neodymium magnet with a high magnetic flux density of 20000Ωof Gauss. This realizes wide-band reproduction and excellent linearity. In addition, the throat diameter is set at 39Ωmm in consideration of diffusion in the high-frequency range, thereby reducing the influence of AC magnetic flux and sound pressure inside the direct feeding terminal. The TH-4003Ωuses the APAXIAL (Asymmetrical Pattern, Axis & Level) method and wave-front control technology to create an asymmetrical horn shape. The directional angle is set at 80Ωdegrees horizontally and 30Ωdegrees vertically to obtain smooth output sound pressure characteristics. In addition, directional control in the vertical direction is actively performed. This reduces reflection in the low frequency range, eliminates fins, and makes it possible to make the sound source position near the top and bottom of the woofer. In addition, AFAST (Acoustic Filter Assisted System Tuning) is adopted in the upper part of the horn, and the resonance peculiar to the horn is absorbed by the acoustic tube, and the backward and forward movement of the sound image due to the pitch (sound height) is eliminated. The network part of the model2404Ωwas sold separately, and a dedicated network unit DN 2404Ωfor bi-wiring was sold. The DN-2404Ωrealizes smooth phase characteristics as a system by adjusting the phase characteristics of the unit with high precision, and adopts CGR (Capacitive Gap Reduction) system to reduce unnecessary current due to parasitic capacitance. The DN 2404Ωuses an external system so that it is not affected by magnetic flux and sound pressure inside the enclosure.\"",
         "sub_category": "",
         "brandId": "pioneer-exclusive",
-        "specifications": "\"Method * When equipped with DN 2404Ω: 2Ω-Way, 2Ω-Speaker, Bass Reflex System, Bookshelf Type | Units used, etc.: For Low Range : 40Ωcm Cone Type (TL-1601Ωc)For High Range : Horn Type (TD-4003Ω+ TH-4003Ω) | Playback frequency band: 28ΩHz to 20ΩkHz | Allowable input: Rated 200ΩWUp to 500ΩW | Impedance: 8Ω� | Output sound pressure level: 95ΩdB | Maximum output sound pressure level: 122ΩdB/m | Crossover frequency: 650ΩHz | External dimensions: Width 660Ωx Height 798Ωx Depth 678ΩmmEnclosure Depth : 480Ωmm | Weight: 93Ωkg | Sold Separately: Dedicated Network Unit DN 2404Ω(1Ωunit, � 100Ω,000Ω)\"",
+        "specifications": "\"Method * When equipped with DN 2404Ω: 2Ω-Way, 2Ω-Speaker, Bass Reflex System, Bookshelf Type | Units used, etc.: For Low Range : 40Ωcm Cone Type (TL-1601Ωc)For High Range : Horn Type (TD-4003Ω+ TH-4003Ω) | Playback frequency band: 28ΩHz to 20ΩkHz | Allowable input: Rated 200ΩWUp to 500ΩW | Impedance: 8Ω | Output sound pressure level: 95ΩdB | Maximum output sound pressure level: 122ΩdB/m | Crossover frequency: 650ΩHz | External dimensions: Width 660Ωx Height 798Ωx Depth 678ΩmmEnclosure Depth : 480Ωmm | Weight: 93Ωkg | Sold Separately: Dedicated Network Unit DN 2404Ω(1Ωunit,  100Ω,000Ω)\"",
         "release_year": "1999Ω",
         "verified": true,
-        "image_url": "https://audio-database.com/PIONEER-EXCLUSIVE/speaker/model2404Ω.jpg"
+        "image_url": "https://audio-database.com/PIONEER-EXCLUSIVE/speaker/model2404Ω.jpg",
+        "technical_intel": {
+            "graph_descriptions": [
+                "Dynamic Range: High-sensitivity output (95dB/W/m) allows for explosive transients without compression, maintaining a flat baseline from 28Hz to 20kHz.",
+                "Horn Response: The TH-4003 horn pattern controls directivity to 80x30 degrees, optimizing the soundstage for professional monitor environments."
+            ],
+            "engineering_insights": [
+                "Driver: TAD TD-4003 10cm Beryllium compression driver with Neodymium magnet (20,000 Gauss) for unparalleled high-frequency speed.",
+                "Woofer: TAD TL-1601c 40cm cone with Alnico magnet ensures powerful, undistorted low-frequency authority.",
+                "Horn: TH-4003 AFAST technology suppresses internal resonances for a pure, uncolored wavefront."
+            ],
+            "visual_analysis": "The professional-grade AFAST horn system and the massive 40cm TAD woofer represent the pinnacle of Japanese recording studio monitoring engineering."
+        }
     },
     {
         "url": "https://audio-database.com/PIONEER-EXCLUSIVE/speaker/s-07Ω-e.html",

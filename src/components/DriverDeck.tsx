@@ -25,9 +25,6 @@ export const DriverDeck = ({ description }: DriverDeckProps) => {
         // We look for Uppercase words on their own line
         const headerRegex = /(?:^|\n)([A-Z]{3,})(?:\n)/g;
 
-        let lastIndex = 0;
-        let match;
-
         // Known headers to icons/ids
         const config: Record<string, { id: DriverSection['id']; icon: React.ElementType }> = {
             'WOOFER': { id: 'woofer', icon: Disc },
@@ -70,7 +67,13 @@ export const DriverDeck = ({ description }: DriverDeckProps) => {
             const startIndex = m.index! + m[0].length;
             const endIndex = matches[index + 1] ? matches[index + 1].index! : normalizedText.length;
 
-            const content = normalizedText.slice(startIndex, endIndex).trim();
+            let content = normalizedText.slice(startIndex, endIndex).trim();
+
+            // Fix for "NetworkIn" style concatenation artifacts
+            if (content.toLowerCase().startsWith(title.toLowerCase())) {
+                content = content.slice(title.length).trim();
+            }
+
             const conf = config[title] || { id: 'other', icon: BoxIcon };
 
             if (content.length > 0 && conf.id !== 'other') { // Only add known sections for the Deck
@@ -102,61 +105,88 @@ export const DriverDeck = ({ description }: DriverDeckProps) => {
                         key={section.id}
                         onClick={() => setActiveSection(activeSection === section.id ? null : section.id)}
                         className={`group relative p-6 text-left border transition-all duration-300 overflow-hidden ${activeSection === section.id
-                            ? 'bg-custom-gold/10 border-custom-gold/50'
-                            : 'bg-[#0a0a0a] border-white/5 hover:border-custom-gold/30 hover:bg-[#0f0f0f]'
+                            ? 'bg-custom-gold/10 border-custom-gold/50 shadow-[inset_0_1px_3px_rgba(255,215,0,0.2),0_10px_30px_-10px_rgba(255,215,0,0.1)]'
+                            : 'bg-surface/80 border-white/5 hover:border-custom-gold/30 hover:bg-surfaceHighlight shadow-[inset_0_1px_1px_rgba(255,255,255,0.05)]'
                             }`}
                     >
                         {/* Background Scanline (Hover) */}
                         <div className="absolute inset-0 bg-[linear-gradient(rgba(0,0,0,0)_50%,rgba(0,0,0,0.2)_50%)] bg-[size:100%_4px] opacity-0 group-hover:opacity-10 pointer-events-none transition-opacity"></div>
 
+                        {/* Corner Accents */}
+                        <div className="absolute top-0 left-0 w-2 h-2 border-t border-l border-white/10 group-hover:border-custom-gold/40 transition-colors"></div>
+                        <div className="absolute bottom-0 right-0 w-2 h-2 border-b border-r border-white/10 group-hover:border-custom-gold/40 transition-colors"></div>
+
                         <div className="relative z-10 flex flex-col h-full justify-between">
                             <div className="flex items-start justify-between mb-4">
-                                <section.icon className={`w-6 h-6 stroke-[1.5] ${activeSection === section.id ? 'text-custom-gold' : 'text-textDim group-hover:text-custom-gold/80'
+                                <section.icon className={`w-5 h-5 stroke-[1.5] ${activeSection === section.id ? 'text-custom-gold' : 'text-textDim group-hover:text-custom-gold/80'
                                     } transition-colors`} />
-                                <div className={`text-[9px] font-mono tracking-widest uppercase px-2 py-0.5 border ${activeSection === section.id ? 'border-custom-gold text-custom-gold' : 'border-white/10 text-textDim group-hover:border-custom-gold/30'
+                                <div className={`text-[8px] font-mono tracking-widest uppercase px-2 py-0.5 border ${activeSection === section.id ? 'border-custom-gold/40 text-custom-gold bg-custom-gold/5' : 'border-white/5 text-textDim group-hover:border-custom-gold/20'
                                     } transition-colors`}>
-                                    UNIT-0{parsedSections.indexOf(section) + 1}
+                                    SYS_MOD_0{parsedSections.indexOf(section) + 1}
                                 </div>
                             </div>
 
                             <div>
-                                <h4 className={`text-sm font-bold font-mono uppercase tracking-wider mb-1 ${activeSection === section.id ? 'text-white' : 'text-white/80'
-                                    }`}>
+                                <h4 className={`text-xs font-bold font-mono uppercase tracking-widest mb-1 ${activeSection === section.id ? 'text-custom-gold' : 'text-textDim group-hover:text-white'
+                                    } transition-colors`}>
                                     {section.title}
                                 </h4>
-                                <div className="h-0.5 w-8 bg-current opacity-20 group-hover:w-full transition-all duration-500 rounded-full"></div>
+                                <div className={`h-px w-6 transition-all duration-500 rounded-full ${activeSection === section.id ? 'bg-custom-gold w-full' : 'bg-white/10 group-hover:bg-custom-gold/50 group-hover:w-12'}`}></div>
                                 {/* Preview Text (First Sentence-ish) */}
-                                <p className="mt-3 text-[10px] text-textDim/70 line-clamp-2 leading-relaxed">
+                                <p className="mt-3 text-[9px] text-textDim/50 font-mono line-clamp-2 leading-relaxed uppercase tracking-tight">
                                     {section.content.match(/^[^.]+(?:\.[^.]+)*?\./)?.[0] || section.content.slice(0, 50) + '...'}
                                 </p>
                             </div>
                         </div>
 
-                        {/* Expand Indicator */}
-                        <div className={`absolute bottom-0 left-0 right-0 h-1 bg-custom-gold transition-transform duration-300 origin-left ${activeSection === section.id ? 'scale-x-100' : 'scale-x-0 group-hover:scale-x-100'
+                        {/* Top Indicator Line */}
+                        <div className={`absolute top-0 left-0 right-0 h-[2px] bg-custom-gold transition-transform duration-500 origin-left ${activeSection === section.id ? 'scale-x-100' : 'scale-x-0 group-hover:scale-x-100'
                             }`}></div>
                     </button>
                 ))}
             </div>
 
             {/* Detailed View Panel */}
-            <div className={`overflow-hidden transition-all duration-500 ease-out border-x border-b border-white/10 bg-[#080808] ${activeSection ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'
+            <div className={`overflow-hidden transition-all duration-500 ease-out border-x border-b border-white/10 bg-[#050505] shadow-[inset_0_10px_30px_rgba(0,0,0,0.5)] ${activeSection ? 'max-h-[600px] opacity-100' : 'max-h-0 opacity-0'
                 }`}>
                 {activeSection && (
-                    <div className="p-8 relative">
-                        {/* CRT Effect Background */}
-                        <div className="absolute inset-0 pointer-events-none opacity-5 bg-[linear-gradient(rgba(18,16,16,0)_50%,rgba(0,0,0,0.25)_50%),linear-gradient(90deg,rgba(255,0,0,0.06),rgba(0,255,0,0.02),rgba(0,0,255,0.06))] bg-[size:100%_2px,3px_100%]"></div>
+                    <div className="p-10 relative">
+                        {/* Industrial Decorators */}
+                        <div className="absolute top-0 right-0 p-4 opacity-10 pointer-events-none">
+                            <div className="text-[10px] font-mono text-right leading-tight">
+                                SYS_LINK_ESTABLISHED<br />
+                                BYTES_EXTRACTED: 2048<br />
+                                STATUS: NOMINAL
+                            </div>
+                        </div>
 
-                        <div className="relative z-10 flex gap-6">
-                            <div className="hidden md:block w-px bg-white/10 shrink-0"></div>
-                            <div className="flex-1">
-                                <div className="flex items-center gap-3 mb-4 text-custom-gold/60 font-mono text-xs uppercase tracking-widest">
-                                    <ChevronRight className="w-4 h-4" />
-                                    System Analysis: {parsedSections.find(s => s.id === activeSection)?.title}
+                        {/* Scanline Effect */}
+                        <div className="absolute inset-0 pointer-events-none opacity-[0.03] bg-[linear-gradient(rgba(18,16,16,0)_50%,rgba(0,0,0,0.25)_50%),linear-gradient(90deg,rgba(255,0,0,0.06),rgba(0,255,0,0.02),rgba(0,0,255,0.06))] bg-[size:100%_2px,3px_100%] animate-scan-y"></div>
+
+                        <div className="relative z-10">
+                            <div className="flex items-center gap-3 mb-8">
+                                <div className="w-8 h-px bg-custom-gold/30"></div>
+                                <div className="flex items-center gap-2 text-custom-gold font-mono text-[10px] uppercase tracking-[0.3em]">
+                                    <ChevronRight className="w-3 h-3 animate-pulse" />
+                                    DEEP_ANALYSIS // {parsedSections.find(s => s.id === activeSection)?.title}
                                 </div>
-                                <p className="text-sm md:text-base text-textDim leading-8 font-sans border-l-2 border-custom-gold/20 pl-6">
+                                <div className="flex-1 h-px bg-white/5"></div>
+                            </div>
+
+                            <div className="md:pl-11">
+                                <p className="text-sm md:text-base text-textDim/90 leading-relaxed font-sans border-l border-custom-gold/20 pl-8 relative">
+                                    {/* Quote Mark Decorator */}
+                                    <span className="absolute -left-1 top-0 bottom-0 w-px bg-gradient-to-b from-custom-gold to-transparent opacity-20"></span>
                                     {parsedSections.find(s => s.id === activeSection)?.content}
                                 </p>
+
+                                <div className="mt-8 flex items-center gap-4 text-[9px] font-mono text-textDim/30 uppercase tracking-[0.2em]">
+                                    <span>CRC_OK</span>
+                                    <span className="w-1 h-1 rounded-full bg-custom-gold/20"></span>
+                                    <span>TIMESTAMP: {new Date().toLocaleTimeString()}</span>
+                                    <span className="flex-1"></span>
+                                    <span className="text-custom-gold/40 animate-pulse">READING...</span>
+                                </div>
                             </div>
                         </div>
                     </div>

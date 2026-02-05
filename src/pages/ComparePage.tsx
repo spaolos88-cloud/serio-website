@@ -1,8 +1,8 @@
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { ArrowRight, BrainCircuit, Activity, Waves, Settings2, ChevronDown, Database, Tag, ShieldCheck, Scale, Ear, BarChart3, Zap } from 'lucide-react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useState, useEffect } from 'react';
-import { fetchGeminiAnalysis, fetchOpenAIAnalysis } from '../services/serioAI';
+import { fetchGeminiAnalysis, fetchOpenAIAnalysis, type AnalysisResult } from '../services/serioAI';
 import { Typewriter } from '../components/ui/Typewriter';
 import { FrequencyCurve } from '../components/ui/FrequencyCurve';
 import { SonicSignalSync } from '../components/ui/SonicSignalSync';
@@ -71,11 +71,18 @@ const parseFullSpecs = (specStr: string | undefined): string[] => {
     const freq = specs.find(s => s.toLowerCase().includes('frequency') || s.toLowerCase().includes('hz'));
     if (freq) {
         let status = '';
-        const lower = parseInt(freq.match(/(\d+)Hz/i)?.[1] || '999');
-        const upper = parseInt(freq.match(/(\d+)kHz/i)?.[1] || '0');
+        const lower = parseInt(freq.match(/(\d+)\s*Hz/i)?.[1] || '999');
+        const upper = parseInt(freq.match(/(\d+)\s*kHz/i)?.[1] || '0');
 
-        if (lower <= 40 || upper >= 30) status = ':::GOOD';
+        // Adjusted Thresholds:
+        // GOOD: Deep bass (<45Hz) OR extended highs (>25kHz)
+        // BAD: No deep bass (>60Hz) AND rolled off highs (<18kHz)
+        if (lower <= 45 || upper >= 25) status = ':::GOOD';
         else if (lower >= 60 && upper <= 18) status = ':::BAD';
+
+        // Safety check: Don't mark as BAD if it's just standard (e.g. 50Hz-20kHz)
+        if (status === ':::BAD' && (lower < 60 || upper > 18)) status = '';
+
         highlights.push(`${freq}${status}`);
     }
 
@@ -114,31 +121,24 @@ const parseFullSpecs = (specStr: string | undefined): string[] => {
 };
 
 const ComparePage = () => {
-    const { selectedModels, removeModel, listenerPreference, setListenerPreference, diagnosticResult } = useComparison();
+    const {
+        selectedModels,
+        removeModel,
+        listenerPreference,
+        setListenerPreference,
+        diagnosticResult,
+        aiProvider,
+        setAiProvider,
+        apiKey,
+        setApiKey
+    } = useComparison();
     const navigate = useNavigate();
     const [db, setDb] = useState<SearchModel[]>([]);
     const [loading, setLoading] = useState(true);
     const [analyzing, setAnalyzing] = useState(false);
-    const [analysisResults, setAnalysisResults] = useState<Record<string, {
-        match: number;
-        verdict: string;
-        keywords: string[];
-        technicalHighlights?: string[];
-        frequencyAnalysis?: string;
-        engineeringInsights?: string;
-        strengthsForProtocol?: string[];
-        weaknessesForProtocol?: string[];
-        recommendedFor?: string;
-        classAssignment?: string;
-        signalMatch?: Record<string, number>;
-    } | null>>({});
-
-    // AI Settings
-    const [aiProvider] = useState<'GEMINI' | 'OPENAI' | 'SIMULATED'>(
-        import.meta.env.VITE_OPENAI_API_KEY ? 'OPENAI' : 'SIMULATED'
-    );
-    const apiKey = import.meta.env.VITE_OPENAI_API_KEY || '';
-
+    const [analysisResults, setAnalysisResults] = useState<Record<string, AnalysisResult | null>>({});
+    const [fullDetails, setFullDetails] = useState<Record<string, ModelDetail>>({});
+    const [showAiSettings, setShowAiSettings] = useState(false);
 
     // Loading Message State (must be at top before any returns)
     const [loadingMessageIndex, setLoadingMessageIndex] = useState(0);
@@ -154,6 +154,7 @@ const ComparePage = () => {
     // Accordion State
     const [expandedSections, setExpandedSections] = useState<Record<string, boolean>>({
         'verdict': true,
+        'telemetry': true,
         'specs': true
     });
 
@@ -238,76 +239,85 @@ const ComparePage = () => {
     };
     const comparisonItems: SearchModel[] = db.filter(m => selectedModels.includes(m.id));
 
-    // Helper: Touch-Of-God Heuristic Algorithm (Restored)
+    // Helper: Touch-Of-God Heuristic Algorithm (Normalised to 10.0 Scale)
     const generateSerioVerdict = (model: ModelDetail, pref: string | null) => {
-        let score = 75; // Base score
+        let baseScore = 7.5; // Base score out of 10
         const keywords: string[] = [];
         let rationale = "";
 
         // If details aren't fully loaded, use description or default text to avoid crash
         const text = `${model.name} ${model.specifications || ''} ${model.engineering_notes || ''} ${model.description || ''}`.toLowerCase();
 
-        // 1. DECODE NOMENCLATURE
-        if (model.name.includes("NS")) { keywords.push("NS: Natural Sound"); if (pref === 'MUSICAL') score += 10; }
-        if (model.name.includes("M") && !model.name.includes("Mk")) { keywords.push("M: Monitor Grade"); if (pref === 'ANALYTICAL') score += 15; }
-        if (model.name.includes("DS")) { keywords.push("DS: Diatone System"); if (pref === 'ANALYTICAL') score += 5; }
-        if (model.name.includes("EX")) { keywords.push("EX: Extended Range"); if (pref === 'BALANCED') score += 10; }
-        if (model.name.includes("Pro")) { keywords.push("Pro: Studio Use"); if (pref === 'ANALYTICAL') score += 10; }
+        // 1. DECODE NOMENCLATURE & IDENTITY
+        const isMonitor = model.name.includes("M ") || model.name.includes("-M") || (model.name.includes("M") && !model.name.includes("Mk"));
+        const isNatural = model.name.includes("NS");
+        const isAnalyticalMat = text.includes("beryllium") || text.includes("boron") || text.includes("titanium") || text.includes("ribbon");
+        const isMusicalMat = text.includes("paper") || text.includes("pulp") || text.includes("alnico") || text.includes("soft dome");
+
+        const inherentIdentity = (isMonitor || isAnalyticalMat) ? 'ANALYTICAL' :
+            (isNatural || isMusicalMat) ? 'MUSICAL' : 'BALANCED';
+
+        if (model.name.includes("NS")) { keywords.push("NS: Natural Sound"); if (pref === 'MUSICAL') baseScore += 1.0; }
+        if (isMonitor) { keywords.push("M: Monitor Grade"); if (pref === 'ANALYTICAL') baseScore += 1.5; }
+        if (model.name.includes("DS")) { keywords.push("DS: Diatone System"); if (pref === 'ANALYTICAL') baseScore += 0.5; }
+        if (model.name.includes("EX")) { keywords.push("EX: Extended Range"); if (pref === 'BALANCED') baseScore += 1.0; }
+        if (model.name.includes("Pro")) { keywords.push("Pro: Studio Use"); if (pref === 'ANALYTICAL') baseScore += 1.0; }
 
         // 2. MATERIAL ANALYSIS
-        if (text.includes("beryllium")) { keywords.push("Beryllium"); if (pref === 'ANALYTICAL') score += 15; if (pref === 'MUSICAL') score -= 5; }
-        if (text.includes("titanium")) { keywords.push("Titanium"); if (pref === 'ANALYTICAL') score += 10; }
-        if (text.includes("boron")) { keywords.push("Boronized"); if (pref === 'ANALYTICAL') score += 12; }
-        if (text.includes("paper") || text.includes("pulp")) { keywords.push("Paper Cone"); if (pref === 'MUSICAL') score += 15; }
-        if (text.includes("alnico")) { keywords.push("Alnico Magnet"); if (pref === 'MUSICAL') score += 12; }
-        if (text.includes("polypropylene")) { keywords.push("Polypropylene"); if (pref === 'BALANCED') score += 10; }
-        if (text.includes("soft dome")) { keywords.push("Soft Dome"); if (pref === 'MUSICAL') score += 10; }
+        if (text.includes("beryllium")) { keywords.push("Beryllium"); if (pref === 'ANALYTICAL') baseScore += 1.5; }
+        if (text.includes("titanium")) { keywords.push("Titanium"); if (pref === 'ANALYTICAL') baseScore += 1.0; }
+        if (text.includes("boron")) { keywords.push("Boronized"); if (pref === 'ANALYTICAL') baseScore += 1.2; }
+        if (text.includes("paper") || text.includes("pulp")) { keywords.push("Paper Cone"); if (pref === 'MUSICAL') baseScore += 1.5; }
+        if (text.includes("alnico")) { keywords.push("Alnico Magnet"); if (pref === 'MUSICAL') baseScore += 1.2; }
+        if (text.includes("polypropylene")) { keywords.push("Polypropylene"); if (pref === 'BALANCED') baseScore += 1.0; }
+        if (text.includes("soft dome")) { keywords.push("Soft Dome"); if (pref === 'MUSICAL') baseScore += 1.0; }
 
-        // 3. GENERATE VERDICT
-        if (pref === 'ANALYTICAL') {
-            if (keywords.some(k => k.includes("Monitor") || k.includes("Beryllium") || k.includes("Boron"))) {
-                rationale = "High-resolution materials detected. Perfect alignment with Truth-Seeker protocol.";
-            } else if (keywords.some(k => k.includes("Paper") || k.includes("Soft Dome"))) {
-                rationale = "Organic materials may soften transients. Caution for pure analytical work.";
-                score -= 10;
+        // 3. IDENTITY CLASH PENALTY (CRITICAL FIX)
+        if (inherentIdentity === 'ANALYTICAL' && pref === 'MUSICAL') {
+            baseScore -= 3.0; // Major penalty for fatigue risk
+            rationale = "Synergy Check: CRITICAL FAILURE. Analytical monitor signature detected in Musical Protocol. High risk of listening fatigue due to material stiffness.";
+        } else if (inherentIdentity === 'MUSICAL' && pref === 'ANALYTICAL') {
+            baseScore -= 2.0; // Penalty for resolution blur
+            rationale = "Synergy Check: FAILED. Musical/Organic signature lacks the necessary transient speed for Analytical Monitoring. Details may be obscured.";
+        } else if (pref === 'ANALYTICAL' && !isAnalyticalMat && !isMonitor) {
+            baseScore -= 1.0;
+            rationale = "Synergy Check: WEAK. Standard materials lack the precision required for Truth-Seeker standards.";
+        } else if (pref === 'MUSICAL' && !isMusicalMat && !isNatural) {
+            baseScore -= 1.0;
+            rationale = "Synergy Check: MARGINAL. Technical presentation may feel 'sterile' or 'dry' for Musical Protocol.";
+        }
+
+        // 4. GENERATE FINAL RATIONALE (If not set by Clash)
+        if (!rationale) {
+            if (pref === 'ANALYTICAL') {
+                rationale = "Synergy Check: OPTIMAL. Perfect Protocol Alignment. High-resolution materials ensure absolute signal transparency.";
+            } else if (pref === 'MUSICAL') {
+                rationale = "Synergy Check: OPTIMAL. Harmonic richness detected. Organic materials align perfectly with fatigue-free listening protocols.";
             } else {
-                rationale = "Standard resolution detected. Adequate for general monitoring.";
-            }
-        } else if (pref === 'MUSICAL') {
-            if (keywords.some(k => k.includes("Paper") || k.includes("Alnico") || k.includes("Natural"))) {
-                rationale = "Organic composition ensures fatigue-free listening. Highly recommended for The Naturalist.";
-            } else if (keywords.some(k => k.includes("Beryllium") || k.includes("Titanium"))) {
-                rationale = "Hard metal domes may induce fatigue over long sessions. Monitor fatigue levels closely.";
-                score -= 15;
-            } else {
-                rationale = "Neutral presentation. May require tube amplification to unlock musicality.";
-            }
-        } else { // BALANCED
-            if (keywords.some(k => k.includes("Extended") || k.includes("Polypropylene"))) {
-                rationale = "Excellent stability and range. Fits the Stabilizer profile well.";
-            } else {
-                rationale = "Versatile performer, though may lean slightly towards specific genres.";
+                rationale = "Synergy Check: STABLE. Balanced presentation across the frequency spectrum.";
             }
         }
 
+        const finalScore = Math.min(Math.max(baseScore, 3.5), 9.9);
+
         return {
-            match: Math.min(Math.max(score, 40), 99),
+            match: finalScore,
             verdict: rationale,
             keywords: keywords.slice(0, 3),
-            // Dummy Deep Dive Data for simulated mode or fallbacks
-            // Use real parsed specs with markers
             technicalHighlights: parseFullSpecs(model.specifications),
-            frequencyAnalysis: "Measured response indicates characteristic alignment with the selected protocol based on material composition.",
+            frequencyAnalysis: `Identity: ${inherentIdentity} | Protocol: ${pref}`,
             engineeringInsights: "Robust engineering detected in the crossover and driver integration.",
             strengthsForProtocol: [
                 pref === 'ANALYTICAL' ? "High resolution detail" : pref === 'MUSICAL' ? "Organic harmonics" : "Even distribution",
                 "Stable acoustic phase"
             ],
             recommendedFor: pref === 'ANALYTICAL' ? "Critical monitoring" : pref === 'MUSICAL' ? "Hi-Fi listening" : "Multi-genre versatility",
-            classAssignment: score > 90 ? "Class A+" : score > 80 ? "Class A" : "Class B",
+            inherentIdentity,
+            targetMarket: (keywords.some(k => k.includes("Monitor") || k.includes("Pro"))) ? 'PROFESSIONAL' : 'AUDIOPHILE',
+            classAssignment: finalScore > 9.2 ? "Class S" : finalScore > 8.5 ? "Class A+" : finalScore > 7.5 ? "Class A" : "Class B",
             signalMatch: {
-                "M": pref === 'MUSICAL' ? 90 : 60,
-                "A": pref === 'ANALYTICAL' ? 90 : 60,
+                "M": inherentIdentity === 'MUSICAL' ? 95 : (inherentIdentity === 'ANALYTICAL' ? 40 : 70),
+                "A": inherentIdentity === 'ANALYTICAL' ? 95 : (inherentIdentity === 'MUSICAL' ? 40 : 70),
                 "S": 85,
                 "R": 80,
                 "V": 75,
@@ -315,6 +325,33 @@ const ComparePage = () => {
                 "F": 95
             }
         };
+    };
+
+    // PRODUCT DATA ENRICHMENT FUNCTION
+    const enrichProductData = async (productId: string, brand: string): Promise<ModelDetail | null> => {
+        try {
+            const response = await fetch(`/data/catalog/${brand}.json`);
+            if (!response.ok) return null;
+
+            const catalog = await response.json();
+            const fullProduct = catalog.find((p: any) => p.id === productId);
+
+            if (!fullProduct) {
+                console.warn(`Product ${productId} not found in ${brand} catalog`);
+                return null;
+            }
+
+            // Map description to engineering_notes if missing to ensure AI receives full text information
+            return {
+                ...fullProduct,
+                engineering_notes: fullProduct.engineering_notes || fullProduct.description || "Data archival pending",
+                specifications: fullProduct.specifications || "Specs unavailable",
+                technical_intel: fullProduct.technical_intel || {}
+            } as ModelDetail;
+        } catch (error) {
+            console.error(`Failed to enrich product ${productId}:`, error);
+            return null;
+        }
     };
 
     // Effect: Load Database
@@ -348,80 +385,107 @@ const ComparePage = () => {
         }
     }, [loading, comparisonItems.length, listenerPreference]);
 
+    const parseSpecsToMap = (specStr: string | undefined): Record<string, string> => {
+        if (!specStr) return {};
+        const map: Record<string, string> = {};
+        specStr.split('|').forEach(s => {
+            const parts = s.split(':');
+            if (parts.length >= 2) {
+                let value = parts.slice(1).join(':').trim();
+                // Sanitize common encoding artifacts for Ohm symbols and high-order characters
+                value = value.replace(/\uFFFD/g, 'Ω').replace(/\u00A0/g, ' ').replace(/\u00BD/g, '1/2');
+                map[parts[0].trim()] = value;
+            }
+        });
+        return map;
+    };
+
+    // Effect: Pre-fetch Enriched Data for all selected models
+    useEffect(() => {
+        const fetchAllDetails = async () => {
+            const newDetails: Record<string, ModelDetail> = { ...fullDetails };
+            let changed = false;
+
+            for (const item of comparisonItems) {
+                if (!newDetails[item.id]) {
+                    const detail = await enrichProductData(item.id, item.brandId);
+                    if (detail) {
+                        newDetails[item.id] = detail;
+                        changed = true;
+                    }
+                }
+            }
+
+            if (changed) {
+                setFullDetails(newDetails);
+            }
+        };
+
+        if (comparisonItems.length > 0) {
+            fetchAllDetails();
+        }
+    }, [comparisonItems]);
+
     // Effect: Cycle through loading messages during analysis
     useEffect(() => {
         if (analyzing) {
             const interval = setInterval(() => {
                 setLoadingMessageIndex(prev => (prev + 1) % loadingMessages.length);
-            }, 1500);
+            }, 1000);
             return () => clearInterval(interval);
         }
     }, [analyzing, loadingMessages.length]);
 
     const runAiAnalysis = async () => {
-        setAnalyzing(true);
-        // Don't clear results, keep heuristic results visible until deep dive overwrites them
-
-        // Emulate network delay for "Scanning" feel
-        await new Promise(r => setTimeout(r, 2000));
-
-        // Gather all data first
-        // Gather all data first
-        const allModelData: ModelDetail[] = await Promise.all(comparisonItems.map(async (item) => {
-            try {
-                // Fetch from aggregated brand catalog
-                // Since individual files don't exist, we must load the brand catalog and find the item
-                const res = await fetch(`/data/catalog/${item.brandId}.json`);
-                if (!res.ok) throw new Error("Catalog fetch failed");
-                const brandCatalog = await res.json();
-                const fullDetails = brandCatalog.find((p: any) => p.id === item.id);
-
-                if (!fullDetails) throw new Error("Product not found in catalog");
-
-                // Ensure deep scan references full context as per Serio KB principle
-                return {
-                    ...fullDetails,
-                    // Map description to engineering_notes if missing to ensure AI receives full text information
-                    engineering_notes: fullDetails.engineering_notes || fullDetails.description || "Data archival pending",
-                    // Ensure specifications are passed explicitly
-                    specifications: fullDetails.specifications || "Specs unavailable",
-                    // Pass technical intel if available
-                    technical_intel: fullDetails.technical_intel || {}
-                };
-            } catch (e) {
-                console.warn(`Fallback to basic details for ${item.id}`, e);
-                return item as unknown as ModelDetail; // Fallback
-            }
-        }));
-
-        const deepDiveResults: Record<string, any> = {};
-
-        if (aiProvider === 'GEMINI' && apiKey) {
-            try {
-                const geminiResults = await fetchGeminiAnalysis(apiKey, allModelData, listenerPreference || 'BALANCED', diagnosticResult);
-                setAnalysisResults(geminiResults);
-                setAnalyzing(false);
-                return;
-            } catch (e) {
-                console.error("Gemini Deep Dive Failed", e);
-            }
-        } else if (aiProvider === 'OPENAI' && apiKey) {
-            try {
-                const openAIResults = await fetchOpenAIAnalysis(apiKey, allModelData, listenerPreference || 'BALANCED', diagnosticResult);
-                setAnalysisResults(openAIResults);
-                setAnalyzing(false);
-                return;
-            } catch (e) {
-                console.error("OpenAI Deep Dive Failed", e);
-            }
+        if (!apiKey && aiProvider !== 'SIMULATED') {
+            alert('No API key configured. Deep Scan requires real AI.');
+            return;
         }
 
-        // If Deep Dive fails or is SIMULATED, just simulate a "Deep Dive" enhancement (same as heuristic for now but maybe slower/more dramatic)
-        allModelData.forEach(model => {
-            deepDiveResults[model.id] = generateSerioVerdict(model, listenerPreference);
-        });
-        setAnalysisResults(deepDiveResults);
-        setAnalyzing(false);
+        setAnalyzing(true);
+        setLoadingMessageIndex(0);
+
+        try {
+            // STEP 1: ENRICH ALL PRODUCTS WITH COMPLETE DATA
+            const enrichedProducts = await Promise.all(
+                comparisonItems.map(item => enrichProductData(item.id, item.brandId))
+            );
+
+            // Filter out failed enrichments
+            const validProducts = enrichedProducts.filter((p): p is ModelDetail => p !== null);
+
+            if (validProducts.length === 0) {
+                // If enrichment fails, fallback to basic data from context
+                const fallbackData = comparisonItems.map(item => ({
+                    ...item,
+                    engineering_notes: "Deep enrichment failed. Basic archival data used.",
+                    specifications: ""
+                } as unknown as ModelDetail));
+
+                const results = aiProvider === 'OPENAI'
+                    ? await fetchOpenAIAnalysis(apiKey, fallbackData, listenerPreference || 'BALANCED', diagnosticResult)
+                    : await fetchGeminiAnalysis(apiKey, fallbackData, listenerPreference || 'BALANCED', diagnosticResult);
+                setAnalysisResults(results);
+            } else {
+                // STEP 2: SEND ENRICHED DATA TO AI
+                const results = aiProvider === 'OPENAI'
+                    ? await fetchOpenAIAnalysis(apiKey, validProducts, listenerPreference || 'BALANCED', diagnosticResult)
+                    : await fetchGeminiAnalysis(apiKey, validProducts, listenerPreference || 'BALANCED', diagnosticResult);
+
+                setAnalysisResults(results);
+            }
+        } catch (error) {
+            console.error('Deep Scan failed:', error);
+            // Simulate fallback if API error
+            const deepDiveResults: Record<string, any> = {};
+            comparisonItems.forEach(item => {
+                const mockDetail = { ...item, specifications: "", engineering_notes: "", description: "" } as unknown as ModelDetail;
+                deepDiveResults[item.id] = generateSerioVerdict(mockDetail, listenerPreference);
+            });
+            setAnalysisResults(deepDiveResults);
+        } finally {
+            setAnalyzing(false);
+        }
     };
 
     // ============================================================================
@@ -592,6 +656,17 @@ const ComparePage = () => {
 
 
 
+    // Global Expand/Collapse
+    const expandAll = () => {
+        const allKeys = ['verdict', 'specs', 'engineering', 'freq', 'highlights', 'signals'];
+        const newState = allKeys.reduce((acc, key) => ({ ...acc, [key]: true }), {});
+        setExpandedSections(newState);
+    };
+
+    const collapseAll = () => {
+        setExpandedSections({});
+    };
+
     const getPreferenceColor = (pref: string | null) => {
         if (pref === 'ANALYTICAL') return 'text-cyan border-cyan/30';
         if (pref === 'BALANCED') return 'text-green-500 border-green-500/30';
@@ -616,91 +691,10 @@ const ComparePage = () => {
                         backgroundSize: '40px 40px'
                     }}
                 ></div>
-                <motion.div
-                    animate={{
-                        y: [0, 1000],
-                        opacity: [0, 0.5, 0]
-                    }}
-                    transition={{
-                        duration: 10,
-                        repeat: Infinity,
-                        ease: "linear"
-                    }}
-                    className="absolute inset-x-0 h-px bg-gradient-to-r from-transparent via-custom-gold/20 to-transparent top-0"
-                />
             </div>
 
-            {/* Analyzing Overlay (Scanning Laser) */}
-            <AnimatePresence>
-                {analyzing && (
-                    <motion.div
-                        initial={{ opacity: 0 }}
-                        animate={{ opacity: 1 }}
-                        exit={{ opacity: 0 }}
-                        className="fixed inset-0 z-[100] bg-black/40 backdrop-blur-[2px] flex items-center justify-center pointer-events-none"
-                    >
-                        {/* Laser Scanner Line */}
-                        <motion.div
-                            initial={{ top: '0%' }}
-                            animate={{ top: '100%' }}
-                            transition={{ duration: 2, repeat: Infinity, ease: "linear" }}
-                            className="absolute inset-x-0 h-px bg-cyan shadow-[0_0_10px_cyan] z-10"
-                        />
-
-                        <div className="text-center space-y-6 relative z-20">
-                            {/* Orbital Spinners */}
-                            <div className="relative w-40 h-40 mx-auto">
-                                <motion.div
-                                    animate={{ rotate: 360 }}
-                                    transition={{ duration: 3, repeat: Infinity, ease: "linear" }}
-                                    className="absolute inset-0 border-t-2 border-custom-gold rounded-full"
-                                />
-                                <motion.div
-                                    animate={{ rotate: -360 }}
-                                    transition={{ duration: 2, repeat: Infinity, ease: "linear" }}
-                                    className="absolute inset-3 border-r-2 border-cyan rounded-full"
-                                />
-                                <motion.div
-                                    animate={{ rotate: 360 }}
-                                    transition={{ duration: 5, repeat: Infinity, ease: "linear" }}
-                                    className="absolute inset-6 border-b-2 border-purple rounded-full"
-                                />
-                                <BrainCircuit className="w-12 h-12 text-white absolute inset-0 m-auto animate-pulse" />
-                            </div>
-
-                            <div className="space-y-2">
-                                <motion.div
-                                    key={loadingMessageIndex}
-                                    initial={{ opacity: 0, y: 10 }}
-                                    animate={{ opacity: 1, y: 0 }}
-                                    className="font-mono text-cyan text-sm tracking-[0.3em] uppercase bg-black/80 px-8 py-3 rounded-sm border border-cyan/30 shadow-[0_0_20px_rgba(34,211,238,0.2)]"
-                                >
-                                    {loadingMessages[loadingMessageIndex]}
-                                </motion.div>
-                                <div className="text-[10px] text-textDim font-mono tracking-widest opacity-50 uppercase">
-                                    SYNCHRONIZING SONIC SIGNATURES...
-                                </div>
-                            </div>
-
-                            <div className="flex gap-2 justify-center">
-                                {[...Array(6)].map((_, i) => (
-                                    <motion.div
-                                        key={i}
-                                        animate={{
-                                            scale: i === loadingMessageIndex ? 1.5 : 1,
-                                            backgroundColor: i === loadingMessageIndex ? '#22d3ee' : '#22d3ee33'
-                                        }}
-                                        className="w-1.5 h-1.5 rounded-full"
-                                    />
-                                ))}
-                            </div>
-                        </div>
-                    </motion.div>
-                )}
-            </AnimatePresence>
-
             <div className="container mx-auto px-4 pt-12 relative z-10">
-                <div className="flex items-center justify-between border-b border-white/10 pb-8 mb-8">
+                <div className="flex flex-col md:flex-row items-start md:items-center justify-between border-b border-white/10 pb-8 mb-8 gap-6">
                     <div className="flex items-center gap-6">
                         <div className="relative">
                             <div className="p-3 bg-gradient-to-br from-custom-gold/20 to-black border border-custom-gold/40 rounded-full shadow-[0_0_20px_rgba(255,215,0,0.2)]">
@@ -721,38 +715,118 @@ const ComparePage = () => {
                         </div>
                     </div>
 
-                    <div className="flex items-center gap-6">
-                        {!analyzing && (
-                            <div className="flex items-center gap-4">
+                    <div className="flex flex-wrap items-center gap-4 md:gap-6 w-full md:w-auto">
+                        <div className="flex items-center gap-2">
+                            <button
+                                onClick={expandAll}
+                                className="px-3 py-1.5 text-[10px] font-mono text-textDim border border-white/5 hover:bg-white/5 hover:text-white transition-all rounded-sm uppercase tracking-wider"
+                            >
+                                Expand All
+                            </button>
+                            <button
+                                onClick={collapseAll}
+                                className="px-3 py-1.5 text-[10px] font-mono text-textDim border border-white/5 hover:bg-white/5 hover:text-white transition-all rounded-sm uppercase tracking-wider"
+                            >
+                                Collapse
+                            </button>
+                        </div>
 
-                                <button
-                                    onClick={runAiAnalysis}
-                                    disabled={analyzing}
-                                    className="bg-custom-gold text-black border border-custom-gold px-8 py-2.5 rounded-sm text-[10px] font-bold font-mono tracking-[0.2em] flex items-center gap-2 transition-all hover:bg-white hover:border-white hover:shadow-[0_0_25px_rgba(255,255,255,0.2)] disabled:opacity-50 uppercase"
-                                >
-                                    <BrainCircuit className="w-4 h-4" />
-                                    Initiate Deep Scan
-                                </button>
-                            </div>
-                        )}
-
-                        <div className="h-10 w-px bg-white/10 mx-2"></div>
+                        <div className="w-px h-8 bg-white/10 hidden md:block"></div>
 
                         <div className="flex items-center gap-4">
-                            <div className={`px-5 py-2.5 border rounded-sm bg-black/40 flex flex-col gap-0.5 min-w-[140px] border-white/10 ${getPreferenceColor(listenerPreference)}`}>
+                            <button
+                                onClick={runAiAnalysis}
+                                disabled={analyzing}
+                                className="bg-custom-gold text-black border border-custom-gold px-6 py-2.5 rounded-sm text-[10px] font-bold font-mono tracking-[0.2em] flex items-center gap-2 transition-all hover:bg-white hover:border-white hover:shadow-[0_0_25px_rgba(255,255,255,0.2)] disabled:opacity-50 uppercase disabled:cursor-wait"
+                            >
+                                {analyzing ? (
+                                    <>
+                                        <Activity className="w-4 h-4 animate-spin" />
+                                        Scanning...
+                                    </>
+                                ) : (
+                                    <>
+                                        <BrainCircuit className="w-4 h-4" />
+                                        Initiate Deep Scan
+                                    </>
+                                )}
+                            </button>
+                        </div>
+
+                        <div className="w-px h-8 bg-white/10 hidden md:block"></div>
+
+                        <div className="flex items-center gap-4">
+                            <div className={`px-4 py-2 border rounded-sm bg-black/40 flex flex-col gap-0.5 min-w-[120px] border-white/10 ${getPreferenceColor(listenerPreference)}`}>
                                 <span className="text-[8px] font-mono tracking-[0.3em] opacity-50 uppercase">Active Protocol</span>
-                                <span className="text-xs font-bold font-mono tracking-widest">{getPreferenceLabel(listenerPreference)}</span>
+                                <span className="text-[10px] font-bold font-mono tracking-widest truncate">{getPreferenceLabel(listenerPreference)}</span>
                             </div>
                             <button
                                 onClick={() => setListenerPreference(null)}
-                                className="p-2.5 text-textDim hover:text-custom-gold hover:bg-custom-gold/10 border border-transparent hover:border-custom-gold/20 rounded transition-all"
+                                className="p-2 text-textDim hover:text-custom-gold hover:bg-custom-gold/10 border border-transparent hover:border-custom-gold/20 rounded transition-all"
                                 title="Recalibrate Protocol"
                             >
-                                <ArrowRight className="w-5 h-5" />
+                                <Waves className="w-5 h-5" />
+                            </button>
+                            <button
+                                onClick={() => setShowAiSettings(!showAiSettings)}
+                                className={`p-2 transition-all rounded ${showAiSettings ? 'text-custom-gold bg-custom-gold/10 border-custom-gold/20' : 'text-textDim hover:text-custom-gold hover:bg-custom-gold/10 border-transparent'} border`}
+                                title="AI Configuration"
+                            >
+                                <BrainCircuit className="w-5 h-5" />
                             </button>
                         </div>
                     </div>
                 </div>
+
+                {/* AI SETTINGS PANEL */}
+                {showAiSettings && (
+                    <motion.div
+                        initial={{ height: 0, opacity: 0 }}
+                        animate={{ height: 'auto', opacity: 1 }}
+                        className="mb-8 p-6 bg-black/40 border border-custom-gold/20 rounded-sm overflow-hidden"
+                    >
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div className="space-y-2">
+                                <label className="text-[10px] font-mono text-custom-gold uppercase tracking-[0.2em] block">AI Intelligence Core</label>
+                                <div className="flex gap-2">
+                                    {['SIMULATED', 'GEMINI', 'OPENAI'].map(p => (
+                                        <button
+                                            key={p}
+                                            onClick={() => setAiProvider(p as any)}
+                                            className={`px-4 py-2 text-[10px] font-mono border transition-all ${aiProvider === p ? 'bg-custom-gold/20 border-custom-gold text-custom-gold' : 'border-white/10 text-textDim hover:border-white/20'}`}
+                                        >
+                                            {p}
+                                        </button>
+                                    ))}
+                                </div>
+                            </div>
+                            <div className="space-y-2">
+                                <label className="text-[10px] font-mono text-custom-gold uppercase tracking-[0.2em] block">Neural Link Key (API KEY)</label>
+                                <input
+                                    type="password"
+                                    value={apiKey}
+                                    onChange={(e) => setApiKey(e.target.value)}
+                                    placeholder="Enter encrypted key..."
+                                    className="w-full bg-black/60 border border-white/10 px-4 py-2 text-xs font-mono text-cyan placeholder:opacity-20 focus:border-custom-gold/50 outline-none transition-all"
+                                />
+                                <p className="text-[8px] font-mono text-textDim/50 uppercase tracking-tighter">Keys are persisted locally per Lab Protocol</p>
+                            </div>
+                        </div>
+                    </motion.div>
+                )}
+
+                {/* Inline Progress Bar for Analysis */}
+                {analyzing && (
+                    <div className="mb-8 animate-in fade-in slide-in-from-top-4 duration-500">
+                        <div className="flex justify-between text-[10px] font-mono text-cyan uppercase tracking-widest mb-2">
+                            <span>{loadingMessages[loadingMessageIndex]}</span>
+                            <span className="animate-pulse">PROCESSING...</span>
+                        </div>
+                        <div className="h-1 w-full bg-white/5 rounded-full overflow-hidden">
+                            <div className="h-full bg-cyan w-full animate-progress origin-left"></div>
+                        </div>
+                    </div>
+                )}
 
                 <div className="overflow-x-auto pb-4 scrollbar-thin scrollbar-thumb-custom-gold/20 scrollbar-track-transparent">
                     <div className="min-w-[800px] border border-white/10 rounded-sm bg-[#080808]/90 backdrop-blur-md shadow-2xl relative overflow-hidden">
@@ -802,6 +876,27 @@ const ComparePage = () => {
                                             <h3 className="font-display font-bold text-xl leading-tight text-white group-hover/title:text-custom-gold transition-colors truncate">
                                                 {item.name}
                                             </h3>
+
+                                            {/* Identity & Market Badges */}
+                                            {analysisResults[item.id] && (
+                                                <div className="flex flex-wrap gap-1 mt-1.5 min-h-[16px]">
+                                                    {analysisResults[item.id]?.inherentIdentity && (
+                                                        <span className={`text-[8px] font-mono px-1.5 py-0.5 rounded-sm border leading-none ${analysisResults[item.id]?.inherentIdentity === 'ANALYTICAL'
+                                                            ? 'bg-cyan/10 border-cyan/30 text-cyan'
+                                                            : analysisResults[item.id]?.inherentIdentity === 'MUSICAL'
+                                                                ? 'bg-custom-gold/10 border-custom-gold/30 text-custom-gold'
+                                                                : 'bg-white/5 border-white/10 text-white/40'
+                                                            }`}>
+                                                            {analysisResults[item.id]?.inherentIdentity}
+                                                        </span>
+                                                    )}
+                                                    {analysisResults[item.id]?.targetMarket && (
+                                                        <span className="text-[8px] font-mono px-1.5 py-0.5 bg-white/5 border border-white/10 rounded-sm text-textDim italic leading-none">
+                                                            {analysisResults[item.id]?.targetMarket}
+                                                        </span>
+                                                    )}
+                                                </div>
+                                            )}
                                             <div className="flex items-center gap-2 mt-1">
                                                 <div className="text-[9px] font-mono text-textDim/40 tracking-widest uppercase">
                                                     ID: {item.id.split('-').pop()?.toUpperCase()}
@@ -809,14 +904,8 @@ const ComparePage = () => {
                                                 {analysisResults[item.id] && analysisResults[item.id]?.match !== undefined && (
                                                     <div className="flex items-center gap-1">
                                                         <div className="w-[3px] h-[3px] rounded-full bg-white/20"></div>
-                                                        <div className="text-[9px] font-mono text-cyan/70 font-bold italic">
-                                                            GRADE {
-                                                                analysisResults[item.id]?.classAssignment || (
-                                                                    (analysisResults[item.id]?.match || 0) > 9.6 || (analysisResults[item.id]?.match || 0) > 96 ? 'LEGEND' :
-                                                                        (analysisResults[item.id]?.match || 0) > 8.9 || (analysisResults[item.id]?.match || 0) > 89 ? 'S' :
-                                                                            (analysisResults[item.id]?.match || 0) > 7.9 || (analysisResults[item.id]?.match || 0) > 79 ? 'A' : 'B'
-                                                                )
-                                                            }
+                                                        <div className="text-[9px] font-mono text-cyan/70 font-bold italic uppercase">
+                                                            LB_GRADE: {((analysisResults[item.id]?.match || 0) <= 10 ? (analysisResults[item.id]?.match || 0) : (analysisResults[item.id]?.match || 0) / 10).toFixed(1)}
                                                         </div>
                                                     </div>
                                                 )}
@@ -851,7 +940,7 @@ const ComparePage = () => {
                             {/* SONIC LAB AI VERDICT ROW - Collapsible */}
                             <CollapsibleSection
                                 id="verdict"
-                                title="Sonic Lab Verdict"
+                                title="Sonic Lab Grading"
                                 icon={BrainCircuit}
                                 hasData={Object.keys(analysisResults).length > 0}
                                 isAnalyzing={analyzing}
@@ -860,7 +949,6 @@ const ComparePage = () => {
                                     const result = analysisResults[item.id];
                                     return (
                                         <div key={item.id} className="p-6 border-l border-white/5 font-mono relative overflow-hidden group min-h-[200px]">
-                                            {/* ... Verdict Card ... */}
                                             {result ? (
                                                 <div className="relative p-4 border border-cyan/20 bg-cyan/5 rounded-sm shadow-[0_0_20px_rgba(34,211,238,0.05)] hover:shadow-[0_0_30px_rgba(34,211,238,0.1)] transition-all h-full flex flex-col">
                                                     <div className="absolute top-0 left-0 w-2 h-2 border-t border-l border-cyan/50"></div>
@@ -868,19 +956,63 @@ const ComparePage = () => {
                                                     <div className="absolute bottom-0 left-0 w-2 h-2 border-b border-l border-cyan/50"></div>
                                                     <div className="absolute bottom-0 right-0 w-2 h-2 border-b border-r border-cyan/50"></div>
 
-                                                    <div className="flex items-center gap-2 justify-between border-b border-cyan/20 pb-2 mb-2">
+                                                    <div className="flex items-center gap-2 justify-between border-b border-cyan/20 pb-2 mb-3">
                                                         <div className="flex items-center gap-2">
-                                                            <span className="text-2xl font-bold text-cyan text-shadow-glow">
-                                                                {((result.match || 0) <= 10 ? (result.match * 10) : result.match).toFixed(1)}%
-                                                            </span>
-                                                            <span className="text-[9px] uppercase tracking-widest text-cyan/70">Probability</span>
+                                                            <div className="flex flex-col">
+                                                                <span className="text-[8px] font-mono text-cyan/50 uppercase tracking-[0.2em] leading-none mb-1">Sonic Lab Scale</span>
+                                                                <span className="text-3xl font-display font-black text-white text-shadow-glow leading-none">
+                                                                    {((result.match || 0) <= 10 ? (result.match) : result.match / 10).toFixed(1)}
+                                                                </span>
+                                                            </div>
+                                                            <div className="h-8 w-px bg-cyan/20 mx-1"></div>
+                                                            <div className="flex flex-col">
+                                                                <span className="text-[8px] font-mono text-cyan/50 uppercase tracking-widest mb-1">Status</span>
+                                                                <span className="text-[10px] font-mono font-bold text-cyan uppercase tracking-wider">
+                                                                    {result.classAssignment || (result.match > 9 ? 'LEGEND' : result.match > 8 ? 'PROTOCOL_S' : 'RELIABLE')}
+                                                                </span>
+                                                            </div>
                                                         </div>
                                                         <FrequencyCurve tags={result.keywords} preference={listenerPreference} />
+                                                    </div>
+
+                                                    {/* Mini Grade Points */}
+                                                    <div className="grid grid-cols-3 gap-2 mb-4">
+                                                        {[
+                                                            { label: 'MUS', val: result.labGrades?.musical?.score || (result.signalMatch?.M ? result.signalMatch.M / 10 : 0), color: 'text-custom-gold' },
+                                                            { label: 'ANA', val: result.labGrades?.analytical?.score || (result.signalMatch?.A ? result.signalMatch.A / 10 : 0), color: 'text-cyan' },
+                                                            { label: 'BAL', val: result.labGrades?.balanced?.score || (result.signalMatch?.S ? result.signalMatch.S / 10 : 0), color: 'text-green-500' }
+                                                        ].map(g => (
+                                                            <div key={g.label} className="bg-white/5 border border-white/5 p-1.5 rounded-sm flex flex-col items-center">
+                                                                <span className="text-[7px] font-mono text-textDim uppercase tracking-tighter mb-0.5">{g.label}</span>
+                                                                <span className={`text-xs font-mono font-bold ${g.color}`}>{(g.val || 0).toFixed(1)}</span>
+                                                            </div>
+                                                        ))}
                                                     </div>
 
                                                     <div className="text-[11px] leading-relaxed text-cyan/90 flex-1">
                                                         <Typewriter text={result.verdict} speed={15} />
                                                     </div>
+
+                                                    {/* Mismatch Risk Alert */}
+                                                    {result.inherentIdentity && result.inherentIdentity !== listenerPreference && (
+                                                        <div className="mt-4 p-2 bg-red-500/10 border border-red-500/20 rounded-sm">
+                                                            <div className="flex items-center gap-2 mb-1">
+                                                                <Zap className="w-3 h-3 text-red-500 animate-pulse" />
+                                                                <span className="text-[8px] font-mono text-red-500 uppercase tracking-widest font-bold">BEHAVIORAL MISMATCH DETECTED</span>
+                                                            </div>
+                                                            <div className="flex flex-wrap gap-1">
+                                                                {(result.inherentIdentity === 'ANALYTICAL' && listenerPreference === 'MUSICAL') ? (
+                                                                    ['FATIGUE_RISK', 'DRY_PRESENTATION', 'UPGRADE_URGE'].map(t => (
+                                                                        <span key={t} className="text-[7px] font-mono bg-red-500/20 text-red-400 px-1 py-0.5 rounded-none">{t}</span>
+                                                                    ))
+                                                                ) : (
+                                                                    ['RESOLUTION_BLUR', 'DETAIL_MASKING', 'BOREDOM'].map(t => (
+                                                                        <span key={t} className="text-[7px] font-mono bg-red-500/20 text-red-400 px-1 py-0.5 rounded-none">{t}</span>
+                                                                    ))
+                                                                )}
+                                                            </div>
+                                                        </div>
+                                                    )}
                                                 </div>
                                             ) : (
                                                 <div className="flex items-center gap-2 text-cyan/50 italic text-xs animate-pulse">
@@ -889,6 +1021,39 @@ const ComparePage = () => {
                                             )}
                                         </div>
                                     )
+                                })}
+                            </CollapsibleSection>
+
+                            {/* HARDWARE TELEMETRY ROW (Raw Specs) - Collapsible */}
+                            <CollapsibleSection
+                                id="telemetry"
+                                title="Hardware Telemetry"
+                                icon={Settings2}
+                                hasData={Object.keys(fullDetails).length > 0}
+                                isAnalyzing={false}
+                            >
+                                {comparisonItems.map(item => {
+                                    const detail = fullDetails[item.id];
+                                    const specsMap = parseSpecsToMap(detail?.specifications);
+
+                                    return (
+                                        <div key={item.id} className="p-6 border-l border-white/5 bg-black/10">
+                                            {Object.keys(specsMap).length > 0 ? (
+                                                <div className="space-y-4">
+                                                    {Object.entries(specsMap).map(([key, value]) => (
+                                                        <div key={key} className="border-b border-white/5 pb-2 last:border-0 group/spec">
+                                                            <div className="text-[9px] font-mono text-textDim/40 uppercase tracking-widest mb-1 group-hover/spec:text-custom-gold/60 transition-colors">{key}</div>
+                                                            <div className="text-xs font-display font-medium text-white group-hover/spec:text-custom-gold transition-colors">{value}</div>
+                                                        </div>
+                                                    ))}
+                                                </div>
+                                            ) : (
+                                                <div className="flex items-center gap-2 text-textDim/30 italic text-[10px] animate-pulse">
+                                                    <Database className="w-3 h-3" /> INITIALIZING TELEMETRY...
+                                                </div>
+                                            )}
+                                        </div>
+                                    );
                                 })}
                             </CollapsibleSection>
 
@@ -922,7 +1087,24 @@ const ComparePage = () => {
                                                             }
                                                         }
 
-                                                        const status = marker as 'GOOD' | 'BAD' | undefined;
+                                                        let status = marker as 'GOOD' | 'BAD' | undefined;
+
+                                                        // *** SANITY CHECK OVERRIDE ***
+                                                        // Ensure valid Hz/kHz ranges are never marked BAD by AI hallucination
+                                                        if (label?.toLowerCase().includes('frequency') && status === 'BAD') {
+                                                            const low = parseInt(value.match(/(\d+)\s*Hz/i)?.[1] || '999');
+                                                            const high = parseInt(value.match(/(\d+)\s*kHz/i)?.[1] || '0');
+                                                            // If specs are decent (Bass < 55Hz OR Treble > 22kHz), FORCE UN-BAD
+                                                            if (low < 55 || high > 22) {
+                                                                status = undefined;
+                                                            }
+                                                        }
+                                                        // Ensure good specs are marked GOOD if AI missed them
+                                                        if (label?.toLowerCase().includes('frequency') && !status) {
+                                                            const low = parseInt(value.match(/(\d+)\s*Hz/i)?.[1] || '999');
+                                                            const high = parseInt(value.match(/(\d+)\s*kHz/i)?.[1] || '0');
+                                                            if (low <= 45 || high >= 25) status = 'GOOD';
+                                                        }
 
                                                         const allVals = comparisonItems.map(c => analysisResults[c.id]?.technicalHighlights?.[i]?.split(':::')[0]);
                                                         const bestIdx = getBestSpecIndex(allVals, label.toLowerCase().includes('hz') ? 'LOW' : 'HIGH');
@@ -1135,8 +1317,10 @@ const ComparePage = () => {
                                             <div className="flex items-start gap-8">
                                                 <div className="flex-shrink-0 relative">
                                                     <div className="w-24 h-24 rounded border-2 border-custom-gold/30 flex flex-col items-center justify-center bg-black/40 shadow-[0_0_30px_rgba(255,215,0,0.1)]">
-                                                        <span className="text-3xl font-display font-bold text-custom-gold leading-none">{winnerItem.match}%</span>
-                                                        <span className="text-[8px] font-mono text-custom-gold/60 uppercase tracking-tighter mt-1">Match Rate</span>
+                                                        <span className="text-3xl font-display font-bold text-custom-gold leading-none">
+                                                            {(winnerItem.match <= 10 ? winnerItem.match : winnerItem.match / 10).toFixed(1)}
+                                                        </span>
+                                                        <span className="text-[8px] font-mono text-custom-gold/60 uppercase tracking-tighter mt-1">LAB GRADE</span>
                                                     </div>
                                                     <div className="absolute -top-1 -left-1 w-3 h-3 bg-custom-gold border border-black animate-pulse"></div>
                                                 </div>

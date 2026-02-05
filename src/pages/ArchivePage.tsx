@@ -1,5 +1,5 @@
 import { useEffect, useState, useMemo } from 'react';
-import { Search, ChevronRight, Plus, Check, ArrowLeft, SlidersHorizontal, X, LayoutGrid, List, Image } from 'lucide-react';
+import { ChevronRight, Plus, Check, SlidersHorizontal, LayoutGrid, List, Image } from 'lucide-react';
 import { Link, useSearchParams } from 'react-router-dom';
 import { useComparison } from '../context/ComparisonContext';
 import BrandGrid from '../components/BrandGrid';
@@ -167,7 +167,7 @@ const ArchivePage = () => {
 
             // Primary intent filter
             const matchesIntent = filters.primaryIntent.length === 0 ||
-                filters.primaryIntent.includes(model.tuning_profile || '');
+                filters.primaryIntent.some(intent => (model.tuning_profile || '').toUpperCase() === intent);
 
             // Tags filter
             const matchesTags = filters.tags.length === 0 ||
